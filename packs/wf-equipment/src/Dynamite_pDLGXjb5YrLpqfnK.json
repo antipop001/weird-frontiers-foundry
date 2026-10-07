@@ -1,0 +1,52 @@
+{
+  "img": "icons/svg/sword.svg",
+  "name": "Dynamite",
+  "type": "weapon",
+  "system": {
+    "description": {
+      "value": "<table><tr><td><strong>Damage</strong></td><td>4d6</td></tr><tr><td><strong>Type</strong></td><td>*</td></tr><tr><td><strong>Range</strong></td><td>10/20/30</td></tr><tr><td><strong>Weight (lbs)</strong></td><td>0.05</td></tr><tr><td><strong>Price</strong></td><td>$.50 per stick</td></tr><tr><td><strong>Notes</strong></td><td>Explosives. See page 147 for use.</td></tr></table>",
+      "chat": "",
+      "unidentified": "",
+      "summary": "",
+      "judge": {
+        "value": ""
+      }
+    },
+    "source": "Weird Frontiers",
+    "damage": "4d6",
+    "range": "10/20/30",
+    "melee": false,
+    "trained": false,
+    "weight": 0.05
+  },
+  "flags": {
+    "wfvtt": {
+      "firearm": {
+        "isFirearm": false,
+        "damageType": "*",
+        "bandedDamage": "",
+        "price": 0.5,
+        "priceText": "$.50 per stick"
+      }
+    }
+  },
+  "folder": "VZDeIguitCXgS1Ov",
+  "_id": "pDLGXjb5YrLpqfnK",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "dcc",
+    "systemVersion": "0.70.50",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "wfvtt00000000000"
+  },
+  "_key": "!items!pDLGXjb5YrLpqfnK"
+}

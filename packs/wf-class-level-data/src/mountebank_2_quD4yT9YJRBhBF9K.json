@@ -1,0 +1,33 @@
+{
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "mountebank",
+    "level": "2",
+    "levelData": "system.details.attackBonus=+1\nsystem.attributes.critical.die=1d6\nsystem.attributes.actionDice.value=1d20\nsystem.attributes.hitDice.value=1d6\nsystem.saves.ref.classBonus=+1\nsystem.saves.frt.classBonus=+1\nsystem.saves.wil.classBonus=+1\nsystem.details.title.value=Cook\n",
+    "levelDataLawful": "",
+    "levelDataNeutral": "",
+    "levelDataChaotic": ""
+  },
+  "name": "mountebank-2",
+  "type": "level",
+  "folder": "y6hld2MjIF2TqMMM",
+  "_id": "quD4yT9YJRBhBF9K",
+  "effects": [],
+  "sort": 200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "dcc",
+    "systemVersion": "0.70.50",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "wfvtt00000000000"
+  },
+  "_key": "!items!quD4yT9YJRBhBF9K"
+}

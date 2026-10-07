@@ -1,0 +1,23 @@
+{
+  "name": "Shotguns",
+  "type": "Item",
+  "color": "#4a3b2a",
+  "folder": null,
+  "_id": "Gh74cBRafYLjH86Z",
+  "description": "",
+  "sorting": "a",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "dcc",
+    "systemVersion": "0.70.50",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "wfvtt00000000000"
+  },
+  "_key": "!folders!Gh74cBRafYLjH86Z"
+}

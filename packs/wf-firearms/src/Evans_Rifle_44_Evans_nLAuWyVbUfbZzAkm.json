@@ -1,0 +1,62 @@
+{
+  "img": "icons/svg/sword.svg",
+  "name": "Evans Rifle (.44 Evans)",
+  "type": "weapon",
+  "system": {
+    "description": {
+      "value": "<table><tr><td><strong>Caliber</strong></td><td>.44 Evans</td></tr><tr><td><strong>Type</strong></td><td>Lever</td></tr><tr><td><strong>Ammo</strong></td><td>Cart.</td></tr><tr><td><strong>Damage</strong></td><td>1d8</td></tr><tr><td><strong>ROF</strong></td><td>3</td></tr><tr><td><strong>Load</strong></td><td>26</td></tr><tr><td><strong>Reload time</strong></td><td>2</td></tr><tr><td><strong>Range</strong></td><td>50/100/200</td></tr><tr><td><strong>Conceal</strong></td><td>-5</td></tr><tr><td><strong>Price</strong></td><td>$45</td></tr></table>",
+      "chat": "",
+      "unidentified": "",
+      "summary": "",
+      "judge": {
+        "value": ""
+      }
+    },
+    "source": "Weird Frontiers",
+    "damage": "1d8",
+    "range": "50/100/200",
+    "melee": false,
+    "trained": false,
+    "twoHanded": true
+  },
+  "flags": {
+    "wfvtt": {
+      "firearm": {
+        "isFirearm": true,
+        "caliber": ".44 Evans",
+        "actionType": "Lever",
+        "ammo": "Cart.",
+        "rof": "3",
+        "load": "26",
+        "reloadTime": "2",
+        "conceal": -5,
+        "year": "",
+        "price": 45,
+        "priceText": "$45",
+        "bandedDamage": "",
+        "secondBarrelDamage": "",
+        "meleeNote": "",
+        "damageType": ""
+      }
+    }
+  },
+  "folder": "cqaPZUMWyQhYY4Lw",
+  "_id": "nLAuWyVbUfbZzAkm",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "dcc",
+    "systemVersion": "0.70.50",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "wfvtt00000000000"
+  },
+  "_key": "!items!nLAuWyVbUfbZzAkm"
+}

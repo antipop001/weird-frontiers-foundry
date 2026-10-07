@@ -1,0 +1,62 @@
+{
+  "img": "icons/svg/sword.svg",
+  "name": "Caplock Pistol, double-barrel (.69)",
+  "type": "weapon",
+  "system": {
+    "description": {
+      "value": "<table><tr><td><strong>Caliber</strong></td><td>.69</td></tr><tr><td><strong>Type</strong></td><td>Muzzleloading Single</td></tr><tr><td><strong>Ammo</strong></td><td>C&amp;B</td></tr><tr><td><strong>Damage</strong></td><td>1d10</td></tr><tr><td><strong>ROF</strong></td><td>2</td></tr><tr><td><strong>Load</strong></td><td>2</td></tr><tr><td><strong>Reload time</strong></td><td>3</td></tr><tr><td><strong>Range</strong></td><td>5/15/40</td></tr><tr><td><strong>Conceal</strong></td><td>-1</td></tr><tr><td><strong>Price</strong></td><td>$2</td></tr></table>",
+      "chat": "",
+      "unidentified": "",
+      "summary": "",
+      "judge": {
+        "value": ""
+      }
+    },
+    "source": "Weird Frontiers",
+    "damage": "1d10",
+    "range": "5/15/40",
+    "melee": false,
+    "trained": false,
+    "twoHanded": false
+  },
+  "flags": {
+    "wfvtt": {
+      "firearm": {
+        "isFirearm": true,
+        "caliber": ".69",
+        "actionType": "Muzzleloading Single",
+        "ammo": "C&B",
+        "rof": "2",
+        "load": "2",
+        "reloadTime": "3",
+        "conceal": -1,
+        "year": "",
+        "price": 2,
+        "priceText": "$2",
+        "bandedDamage": "",
+        "secondBarrelDamage": "",
+        "meleeNote": "",
+        "damageType": ""
+      }
+    }
+  },
+  "folder": "Ncq5AXKK4Hq8lKGe",
+  "_id": "ePhMivcw4THE7LFV",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "dcc",
+    "systemVersion": "0.70.50",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "wfvtt00000000000"
+  },
+  "_key": "!items!ePhMivcw4THE7LFV"
+}

@@ -1,0 +1,866 @@
+{
+  "_id": "8zeZqPO20v120KQo",
+  "name": "Crit Table Firearms",
+  "flags": {},
+  "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
+  "description": "",
+  "results": [
+    {
+      "_id": "MVI4TmkQ8NOHBoD6",
+      "_key": "!tables.results!8zeZqPO20v120KQo.MVI4TmkQ8NOHBoD6",
+      "flags": {},
+      "type": "text",
+      "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
+      "weight": 1,
+      "range": [
+        -500,
+        0
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Target takes full damage from the bullet and receives a -2 penalty to all rolls for the rest of the round.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "bJKgEUJ7NBW8cta9",
+      "_key": "!tables.results!8zeZqPO20v120KQo.bJKgEUJ7NBW8cta9",
+      "flags": {},
+      "type": "text",
+      "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Bullet grazes the target's wrist causing the target to drop anything held (roll randomly to determine if the left or right hand is affected). If the target is a creature, it loses one of its next attacks.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "JK1Pzbp1B2Be5rsW",
+      "_key": "!tables.results!8zeZqPO20v120KQo.JK1Pzbp1B2Be5rsW",
+      "flags": {},
+      "type": "text",
+      "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Bullet strikes the target's rib cage inflicting an extra 2d4 damage and dazes the target, causing them to suffer a -2 to all actions checks for 1 round.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "BZ4aDuu5Ua9k3KGT",
+      "_key": "!tables.results!8zeZqPO20v120KQo.BZ4aDuu5Ua9k3KGT",
+      "flags": {},
+      "type": "text",
+      "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Bullet pierces the target's elbow, hitting a nerve, causing a momentary loss of feeling. Bullet inflicts +3d4 damage and causes anything carried to be dropped. Any actions using the arm are at -1d for 1d6 rounds until the feeling returns to the arm.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "7YAlV1Omerdxbry0",
+      "_key": "!tables.results!8zeZqPO20v120KQo.7YAlV1Omerdxbry0",
+      "flags": {},
+      "type": "text",
+      "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Target's calf bursts in a spray of gore for +2d6 damage. The target is at 1/2 Move until 1 full round can be spent tending the wound.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "rNFWb7lux9D8Njmp",
+      "_key": "!tables.results!8zeZqPO20v120KQo.rNFWb7lux9D8Njmp",
+      "flags": {},
+      "type": "text",
+      "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Bullet passes through the target's bicep for +2d6 damage causing any ranged weapon being held (roll to see which arm is struck) to fire in a random direction, possibly striking an ally 50% of the time. Non-ranged weapons are flung 1d30' away in a random direction.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "7vkxsLdyCdorp9rE",
+      "_key": "!tables.results!8zeZqPO20v120KQo.7vkxsLdyCdorp9rE",
+      "flags": {},
+      "type": "text",
+      "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The target's skull catches the bullet in the temple inflicting +1d8 damage and dazes the target unless a Fortitude save can be passed at a DC of 12 (check each round until passed). The target is at -2d to all actions until this save is passed.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "69Q8ZdvrHhirNHRu",
+      "_key": "!tables.results!8zeZqPO20v120KQo.69Q8ZdvrHhirNHRu",
+      "flags": {},
+      "type": "text",
+      "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Bullet strikes target's weapon hand for +1d8 damage, peeling the skin back on the knuckles and forces the target to drop anything being held. The target suffers a -1d penalty with any physical actions until the wound is treated.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "oQrI7kPgCEBpbR2J",
+      "_key": "!tables.results!8zeZqPO20v120KQo.oQrI7kPgCEBpbR2J",
+      "flags": {},
+      "type": "text",
+      "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Bullet shatters the target's collarbone doing +1d10 damage and dazes the target (they are unable to act) until a Fortitude save is passed at a DC of 12 (can be checked each round until passed).",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "zYya7nfPmIJT8MEI",
+      "_key": "!tables.results!8zeZqPO20v120KQo.zYya7nfPmIJT8MEI",
+      "flags": {},
+      "type": "text",
+      "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Bullet passes through the target's abdomen, piercing the spleen, causing them to vomit blood. In addition to +1d12 damage, target doubles over in agony and must pass a Fortitude save at DC 13 or remain prone each round.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "40cRd0WSxdzE5rMc",
+      "_key": "!tables.results!8zeZqPO20v120KQo.40cRd0WSxdzE5rMc",
+      "flags": {},
+      "type": "text",
+      "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Target's kneecap shatters causing +1d12 damage, making the leg lame. Movement is reduced by ½ until healed magaically. A physician can remove the penalty at the cost of a permanent -5' to move.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "PzQUXmVjnHjJl8vN",
+      "_key": "!tables.results!8zeZqPO20v120KQo.PzQUXmVjnHjJl8vN",
+      "flags": {},
+      "type": "text",
+      "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Bullet grazes the target's hip sending them spinning to the ground. Target suffers +1d12 damage and must remain prone for 1d4 rounds form intense pain before they can return to their feet.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "ch6nZMkcvlxCEMIE",
+      "_key": "!tables.results!8zeZqPO20v120KQo.ch6nZMkcvlxCEMIE",
+      "flags": {},
+      "type": "text",
+      "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Bullet passes through target's jaw doing +1d14 damage and forcing a DC 13 Fortitude save to avoid passing out from pain for 1d6 rounds or until roused. Target must seek medical attention to be able to eat again.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "Tq8jpzDRDWeAZ2ZJ",
+      "_key": "!tables.results!8zeZqPO20v120KQo.Tq8jpzDRDWeAZ2ZJ",
+      "flags": {},
+      "type": "text",
+      "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Bullet strikes the target in the shoulder spinning them awkwardly and grants attackers a +2d bonus on attacks for the rest of the round. In addition, 1d14 damage extra damage is suffered.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "cCQ9IBrZmglFJvq8",
+      "_key": "!tables.results!8zeZqPO20v120KQo.cCQ9IBrZmglFJvq8",
+      "flags": {},
+      "type": "text",
+      "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Bullet ricochets inside the target's ribcage shattering 1d4 ribs and pierces a lung. Weapon inflicts +2d12 damage, and any physical action must be performed through great pain (-2d to any physical activity until magically treated or healed by a physician).",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "dEJLTLam1HyBC4DT",
+      "_key": "!tables.results!8zeZqPO20v120KQo.dEJLTLam1HyBC4DT",
+      "flags": {},
+      "type": "text",
+      "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Target screams as their ear explodes in a puff of crimson mist. The target suffers +2d8 damage and is penalized by -1d to any physical actions as blood fills the open wound, affecting their equilibrium. Target also suffers -2 to any reaction rolls due to horrific scarring.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "vZH3n52ak7Bm244M",
+      "_key": "!tables.results!8zeZqPO20v120KQo.vZH3n52ak7Bm244M",
+      "flags": {},
+      "type": "text",
+      "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Bullet ricochets off the top of the target's head, splitting the skin above their brow. Weapon inflicts +2d12 damage and causes blindness as blood continually runs into their eyes for 1d8 rounds.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "EPd8loFImJqefv8P",
+      "_key": "!tables.results!8zeZqPO20v120KQo.EPd8loFImJqefv8P",
+      "flags": {},
+      "type": "text",
+      "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Bone and tendon explode in a spray of gore as the target's hand is destroyed (roll randomly for left or right). Anything held is dropped, and the attack inflicts +3d6 damage in addition to losing the use of their hand. Magical healing must be used to restore the hand.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "ROEByeX8CzSBw6P0",
+      "_key": "!tables.results!8zeZqPO20v120KQo.ROEByeX8CzSBw6P0",
+      "flags": {},
+      "type": "text",
+      "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Bullet opens up the lower abdomen allowing vital organs to spill out, inflicting +2d12 damage. One hand must be used to keep their vitals from dropping to the ground as they begin to bleed out for 1d3 Stamina damage per round until surgery or magical healing can be performed (0 Sta is death).",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "pQNoqSg3rIXLOEoV",
+      "_key": "!tables.results!8zeZqPO20v120KQo.pQNoqSg3rIXLOEoV",
+      "flags": {},
+      "type": "text",
+      "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Bullet penetrates both of the target's cheeks leaving them with a mangled countenance. They suffer +3d6 damage and a further 1d2 bleeding damage for 1d8 rounds or until they are treated. Target has a hard time eating without food spilling out, and their speech is slurred.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "kK4NnPSoofRUZGL7",
+      "_key": "!tables.results!8zeZqPO20v120KQo.kK4NnPSoofRUZGL7",
+      "flags": {},
+      "type": "text",
+      "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Bullet slices through the target's windpipe opening a hole that emits a sickening wet whistling sound with each breath. Attack inflicts +3d8 damage and they are unable to act for 1d4 rounds in addition to losing the capability to speak until treated.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "shgqq3SoVCsiEy63",
+      "_key": "!tables.results!8zeZqPO20v120KQo.shgqq3SoVCsiEy63",
+      "flags": {},
+      "type": "text",
+      "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
+      "weight": 1,
+      "range": [
+        21,
+        21
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Bullet disintegrates the target's nose inflicting +3d8 damage. Their nose is permanently lost, sending them into shock for 1d6 rounds. They are permanently disfigured until magically healed and suffer -1d to all interaction rolls.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "SMHdMYYEh9DkVaJk",
+      "_key": "!tables.results!8zeZqPO20v120KQo.SMHdMYYEh9DkVaJk",
+      "flags": {},
+      "type": "text",
+      "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
+      "weight": 1,
+      "range": [
+        22,
+        22
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Target's eye explodes in a thick crimson yolk as the bullet lodges in the orbital socket of their skull. They suffer +3d8 damage and lose sight in one eye (-2 to all rolls requiring sight).",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "Ft1iLgzbYQJW2NIL",
+      "_key": "!tables.results!8zeZqPO20v120KQo.Ft1iLgzbYQJW2NIL",
+      "flags": {},
+      "type": "text",
+      "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
+      "weight": 1,
+      "range": [
+        23,
+        23
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Bullet enters the target's chest passing vital organs and lodging in the spine. In addition to +3d8 damage, they must pass a DC 15 Fortitude save or become permanently paralyzed until magically healed.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "3bVlBNTa5lcZtEBm",
+      "_key": "!tables.results!8zeZqPO20v120KQo.3bVlBNTa5lcZtEBm",
+      "flags": {},
+      "type": "text",
+      "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
+      "weight": 1,
+      "range": [
+        24,
+        24
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Bullet embeds in target's shoulder inflicting +4d6 damage, and the arm becomes useless until surgery or magical healing is performed.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "gkojxgP8xDLOdyKW",
+      "_key": "!tables.results!8zeZqPO20v120KQo.gkojxgP8xDLOdyKW",
+      "flags": {},
+      "type": "text",
+      "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
+      "weight": 1,
+      "range": [
+        25,
+        25
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Target's mouth explodes as the bullet shatters 1d8 teeth and lodges in the back of the throat inflicting +3d8 damage. They continue to bleed from the wound suffering 1 point of damage for 1d6 rounds. Additionally, they must pass a DC 10 Fortitude save or gag on their own blood for 1d6 rounds. While choking, they suffer -1d to all actions.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "4AKpIoidnTEzLlp8",
+      "_key": "!tables.results!8zeZqPO20v120KQo.4AKpIoidnTEzLlp8",
+      "flags": {},
+      "type": "text",
+      "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
+      "weight": 1,
+      "range": [
+        26,
+        26
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Bullet enters the target's gut and pierces several vital organs before coming to rest in their liver. In addition to suffering +3d8 damage, they must pass a DC 14 Fortitude save to avoid passing out for 1d6 rounds. Target continues to take 1d3 damage a round as they bleed out and only stops when professional or magical healing can be administered.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "mrbih4oA0VlAXKB3",
+      "_key": "!tables.results!8zeZqPO20v120KQo.mrbih4oA0VlAXKB3",
+      "flags": {},
+      "type": "text",
+      "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
+      "weight": 1,
+      "range": [
+        27,
+        27
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Target's femur is shattered as the bullet pierces the artery. They suffer +3d12 damage and drop prone. Target continues to bleed for 1d3 damage per round until the injury is treated professionally or magically.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "y3ZFYCAcCaktMEbU",
+      "_key": "!tables.results!8zeZqPO20v120KQo.y3ZFYCAcCaktMEbU",
+      "flags": {},
+      "type": "text",
+      "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
+      "weight": 1,
+      "range": [
+        28,
+        28
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "A major artery in the heart is clipped causing a spray of blood to pour from the wound with every beat. Target suffers +3d12 damage and must pass a DC 15 Fortitude save or bleed out. Passing the save inflicts 1d3 bleeding damage per round unless pressure is held or wound is professionally or magically treated.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "qTIvkNCC71C6YGEV",
+      "_key": "!tables.results!8zeZqPO20v120KQo.qTIvkNCC71C6YGEV",
+      "flags": {},
+      "type": "text",
+      "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
+      "weight": 1,
+      "range": [
+        29,
+        29
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Bullet shatters the target's sternum, piercing the heart, as they are knocked off of their feet, blood jetting out of the wound in rhythm with their beating heart. The only action they can take is to gasp as life vacates their body. Death claims them in 1 round X their current level unless magical healing can be given.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "EudmNu8zzszBsaBu",
+      "_key": "!tables.results!8zeZqPO20v120KQo.EudmNu8zzszBsaBu",
+      "flags": {},
+      "type": "text",
+      "img": "icons/weapons/guns/gun-pistol-flintlock.webp",
+      "weight": 1,
+      "range": [
+        30,
+        500
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "A silver dollar sized hole ventilates the target's skull as a mist of gore and bone spray the area immediately behind the blow. The target's last sight is of the smoking barrel of the gun that put an early end to their life. They are killed instantly.",
+      "name": "",
+      "documentUuid": null
+    }
+  ],
+  "formula": "1d30",
+  "replacement": true,
+  "displayRoll": true,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "dcc",
+    "systemVersion": "0.70.50",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "wfvtt00000000000"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_key": "!tables!8zeZqPO20v120KQo"
+}

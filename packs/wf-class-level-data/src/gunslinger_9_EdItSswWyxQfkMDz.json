@@ -1,0 +1,33 @@
+{
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "gunslinger",
+    "level": "9",
+    "levelData": "system.details.attackBonus=+0\nsystem.attributes.critical.die=1d24\nsystem.attributes.actionDice.value=1d24,1d20\nsystem.attributes.hitDice.value=1d10\nsystem.saves.ref.classBonus=+9\nsystem.saves.frt.classBonus=+5\nsystem.saves.wil.classBonus=+4\nsystem.details.critRange=17\n",
+    "levelDataLawful": "",
+    "levelDataNeutral": "",
+    "levelDataChaotic": ""
+  },
+  "name": "gunslinger-9",
+  "type": "level",
+  "folder": "RyhQbzoElHKYyiuw",
+  "_id": "EdItSswWyxQfkMDz",
+  "effects": [],
+  "sort": 900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "dcc",
+    "systemVersion": "0.70.50",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "wfvtt00000000000"
+  },
+  "_key": "!items!EdItSswWyxQfkMDz"
+}

@@ -1,0 +1,52 @@
+{
+  "img": "icons/svg/sword.svg",
+  "name": "Boomerang",
+  "type": "weapon",
+  "system": {
+    "description": {
+      "value": "<table><tr><td><strong>Damage</strong></td><td>1d6</td></tr><tr><td><strong>Type</strong></td><td>B</td></tr><tr><td><strong>Range</strong></td><td>30/60/120</td></tr><tr><td><strong>Weight (lbs)</strong></td><td>2</td></tr><tr><td><strong>Price</strong></td><td>$6</td></tr><tr><td><strong>Notes</strong></td><td>Exotic Weapon, will return if target is missed.</td></tr></table>",
+      "chat": "",
+      "unidentified": "",
+      "summary": "",
+      "judge": {
+        "value": ""
+      }
+    },
+    "source": "Weird Frontiers",
+    "damage": "1d6",
+    "range": "30/60/120",
+    "melee": false,
+    "trained": false,
+    "weight": 2
+  },
+  "flags": {
+    "wfvtt": {
+      "firearm": {
+        "isFirearm": false,
+        "damageType": "b",
+        "bandedDamage": "",
+        "price": 6,
+        "priceText": "$6"
+      }
+    }
+  },
+  "folder": "VZDeIguitCXgS1Ov",
+  "_id": "Fwgt181cJs3r0C33",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "dcc",
+    "systemVersion": "0.70.50",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "wfvtt00000000000"
+  },
+  "_key": "!items!Fwgt181cJs3r0C33"
+}

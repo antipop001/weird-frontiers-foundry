@@ -1,0 +1,45 @@
+{
+  "img": "icons/svg/item-bag.svg",
+  "name": "Wagon ( Heavy 3,500 LBS. MAX)",
+  "type": "equipment",
+  "system": {
+    "description": {
+      "value": "<table><tr><td><strong>Price</strong></td><td>$100.00</td></tr><tr><td><strong>Category</strong></td><td>Livery Accessories</td></tr></table>",
+      "chat": "",
+      "unidentified": "",
+      "summary": "",
+      "judge": {
+        "value": ""
+      }
+    },
+    "source": "Weird Frontiers"
+  },
+  "flags": {
+    "wfvtt": {
+      "goods": {
+        "price": 100,
+        "priceText": "$100.00",
+        "category": "Livery Accessories"
+      }
+    }
+  },
+  "folder": "fLPrDRAS6gqNDCdK",
+  "_id": "LoNMMHvSIvEBM2fc",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "dcc",
+    "systemVersion": "0.70.50",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "wfvtt00000000000"
+  },
+  "_key": "!items!LoNMMHvSIvEBM2fc"
+}

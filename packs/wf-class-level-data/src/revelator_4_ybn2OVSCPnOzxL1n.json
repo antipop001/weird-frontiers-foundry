@@ -1,0 +1,33 @@
+{
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "revelator",
+    "level": "4",
+    "levelData": "system.details.attackBonus=+2\nsystem.attributes.critical.die=1d10\nsystem.attributes.actionDice.value=1d20\nsystem.attributes.hitDice.value=1d8\nsystem.saves.ref.classBonus=+1\nsystem.saves.frt.classBonus=+2\nsystem.saves.wil.classBonus=+4\nsystem.details.title.value=Revivalist\n",
+    "levelDataLawful": "",
+    "levelDataNeutral": "",
+    "levelDataChaotic": ""
+  },
+  "name": "revelator-4",
+  "type": "level",
+  "folder": "lvSzcDEtdnJDKlPn",
+  "_id": "ybn2OVSCPnOzxL1n",
+  "effects": [],
+  "sort": 400,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "dcc",
+    "systemVersion": "0.70.50",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "wfvtt00000000000"
+  },
+  "_key": "!items!ybn2OVSCPnOzxL1n"
+}

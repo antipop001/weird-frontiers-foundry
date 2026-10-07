@@ -1,0 +1,866 @@
+{
+  "_id": "UUiK4oha8Kq2IYVU",
+  "name": "Crit Table Blunt",
+  "flags": {},
+  "img": "icons/skills/melee/blade-tip-orange.webp",
+  "description": "",
+  "results": [
+    {
+      "_id": "LEtvemTcEMbWvoVb",
+      "_key": "!tables.results!UUiK4oha8Kq2IYVU.LEtvemTcEMbWvoVb",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tip-orange.webp",
+      "weight": 1,
+      "range": [
+        -500,
+        0
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Weapon lands with such force it inflicts maximum damage before bounding off of the target and strikes either the attacker or an ally within melee range (50% chance) for ½ damage.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "NiJNDrMDATerG3KK",
+      "_key": "!tables.results!UUiK4oha8Kq2IYVU.NiJNDrMDATerG3KK",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tip-orange.webp",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Cheap shot to the \"tenders.\" Target suffers +1d6 damage and is stunned for 1 round.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "IRcTI6UHMOD9NZuw",
+      "_key": "!tables.results!UUiK4oha8Kq2IYVU.IRcTI6UHMOD9NZuw",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tip-orange.webp",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Weapon smashes the opponent's elbow, striking a nerve and causing a momentary loss of feeling. The blow inflicts +1d4 damage and causes anything carried to be dropped.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "VfxjZTlNCtaObuSl",
+      "_key": "!tables.results!UUiK4oha8Kq2IYVU.VfxjZTlNCtaObuSl",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tip-orange.webp",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Blow smashes any weapon opponent may be wielding, doing an additional +1d5 damage. The target weapon must pass a DC 8 Fortitude save or is destroyed.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "2uaGCvDGCJHi1B3P",
+      "_key": "!tables.results!UUiK4oha8Kq2IYVU.2uaGCvDGCJHi1B3P",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tip-orange.webp",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Attack lands in the mid-section, knocking the wind out of the target, inflicting +1d6 damage and causes 1d3 temporary Stamina damage each round until a DC12 Fortitude save can be made. Reaching zero Stamina results in passing out for 1 turn or until roused.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "WKE5GYK4S7EHLE1C",
+      "_key": "!tables.results!UUiK4oha8Kq2IYVU.WKE5GYK4S7EHLE1C",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tip-orange.webp",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Opponent spins awkwardly from the blow, off balance and vulnerable, offering a +1d bonus to all attacks against them until their next action.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "wYSjKL5vcTNOr3uz",
+      "_key": "!tables.results!UUiK4oha8Kq2IYVU.wYSjKL5vcTNOr3uz",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tip-orange.webp",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Weapon strikes low, smashing the foot of the target, breaking 1d5 toes, which inflicts +1d8 damage. Target suffers ½ movement until the broken bones heal.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "lLxS144tDI43xLK4",
+      "_key": "!tables.results!UUiK4oha8Kq2IYVU.lLxS144tDI43xLK4",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tip-orange.webp",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Weapon strikes lower back, fracturing vertebrae for +1d10 damage. Target suffers -1d to all Reflex saves until magically healed or treated.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "hAqqNn2CyNHrENBk",
+      "_key": "!tables.results!UUiK4oha8Kq2IYVU.hAqqNn2CyNHrENBk",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tip-orange.webp",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Target suffers maximum damage while attempting to parry the blow. In addition to the damage, they drop their weapon.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "z1r5ajiqOHKNsqlF",
+      "_key": "!tables.results!UUiK4oha8Kq2IYVU.z1r5ajiqOHKNsqlF",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tip-orange.webp",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Hit to the spleen causes the target to vomit blood. Besides suffering +1d12 damage, the target doubles over helplessly from pain. Only a Fortitude save at DC 13 allows the target to shrug off the pain and function normally.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "Y3CpGnPoWqHvu3zV",
+      "_key": "!tables.results!UUiK4oha8Kq2IYVU.Y3CpGnPoWqHvu3zV",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tip-orange.webp",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Weapon swings into the target's knee, causing a ligament to snap, inflicting +1d12 damage and knocking the target prone. Movement is halved until healed magically or treated medically.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "MVKjTcoyLlVa9OmJ",
+      "_key": "!tables.results!UUiK4oha8Kq2IYVU.MVKjTcoyLlVa9OmJ",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tip-orange.webp",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Target raises their arm to block the attack and the force of the blow snaps their wrist back, breaking it, inflicting +1d12 damage. The hand is useless until bones are set or magically healed.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "D4MlwLadN8WLiKES",
+      "_key": "!tables.results!UUiK4oha8Kq2IYVU.D4MlwLadN8WLiKES",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tip-orange.webp",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "A brutal blow to the face knocks 1d4 teeth out of target's mouth, inflicting +1d10 damage, stunning them for 1d6 rounds. Target's Personality checks suffer a -2 penalty when appearance comes in to play.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "LtupLCg6cirVZEui",
+      "_key": "!tables.results!UUiK4oha8Kq2IYVU.LtupLCg6cirVZEui",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tip-orange.webp",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Force of the blow inflicts +1d14 damage and spins target awkwardly on their feet, giving the attacker an opportunity for a second attack.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "kHfuRIkiOvGdO5si",
+      "_key": "!tables.results!UUiK4oha8Kq2IYVU.kHfuRIkiOvGdO5si",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tip-orange.webp",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Weapon lands solidly fracturing the femur, inflicting+1d16 damage that causes internal bleeding for 1pt of damage per round until the bone is set or magically healed. Movement is halved until the bone is healed.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "Ia4nu8Ne6hbLFGwW",
+      "_key": "!tables.results!UUiK4oha8Kq2IYVU.Ia4nu8Ne6hbLFGwW",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tip-orange.webp",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Weapon connects squarely with the target's nose, shattering it and inflicting +3d6 damage. Target loses all sense of smell until healed.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "kejcYVYgiVjQzOhT",
+      "_key": "!tables.results!UUiK4oha8Kq2IYVU.kejcYVYgiVjQzOhT",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tip-orange.webp",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Blow lands to the top of the target's head, inflicting +1d12 damage and splits the skin above the brow, blinding them for 1d6 rounds.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "2xYN6ooGZ6af0ZWn",
+      "_key": "!tables.results!UUiK4oha8Kq2IYVU.2xYN6ooGZ6af0ZWn",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tip-orange.webp",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Brutal gut-shot knocks the plumbing loose, rupturing a vital organ. Weapon inflicts +1d16 damage and target bleeds internally for 1d2 damage per round until surgery or magical healing is performed.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "pjnWMVhp4hCvvqgX",
+      "_key": "!tables.results!UUiK4oha8Kq2IYVU.pjnWMVhp4hCvvqgX",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tip-orange.webp",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Swing strikes the foes windpipe for +3d8 damage. Target can only whisper until surgery or magical healing is performed.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "J7N0JgzMDhma3uOq",
+      "_key": "!tables.results!UUiK4oha8Kq2IYVU.J7N0JgzMDhma3uOq",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tip-orange.webp",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Minor skull fracture causes +3d8 damage and knocks the target senseless. Opponents gain +1d on attack rolls for 1d10 rounds while the target is dazed.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "QCpGFnZLLJmFGFto",
+      "_key": "!tables.results!UUiK4oha8Kq2IYVU.QCpGFnZLLJmFGFto",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tip-orange.webp",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Crushing blow to the chest causes +1d16 damage and breaks 1d6 ribs while collapsing the target's lung. Target suffers -2d to any roll involving physical activity until healed.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "69krnYbzubKx4XHe",
+      "_key": "!tables.results!UUiK4oha8Kq2IYVU.69krnYbzubKx4XHe",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tip-orange.webp",
+      "weight": 1,
+      "range": [
+        21,
+        21
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Weapon crushes the orbital bone, freeing target's eyeball. The attack inflicts +1d16 dmg and target loss of sight in one eye until surgery, or magically healed. All rolls requiring sight suffer a -2 penalty.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "6f5pIeFywrkYaSvy",
+      "_key": "!tables.results!UUiK4oha8Kq2IYVU.6f5pIeFywrkYaSvy",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tip-orange.webp",
+      "weight": 1,
+      "range": [
+        22,
+        22
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Blow connects with the spine, shattering several vertebrae. The attack inflicts +2d12 damage and a DC 15 Fortitude save must be passed to avoid paralysis until magically healed.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "rhWgIPRiE5FvJ8Mk",
+      "_key": "!tables.results!UUiK4oha8Kq2IYVU.rhWgIPRiE5FvJ8Mk",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tip-orange.webp",
+      "weight": 1,
+      "range": [
+        23,
+        23
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Blow crushes bones and snaps tendons for an additional 2d12 damage. Target permanently loses the use of an arm unless magically healed.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "kvlGmkszNeTTT8sy",
+      "_key": "!tables.results!UUiK4oha8Kq2IYVU.kvlGmkszNeTTT8sy",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tip-orange.webp",
+      "weight": 1,
+      "range": [
+        24,
+        24
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Blow strikes the target's face with such force that both eyes are punctured by shards of bone from their own skull, inflicting +3d12 damage. Target is permanently blinded until magically healed and suffers a -1d penalty to all rolls requiring sight.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "KLPDnbI54i6mGv1l",
+      "_key": "!tables.results!UUiK4oha8Kq2IYVU.KLPDnbI54i6mGv1l",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tip-orange.webp",
+      "weight": 1,
+      "range": [
+        25,
+        25
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Vicious blow to the genitalia inflicts +2d16 damage. Target is stunned for 1d6 rounds and loses the ability to reproduce until magically healed.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "6YU31wNi5mO3yL6t",
+      "_key": "!tables.results!UUiK4oha8Kq2IYVU.6YU31wNi5mO3yL6t",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tip-orange.webp",
+      "weight": 1,
+      "range": [
+        26,
+        26
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Blow lands on the head, cracking the target's skull and causes brain matter to leak through their nose and ears, inflicting +3d12 damage. Target's Intelligence is permanently halved and loss of memory prevents any actions requiring complex thinking until magically healed.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "hGOYZFAAzMInmZqC",
+      "_key": "!tables.results!UUiK4oha8Kq2IYVU.hGOYZFAAzMInmZqC",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tip-orange.webp",
+      "weight": 1,
+      "range": [
+        27,
+        27
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Blow lands low, shattering every bone and tendon in the target's foot, splitting the skin, allowing the gore to escape. Blow inflicts +3d8 damage and target becomes lame, halving movement until magically healed.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "Kfa4IIiAxLhyqGKO",
+      "_key": "!tables.results!UUiK4oha8Kq2IYVU.Kfa4IIiAxLhyqGKO",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tip-orange.webp",
+      "weight": 1,
+      "range": [
+        28,
+        28
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Blow shatters the target's ribcage, sending jagged bone shards into their heart. Target must immediately pass a DC 15 Fortitude save or die instantly. Passing the save means the target suffers +2d12 damage and is helpless until magically healed.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "Voi5onHAQQNZZJO5",
+      "_key": "!tables.results!UUiK4oha8Kq2IYVU.Voi5onHAQQNZZJO5",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tip-orange.webp",
+      "weight": 1,
+      "range": [
+        29,
+        29
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Inner organs are smashed to a fine paste, inflicting +4d12 damage as the target's bowels empty and they begin bleeding internally. Target suffers +1d4 additional damage unless magically healed.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "Up0U0d9mAamwymlA",
+      "_key": "!tables.results!UUiK4oha8Kq2IYVU.Up0U0d9mAamwymlA",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tip-orange.webp",
+      "weight": 1,
+      "range": [
+        30,
+        500
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Target's skull explodes like a gore-filled melon. Brain matter splatters everyone in a 10' area as the target dies instantly.",
+      "name": "",
+      "documentUuid": null
+    }
+  ],
+  "formula": "1d30",
+  "replacement": true,
+  "displayRoll": true,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "dcc",
+    "systemVersion": "0.70.50",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "wfvtt00000000000"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_key": "!tables!UUiK4oha8Kq2IYVU"
+}

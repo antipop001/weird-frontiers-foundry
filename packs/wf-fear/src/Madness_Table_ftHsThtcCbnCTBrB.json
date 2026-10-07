@@ -1,0 +1,137 @@
+{
+  "_id": "ftHsThtcCbnCTBrB",
+  "name": "Madness Table",
+  "flags": {},
+  "img": "icons/magic/control/fear-fright-shadow-monster-green.webp",
+  "description": "<p><strong>Trigger.</strong> reaching zero Grit during an adventure. The character suffers -1d to all rolls for the remainder of the encounter.</p><p><strong>Modifiers.</strong> -10% per +1 Luck modifier, +10% per -1 Luck modifier, +10% per Hex token.</p><p><strong>The printed bands are 0-25 / 26-50 / 51-75 / 76-100.</strong> The outer two are open-ended here because the modifiers are flat percentages: +3 Luck is -30%, so a roll of 15 becomes -15, and -2 Luck with two Hex tokens is +40%, so a roll of 80 becomes 120. Entered at the printed bounds, both of those would fall off the table and give no result.</p><p><strong>The specific phobia or disorder is deliberately not random.</strong> An earlier draft of Weird Frontiers had a derangement chart and the author removed it, so that no player is handed a condition they live with. The judge and group choose how it manifests.</p>",
+  "results": [
+    {
+      "_id": "0Xgi0rm7Um5TsxdG",
+      "_key": "!tables.results!ftHsThtcCbnCTBrB.0Xgi0rm7Um5TsxdG",
+      "flags": {},
+      "type": "text",
+      "img": "icons/magic/control/fear-fright-shadow-monster-green.webp",
+      "weight": 1,
+      "range": [
+        -999,
+        25
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "<p><strong>Minor Phobia.</strong> The encounter leaves the character with a permanent minor phobia relating to the encounter that caused the mental breakdown. Should the character know they are in the source’s presence, an immediate DC12 Willpower save must be passed to avoid a -1d penalty to all rolls until the source of the phobia is no longer present.</p>",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "eobICEyaE4JoeQ25",
+      "_key": "!tables.results!ftHsThtcCbnCTBrB.eobICEyaE4JoeQ25",
+      "flags": {},
+      "type": "text",
+      "img": "icons/magic/control/fear-fright-shadow-monster-green.webp",
+      "weight": 1,
+      "range": [
+        26,
+        50
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "<p><strong>Minor Disorder.</strong> The encounter leaves the character with a permanent minor disorder relating to the encounter that caused the mental breakdown. The type and in-game effects of the disorder are determined by the character’s player and their judge. Minor disorders typically attach a -1d penalty to social or physical rolls. To momentarily shrug off the effects, pass a DC15 Willpower save with success resulting in temporarily pushing the disorder down for the duration of this encounter.</p>",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "hsD94MOsJ1mKW5BX",
+      "_key": "!tables.results!ftHsThtcCbnCTBrB.hsD94MOsJ1mKW5BX",
+      "flags": {},
+      "type": "text",
+      "img": "icons/magic/control/fear-fright-shadow-monster-green.webp",
+      "weight": 1,
+      "range": [
+        51,
+        75
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "<p><strong>Major Phobia.</strong> The encounter leaves the character with a permanent major phobia relating to the encounter that caused the mental breakdown. Should the character know they are in the source’s presence, an immediate DC15 Willpower save must be passed to avoid a -2d penalty to all rolls until the source of the phobia is no longer present.</p>",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "qfqAD1OTubw2R68X",
+      "_key": "!tables.results!ftHsThtcCbnCTBrB.qfqAD1OTubw2R68X",
+      "flags": {},
+      "type": "text",
+      "img": "icons/magic/control/fear-fright-shadow-monster-green.webp",
+      "weight": 1,
+      "range": [
+        76,
+        999
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "<p><strong>Major Disorder.</strong> The encounter leaves the character with a permanent major disorder possibly relating to the encounter that caused the mental breakdown. The type and in-game effects of the disorder are determined by the character’s player and their judge. Major disorders typically attach a -2d penalty to social or physical rolls. To momentarily shrug off the effects, pass a DC17 Willpower save with success resulting in temporarily pushing the disorder down for the duration of this encounter.</p>",
+      "name": "",
+      "documentUuid": null
+    }
+  ],
+  "formula": "1d100",
+  "replacement": true,
+  "displayRoll": true,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "dcc",
+    "systemVersion": "0.70.50",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "wfvtt00000000000"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_key": "!tables!ftHsThtcCbnCTBrB"
+}

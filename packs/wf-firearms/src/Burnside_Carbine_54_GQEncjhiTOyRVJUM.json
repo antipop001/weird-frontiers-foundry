@@ -1,0 +1,62 @@
+{
+  "img": "icons/svg/sword.svg",
+  "name": "Burnside Carbine (.54)",
+  "type": "weapon",
+  "system": {
+    "description": {
+      "value": "<table><tr><td><strong>Caliber</strong></td><td>.54</td></tr><tr><td><strong>Type</strong></td><td>Breechloading Single</td></tr><tr><td><strong>Ammo</strong></td><td>C&amp;B</td></tr><tr><td><strong>Damage</strong></td><td>1d12</td></tr><tr><td><strong>ROF</strong></td><td>1</td></tr><tr><td><strong>Load</strong></td><td>1</td></tr><tr><td><strong>Reload time</strong></td><td>1</td></tr><tr><td><strong>Range</strong></td><td>50/100/200</td></tr><tr><td><strong>Conceal</strong></td><td>-4</td></tr><tr><td><strong>Price</strong></td><td>$22</td></tr></table>",
+      "chat": "",
+      "unidentified": "",
+      "summary": "",
+      "judge": {
+        "value": ""
+      }
+    },
+    "source": "Weird Frontiers",
+    "damage": "1d12",
+    "range": "50/100/200",
+    "melee": false,
+    "trained": false,
+    "twoHanded": true
+  },
+  "flags": {
+    "wfvtt": {
+      "firearm": {
+        "isFirearm": true,
+        "caliber": ".54",
+        "actionType": "Breechloading Single",
+        "ammo": "C&B",
+        "rof": "1",
+        "load": "1",
+        "reloadTime": "1",
+        "conceal": -4,
+        "year": "",
+        "price": 22,
+        "priceText": "$22",
+        "bandedDamage": "",
+        "secondBarrelDamage": "",
+        "meleeNote": "",
+        "damageType": ""
+      }
+    }
+  },
+  "folder": "cqaPZUMWyQhYY4Lw",
+  "_id": "GQEncjhiTOyRVJUM",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "dcc",
+    "systemVersion": "0.70.50",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "wfvtt00000000000"
+  },
+  "_key": "!items!GQEncjhiTOyRVJUM"
+}

@@ -1,0 +1,33 @@
+{
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "sin-eater",
+    "level": "6",
+    "levelData": "system.details.attackBonus=+5\nsystem.attributes.critical.die=1d14\nsystem.attributes.actionDice.value=1d20,1d16\nsystem.attributes.hitDice.value=1d10\nsystem.saves.ref.classBonus=+3\nsystem.saves.frt.classBonus=+5\nsystem.saves.wil.classBonus=+4\n",
+    "levelDataLawful": "",
+    "levelDataNeutral": "",
+    "levelDataChaotic": ""
+  },
+  "name": "sin-eater-6",
+  "type": "level",
+  "folder": "yHbnzk6H6MVLZEJH",
+  "_id": "OcEFHlTApUR9DquA",
+  "effects": [],
+  "sort": 600,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "dcc",
+    "systemVersion": "0.70.50",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "wfvtt00000000000"
+  },
+  "_key": "!items!OcEFHlTApUR9DquA"
+}

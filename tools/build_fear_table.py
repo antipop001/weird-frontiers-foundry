@@ -267,7 +267,9 @@ def build():
 
     return {
         'source': {
-            'pdf': str(find_pdf()),
+            # Filename only. An absolute path records one machine's layout and means two
+            # people building from the same book get different data.
+            'pdf': (find_pdf().name if find_pdf() else None),
             'fear_pages': fear_pages,
             'madness_page': madness_pages[0],
             'cross_checked_against': f'{RG.name} (# FEAR AND MADNESS), {len(rg)} rows',

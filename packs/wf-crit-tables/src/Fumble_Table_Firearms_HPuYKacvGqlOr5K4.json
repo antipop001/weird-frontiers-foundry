@@ -1,0 +1,704 @@
+{
+  "_id": "HPuYKacvGqlOr5K4",
+  "name": "Fumble Table Firearms",
+  "flags": {},
+  "img": "icons/svg/downgrade.svg",
+  "description": "",
+  "results": [
+    {
+      "_id": "iSJm4PRSBNxaLU0L",
+      "_key": "!tables.results!HPuYKacvGqlOr5K4.iSJm4PRSBNxaLU0L",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        -500,
+        1
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The gun accidentally discharges before proper aim can be taken, alerting the target to your bad intentions. Their next attacks against you gain a +2 attack bonus.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "FLzPf4QP68jwAXh9",
+      "_key": "!tables.results!HPuYKacvGqlOr5K4.FLzPf4QP68jwAXh9",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The cylinder is over-packed, sounding off with a deafening boom! You are effectively stunned for 1d2 rounds as you try to regain your senses as the ringing in your ears subsides.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "qgDv9RZOPFPrpc6j",
+      "_key": "!tables.results!HPuYKacvGqlOr5K4.qgDv9RZOPFPrpc6j",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Flaming debris from the spent cartridge or possible blow-back from a faulty round burns your hands. You suffer 1d3 damage and must pass a DC 10 Reflex save to keep hold of the firearm.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "GGjCKOZAdlTFKWrM",
+      "_key": "!tables.results!HPuYKacvGqlOr5K4.GGjCKOZAdlTFKWrM",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The cylinder is over-packed and goes off with a deafening boom and fiery flash. The attacker is not only stunned for 1d3 rounds, but all ranged attacks within 50' suffer a -2 to attack rolls due to opponents and allies seeing spots.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "7cp3O4KxpfOz0FLJ",
+      "_key": "!tables.results!HPuYKacvGqlOr5K4.7cp3O4KxpfOz0FLJ",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The shot goes off, but the sweat from the attacker's palm causes the firearm to fly from the attacker's hand, landing 1d10' away. The shot misses, and the attacker must spend their next entire action retrieving their weapon (if they expect to use it).",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "uFOpMio7dWlNRyXm",
+      "_key": "!tables.results!HPuYKacvGqlOr5K4.uFOpMio7dWlNRyXm",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The chamber is overloaded causing a minor explosion as the shot fires. The force of the shot catches you off guard, throwing you to the ground. You are considered prone and must pass a DC 12 Reflex save to avoid dropping the weapon.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "l4971iF2AmCxnvLd",
+      "_key": "!tables.results!HPuYKacvGqlOr5K4.l4971iF2AmCxnvLd",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "All rounds in the firearm are fouled, and the gun must be emptied and cleaned before being used again.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "UrCWmG1uvVE2EsdC",
+      "_key": "!tables.results!HPuYKacvGqlOr5K4.UrCWmG1uvVE2EsdC",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The shot misses, hitting a hard surface that causes the round to ricochet back towards the attacker. Make a normal attack roll versus the attacker's AC to see if the fateful shot finds its new mark.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "6wS44i1uwDj5LIzB",
+      "_key": "!tables.results!HPuYKacvGqlOr5K4.6wS44i1uwDj5LIzB",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Somehow your grip is off, causing the hammer or some other part of the firearm to catch one of your fingers or part of the hand. The attacker suffers 1d4 damage and a -1d attack penalty with the affected hand for 1d6 rounds.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "qDpqd21GpCRONWkw",
+      "_key": "!tables.results!HPuYKacvGqlOr5K4.qDpqd21GpCRONWkw",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The shot strikes the target, but the shot lands harmlessly on a part of the defender's gear. The defender spins, cursing up a storm and uses words best left unmentioned about the attacker's mother. The attacker flies into a rage and must direct all attacks at the defender with a -1d penalty to all actions for the duration of the encounter.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "ajjEOL1iHC6tifnq",
+      "_key": "!tables.results!HPuYKacvGqlOr5K4.ajjEOL1iHC6tifnq",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The shot explodes before leaving the barrel of the gun, causing a fiery backblast of gunpowder to temporarily blind the attacker for 1d6 rounds in addition to inflicting 1d6 burn damage.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "boEZx9akpNwzsXYn",
+      "_key": "!tables.results!HPuYKacvGqlOr5K4.boEZx9akpNwzsXYn",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The shot is knocked wide by someone or something, causing the shot to strike a random ally. The attack automatically hits for normal damage and stuns them for 1d3 rounds as they try to make sense of the apparent betrayal.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "9AwMt8wdrWOlciyN",
+      "_key": "!tables.results!HPuYKacvGqlOr5K4.9AwMt8wdrWOlciyN",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The shot kicks back from an over-packed round, striking the shooter in the face for 1d8 damage. The wound cuts into the forehead causing blood to seep into the attacker's eyes. The wound must be tended by spending the next 1d3 rounds to stop the bleeding to avoid a -1d to all attack rolls.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "7qFJ7uKCHXWwE7Ea",
+      "_key": "!tables.results!HPuYKacvGqlOr5K4.7qFJ7uKCHXWwE7Ea",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The shot goes wide but gains the full undivided attention of the attacker's intent to put them in a pine box. Rather than face another shot, the defender makes an immediate bonus charge attack at +2 with a -2AC penalty incurred against any additional attacks against them during the round.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "yCbwQPuSuFtTk5E2",
+      "_key": "!tables.results!HPuYKacvGqlOr5K4.yCbwQPuSuFtTk5E2",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The shot fires and strikes something causing the round to ricochet back towards the attacker to inflict maximum damage. The shot also stuns the attacker for 1d3 rounds as they try to gather their senses.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "WxbcWg0qg1TpNE3L",
+      "_key": "!tables.results!HPuYKacvGqlOr5K4.WxbcWg0qg1TpNE3L",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "An integral part of the gun breaks, making the weapon useless until proper tools and time can be spent to repair it by making a DC 13 skill check. Magical firearms gain a DC 14 save modified by +1 for each bonus of the gun.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "AsUPMaqXFY0sE9ws",
+      "_key": "!tables.results!HPuYKacvGqlOr5K4.AsUPMaqXFY0sE9ws",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Several rounds in the gun go off prematurely. Roll a random die for each round remaining to determine how many rounds explode. Each round causes 1d4 burn damage to the attacker, who is also knocked prone from the mishap.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "tlzoX11Mw7IjGpKY",
+      "_key": "!tables.results!HPuYKacvGqlOr5K4.tlzoX11Mw7IjGpKY",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Lady Luck intervenes on the behalf of the target for reasons only known to the powers that be. The defender is given 1d3 Boons that can be used as normal when related to the source of the attack.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "UUov2xr2MpvGRGDm",
+      "_key": "!tables.results!HPuYKacvGqlOr5K4.UUov2xr2MpvGRGDm",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The shot misses the mark, but the noise and flash from the shot attracts the attention of all enemies involved in the combat. Until the attacker's next attack, all ranged attacks from the defender and their allies are directed at the attacker with a +1d attack bonus.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "9TBkunTSRgWPWk82",
+      "_key": "!tables.results!HPuYKacvGqlOr5K4.9TBkunTSRgWPWk82",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Lady Calamity intervenes as a ghostly female form materializes, catches the bullet, and directs it back towards the shooter with deadly precision. The shot not only causes maximum damage, but inflicts a critical hit to the shooter with a d16 Crit die.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "kQkd0A28namHfZ5Z",
+      "_key": "!tables.results!HPuYKacvGqlOr5K4.kQkd0A28namHfZ5Z",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        21,
+        21
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The attacker receives a brief vision of a violent death stemming from the current encounter, which fills them with dread. The attacker must attempt to withdraw and pull out of harm's way for the duration of the combat. Should escape not be possible the attacker suffers a -2d penalty to all saves and attack rolls.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "9TI68MYmFBD9jhoL",
+      "_key": "!tables.results!HPuYKacvGqlOr5K4.9TI68MYmFBD9jhoL",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        22,
+        22
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The attacker screams in agony as the gun backfires, sending smoldering shrapnel into one of the attacker's eyes, popping it like an over-sized grape. The attacker suffers maximum damage from the gun and loses one eye. Only magical healing will restore the eye and the attacker suffers a permanent -2 attack penalty to all ranged attacks.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "rvEoJE0RCeYXGu7o",
+      "_key": "!tables.results!HPuYKacvGqlOr5K4.rvEoJE0RCeYXGu7o",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        23,
+        23
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Lady Calamity manifests in front of the attacker appearing as a ghostly hag. She rips the gun from the attacker and immediately begins fanning the hammer amidst maniacal cackling. The first shot is aimed at the attacker, while remaining shots are aimed at allies of the attacker. Shots are made with no modifier, but successful strikes inflict a critical hit using a d8 as the Crit die.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "XqnX3TnM6ogytcwQ",
+      "_key": "!tables.results!HPuYKacvGqlOr5K4.XqnX3TnM6ogytcwQ",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        24,
+        24
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Your firearm chain-fires before you can take aim, causing all remaining rounds to explode. The firearm is ruined (including magical firearms) and explodes in a 10' area. All allies, including the attacker, suffer normal damage for each remaining round in the gun. A DC 12 Reflex save will halve the damage.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "jWAR63C5CMfnDGGX",
+      "_key": "!tables.results!HPuYKacvGqlOr5K4.jWAR63C5CMfnDGGX",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        25,
+        500
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The attacker's shot explodes with the force of all remaining rounds, causing a part of the gun to blowback, penetrating deep into the skull of the attacker. With a blood curdling scream the attacker drops to the ground, clawing at the mangled pulp that was once their face. The attacker suffers instant death and all allies must pass a DC 8 Fortitude save to avoid throwing up and suffer a -2 penalty to their next attacks.",
+      "name": "",
+      "documentUuid": null
+    }
+  ],
+  "formula": "1d14",
+  "replacement": true,
+  "displayRoll": true,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "dcc",
+    "systemVersion": "0.70.50",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "wfvtt00000000000"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_key": "!tables!HPuYKacvGqlOr5K4"
+}

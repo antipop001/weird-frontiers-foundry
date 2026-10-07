@@ -1,0 +1,62 @@
+{
+  "img": "icons/svg/sword.svg",
+  "name": "John Adams Revolver (.45)",
+  "type": "weapon",
+  "system": {
+    "description": {
+      "value": "<table><tr><td><strong>Caliber</strong></td><td>.45</td></tr><tr><td><strong>Type</strong></td><td>Double</td></tr><tr><td><strong>Ammo</strong></td><td>Cart.</td></tr><tr><td><strong>Damage</strong></td><td>1d10</td></tr><tr><td><strong>ROF</strong></td><td>3</td></tr><tr><td><strong>Load</strong></td><td>6</td></tr><tr><td><strong>Reload time</strong></td><td>1/2</td></tr><tr><td><strong>Range</strong></td><td>10/20/60</td></tr><tr><td><strong>Conceal</strong></td><td>+1</td></tr><tr><td><strong>Price</strong></td><td>$22</td></tr></table>",
+      "chat": "",
+      "unidentified": "",
+      "summary": "",
+      "judge": {
+        "value": ""
+      }
+    },
+    "source": "Weird Frontiers",
+    "damage": "1d10",
+    "range": "10/20/60",
+    "melee": false,
+    "trained": false,
+    "twoHanded": false
+  },
+  "flags": {
+    "wfvtt": {
+      "firearm": {
+        "isFirearm": true,
+        "caliber": ".45",
+        "actionType": "Double",
+        "ammo": "Cart.",
+        "rof": "3",
+        "load": "6",
+        "reloadTime": "1/2",
+        "conceal": 1,
+        "year": "",
+        "price": 22,
+        "priceText": "$22",
+        "bandedDamage": "",
+        "secondBarrelDamage": "",
+        "meleeNote": "",
+        "damageType": ""
+      }
+    }
+  },
+  "folder": "Ncq5AXKK4Hq8lKGe",
+  "_id": "RZQeUI9MtD31QLIM",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "dcc",
+    "systemVersion": "0.70.50",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "wfvtt00000000000"
+  },
+  "_key": "!items!RZQeUI9MtD31QLIM"
+}

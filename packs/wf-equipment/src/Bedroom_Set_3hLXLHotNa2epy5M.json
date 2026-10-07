@@ -1,0 +1,45 @@
+{
+  "img": "icons/svg/item-bag.svg",
+  "name": "Bedroom Set",
+  "type": "equipment",
+  "system": {
+    "description": {
+      "value": "<table><tr><td><strong>Price</strong></td><td>$20.00</td></tr><tr><td><strong>Category</strong></td><td>Home/Farm Needs</td></tr></table>",
+      "chat": "",
+      "unidentified": "",
+      "summary": "",
+      "judge": {
+        "value": ""
+      }
+    },
+    "source": "Weird Frontiers"
+  },
+  "flags": {
+    "wfvtt": {
+      "goods": {
+        "price": 20,
+        "priceText": "$20.00",
+        "category": "Home/Farm Needs"
+      }
+    }
+  },
+  "folder": "EroyQeoJDmfnVZKW",
+  "_id": "3hLXLHotNa2epy5M",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "dcc",
+    "systemVersion": "0.70.50",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "wfvtt00000000000"
+  },
+  "_key": "!items!3hLXLHotNa2epy5M"
+}

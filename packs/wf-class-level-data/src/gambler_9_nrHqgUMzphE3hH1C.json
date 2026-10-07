@@ -1,0 +1,33 @@
+{
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "gambler",
+    "level": "9",
+    "levelData": "system.details.attackBonus=+6\nsystem.attributes.critical.die=1d16\nsystem.attributes.actionDice.value=1d24,1d20\nsystem.attributes.hitDice.value=1d8\nsystem.saves.ref.classBonus=+5\nsystem.saves.frt.classBonus=+4\nsystem.saves.wil.classBonus=+5\n",
+    "levelDataLawful": "",
+    "levelDataNeutral": "",
+    "levelDataChaotic": ""
+  },
+  "name": "gambler-9",
+  "type": "level",
+  "folder": "lZvAp8cLq29o26fF",
+  "_id": "nrHqgUMzphE3hH1C",
+  "effects": [],
+  "sort": 900,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "dcc",
+    "systemVersion": "0.70.50",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "wfvtt00000000000"
+  },
+  "_key": "!items!nrHqgUMzphE3hH1C"
+}

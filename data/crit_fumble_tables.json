@@ -1,0 +1,928 @@
+{
+  "_source": "Weird_Frontiers_V6.md appendix (full text), chart names and roll assignment confirmed against Weird_Frontiers_Reference_Guide.md:1721-1910",
+  "_generator": "tools/build_crit_tables.py",
+  "_rows": 225,
+  "_cross_checked_rows": 100,
+  "charts": {
+    "CRITICAL HIT:BLUNT": [
+      {
+        "roll": "0 or less",
+        "result": "Weapon lands with such force it inflicts maximum damage before bounding off of the target and strikes either the attacker or an ally within melee range (50% chance) for ½ damage."
+      },
+      {
+        "roll": "1",
+        "result": "Cheap shot to the \"tenders.\" Target suffers +1d6 damage and is stunned for 1 round."
+      },
+      {
+        "roll": "2",
+        "result": "Weapon smashes the opponent's elbow, striking a nerve and causing a momentary loss of feeling. The blow inflicts +1d4 damage and causes anything carried to be dropped."
+      },
+      {
+        "roll": "3",
+        "result": "Blow smashes any weapon opponent may be wielding, doing an additional +1d5 damage. The target weapon must pass a DC 8 Fortitude save or is destroyed."
+      },
+      {
+        "roll": "4",
+        "result": "Attack lands in the mid-section, knocking the wind out of the target, inflicting +1d6 damage and causes 1d3 temporary Stamina damage each round until a DC12 Fortitude save can be made. Reaching zero Stamina results in passing out for 1 turn or until roused."
+      },
+      {
+        "roll": "5",
+        "result": "Opponent spins awkwardly from the blow, off balance and vulnerable, offering a +1d bonus to all attacks against them until their next action."
+      },
+      {
+        "roll": "6",
+        "result": "Weapon strikes low, smashing the foot of the target, breaking 1d5 toes, which inflicts +1d8 damage. Target suffers ½ movement until the broken bones heal."
+      },
+      {
+        "roll": "7",
+        "result": "Weapon strikes lower back, fracturing vertebrae for +1d10 damage. Target suffers -1d to all Reflex saves until magically healed or treated."
+      },
+      {
+        "roll": "8",
+        "result": "Target suffers maximum damage while attempting to parry the blow. In addition to the damage, they drop their weapon."
+      },
+      {
+        "roll": "9",
+        "result": "Hit to the spleen causes the target to vomit blood. Besides suffering +1d12 damage, the target doubles over helplessly from pain. Only a Fortitude save at DC 13 allows the target to shrug off the pain and function normally."
+      },
+      {
+        "roll": "10",
+        "result": "Weapon swings into the target's knee, causing a ligament to snap, inflicting +1d12 damage and knocking the target prone. Movement is halved until healed magically or treated medically."
+      },
+      {
+        "roll": "11",
+        "result": "Target raises their arm to block the attack and the force of the blow snaps their wrist back, breaking it, inflicting +1d12 damage. The hand is useless until bones are set or magically healed."
+      },
+      {
+        "roll": "12",
+        "result": "A brutal blow to the face knocks 1d4 teeth out of target's mouth, inflicting +1d10 damage, stunning them for 1d6 rounds. Target's Personality checks suffer a -2 penalty when appearance comes in to play."
+      },
+      {
+        "roll": "13",
+        "result": "Force of the blow inflicts +1d14 damage and spins target awkwardly on their feet, giving the attacker an opportunity for a second attack."
+      },
+      {
+        "roll": "14",
+        "result": "Weapon lands solidly fracturing the femur, inflicting+1d16 damage that causes internal bleeding for 1pt of damage per round until the bone is set or magically healed. Movement is halved until the bone is healed."
+      },
+      {
+        "roll": "15",
+        "result": "Weapon connects squarely with the target's nose, shattering it and inflicting +3d6 damage. Target loses all sense of smell until healed."
+      },
+      {
+        "roll": "16",
+        "result": "Blow lands to the top of the target's head, inflicting +1d12 damage and splits the skin above the brow, blinding them for 1d6 rounds."
+      },
+      {
+        "roll": "17",
+        "result": "Brutal gut-shot knocks the plumbing loose, rupturing a vital organ. Weapon inflicts +1d16 damage and target bleeds internally for 1d2 damage per round until surgery or magical healing is performed."
+      },
+      {
+        "roll": "18",
+        "result": "Swing strikes the foes windpipe for +3d8 damage. Target can only whisper until surgery or magical healing is performed."
+      },
+      {
+        "roll": "19",
+        "result": "Minor skull fracture causes +3d8 damage and knocks the target senseless. Opponents gain +1d on attack rolls for 1d10 rounds while the target is dazed."
+      },
+      {
+        "roll": "20",
+        "result": "Crushing blow to the chest causes +1d16 damage and breaks 1d6 ribs while collapsing the target's lung. Target suffers -2d to any roll involving physical activity until healed."
+      },
+      {
+        "roll": "21",
+        "result": "Weapon crushes the orbital bone, freeing target's eyeball. The attack inflicts +1d16 dmg and target loss of sight in one eye until surgery, or magically healed. All rolls requiring sight suffer a -2 penalty."
+      },
+      {
+        "roll": "22",
+        "result": "Blow connects with the spine, shattering several vertebrae. The attack inflicts +2d12 damage and a DC 15 Fortitude save must be passed to avoid paralysis until magically healed."
+      },
+      {
+        "roll": "23",
+        "result": "Blow crushes bones and snaps tendons for an additional 2d12 damage. Target permanently loses the use of an arm unless magically healed."
+      },
+      {
+        "roll": "24",
+        "result": "Blow strikes the target's face with such force that both eyes are punctured by shards of bone from their own skull, inflicting +3d12 damage. Target is permanently blinded until magically healed and suffers a -1d penalty to all rolls requiring sight."
+      },
+      {
+        "roll": "25",
+        "result": "Vicious blow to the genitalia inflicts +2d16 damage. Target is stunned for 1d6 rounds and loses the ability to reproduce until magically healed."
+      },
+      {
+        "roll": "26",
+        "result": "Blow lands on the head, cracking the target's skull and causes brain matter to leak through their nose and ears, inflicting +3d12 damage. Target's Intelligence is permanently halved and loss of memory prevents any actions requiring complex thinking until magically healed."
+      },
+      {
+        "roll": "27",
+        "result": "Blow lands low, shattering every bone and tendon in the target's foot, splitting the skin, allowing the gore to escape. Blow inflicts +3d8 damage and target becomes lame, halving movement until magically healed."
+      },
+      {
+        "roll": "28",
+        "result": "Blow shatters the target's ribcage, sending jagged bone shards into their heart. Target must immediately pass a DC 15 Fortitude save or die instantly. Passing the save means the target suffers +2d12 damage and is helpless until magically healed."
+      },
+      {
+        "roll": "29",
+        "result": "Inner organs are smashed to a fine paste, inflicting +4d12 damage as the target's bowels empty and they begin bleeding internally. Target suffers +1d4 additional damage unless magically healed."
+      },
+      {
+        "roll": "30+",
+        "result": "Target's skull explodes like a gore-filled melon. Brain matter splatters everyone in a 10' area as the target dies instantly."
+      }
+    ],
+    "CRITICAL HIT:FIREARMS": [
+      {
+        "roll": "0 or less",
+        "result": "Target takes full damage from the bullet and receives a -2 penalty to all rolls for the rest of the round."
+      },
+      {
+        "roll": "1",
+        "result": "Bullet grazes the target's wrist causing the target to drop anything held (roll randomly to determine if the left or right hand is affected). If the target is a creature, it loses one of its next attacks."
+      },
+      {
+        "roll": "2",
+        "result": "Bullet strikes the target's rib cage inflicting an extra 2d4 damage and dazes the target, causing them to suffer a -2 to all actions checks for 1 round."
+      },
+      {
+        "roll": "3",
+        "result": "Bullet pierces the target's elbow, hitting a nerve, causing a momentary loss of feeling. Bullet inflicts +3d4 damage and causes anything carried to be dropped. Any actions using the arm are at -1d for 1d6 rounds until the feeling returns to the arm."
+      },
+      {
+        "roll": "4",
+        "result": "Target's calf bursts in a spray of gore for +2d6 damage. The target is at 1/2 Move until 1 full round can be spent tending the wound."
+      },
+      {
+        "roll": "5",
+        "result": "Bullet passes through the target's bicep for +2d6 damage causing any ranged weapon being held (roll to see which arm is struck) to fire in a random direction, possibly striking an ally 50% of the time. Non-ranged weapons are flung 1d30' away in a random direction."
+      },
+      {
+        "roll": "6",
+        "result": "The target's skull catches the bullet in the temple inflicting +1d8 damage and dazes the target unless a Fortitude save can be passed at a DC of 12 (check each round until passed). The target is at -2d to all actions until this save is passed."
+      },
+      {
+        "roll": "7",
+        "result": "Bullet strikes target's weapon hand for +1d8 damage, peeling the skin back on the knuckles and forces the target to drop anything being held. The target suffers a -1d penalty with any physical actions until the wound is treated."
+      },
+      {
+        "roll": "8",
+        "result": "Bullet shatters the target's collarbone doing +1d10 damage and dazes the target (they are unable to act) until a Fortitude save is passed at a DC of 12 (can be checked each round until passed)."
+      },
+      {
+        "roll": "9",
+        "result": "Bullet passes through the target's abdomen, piercing the spleen, causing them to vomit blood. In addition to +1d12 damage, target doubles over in agony and must pass a Fortitude save at DC 13 or remain prone each round."
+      },
+      {
+        "roll": "10",
+        "result": "Target's kneecap shatters causing +1d12 damage, making the leg lame. Movement is reduced by ½ until healed magaically. A physician can remove the penalty at the cost of a permanent -5' to move."
+      },
+      {
+        "roll": "11",
+        "result": "Bullet grazes the target's hip sending them spinning to the ground. Target suffers +1d12 damage and must remain prone for 1d4 rounds form intense pain before they can return to their feet."
+      },
+      {
+        "roll": "12",
+        "result": "Bullet passes through target's jaw doing +1d14 damage and forcing a DC 13 Fortitude save to avoid passing out from pain for 1d6 rounds or until roused. Target must seek medical attention to be able to eat again."
+      },
+      {
+        "roll": "13",
+        "result": "Bullet strikes the target in the shoulder spinning them awkwardly and grants attackers a +2d bonus on attacks for the rest of the round. In addition, 1d14 damage extra damage is suffered."
+      },
+      {
+        "roll": "14",
+        "result": "Bullet ricochets inside the target's ribcage shattering 1d4 ribs and pierces a lung. Weapon inflicts +2d12 damage, and any physical action must be performed through great pain (-2d to any physical activity until magically treated or healed by a physician)."
+      },
+      {
+        "roll": "15",
+        "result": "Target screams as their ear explodes in a puff of crimson mist. The target suffers +2d8 damage and is penalized by -1d to any physical actions as blood fills the open wound, affecting their equilibrium. Target also suffers -2 to any reaction rolls due to horrific scarring."
+      },
+      {
+        "roll": "16",
+        "result": "Bullet ricochets off the top of the target's head, splitting the skin above their brow. Weapon inflicts +2d12 damage and causes blindness as blood continually runs into their eyes for 1d8 rounds."
+      },
+      {
+        "roll": "17",
+        "result": "Bone and tendon explode in a spray of gore as the target's hand is destroyed (roll randomly for left or right). Anything held is dropped, and the attack inflicts +3d6 damage in addition to losing the use of their hand. Magical healing must be used to restore the hand."
+      },
+      {
+        "roll": "18",
+        "result": "Bullet opens up the lower abdomen allowing vital organs to spill out, inflicting +2d12 damage. One hand must be used to keep their vitals from dropping to the ground as they begin to bleed out for 1d3 Stamina damage per round until surgery or magical healing can be performed (0 Sta is death)."
+      },
+      {
+        "roll": "19",
+        "result": "Bullet penetrates both of the target's cheeks leaving them with a mangled countenance. They suffer +3d6 damage and a further 1d2 bleeding damage for 1d8 rounds or until they are treated. Target has a hard time eating without food spilling out, and their speech is slurred."
+      },
+      {
+        "roll": "20",
+        "result": "Bullet slices through the target's windpipe opening a hole that emits a sickening wet whistling sound with each breath. Attack inflicts +3d8 damage and they are unable to act for 1d4 rounds in addition to losing the capability to speak until treated."
+      },
+      {
+        "roll": "21",
+        "result": "Bullet disintegrates the target's nose inflicting +3d8 damage. Their nose is permanently lost, sending them into shock for 1d6 rounds. They are permanently disfigured until magically healed and suffer -1d to all interaction rolls."
+      },
+      {
+        "roll": "22",
+        "result": "Target's eye explodes in a thick crimson yolk as the bullet lodges in the orbital socket of their skull. They suffer +3d8 damage and lose sight in one eye (-2 to all rolls requiring sight)."
+      },
+      {
+        "roll": "23",
+        "result": "Bullet enters the target's chest passing vital organs and lodging in the spine. In addition to +3d8 damage, they must pass a DC 15 Fortitude save or become permanently paralyzed until magically healed."
+      },
+      {
+        "roll": "24",
+        "result": "Bullet embeds in target's shoulder inflicting +4d6 damage, and the arm becomes useless until surgery or magical healing is performed."
+      },
+      {
+        "roll": "25",
+        "result": "Target's mouth explodes as the bullet shatters 1d8 teeth and lodges in the back of the throat inflicting +3d8 damage. They continue to bleed from the wound suffering 1 point of damage for 1d6 rounds. Additionally, they must pass a DC 10 Fortitude save or gag on their own blood for 1d6 rounds. While choking, they suffer -1d to all actions."
+      },
+      {
+        "roll": "26",
+        "result": "Bullet enters the target's gut and pierces several vital organs before coming to rest in their liver. In addition to suffering +3d8 damage, they must pass a DC 14 Fortitude save to avoid passing out for 1d6 rounds. Target continues to take 1d3 damage a round as they bleed out and only stops when professional or magical healing can be administered."
+      },
+      {
+        "roll": "27",
+        "result": "Target's femur is shattered as the bullet pierces the artery. They suffer +3d12 damage and drop prone. Target continues to bleed for 1d3 damage per round until the injury is treated professionally or magically."
+      },
+      {
+        "roll": "28",
+        "result": "A major artery in the heart is clipped causing a spray of blood to pour from the wound with every beat. Target suffers +3d12 damage and must pass a DC 15 Fortitude save or bleed out. Passing the save inflicts 1d3 bleeding damage per round unless pressure is held or wound is professionally or magically treated."
+      },
+      {
+        "roll": "29",
+        "result": "Bullet shatters the target's sternum, piercing the heart, as they are knocked off of their feet, blood jetting out of the wound in rhythm with their beating heart. The only action they can take is to gasp as life vacates their body. Death claims them in 1 round X their current level unless magical healing can be given."
+      },
+      {
+        "roll": "30+",
+        "result": "A silver dollar sized hole ventilates the target's skull as a mist of gore and bone spray the area immediately behind the blow. The target's last sight is of the smoking barrel of the gun that put an early end to their life. They are killed instantly."
+      }
+    ],
+    "CRITICAL HIT:PIERCING": [
+      {
+        "roll": "0 or less",
+        "result": "Target takes full damage from the attack and receives a -1d penalty to all rolls for the rest of the round."
+      },
+      {
+        "roll": "1",
+        "result": "Target dodges awkwardly, falling prone. All additional attacks strike at +1d and the target must use their full move/action to stand up the following round."
+      },
+      {
+        "roll": "2",
+        "result": "Swing strikes target's weapon for +1d8 damage and causes them to drop it. If they have no weapon, the attack causes +1d8 damage and stuns the target for one round."
+      },
+      {
+        "roll": "3",
+        "result": "Blow strikes with such force that the target is slammed into an adjacent foe within 5' doing normal damage +1d6 to the other target. Should another foe not be in range, the target is spun awkwardly and is left open for a bonus attack."
+      },
+      {
+        "roll": "4",
+        "result": "Penetrating blow to the target's calf causes them to fall prone and attack does +1d8 damage. The target's leg must be treated or they suffer -5' to movement."
+      },
+      {
+        "roll": "5",
+        "result": "A vicious downward swing severs 1d4 toes from the target's foot inflicting +1d3 damage per toe, and their movement is halved until treated."
+      },
+      {
+        "roll": "6",
+        "result": "The target's hand is pierced, striking a vital nerve bundle. In addition to +1d8 damage the hand is useless for 1d4 rounds until sensation returns."
+      },
+      {
+        "roll": "7",
+        "result": "A vicious blow to the mouth knocks 1d6 teeth out and inflicts +1d10 damage. Target must pass a DC 12 fortitude save or become stunned for 1d4 rounds in addition to suffering a -1d penalty to reaction rolls."
+      },
+      {
+        "roll": "8",
+        "result": "Attack pierces the target's forearm (roll randomly to determine which arm) and the weapon must be pulled free with a DC 8 Strength check. The attack inflicts +1d10 damage and the target suffers a -2 penalty when attacking with the affected limb until treated."
+      },
+      {
+        "roll": "9",
+        "result": "Blow lands in the midsection with a sickening sound, slightly puncturing an organ for +1d12 damage as blood is vomited and the target bleeds out for 1d2 damage for 1d6 rounds."
+      },
+      {
+        "roll": "10",
+        "result": "Attack hooks target's kneecap ripping it free and causing +1d14 damage. Target falls prone and finds their movement halved until treated."
+      },
+      {
+        "roll": "11",
+        "result": "Target's hand catches the blow in an attempt to block the attack. In addition to suffering an additional +1d12 damage, the target is spun off balance offering the attacker a bonus attack at +2 to hit."
+      },
+      {
+        "roll": "12",
+        "result": "The attack rips down into opponents back, rending flesh and snapping bone for an additional +3d8 damage. Target must immediately pass a DC 13 Fortitude save to avoid having movement permanently reduced by 5' unless magically healed."
+      },
+      {
+        "roll": "13",
+        "result": "Attack impales the shoulder region for an additional +2d10 damage. If the source of the attack was an actual weapon, it is considered stuck, further inflicting 1d8 damage per round that the weapon remains in the wound. Additionally, the target can be \"steered\" into oncoming attacks from allies. Allies gain a +1d attack bonus until a DC 13 Reflex save can be made and the target uses a standard action to remove the weapon."
+      },
+      {
+        "roll": "14",
+        "result": "A vicious strike punctures the target's eyeball causing it to explode in horrific fashion. The orb explodes in a crimson yolk. Attack inflicts +3d6 damage and target is permanently blind in one eye (-2 to all physical skills requiring sight) unless magical healing can be administered."
+      },
+      {
+        "roll": "15",
+        "result": "Target's foot is impaled, shattering tendon and bone as the weapon drives into the ground inflicting an additional +3d6 damage. Additionally, the weapon pins the target to the spot until the weapon is removed by making a DC 12 Strength check. While pinned to the ground, allies gain a +1d bonus to attack rolls. Once free, the target suffers a -5' to movement until treated."
+      },
+      {
+        "roll": "16",
+        "result": "The attack strikes the back of the target's head, puncturing the skull and spilling brain. The attack inflicts +3d8 damage and target's Intelligence is reduced by 1d4. Additionally, the attacker must pass a DC 8 Strength check to remove the weapon."
+      },
+      {
+        "roll": "17",
+        "result": "Blow hits with such force that the target is knocked prone and pinned to the ground. Weapon inflicts +3d8 damage and immobilizes target until a DC 13 Strength check is passed by someone other than the target to remove the weapon."
+      },
+      {
+        "roll": "18",
+        "result": "Lucky attack punctures the neck, piercing the carotid artery, causing blood to spray with each beat of the heart. Target suffers +2d8 damage and bleeds out for an additional 1d3 damage unless pressure is held or wound is treated."
+      },
+      {
+        "roll": "19",
+        "result": "Vicious blow penetrates both of target's cheeks, leaving a large hole in each. The target suffers +2d8 damage and continues to bleed out for 1d2 damage for 1d6 rounds. Target is left with horrible scarring and slurred speech in addition to having difficulties keeping food in their mouth until magically healed."
+      },
+      {
+        "roll": "20",
+        "result": "Blow penetrates target's arm, destroying muscle and tendon while severing vital nerves. Target suffers +2d12 damage and permanently loses the use of the arm until treated."
+      },
+      {
+        "roll": "21",
+        "result": "A strike to the sternum breaks away 1d6 ribs causing +3d6 damage and unbearable pain. Target must pass a DC 13 Fortitude save each round or do nothing but wince in agony. For the next 1d12 days the target suffers a -1d penalty to all rolls as the wound heals."
+      },
+      {
+        "roll": "22",
+        "result": "The attack lands against the femur, shattering it as the femoral artery pumps jets of crimson into both target and attacker's face. Target suffers +3d12 damage and continues to bleed out for 1d3 damage until stabilized. Movement is permanently reduced by 5' until magically healed."
+      },
+      {
+        "roll": "23",
+        "result": "With a downward swing, weapon rakes targets spine, embedding in vertebrae, severing nerves. Weapon inflicts +3d12 damage and the target must pass a DC 14 Fortitude save or lose the use of their legs until magical healing can be administered. Additionally, the weapon is stuck and must be wrenched free by making a DC 10 Strength check."
+      },
+      {
+        "roll": "24",
+        "result": "A sickening pop can be heard, followed by a scream as gore explodes from target's face. Attack strikes at the temple, traveling through both eyeballs, destroying them along with a large portion of the face. The attack inflicts +4d8 damage and the target must pass a DC 14 Fortitude save or pass out for 1d6 rounds. Target is permanently blinded until magical healing can be administered."
+      },
+      {
+        "roll": "25",
+        "result": "Strike targets the \"tenders\" of the foe, essentially ruining any future attempts at reproducing. Attack inflicts +4d10 damage and the target must pass a DC 14 Fortitude save to avoid going into shock for 1d10 rounds."
+      },
+      {
+        "roll": "26",
+        "result": "Strike ruptures the target's bladder inflicting +4d8 damage and a DC 13 Fortitude save must be passed to avoid passing out for 1d10 rounds. Target must receive surgery or magical healing or lose 1d4 Stamina points per day before dying of infection."
+      },
+      {
+        "roll": "27",
+        "result": "Attack catches the lower portion of the jaw ripping the mandible free from the target's face. The horrific wound inflicts an additional +3d12 damage and the target must pass a DC 15 Fortitude save to avoid going into shock (effectively helpless). Target is incapable of speech and must receive magical healing or die a slow painful death due to infection and starvation. The target loses 1 Stamina point per day until zero is reached, signifying death."
+      },
+      {
+        "roll": "28",
+        "result": "A major artery of the heart is pierced by the attack sending sprays of crimson from the wound with each beat. Target suffers an additional +4d12 damage and must immediately pass a DC 14 Fortitude save to avoid instant death."
+      },
+      {
+        "roll": "29",
+        "result": "A wasted breath escapes from the chest wound as the lung is punctured. Target suffers +4d12 damage and loses the use of the lung causing all physical rolls to be made at -2d. Target must receive immediate magical healing (see rules for bleeding out) to avoid death within one round per point of Stamina."
+      },
+      {
+        "roll": "30+",
+        "result": "The attack lands true to the front of the target's skull, piercing it in such a way that the momentum catches it and jerks it free from the spinal column. Target shudders and falls to the ground twitching as their final breaths escape from their lungs. Death is instantaneous."
+      }
+    ],
+    "CRITICAL HIT:SLASHING": [
+      {
+        "roll": "0 or less",
+        "result": "The weapon strikes true but is partially reflected back onto the attacker. Weapon inflicts maximum damage on the target while the attacker receives normal damage for the weapon with no strength modifiers."
+      },
+      {
+        "roll": "1",
+        "result": "The skin on the target's knuckles on one hand (roll randomly to determine hand) is gashed. Target suffers +1d6 damage and drops whatever they are holding."
+      },
+      {
+        "roll": "2",
+        "result": "Wicked slash to the forehead! The wound opens up inflicting +2d4 damage and causes blindness for 1d4 rounds as blood streams down into the eyes."
+      },
+      {
+        "roll": "3",
+        "result": "Target blocks blow awkwardly, leaving themselves off balance and open for an additional attack."
+      },
+      {
+        "roll": "4",
+        "result": "The attack slashes the stomach region, cutting a deep wound that invites a splattering of gore at the target's feet. The wound inflicts +1d6 damage and you gain +4 to your next attack against the target as they slip in their own blood."
+      },
+      {
+        "roll": "5",
+        "result": "A shallow but vicious slash momentarily takes target to one knee. Target suffers +1d8 damage and must use their next full action to rise."
+      },
+      {
+        "roll": "6",
+        "result": "Target blocks the attack sacrificing its forearm to spare the vitals. A deep gash slices to the bone inflicting +2d6 damage. Anything held is dropped and pressure must be applied for the next 1d4 rounds to avoid suffering 1d2 bleed damage."
+      },
+      {
+        "roll": "7",
+        "result": "The target slips as they try to side step the attack, leaving their back open to a wicked strike. The deep cut severs a muscle in the back inflicting an additional +1d10 damage. Additionally, the target suffers -1d to all physical actions for 1d3 days or until healing can be administered."
+      },
+      {
+        "roll": "8",
+        "result": "Attack severs 1d5 fingers from target's hand (roll to determine which hand) as they instinctively throw a hand up to protect their face. Target suffers +1d3 damage per finger lost and suffers -1 to all actions taken with the hand for each finger lost. If all five are severed, the hand is useless until magically healed."
+      },
+      {
+        "roll": "9",
+        "result": "A cut to the thigh slices deep, leaving the weapon embedded in the femur. Blow causes +1d12 damage and opponent drops to one knee until weapon is pulled free (DC 10 Strength check). Once pulled free, target suffers 1d3 damage each round from bleeding until stabilized or treated."
+      },
+      {
+        "roll": "10",
+        "result": "Target screams in agony as their nose is sliced off in a spray of gore. The nose lands 10' away and the target takes an additional +1d12 damage. Pressure must be applied for 6 rounds to avoid an additional 1d3 bleed damage per round. Unless the nose can be reattached, target suffers -3 to all reaction rolls due to their horrific appearance and strange whistling sounds heard when breaths are taken."
+      },
+      {
+        "roll": "11",
+        "result": "A solid swing cleaves through the lower jaw ripping it free from the skull inflicting an additional +1d14 damage and forcing a DC 15 Fortitude save to avoid passing out from pain for 1 turn. Target is incapable of speech and must receive magical healing or die a slow painful death due to infection and starvation, losing 1 point of Stamina per day until zero is reached signifying death."
+      },
+      {
+        "roll": "12",
+        "result": "One of the target's ears is cleanly sliced from their head. Target suffers +2d8 damage and suffers -1d to any physical actions as blood fills the open wound, throwing the target off balance. Target also suffers -2 to any reaction rolls due to horrific scar."
+      },
+      {
+        "roll": "13",
+        "result": "Attack severs one of the target's hands (roll to determine which one) doing an extra 2d8 damage and the wound continues to bleed out for 1d2 damage for 6 rounds unless pressure is applied. The hand can only be reattached by magical healing."
+      },
+      {
+        "roll": "14",
+        "result": "A lucky attack slices across the face of target leaving a deep wound and gouging open an eyeball. The target suffers +3d6 damage and loses the use of one eye (-2 to all physical based rolls) unless magically healed."
+      },
+      {
+        "roll": "15",
+        "result": "Weapon slashes the back of target's leg, severing tendons and arteries, knocking the target prone. Attack causes +3d6 damage and continues to bleed for 1d4 damage for 6 rounds unless pressure is applied. Movement suffers a -5' penalty until treated."
+      },
+      {
+        "roll": "16",
+        "result": "Blow cuts a deep chunk from target's shoulder severing both artery and ligament. Attack does +2d12 damage and a further 1d4 bleed damage for 1d6 rounds unless pressure is applied. Arm is rendered useless until treated."
+      },
+      {
+        "roll": "17",
+        "result": "Abdomen is slashed deeply, slicing into a vital organ. The target suffers +2d12 damage and an additional 1d3 damage from bleeding out each round for 6 rounds. Target must also pass a DC 13 Fortitude save or lose consciousness for 1d8 rounds."
+      },
+      {
+        "roll": "18",
+        "result": "A solid attack cleaves into the upper torso of the target, snapping the clavicle. The attack inflicts +3d8 damage in addition to causing the target sickening pain. The target suffers a -1d penalty to any physical actions until treated."
+      },
+      {
+        "roll": "19",
+        "result": "Target is effectively scalped as the strike peels back the thin layer of skin covering the skull. The attack inflicts +2d10 damage and continues to inflict an additional 1d3 damage from bleeding out each round for 6 rounds, or until stabilized. Target suffers a permanent -3 to all reaction rolls due to the wicked scar and lack of hair."
+      },
+      {
+        "roll": "20",
+        "result": "Target throws a hand up to block a potentially fatal blow but in the process the forearm (roll to determine which arm) is split down to the fingers in gruesome fashion. The attack inflicts +2d12 damage and the target must pass a DC 15 Fortitude save to avoid passing out for 1 turn. Until treated, all physical actions with the arm suffer a -1d penalty."
+      },
+      {
+        "roll": "21",
+        "result": "Horrific slash to the face severs their upper lip and gouges 1d8 teeth out. Target suffers +2d12 damage and continues to bleed out for 1d2 damage unless pressure is applied for 6 rounds. Target suffers a permanent -4 to all reaction rolls due to the grisly scar due and missing teeth."
+      },
+      {
+        "roll": "22",
+        "result": "A slash to the back cuts deep into the spine, severing the spinal cord. Target suffers +3d10 damage and the target must pass a DC 14 Fortitude save or suffer nerve damage that affects all reflexive actions. Target loses 3d6 Agility points until magically healed."
+      },
+      {
+        "roll": "23",
+        "result": "A sickening spray of gore covers the ground as the target's leg is severed just above the knee. The attack inflicts +2d12 damage and an additional 1d3 damage from bleeding out each round unless pressure is held on the wound. Target must pass a DC 14 Fortitude save to avoid shock (treat as unconscious). The leg is lost and movement is halved unless magical healing can be administered."
+      },
+      {
+        "roll": "24",
+        "result": "The target screams in agony as the attack severs their arm just above the elbow (roll to determine which arm) and the attack inflicts +2d12 damage with an additional 1d3 damage each round from bleeding out unless pressure is applied. The arm is lost unless magical healing can be administered."
+      },
+      {
+        "roll": "25",
+        "result": "A well-aimed slash severs the carotid artery in the neck, causing a hot spray of crimson to gush with each beat of the heart. The attack inflicts +3d8 damage plus an additional 1d3 in bleed damage each round unless pressure is applied to the wound and will continue until treated."
+      },
+      {
+        "roll": "26",
+        "result": "The attack splits the target's skull, severing the part of the brain responsible for memory. In addition to suffering +3d12 damage. The target's Intelligence is permanently reduced by 3d6 to represent the loss of mental capacity."
+      },
+      {
+        "roll": "27",
+        "result": "The weapon swings low, claiming one of the targets feet at the ankle. The attack inflicts +3d8 damage, knocking the target prone. Movement is halved until magical healing can be administered; however, with the use of a prosthetic movement is only reduced by -10'."
+      },
+      {
+        "roll": "28",
+        "result": "A devastating cut bypasses vertebrae slicing deeply into the spinal cord. The target suffers +3d12 damage and must immediately pass a DC 15 Fortitude save or suffer permanent paralysis until magical healing can be administered."
+      },
+      {
+        "roll": "29",
+        "result": "The weapon opens the targets abdomen, spilling their innards to the ground. In addition to suffering +4d10 damage, the target must immediately pass a DC 15 Fortitude save to avoid bleeding out. If passed, the target can do nothing but hold their innards in until treated."
+      },
+      {
+        "roll": "30+",
+        "result": "A gush of blood jets into the air from the place the target's head used to rest. Decapitation results in instant death."
+      }
+    ],
+    "CRITICAL HIT:WRESTLING": [
+      {
+        "roll": "0 or less",
+        "result": "You get caught up in your signature move not thinking about the safety of allies. Foe is hit for +1d8 damage, and the ally nearest them is also hit by a rebounding blow for 1d4 damage."
+      },
+      {
+        "roll": "1",
+        "result": "The skin on the target's knuckles on one hand is peeled back. Target suffers +1d6 damage and drops whatever they are holding."
+      },
+      {
+        "roll": "2",
+        "result": "Bell clap! You strike with two open-palm strikes targeting the target's ears. In addition to +2d4 damage, the target is deafened for 1d4 rounds (-1d to all actions)."
+      },
+      {
+        "roll": "3",
+        "result": "Grab and jab! You twist target's weapon out of their hand, throwing it 10' away and staggers them back 10'."
+      },
+      {
+        "roll": "4",
+        "result": "Knife chop! Wrestler strikes a major artery in the neck, temporarily disrupting blood flow to the target's brain. The attack inflicts +1d6 damage and the target must pass a DC 12 Fortitude save or pass out for 1d2 rounds."
+      },
+      {
+        "roll": "5",
+        "result": "Elbow Smash! Wrestler lands an elbow to the target's temple area temporarily stunning them. In addition to standard damage the wrestler may make an additional attack."
+      },
+      {
+        "roll": "6",
+        "result": "Heel stomp! Wrestler leaps into the air focusing all of their weight into a heel stomp that connects with the target's foot. 1d5 toes are broken and target suffers +1d8 damage in addition to being unable to walk for 1d4 rounds."
+      },
+      {
+        "roll": "7",
+        "result": "Suplex! Wrestler lifts target high into the air before driving them down, back first onto the ground, fracturing vertebrae. Attack inflicts +1d10 damage and the target suffers -1d to all Reflex saves for 48 hours."
+      },
+      {
+        "roll": "8",
+        "result": "Nose jam! With an upward strike the wrestler breaks and forces the nasal bones back into the brain for +1d10 damage. Target suffers -3 to all reaction rolls due to horrific appearance of a caved in nose."
+      },
+      {
+        "roll": "9",
+        "result": "Kidney thief! Wrestler catches target in a vulnerable position, directing a powerful strike to a kidney. The attack inflicts +1d12 damage and the target must pass a DC 13 Fortitude save or pass out from the pain for 1d4 rounds."
+      },
+      {
+        "roll": "10",
+        "result": "Flying knee kick! Wrestler leaps high into the air, spinning 360 degrees before landing a powerful kick to the target's knee. In addition to +1d12 damage, target drops to one knee as the kneecap is dislocated. Target suffers a -1d penalty to all physical actions until the injury is treated."
+      },
+      {
+        "roll": "11",
+        "result": "Clothesline! The attack breaks the jaw of the target doing +1d14 damage and forces a DC 13 Fortitude save to avoid passing out from pain for 1d6 rounds. Target must seek medical attention to have the mandible reattached."
+      },
+      {
+        "roll": "12",
+        "result": "Ear twister! The wrestler puts enough pressure on his pull to rip the target's ear off. Target suffers +2d8 damage and suffers -1d to any physical actions as blood fills the open wound, throwing the target off balance. Target also suffers -2 to any reaction rolls due to the horrific scar."
+      },
+      {
+        "roll": "13",
+        "result": "Body slam! Target's shoulder is dislocated for +3d6 damage and the arm dangles useless until treatment can be provided."
+      },
+      {
+        "roll": "14",
+        "result": "Eye plucker! Wrestler strikes the target's eye with a rigid finger, plunging and hooking the organ free of the skull. Target suffers +1d16 damage and loses the use of one eye (-2 to all physical based rolls) unless magically treated."
+      },
+      {
+        "roll": "15",
+        "result": "Pile driver! Target is swept up, vertically upside down, before being driven head first into the ground. Target suffers +1d16 damage and must pass a DC 13 Fortitude save or become paralyzed for 1d3 days."
+      },
+      {
+        "roll": "16",
+        "result": "Pipe crusher! Target is struck directly in the trachea, crushing the windpipe. The attack inflicts +1d14 damage and the target suffers -2d to any physical actions until treated."
+      },
+      {
+        "roll": "17",
+        "result": "Flying kick! Launching into the air, the wrestler lands a heel to the target's mouth, knocking 1d8 teeth out and causing them to bite through their tongue. Attack inflicts +2d12 damage and the"
+      },
+      {
+        "roll": "18",
+        "result": "Tomahawk chop! Wrestler cleaves into the upper chest of target, snapping the clavicle. Attack inflicts +3d8 damage in addition to the sickening pain. Target is -1d to any physical actions until treated."
+      },
+      {
+        "roll": "19",
+        "result": "Skull peeler! Target is effectively scalped as wrestler digs their nails into the skin of the target's forehead, peeling back the thin layer covering the skull. Attack inflicts +2d10 damage and the target continues to suffer 1d4 in bleed damage each round for 1d6 rounds until stabilized. Target suffers a permanent -3 to all reaction rolls due to wicked scar."
+      },
+      {
+        "roll": "20",
+        "result": "Arm breaker! Wrestler catches the target's arm in a crushing hold, snapping it like a twig. The attack inflicts +2d12 damage and the target must pass a DC 14 Fortitude save to avoid passing out. Target also loses the use of their arm until treated."
+      },
+      {
+        "roll": "21",
+        "result": "Flying leg lariat! Launching into the air, the wrestler locks legs around the target's neck and slams them down to the ground. Attack inflicts +3d12 damage and the target must pass a DC 12 Fortitude save or suffer spinal damage and partial paralysis resulting in a loss of 2d6 Agility points."
+      },
+      {
+        "roll": "22",
+        "result": "Supernatural elbow drop! Wrestler leaps high into the air, coming down directly on target's leg. Target's femur shatters as the femoral artery sprays gore in both target and wrestler's face. Target suffers +3d12 damage and continues to bleed for 1d3 damage each round until stabilized, in addition to being unable to stand."
+      },
+      {
+        "roll": "23",
+        "result": "Nut buster! A forceful knee to the genitalia explodes the area for +4d6 damage. Target is stunned for 1d8 rounds and loses the ability to reproduce."
+      },
+      {
+        "roll": "24",
+        "result": "Flying knee strike! Wrestler launches high into the air, planting a knee in the center of the target's sternum, crushing their ribcage. In addition to +3d12 damage, the target must pass a DC 15 Fortitude save or have both lungs collapse. Once collapsed, the target suffers 1d4 Stamina damage each round until Stamina zero is reached, meaning death. Only magical healing may be administered."
+      },
+      {
+        "roll": "25",
+        "result": "Raven claw! Wrestler rakes and severs the carotid artery causing a spout of blood to spray with each heartbeat. Attack inflicts +3d8 damage plus an additional 1d3 in bleed damage each round unless pressure is applied to the wound or healed."
+      },
+      {
+        "roll": "26",
+        "result": "Ultimate skull crusher! Wrestler flips the target upside down vertically before slamming them down head first, causing the spine to plunge through the base of the skull into the brain. Attack inflicts +3d12 damage and the target's Intelligence is reduced by 3d6."
+      },
+      {
+        "roll": "27",
+        "result": "Breath taker! Wrestler launches into the air landing a crushing hold on target's windpipe, crushing it instantly. Target must pass a DC 15 Fortitude save or die a slow painful death as they struggle for breath, taking 1d6 stamina damage each round until Stamina zero is reached and death occurs."
+      },
+      {
+        "roll": "28",
+        "result": "Spine cracker! Wrestler lifts the target high over head and drops to their knees, shattering target's spine over the shoulders of the wrestler. Target takes +3d12 damage and must immediately pass a DC 15 Fortitude save or suffer permanent paralysis. Only magical healing can repair the damage."
+      },
+      {
+        "roll": "29",
+        "result": "Casket plant! Wrestler slams target to the ground before launching high into the air and planting both heels into the gut of the target, rupturing several vital organs. In addition to +4d12 damage, the target must immediately pass a DC 16 Fortitude save or bleed out instantaneously. Passing the save means bleeding 1d4 damage each round until treated."
+      },
+      {
+        "roll": "30+",
+        "result": "Spine ripper! Wrestler flips the target to the ground, momentarily stunning them. The wrestler then twists and pulls with such force that the target's head and spine are ripped from their body in a bloody display of gore. Target is slain instantly."
+      }
+    ],
+    "FUMBLE:FIREARMS": [
+      {
+        "roll": "0-1",
+        "result": "The gun accidentally discharges before proper aim can be taken, alerting the target to your bad intentions. Their next attacks against you gain a +2 attack bonus."
+      },
+      {
+        "roll": "2",
+        "result": "The cylinder is over-packed, sounding off with a deafening boom! You are effectively stunned for 1d2 rounds as you try to regain your senses as the ringing in your ears subsides."
+      },
+      {
+        "roll": "3",
+        "result": "Flaming debris from the spent cartridge or possible blow-back from a faulty round burns your hands. You suffer 1d3 damage and must pass a DC 10 Reflex save to keep hold of the firearm."
+      },
+      {
+        "roll": "4",
+        "result": "The cylinder is over-packed and goes off with a deafening boom and fiery flash. The attacker is not only stunned for 1d3 rounds, but all ranged attacks within 50' suffer a -2 to attack rolls due to opponents and allies seeing spots."
+      },
+      {
+        "roll": "5",
+        "result": "The shot goes off, but the sweat from the attacker's palm causes the firearm to fly from the attacker's hand, landing 1d10' away. The shot misses, and the attacker must spend their next entire action retrieving their weapon (if they expect to use it)."
+      },
+      {
+        "roll": "6",
+        "result": "The chamber is overloaded causing a minor explosion as the shot fires. The force of the shot catches you off guard, throwing you to the ground. You are considered prone and must pass a DC 12 Reflex save to avoid dropping the weapon."
+      },
+      {
+        "roll": "7",
+        "result": "All rounds in the firearm are fouled, and the gun must be emptied and cleaned before being used again."
+      },
+      {
+        "roll": "8",
+        "result": "The shot misses, hitting a hard surface that causes the round to ricochet back towards the attacker. Make a normal attack roll versus the attacker's AC to see if the fateful shot finds its new mark."
+      },
+      {
+        "roll": "9",
+        "result": "Somehow your grip is off, causing the hammer or some other part of the firearm to catch one of your fingers or part of the hand. The attacker suffers 1d4 damage and a -1d attack penalty with the affected hand for 1d6 rounds."
+      },
+      {
+        "roll": "10",
+        "result": "The shot strikes the target, but the shot lands harmlessly on a part of the defender's gear. The defender spins, cursing up a storm and uses words best left unmentioned about the attacker's mother. The attacker flies into a rage and must direct all attacks at the defender with a -1d penalty to all actions for the duration of the encounter."
+      },
+      {
+        "roll": "11",
+        "result": "The shot explodes before leaving the barrel of the gun, causing a fiery backblast of gunpowder to temporarily blind the attacker for 1d6 rounds in addition to inflicting 1d6 burn damage."
+      },
+      {
+        "roll": "12",
+        "result": "The shot is knocked wide by someone or something, causing the shot to strike a random ally. The attack automatically hits for normal damage and stuns them for 1d3 rounds as they try to make sense of the apparent betrayal."
+      },
+      {
+        "roll": "13",
+        "result": "The shot kicks back from an over-packed round, striking the shooter in the face for 1d8 damage. The wound cuts into the forehead causing blood to seep into the attacker's eyes. The wound must be tended by spending the next 1d3 rounds to stop the bleeding to avoid a -1d to all attack rolls."
+      },
+      {
+        "roll": "14",
+        "result": "The shot goes wide but gains the full undivided attention of the attacker's intent to put them in a pine box. Rather than face another shot, the defender makes an immediate bonus charge attack at +2 with a -2AC penalty incurred against any additional attacks against them during the round."
+      },
+      {
+        "roll": "15",
+        "result": "The shot fires and strikes something causing the round to ricochet back towards the attacker to inflict maximum damage. The shot also stuns the attacker for 1d3 rounds as they try to gather their senses."
+      },
+      {
+        "roll": "16",
+        "result": "An integral part of the gun breaks, making the weapon useless until proper tools and time can be spent to repair it by making a DC 13 skill check. Magical firearms gain a DC 14 save modified by +1 for each bonus of the gun."
+      },
+      {
+        "roll": "17",
+        "result": "Several rounds in the gun go off prematurely. Roll a random die for each round remaining to determine how many rounds explode. Each round causes 1d4 burn damage to the attacker, who is also knocked prone from the mishap."
+      },
+      {
+        "roll": "18",
+        "result": "Lady Luck intervenes on the behalf of the target for reasons only known to the powers that be. The defender is given 1d3 Boons that can be used as normal when related to the source of the attack."
+      },
+      {
+        "roll": "19",
+        "result": "The shot misses the mark, but the noise and flash from the shot attracts the attention of all enemies involved in the combat. Until the attacker's next attack, all ranged attacks from the defender and their allies are directed at the attacker with a +1d attack bonus."
+      },
+      {
+        "roll": "20",
+        "result": "Lady Calamity intervenes as a ghostly female form materializes, catches the bullet, and directs it back towards the shooter with deadly precision. The shot not only causes maximum damage, but inflicts a critical hit to the shooter with a d16 Crit die."
+      },
+      {
+        "roll": "21",
+        "result": "The attacker receives a brief vision of a violent death stemming from the current encounter, which fills them with dread. The attacker must attempt to withdraw and pull out of harm's way for the duration of the combat. Should escape not be possible the attacker suffers a -2d penalty to all saves and attack rolls."
+      },
+      {
+        "roll": "22",
+        "result": "The attacker screams in agony as the gun backfires, sending smoldering shrapnel into one of the attacker's eyes, popping it like an over-sized grape. The attacker suffers maximum damage from the gun and loses one eye. Only magical healing will restore the eye and the attacker suffers a permanent -2 attack penalty to all ranged attacks."
+      },
+      {
+        "roll": "23",
+        "result": "Lady Calamity manifests in front of the attacker appearing as a ghostly hag. She rips the gun from the attacker and immediately begins fanning the hammer amidst maniacal cackling. The first shot is aimed at the attacker, while remaining shots are aimed at allies of the attacker. Shots are made with no modifier, but successful strikes inflict a critical hit using a d8 as the Crit die."
+      },
+      {
+        "roll": "24",
+        "result": "Your firearm chain-fires before you can take aim, causing all remaining rounds to explode. The firearm is ruined (including magical firearms) and explodes in a 10' area. All allies, including the attacker, suffer normal damage for each remaining round in the gun. A DC 12 Reflex save will halve the damage."
+      },
+      {
+        "roll": "25+",
+        "result": "The attacker's shot explodes with the force of all remaining rounds, causing a part of the gun to blowback, penetrating deep into the skull of the attacker. With a blood curdling scream the attacker drops to the ground, clawing at the mangled pulp that was once their face. The attacker suffers instant death and all allies must pass a DC 8 Fortitude save to avoid throwing up and suffer a -2 penalty to their next attacks."
+      }
+    ],
+    "FUMBLE:MELEE": [
+      {
+        "roll": "0-1",
+        "result": "The attack goes wild, causing a momentary loss of balance, giving opponents a +1d to attack rolls until your next action."
+      },
+      {
+        "roll": "2",
+        "result": "The attack goes horribly wrong as you slip or trip on something overlooked on the ground. You must pass a DC 12 Reflex save to avoid landing prone in addition to giving all enemies a +1d attack bonus until your next action."
+      },
+      {
+        "roll": "3",
+        "result": "Sweat from your hand or perhaps the blood of your enemy from a previous attack causes your weapon to fly from your hand 1d20' away. If the weapon is a natural attack, such as a claw, assume the attacker twists awkwardly, causing momentary numbness as the limb becomes useless until a DC 10 Fortitude save can be passed."
+      },
+      {
+        "roll": "4",
+        "result": "Blood or sweat enters your eyes or perhaps your target kicks dirt up at the wrong moment. You're temporarily blinded and suffer a -4 to attack rolls for 1d4 rounds."
+      },
+      {
+        "roll": "5",
+        "result": "You slip on something as you swing, causing the attack to go wild and strike a fellow ally also engaged in melee (combat is considered abstract, thus any friendly participating in melee may be affected). Use the same rules for firing into melee to determine the results of the fumble."
+      },
+      {
+        "roll": "6",
+        "result": "The attack strikes a well-defended area of the target. Weapons must immediately pass a DC 13 Fortitude save to avoid being broken (DC 15 to repair). In the case of a natural weapon (claw, bite, etc.) the attacker suffers damage equal to the attack."
+      },
+      {
+        "roll": "7",
+        "result": "The attack misses wildly giving the target confidence in knowing they're superior in prowess. The remainder of the encounter grants a +1d bonus to attack rolls against you."
+      },
+      {
+        "roll": "8",
+        "result": "Your weapon strikes something other than the target, causing it to not only break but damages your attacking hand as well. In addition to the destruction of the weapon, the attacker suffers the normal damage of the weapon -1d."
+      },
+      {
+        "roll": "9",
+        "result": "You over-commit to your attack and miss badly, slipping into melee range of the next ally to attack (ranged or melee). The next attack that misses the original target automatically strikes you instead for normal damage."
+      },
+      {
+        "roll": "10",
+        "result": "Attacker twists the wrong way during the attack, pulling a muscle in their groin. The pain momentarily stuns the attacker for 1d4 rounds in addition to falling prone."
+      },
+      {
+        "roll": "11",
+        "result": "The fierce nature of your opponent is so intimidating that the attacker must withdraw on their next action and redirect their attack on a different target or withdraw and flee if no additional target is available."
+      },
+      {
+        "roll": "12",
+        "result": "Your attack lands weakley and becomes stuck, whether in your own gear or your targets or possibly a terrain feature. The attacker is considered entangled until a DC 12 Reflex save can be passed. While entangled all attacks that miss follow the firing into combat rules (even melee attacks) and can potentially strike the original attacker."
+      },
+      {
+        "roll": "13",
+        "result": "The attacker is left wide open, granting a fierce flurry of blows to which they may only try and deflect. The enemy immediately gains a bonus attack and may continue making bonus attacks as long as each lands successfully, up to a maximum of 6."
+      },
+      {
+        "roll": "14",
+        "result": "The attack is somehow reversed by the defender and used to inflict a critical hit upon the attacker! In addition to inflicting normal damage, roll 1d8 and consult the appropriate Critical Hit chart."
+      },
+      {
+        "roll": "15",
+        "result": "The attack is anticipated in a way that leaves them standing in awe as the weapon is taken by the defender and used against the attacker as a free bonus attack. The target must have a free hand to take the weapon and make the attack or may drop held item(s), otherwise the weapon is thrown 1d20'. Attacks made with natural weapons should reroll on the chart."
+      },
+      {
+        "roll": "16",
+        "result": "The attack is so mistimed that it strikes a random ally with such accuracy that a new attack roll is unnecessary and inflicts +1d damage."
+      },
+      {
+        "roll": "17",
+        "result": "The attack is blocked so effectively it causes the attacking limb to break with a sickening snap! Attacker suffers 1d12 damage and the limb is useless until treated. Additionally, if a weapon was used during the attack it is thrown 1d20' away."
+      },
+      {
+        "roll": "18",
+        "result": "Attacker slips on something or trips, landing prone on the weapon in such a way that normal damage is suffered (no Strength modifier) and a critical hit is scored (roll the attackers crit die)."
+      },
+      {
+        "roll": "19",
+        "result": "The attack is rendered useless and the attacking limb is held, allowing the defender to maneuver the attacker so that all enemy attacks gain a +1d to both attack and damage rolls until the defender releases the limb or the original attacker passes a DC 13 Reflex save."
+      },
+      {
+        "roll": "20",
+        "result": "Lady Calamity has been waiting for this moment! You face a superior foe(s) and they delightfully sense your imminent demise. Your are \"gifted\" one Hex token for every additional attack you miss for the next 10 rounds."
+      },
+      {
+        "roll": "21",
+        "result": "The defender has faced and defeated the attacker in a past life. Every move seems to be telegraphed and countered, while the attacker's defenses seem useless. For the duration of the encounter, the original attackers AC is reduced by -4 and attack rolls suffer -1d."
+      },
+      {
+        "roll": "22",
+        "result": "The attacker has a split-second vision causing the attack to miss, as the attacker is overwhelmed by seeing their fate sealed instead of the threat at hand. The attacker must spend their next action running directly away from the source of the fumble, giving it a free attack. Should the attacker survive the encounter, they're left with a permanent minor phobia related to the encounter."
+      },
+      {
+        "roll": "23",
+        "result": "Your attack is horribly off mark and catches an ally off guard at the worst possible moment. Your attack lands on the ally and scores an automatic critical result. For the duration of the melee you're troubled by your action, suffering a -1d to both attack and damage rolls."
+      },
+      {
+        "roll": "24",
+        "result": "Lady Calamity has had her eye on the attacker for some time and wants to make certain their meddling in her plans ends today. Instead of earning one Hex token for the fumble, they gain 1d4+1 Hex tokens. In addition, the attacker's weapon is jerked mysteriously from their hand (if appropriate) and scatters 1d20' away."
+      },
+      {
+        "roll": "25+",
+        "result": "Lady Luck has turned her attention to the attacker's opponent, seeing them as playing an important part in some future event. She grants 1d4 temporary Boons to the adversary to be used against the original attacker and the critical hit range threshold is increased by one with each successful strike the opponent lands against the original attacker only."
+      }
+    ],
+    "FUMBLE:RANGED": [
+      {
+        "roll": "0-1",
+        "result": "Attacker's weapon slips slightly in their hand! The attack not only misses, but the following attack is made with a -1d penalty on the attack roll."
+      },
+      {
+        "roll": "2",
+        "result": "Something on the ground causes the attacker to slip or trip, throwing the attack off and wasting the shot. Additionally, the attacker must immediately pass a DC 10 Reflex save to avoid falling prone."
+      },
+      {
+        "roll": "3",
+        "result": "Perhaps the sun or maybe a reflective light of some sort causes the shot to drift from the target. The attack not only misses, but the attacker continues to see spots for the next 1d3 rounds, causing a -2 penalty to attack rolls while in effect."
+      },
+      {
+        "roll": "4",
+        "result": "Your weapon malfunctions (bow string breaks, axe head flies off the shaft, etc.) and must be tend to it before it can be used again. Your attack is lost and the affected weapon must be repaired with a DC 8 skill check. Magical weapons lower the DC by one for each +1."
+      },
+      {
+        "roll": "5",
+        "result": "The shot ricochets, potentially rebounding towards the attacker! Make a second attack without ranged modifiers against the attackers AC. Success results in standard damage for the weapon."
+      },
+      {
+        "roll": "6",
+        "result": "The attack is poorly aimed and made strikes a random ally for standard damage. No additional attack roll is needed."
+      },
+      {
+        "roll": "7",
+        "result": "The attack blunders as the attacker drops the weapon used to make the attack. The weapon is dropped and must be picked up by spending the next available action and may not be used on the round it is retrieved."
+      },
+      {
+        "roll": "8",
+        "result": "The attack strikes the target but in an area that causes no damage, instead invoking the anger of the target and directing their next attack on the attacker with a +1d bonus."
+      },
+      {
+        "roll": "9",
+        "result": "Sweat or blood from the attacker trickles into their eyes just as the attack is made, blurring their vision until they can wipe their eyes clear using a standard action with a free hand. Additional attacks suffer a -1d penalty until this can happen."
+      },
+      {
+        "roll": "10",
+        "result": "The attack is knocked wild by an ally engaged in melee, or perhaps due to slipping on something lying on the ground. The attack not only strikes an ally but stuns them for 1d3 rounds as they have suffered a wound from the hands of a trusted friend."
+      },
+      {
+        "roll": "11",
+        "result": "The weapon malfunctions or you slip during the process of release, hitting yourself. No roll is required and you suffer the normal damage of the weapon."
+      },
+      {
+        "roll": "12",
+        "result": "Attacker slips and falls prone as they move to gain a better vantage point. Bows must pass a DC 10 save to avoid breaking, while thrown weapons cause their unmodified damage to the attacker. The attacker is left prone until they take an action to stand."
+      },
+      {
+        "roll": "13",
+        "result": "The attack goes wide and leaves the attacker open for a bonus charge attack from the target. The target must have a direct path to the attacker and be within normal movement range. The charge attack is made at a +2, but leaves the charger at a -2 to AC for the remainder of the round."
+      },
+      {
+        "roll": "14",
+        "result": "The attacker is caught by a target with supernatural reflexes. They snap the arrow/thrown weapon in half while piercing you with a doom-tinged glare. The attacker is intimidated for the duration of the encounter, suffering a -1d to all further attack rolls directed against the original target."
+      },
+      {
+        "roll": "15",
+        "result": "Lady Calamity smiles upon the attacker and marks them for doom. The attacke's fumble range improves by one (for example 1-2 after the first miss, 1-3 after the second, etc.) for each successive miss for the duration of the melee."
+      },
+      {
+        "roll": "16",
+        "result": "Lady Luck has chosen to intervene on behalf of the defender for reasons known only to major forces at play. The defender is given 1d3 Boons that may be used in standard fashion when the attacker is involved."
+      },
+      {
+        "roll": "17",
+        "result": "The attack is on target, but a random ally steps in the path of the attack in such a way that they suffer normal damage and the effects of a critical hit."
+      },
+      {
+        "roll": "18",
+        "result": "The attack misses wildly, but the attacker garners the attention of not only the defender, but all allies of the target not currently involved in combat. All allies of the defender will be aimed at the attacker as they're seen as a threat that must be taken down. All attacks against the attacker are made with a +2 bonus."
+      },
+      {
+        "roll": "19",
+        "result": "Attacker receives a brief vision of a violent death resulting from the current encounter. The attacker must attempt to withdraw from harm's way for the duration of the combat. If the attacker cannot escape, all attacks are made with a -2d penalty."
+      },
+      {
+        "roll": "20+",
+        "result": "Lady Calamity directly intervenes as a ghostly female form materializes, catches the attack, and sends it back towards the attacker with deadly precision. This return attack not only inflicts maximum damage, but also scores a critical hit to the original attacker. Use a d16 as the Crit die."
+      }
+    ]
+  },
+  "_printing_differences": [],
+  "_incomplete_rows": [
+    "CRITICAL HIT:WRESTLING roll 17"
+  ]
+}

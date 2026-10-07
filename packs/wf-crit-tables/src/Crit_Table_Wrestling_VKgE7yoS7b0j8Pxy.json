@@ -1,0 +1,866 @@
+{
+  "_id": "VKgE7yoS7b0j8Pxy",
+  "name": "Crit Table Wrestling",
+  "flags": {},
+  "img": "icons/skills/melee/unarmed-punch-fist.webp",
+  "description": "",
+  "results": [
+    {
+      "_id": "2ZqVzrwjkmMELYK7",
+      "_key": "!tables.results!VKgE7yoS7b0j8Pxy.2ZqVzrwjkmMELYK7",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/unarmed-punch-fist.webp",
+      "weight": 1,
+      "range": [
+        -500,
+        0
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "You get caught up in your signature move not thinking about the safety of allies. Foe is hit for +1d8 damage, and the ally nearest them is also hit by a rebounding blow for 1d4 damage.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "e4fxupDBoHEnQZxm",
+      "_key": "!tables.results!VKgE7yoS7b0j8Pxy.e4fxupDBoHEnQZxm",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/unarmed-punch-fist.webp",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The skin on the target's knuckles on one hand is peeled back. Target suffers +1d6 damage and drops whatever they are holding.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "P1wAy7OxLvosbucV",
+      "_key": "!tables.results!VKgE7yoS7b0j8Pxy.P1wAy7OxLvosbucV",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/unarmed-punch-fist.webp",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Bell clap! You strike with two open-palm strikes targeting the target's ears. In addition to +2d4 damage, the target is deafened for 1d4 rounds (-1d to all actions).",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "MJEs9d5cOqSW3P1f",
+      "_key": "!tables.results!VKgE7yoS7b0j8Pxy.MJEs9d5cOqSW3P1f",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/unarmed-punch-fist.webp",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Grab and jab! You twist target's weapon out of their hand, throwing it 10' away and staggers them back 10'.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "FrZiCwJ7F3nq7GbS",
+      "_key": "!tables.results!VKgE7yoS7b0j8Pxy.FrZiCwJ7F3nq7GbS",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/unarmed-punch-fist.webp",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Knife chop! Wrestler strikes a major artery in the neck, temporarily disrupting blood flow to the target's brain. The attack inflicts +1d6 damage and the target must pass a DC 12 Fortitude save or pass out for 1d2 rounds.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "XaEbgWGXxhtTzvnr",
+      "_key": "!tables.results!VKgE7yoS7b0j8Pxy.XaEbgWGXxhtTzvnr",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/unarmed-punch-fist.webp",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Elbow Smash! Wrestler lands an elbow to the target's temple area temporarily stunning them. In addition to standard damage the wrestler may make an additional attack.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "XLJirR6sRyFSYeei",
+      "_key": "!tables.results!VKgE7yoS7b0j8Pxy.XLJirR6sRyFSYeei",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/unarmed-punch-fist.webp",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Heel stomp! Wrestler leaps into the air focusing all of their weight into a heel stomp that connects with the target's foot. 1d5 toes are broken and target suffers +1d8 damage in addition to being unable to walk for 1d4 rounds.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "mAlpCas1dk7OD2fh",
+      "_key": "!tables.results!VKgE7yoS7b0j8Pxy.mAlpCas1dk7OD2fh",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/unarmed-punch-fist.webp",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Suplex! Wrestler lifts target high into the air before driving them down, back first onto the ground, fracturing vertebrae. Attack inflicts +1d10 damage and the target suffers -1d to all Reflex saves for 48 hours.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "xgpXhgjKFQ969tWn",
+      "_key": "!tables.results!VKgE7yoS7b0j8Pxy.xgpXhgjKFQ969tWn",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/unarmed-punch-fist.webp",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Nose jam! With an upward strike the wrestler breaks and forces the nasal bones back into the brain for +1d10 damage. Target suffers -3 to all reaction rolls due to horrific appearance of a caved in nose.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "Rfykamb2bS4WNmfn",
+      "_key": "!tables.results!VKgE7yoS7b0j8Pxy.Rfykamb2bS4WNmfn",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/unarmed-punch-fist.webp",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Kidney thief! Wrestler catches target in a vulnerable position, directing a powerful strike to a kidney. The attack inflicts +1d12 damage and the target must pass a DC 13 Fortitude save or pass out from the pain for 1d4 rounds.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "2MNA7vL4oPVY3RNl",
+      "_key": "!tables.results!VKgE7yoS7b0j8Pxy.2MNA7vL4oPVY3RNl",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/unarmed-punch-fist.webp",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Flying knee kick! Wrestler leaps high into the air, spinning 360 degrees before landing a powerful kick to the target's knee. In addition to +1d12 damage, target drops to one knee as the kneecap is dislocated. Target suffers a -1d penalty to all physical actions until the injury is treated.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "B9gEVlJW606IVfiF",
+      "_key": "!tables.results!VKgE7yoS7b0j8Pxy.B9gEVlJW606IVfiF",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/unarmed-punch-fist.webp",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Clothesline! The attack breaks the jaw of the target doing +1d14 damage and forces a DC 13 Fortitude save to avoid passing out from pain for 1d6 rounds. Target must seek medical attention to have the mandible reattached.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "Fd0zeit9HminHJGf",
+      "_key": "!tables.results!VKgE7yoS7b0j8Pxy.Fd0zeit9HminHJGf",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/unarmed-punch-fist.webp",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Ear twister! The wrestler puts enough pressure on his pull to rip the target's ear off. Target suffers +2d8 damage and suffers -1d to any physical actions as blood fills the open wound, throwing the target off balance. Target also suffers -2 to any reaction rolls due to the horrific scar.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "HK5yB7nOFbXLCuqC",
+      "_key": "!tables.results!VKgE7yoS7b0j8Pxy.HK5yB7nOFbXLCuqC",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/unarmed-punch-fist.webp",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Body slam! Target's shoulder is dislocated for +3d6 damage and the arm dangles useless until treatment can be provided.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "4lyDV2P6bhJTz67J",
+      "_key": "!tables.results!VKgE7yoS7b0j8Pxy.4lyDV2P6bhJTz67J",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/unarmed-punch-fist.webp",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Eye plucker! Wrestler strikes the target's eye with a rigid finger, plunging and hooking the organ free of the skull. Target suffers +1d16 damage and loses the use of one eye (-2 to all physical based rolls) unless magically treated.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "GnMMETiOpcsOt3Cf",
+      "_key": "!tables.results!VKgE7yoS7b0j8Pxy.GnMMETiOpcsOt3Cf",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/unarmed-punch-fist.webp",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Pile driver! Target is swept up, vertically upside down, before being driven head first into the ground. Target suffers +1d16 damage and must pass a DC 13 Fortitude save or become paralyzed for 1d3 days.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "eZ2gvXaiHGKqLIaR",
+      "_key": "!tables.results!VKgE7yoS7b0j8Pxy.eZ2gvXaiHGKqLIaR",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/unarmed-punch-fist.webp",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Pipe crusher! Target is struck directly in the trachea, crushing the windpipe. The attack inflicts +1d14 damage and the target suffers -2d to any physical actions until treated.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "TmC6frinMKVhbczg",
+      "_key": "!tables.results!VKgE7yoS7b0j8Pxy.TmC6frinMKVhbczg",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/unarmed-punch-fist.webp",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Flying kick! Launching into the air, the wrestler lands a heel to the target's mouth, knocking 1d8 teeth out and causing them to bite through their tongue. Attack inflicts +2d12 damage and the",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "W5cntJ1NKa1sDbdJ",
+      "_key": "!tables.results!VKgE7yoS7b0j8Pxy.W5cntJ1NKa1sDbdJ",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/unarmed-punch-fist.webp",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Tomahawk chop! Wrestler cleaves into the upper chest of target, snapping the clavicle. Attack inflicts +3d8 damage in addition to the sickening pain. Target is -1d to any physical actions until treated.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "dUy4zb5DhxOwKBlR",
+      "_key": "!tables.results!VKgE7yoS7b0j8Pxy.dUy4zb5DhxOwKBlR",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/unarmed-punch-fist.webp",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Skull peeler! Target is effectively scalped as wrestler digs their nails into the skin of the target's forehead, peeling back the thin layer covering the skull. Attack inflicts +2d10 damage and the target continues to suffer 1d4 in bleed damage each round for 1d6 rounds until stabilized. Target suffers a permanent -3 to all reaction rolls due to wicked scar.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "T2fOCRvvT3jjR6iC",
+      "_key": "!tables.results!VKgE7yoS7b0j8Pxy.T2fOCRvvT3jjR6iC",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/unarmed-punch-fist.webp",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Arm breaker! Wrestler catches the target's arm in a crushing hold, snapping it like a twig. The attack inflicts +2d12 damage and the target must pass a DC 14 Fortitude save to avoid passing out. Target also loses the use of their arm until treated.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "ydXsd8CHpxADkBui",
+      "_key": "!tables.results!VKgE7yoS7b0j8Pxy.ydXsd8CHpxADkBui",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/unarmed-punch-fist.webp",
+      "weight": 1,
+      "range": [
+        21,
+        21
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Flying leg lariat! Launching into the air, the wrestler locks legs around the target's neck and slams them down to the ground. Attack inflicts +3d12 damage and the target must pass a DC 12 Fortitude save or suffer spinal damage and partial paralysis resulting in a loss of 2d6 Agility points.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "KXMF3l4Tbbi9yCUw",
+      "_key": "!tables.results!VKgE7yoS7b0j8Pxy.KXMF3l4Tbbi9yCUw",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/unarmed-punch-fist.webp",
+      "weight": 1,
+      "range": [
+        22,
+        22
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Supernatural elbow drop! Wrestler leaps high into the air, coming down directly on target's leg. Target's femur shatters as the femoral artery sprays gore in both target and wrestler's face. Target suffers +3d12 damage and continues to bleed for 1d3 damage each round until stabilized, in addition to being unable to stand.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "vdTQMJoDn6tW2XvJ",
+      "_key": "!tables.results!VKgE7yoS7b0j8Pxy.vdTQMJoDn6tW2XvJ",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/unarmed-punch-fist.webp",
+      "weight": 1,
+      "range": [
+        23,
+        23
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Nut buster! A forceful knee to the genitalia explodes the area for +4d6 damage. Target is stunned for 1d8 rounds and loses the ability to reproduce.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "SZ8Co2ZgRSaacnHv",
+      "_key": "!tables.results!VKgE7yoS7b0j8Pxy.SZ8Co2ZgRSaacnHv",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/unarmed-punch-fist.webp",
+      "weight": 1,
+      "range": [
+        24,
+        24
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Flying knee strike! Wrestler launches high into the air, planting a knee in the center of the target's sternum, crushing their ribcage. In addition to +3d12 damage, the target must pass a DC 15 Fortitude save or have both lungs collapse. Once collapsed, the target suffers 1d4 Stamina damage each round until Stamina zero is reached, meaning death. Only magical healing may be administered.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "Yktg6GhX7NsZPwTu",
+      "_key": "!tables.results!VKgE7yoS7b0j8Pxy.Yktg6GhX7NsZPwTu",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/unarmed-punch-fist.webp",
+      "weight": 1,
+      "range": [
+        25,
+        25
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Raven claw! Wrestler rakes and severs the carotid artery causing a spout of blood to spray with each heartbeat. Attack inflicts +3d8 damage plus an additional 1d3 in bleed damage each round unless pressure is applied to the wound or healed.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "FPGZGWin6a1T49x6",
+      "_key": "!tables.results!VKgE7yoS7b0j8Pxy.FPGZGWin6a1T49x6",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/unarmed-punch-fist.webp",
+      "weight": 1,
+      "range": [
+        26,
+        26
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Ultimate skull crusher! Wrestler flips the target upside down vertically before slamming them down head first, causing the spine to plunge through the base of the skull into the brain. Attack inflicts +3d12 damage and the target's Intelligence is reduced by 3d6.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "RDJ7UShNXV7MuBMC",
+      "_key": "!tables.results!VKgE7yoS7b0j8Pxy.RDJ7UShNXV7MuBMC",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/unarmed-punch-fist.webp",
+      "weight": 1,
+      "range": [
+        27,
+        27
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Breath taker! Wrestler launches into the air landing a crushing hold on target's windpipe, crushing it instantly. Target must pass a DC 15 Fortitude save or die a slow painful death as they struggle for breath, taking 1d6 stamina damage each round until Stamina zero is reached and death occurs.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "0EfuujAjyMxS7JDD",
+      "_key": "!tables.results!VKgE7yoS7b0j8Pxy.0EfuujAjyMxS7JDD",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/unarmed-punch-fist.webp",
+      "weight": 1,
+      "range": [
+        28,
+        28
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Spine cracker! Wrestler lifts the target high over head and drops to their knees, shattering target's spine over the shoulders of the wrestler. Target takes +3d12 damage and must immediately pass a DC 15 Fortitude save or suffer permanent paralysis. Only magical healing can repair the damage.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "MAfrosBit5bmPFDW",
+      "_key": "!tables.results!VKgE7yoS7b0j8Pxy.MAfrosBit5bmPFDW",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/unarmed-punch-fist.webp",
+      "weight": 1,
+      "range": [
+        29,
+        29
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Casket plant! Wrestler slams target to the ground before launching high into the air and planting both heels into the gut of the target, rupturing several vital organs. In addition to +4d12 damage, the target must immediately pass a DC 16 Fortitude save or bleed out instantaneously. Passing the save means bleeding 1d4 damage each round until treated.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "7f7amf799WylarXD",
+      "_key": "!tables.results!VKgE7yoS7b0j8Pxy.7f7amf799WylarXD",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/unarmed-punch-fist.webp",
+      "weight": 1,
+      "range": [
+        30,
+        500
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Spine ripper! Wrestler flips the target to the ground, momentarily stunning them. The wrestler then twists and pulls with such force that the target's head and spine are ripped from their body in a bloody display of gore. Target is slain instantly.",
+      "name": "",
+      "documentUuid": null
+    }
+  ],
+  "formula": "1d30",
+  "replacement": true,
+  "displayRoll": true,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "dcc",
+    "systemVersion": "0.70.50",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "wfvtt00000000000"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_key": "!tables!VKgE7yoS7b0j8Pxy"
+}

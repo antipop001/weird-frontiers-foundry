@@ -1,0 +1,62 @@
+{
+  "img": "icons/svg/sword.svg",
+  "name": "Volcanic Carbine (.41)",
+  "type": "weapon",
+  "system": {
+    "description": {
+      "value": "<table><tr><td><strong>Caliber</strong></td><td>.41</td></tr><tr><td><strong>Type</strong></td><td>Lever</td></tr><tr><td><strong>Ammo</strong></td><td>Volcanic Rocketball</td></tr><tr><td><strong>Damage</strong></td><td>1d6</td></tr><tr><td><strong>ROF</strong></td><td>2</td></tr><tr><td><strong>Load</strong></td><td>25</td></tr><tr><td><strong>Reload time</strong></td><td>1/2</td></tr><tr><td><strong>Range</strong></td><td>20/50/100</td></tr><tr><td><strong>Conceal</strong></td><td>-3</td></tr><tr><td><strong>Price</strong></td><td>$30</td></tr></table>",
+      "chat": "",
+      "unidentified": "",
+      "summary": "",
+      "judge": {
+        "value": ""
+      }
+    },
+    "source": "Weird Frontiers",
+    "damage": "1d6",
+    "range": "20/50/100",
+    "melee": false,
+    "trained": false,
+    "twoHanded": true
+  },
+  "flags": {
+    "wfvtt": {
+      "firearm": {
+        "isFirearm": true,
+        "caliber": ".41",
+        "actionType": "Lever",
+        "ammo": "Volcanic Rocketball",
+        "rof": "2",
+        "load": "25",
+        "reloadTime": "1/2",
+        "conceal": -3,
+        "year": "",
+        "price": 30,
+        "priceText": "$30",
+        "bandedDamage": "",
+        "secondBarrelDamage": "",
+        "meleeNote": "",
+        "damageType": ""
+      }
+    }
+  },
+  "folder": "cqaPZUMWyQhYY4Lw",
+  "_id": "KyW4qMiw4wm96O9j",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "dcc",
+    "systemVersion": "0.70.50",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "wfvtt00000000000"
+  },
+  "_key": "!items!KyW4qMiw4wm96O9j"
+}

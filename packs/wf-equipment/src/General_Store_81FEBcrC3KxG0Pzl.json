@@ -1,0 +1,23 @@
+{
+  "name": "General Store",
+  "type": "Item",
+  "color": "#3f4a3a",
+  "folder": null,
+  "_id": "81FEBcrC3KxG0Pzl",
+  "description": "",
+  "sorting": "a",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "dcc",
+    "systemVersion": "0.70.50",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "wfvtt00000000000"
+  },
+  "_key": "!folders!81FEBcrC3KxG0Pzl"
+}

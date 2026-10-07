@@ -1,0 +1,62 @@
+{
+  "img": "icons/svg/sword.svg",
+  "name": "Roper Repeating Shotgun (12g)",
+  "type": "weapon",
+  "system": {
+    "description": {
+      "value": "<table><tr><td><strong>Caliber</strong></td><td>12g</td></tr><tr><td><strong>Type</strong></td><td>Single</td></tr><tr><td><strong>Ammo</strong></td><td>Cart.</td></tr><tr><td><strong>Damage</strong></td><td>d12/d8/d5</td></tr><tr><td><strong>ROF</strong></td><td>2</td></tr><tr><td><strong>Load</strong></td><td>4</td></tr><tr><td><strong>Reload time</strong></td><td>2</td></tr><tr><td><strong>Range</strong></td><td>20/40/80</td></tr><tr><td><strong>Conceal</strong></td><td>-6</td></tr><tr><td><strong>Price</strong></td><td>$60</td></tr></table>",
+      "chat": "",
+      "unidentified": "",
+      "summary": "",
+      "judge": {
+        "value": ""
+      }
+    },
+    "source": "Weird Frontiers",
+    "damage": "1d12",
+    "range": "20/40/80",
+    "melee": false,
+    "trained": false,
+    "twoHanded": true
+  },
+  "flags": {
+    "wfvtt": {
+      "firearm": {
+        "isFirearm": true,
+        "caliber": "12g",
+        "actionType": "Single",
+        "ammo": "Cart.",
+        "rof": "2",
+        "load": "4",
+        "reloadTime": "2",
+        "conceal": -6,
+        "year": "",
+        "price": 60,
+        "priceText": "$60",
+        "bandedDamage": "d12/d8/d5",
+        "secondBarrelDamage": "",
+        "meleeNote": "",
+        "damageType": ""
+      }
+    }
+  },
+  "folder": "Gh74cBRafYLjH86Z",
+  "_id": "tqcqooOshUyEyISG",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "dcc",
+    "systemVersion": "0.70.50",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "wfvtt00000000000"
+  },
+  "_key": "!items!tqcqooOshUyEyISG"
+}

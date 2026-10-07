@@ -12,22 +12,12 @@ dist/
 corpus/
 *.pdf
 
-## EVERYTHING DERIVED FROM THE BOOKS. One rule, deliberately broad: if a generator produced it
-## from the Weird Frontiers text, it is not committed. That avoids drawing fine lines about which
-## derived values are "just mechanics" -- `npm run build` reproduces all of it from your corpus in
-## well under a minute.
+## The game data IS included — see NOTICE.md. It is generated from the books by the scripts in
+## tools/, and it is here because this repository exists to be read by the Weird Frontiers rights
+## holders and by playtesters, both of whom need the complete module to judge or play it.
 ##
-## Note this means a FRESH CLONE DOES NOT RUN until you build: the class, fumble and monster data
-## are generated into module/, and a missing ESM import stops Foundry loading the module at all.
-data/
-packs/*/src/
-module/wf-class-registry.mjs
-module/wf-fumble-data.mjs
-module/wf-monster-crit-data.mjs
-templates/actor-partial-wf-common.html
-templates/actor-partial-wf-equipment.html
-templates/actor-partial-wf-goods.html
-templates/actor-partial-wf-npc-common.html
+## What stays out: YOUR copy of the source books themselves (corpus/, *.pdf, below). The data is
+## derived; the books are not ours to pass on.
 
 ## Compiled compendium packs. Source of truth is packs/<name>/src/*.json; the LevelDB is a
 ## build artifact produced by `npm run todb`.

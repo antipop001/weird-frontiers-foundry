@@ -1,0 +1,52 @@
+{
+  "img": "icons/svg/sword.svg",
+  "name": "Zweihander",
+  "type": "weapon",
+  "system": {
+    "description": {
+      "value": "<table><tr><td><strong>Damage</strong></td><td>1d12</td></tr><tr><td><strong>Type</strong></td><td>S</td></tr><tr><td><strong>Weight (lbs)</strong></td><td>4</td></tr><tr><td><strong>Price</strong></td><td>$20</td></tr><tr><td><strong>Notes</strong></td><td>Exotic, two handed, adds a +1d modifier to any critical hit chart roll</td></tr></table>",
+      "chat": "",
+      "unidentified": "",
+      "summary": "",
+      "judge": {
+        "value": ""
+      }
+    },
+    "source": "Weird Frontiers",
+    "damage": "1d12",
+    "range": "",
+    "melee": true,
+    "trained": false,
+    "weight": 4
+  },
+  "flags": {
+    "wfvtt": {
+      "firearm": {
+        "isFirearm": false,
+        "damageType": "s",
+        "bandedDamage": "",
+        "price": 20,
+        "priceText": "$20"
+      }
+    }
+  },
+  "folder": "1rAPHmXyqZewpW9o",
+  "_id": "n2Mn5Qic2BLYPPGs",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "dcc",
+    "systemVersion": "0.70.50",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "wfvtt00000000000"
+  },
+  "_key": "!items!n2Mn5Qic2BLYPPGs"
+}

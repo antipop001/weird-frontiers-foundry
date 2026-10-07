@@ -1,0 +1,244 @@
+{
+  "source": {
+    "pdf": "Weird_Frontiers_V6.pdf",
+    "fear_pages": [
+      146,
+      147
+    ],
+    "madness_page": 148,
+    "cross_checked_against": "Weird_Frontiers_Reference_Guide.md (# FEAR AND MADNESS), 12 rows",
+    "why_not_the_corpus_markdown": "pdf2md drops the MIDDLE of long cells here and splices head to tail, so rows read as complete sentences with a clause missing. The PDF text layer is whole."
+  },
+  "fear": {
+    "index": "grit-check-failure-margin",
+    "modifiers": "positive Luck modifiers subtract from the total; each Hex token adds +1",
+    "conflict": {
+      "v6": "use the amount the Grit check failed by, modified by Luck and Hex tokens (no die) -- stated at the Failure rule, the Critical failure rule and the Fear Chart intro",
+      "reference_guide": "Roll 1d20 modified by the amount the Grit check failed by, plus Luck and Hex tokens",
+      "resolution": "V6 (the core rulebook) is the default; it states the rule three times consistently. Needs a judge call to adopt the RG variant."
+    },
+    "rows": [
+      {
+        "roll": "1 or less",
+        "min": -999,
+        "max": 1,
+        "text": "Your hairs stand on end as prickly bumps rise on your skin. This could be the end! You suffer a -2 penalty to all actions for the next d3 rounds."
+      },
+      {
+        "roll": "2",
+        "min": 2,
+        "max": 2,
+        "text": "You grab your gut, dry heave, and fight the urge to empty its contents. The horrific retching noises you make distract all allies within earshot causing them to suffer a -2 penalty to their next action while you lose your next action."
+      },
+      {
+        "roll": "3",
+        "min": 3,
+        "max": 3,
+        "text": "“Momma said there weren’t no such thing as boogers, but I’ll be damned if I ain’t staring at something born from the Devil himself!” The source of fear that made ya’ turn yeller’ causes you to drop whatever you’re holding."
+      },
+      {
+        "roll": "4",
+        "min": 4,
+        "max": 4,
+        "text": "Icy chills race from the base of your spine all the way to that thing you call a brain. You freeze with panic and can’t even speak for 1d3 rounds (unable to take any actions for the duration)."
+      },
+      {
+        "roll": "5",
+        "min": 5,
+        "max": 5,
+        "text": "You feel the grip of fear on your bladder and it gives a good squeeze! Should the source of your fear be a creature, it smells the fear and gains a +2 attack bonus against you for the encounter. Additionally, you suffer a -1d to all actions for 1d3 rounds."
+      },
+      {
+        "roll": "6",
+        "min": 6,
+        "max": 6,
+        "text": "A piercing shrill leaves your mouth, alerting everyone to the yeller in your heart! All attempts at stealth are ruined and you can take no action other than screaming for 1d3 rounds or until a Willpower save is passed (DC 12)."
+      },
+      {
+        "roll": "7",
+        "min": 7,
+        "max": 7,
+        "text": "Ain’t no beating this thing! Whatever it is you just took a gander at spells certain doom for you and the poor folks in yer’ company. The best course of action is to get to steppin’ before your friends beat you to it, as the slowest to act is the first to get eaten! You immediately flee with your next action and continue to run for 1d6 further rounds if a DC 12 Will save is not made.."
+      },
+      {
+        "roll": "8",
+        "min": 8,
+        "max": 8,
+        "text": "The source of the fear reaches deep to something you experienced as a child, the Bogeyman incarnate! Since there’s no bed to crawl under, you drop to your knees and begin begging for your life between cowardly sobs. You are at -2d to all actions against the source of your fear. The source gains a +2d attack bonus against you."
+      },
+      {
+        "roll": "9",
+        "min": 9,
+        "max": 9,
+        "text": "The sight you just witnessed paints a picture in your mind that won’t soon be erased. Your mind reels from the horror before causing a -1d action penalty until you can pass another Grit check (at a -1d penatly) with the same DC as the original (do not roll further Fear chart effects if failure continues)."
+      },
+      {
+        "roll": "10",
+        "min": 10,
+        "max": 10,
+        "text": "You mean no offense when you take the closest ally and toss them toward whatever intends to pick its teeth with your ribs. You gain an additional +4 to your AC for 1 round while your target ally is attacked with a +1 bonus during the same round. Should the attack strike your ally, it results in a critical hit."
+      },
+      {
+        "roll": "11",
+        "min": 11,
+        "max": 11,
+        "text": "Sometimes, when you look death in the eye, the demise you see for yourself is too much to handle. That’s when your brain does you a “solid” and blows out the candles. You faint and fall unconscious to the ground until you’re roused by smacks to the face, cold water being splashed on you, or other methods. A Will save against a DC of 10 + creature's HD will negate the effect."
+      },
+      {
+        "roll": "12",
+        "min": 12,
+        "max": 12,
+        "text": "The best remedy for this tragic episode is to just forget you’re even in it! You lose any valuable information related to the current adventure as your short-term memory flees your skull."
+      },
+      {
+        "roll": "13",
+        "min": 13,
+        "max": 13,
+        "text": "The scent of your fear fills the nostrils of the thing that just turned you yeller! It figures yer’ an easy kill, and you ain’t in no position to disagree at the moment. For 1d6 rounds you suffer a -1d attack and damage penalty versus the source of the Grit check, while the source gains a +1d bonus to attack and damage against you!"
+      },
+      {
+        "roll": "14",
+        "min": 14,
+        "max": 14,
+        "text": "The dreams you’ve been having all make sense now as you face the source of those nightmares. For 1d8 rounds, you tremble in fear as you feel that you’re facing death itself. Should the source of the fear attack you, all successful strikes hit for maximum damage."
+      },
+      {
+        "roll": "15",
+        "min": 15,
+        "max": 15,
+        "text": "The shock to your system momentarily causes neurons to misfire, releasing an excess of serotonin. You laugh uncontrollably, as death seems an unavoidable joke. All stealth attempts within earshot are negated, and your cackling unnerves allies, causing a -3 penalty to all action checks for 1d6 rounds."
+      },
+      {
+        "roll": "16",
+        "min": 16,
+        "max": 16,
+        "text": "That thing is uglier than the neighbor’s baby! You lose the remains of that delicious chicken-fried steak by violently heaving for the next 1d8 rounds (unable to take other actions) unless a Fort save at DC 10+HD of creature is passed. Allies suffer a -1d penalty to all action rolls as they fight the urge to purge alongside you."
+      },
+      {
+        "roll": "17",
+        "min": 17,
+        "max": 17,
+        "text": "What you just saw can’t be unseen! The fear causes you to suffer a mild stroke. Part of your face droops from paralysis, and your words slur as drool runs down your pie-hole. All spell casting and attempts at speaking suffer a -1d penalty for the next 1d3 days."
+      },
+      {
+        "roll": "18",
+        "min": 18,
+        "max": 18,
+        "text": "You feel the blood in your veins boil as certain doom takes a saddle to you! You immediately charge the source of fear with your next available action, gaining a +1d to attack and damage rolls at the expense of suffering a -4 to AC. The effect lasts for 1d6 rounds. Should the source of the fear expire, you will attack a new target (even an ally)."
+      },
+      {
+        "roll": "19",
+        "min": 19,
+        "max": 19,
+        "text": "If it weren’t for these blamed idiots you call friends, you wouldn’t be in this mess. You’re sure that the source of the threat will spare you if you show it you’re willing to turn traitor on your posse! You immediately attack a random ally and continue to do so until you can pass the Grit check you just failed (do not roll further on this chart if you continue to fail). You attack using your most potent ability."
+      },
+      {
+        "roll": "20",
+        "min": 20,
+        "max": 20,
+        "text": "You feel the current situation will only result in your death, and to save your allies, you rouse up one last attempt at bravery and throw yourself directly into the face of death. You shield your allies from the biggest threat in the combat at the cost of every successful attack resulting in a critical hit."
+      },
+      {
+        "roll": "21",
+        "min": 21,
+        "max": 21,
+        "text": "The source of terror plays directly upon a childhood fear and takes you down a path you’ve spent a lifetime trying to forget. You lose control of all bodily functions and pass out for 1d10 rounds or until roused. All standard reaction rolls suffer a -1d penalty until you can properly clean up and fetch a change of clothes."
+      },
+      {
+        "roll": "22",
+        "min": 22,
+        "max": 22,
+        "text": "The source of fear is so horrific that you take a temporary plunge down the rabbit hole as you attempt to remove your own eyes. Each round you suffer 1d3 Stamina damage as you claw at your eyes. In addition, you suffer from temporary blindness. You must pass the same Grit check you failed each round to avoid permanently destroying your eyes (do not roll for further effects on this chart for failures). Reach 0 Stamina and your eyes are permanently destroyed unless magically healed."
+      },
+      {
+        "roll": "23",
+        "min": 23,
+        "max": 23,
+        "text": "The vision of terror you’re forced to take a gander at is more than your poor brain can handle. You fall uncontrollably to the ground and enter a violent seizure. You’re helpless as you succumb to the tremors taking over your body. The seizure lasts for 1d8 rounds, after which you suffer an additional 1d6 rounds of confusion (-2 to all rolls)."
+      },
+      {
+        "roll": "24",
+        "min": 24,
+        "max": 24,
+        "text": "You feel waves of fear overwhelm you, making what would normally seem an insane reaction seem perfectly logical. You feel certain that showing the source of the fear that you have no fear of dying will help win the day. Use your next action to inflict harm upon yourself. The source of the fear will ignore you as long as it has a low level of intelligence, as it assumes you’re ending your own life. You may attempt to pass the failed Grit check each round to regain your senses and stop the self harm (do not make further rolls on this chart for failures)."
+      },
+      {
+        "roll": "25",
+        "min": 25,
+        "max": 25,
+        "text": "You’ve heard of folks being scared blind, and that’s just what happens when you gaze on the source of the Grit check. A nervous response makes you go blind until a Fort save at DC 10+HD of creature is made (check each day) or you are healed for 4HD.."
+      },
+      {
+        "roll": "26",
+        "min": 26,
+        "max": 26,
+        "text": "You find no solution to the threat at hand other than to run directly away from the source of fear. You flee for 1d10 rounds, and the event that caused the Grit check leaves a permanent mark upon your sanity— you collect a permanent phobia related to the encounter."
+      },
+      {
+        "roll": "27",
+        "min": 27,
+        "max": 27,
+        "text": "Your body goes into shock as you realize the source of the threat is unbeatable and so vile that you pull deep within yourself to shield what little sanity you have left. You are helpless as you go into shock for 1d10 rounds. Surviving the encounter will leave you with a permanent phobia related to the encounter."
+      },
+      {
+        "roll": "28",
+        "min": 28,
+        "max": 28,
+        "text": "The event unfolding in front of you is too big a burden for your fragile psyche. You must remember something about the encounter (if you survive!) to keep you from ever finding yourself in this situation again. Your body hair turns white as you suffer a full-blown stroke. You fall prone to the ground and all your ability scores are permanently reduced by 1d3. You are helpless for the duration of the encounter and face a slow road to healing to regain your lost health."
+      },
+      {
+        "roll": "29",
+        "min": 29,
+        "max": 29,
+        "text": "Death is in the eyes of the threat you now face. There is no escape this time, no narrow victory, only death. You grasp at your chest on the way to the ground and must pass a DC 15 Fortitude save or drop dead from fright. A roll the body check can still save your hide, but you’ll age 1d20 years and find your hair has turned alabaster white. The judge may assign 1d4 in permanent ability loss to chosen scores if you’ve suddenly entered your dotage."
+      },
+      {
+        "roll": "30+",
+        "min": 30,
+        "max": 999,
+        "text": "Some things man just ain’t meant to see, and when you realize they’re breathing the same air as you, the heart can’t bear the load! You clutch at your chest as you feel the terror serve such a shock to your system that death is instant and permanent. You feel your spirit leave its mortal shell and move onto whatever afterlife you carved out for yourself in recent years. A roll the body check will not save you."
+      }
+    ]
+  },
+  "madness": {
+    "trigger": "reaching zero Grit during an adventure",
+    "formula": "1d100",
+    "modifiers": "-10% per +1 Luck modifier, +10% per -1 Luck modifier, +10% per Hex token",
+    "penalty": "-1d to all rolls for the remainder of the encounter",
+    "bands": [
+      {
+        "printed_min": 0,
+        "printed_max": 25,
+        "label": "Minor Phobia",
+        "text": "The encounter leaves the character with a permanent minor phobia relating to the encounter that caused the mental breakdown. Should the character know they are in the source’s presence, an immediate DC12 Willpower save must be passed to avoid a -1d penalty to all rolls until the source of the phobia is no longer present.",
+        "min": -999,
+        "max": 25
+      },
+      {
+        "printed_min": 26,
+        "printed_max": 50,
+        "label": "Minor Disorder",
+        "text": "The encounter leaves the character with a permanent minor disorder relating to the encounter that caused the mental breakdown. The type and in-game effects of the disorder are determined by the character’s player and their judge. Minor disorders typically attach a -1d penalty to social or physical rolls. To momentarily shrug off the effects, pass a DC15 Willpower save with success resulting in temporarily pushing the disorder down for the duration of this encounter.",
+        "min": 26,
+        "max": 50
+      },
+      {
+        "printed_min": 51,
+        "printed_max": 75,
+        "label": "Major Phobia",
+        "text": "The encounter leaves the character with a permanent major phobia relating to the encounter that caused the mental breakdown. Should the character know they are in the source’s presence, an immediate DC15 Willpower save must be passed to avoid a -2d penalty to all rolls until the source of the phobia is no longer present.",
+        "min": 51,
+        "max": 75
+      },
+      {
+        "printed_min": 76,
+        "printed_max": 100,
+        "label": "Major Disorder",
+        "text": "The encounter leaves the character with a permanent major disorder possibly relating to the encounter that caused the mental breakdown. The type and in-game effects of the disorder are determined by the character’s player and their judge. Major disorders typically attach a -2d penalty to social or physical rolls. To momentarily shrug off the effects, pass a DC17 Willpower save with success resulting in temporarily pushing the disorder down for the duration of this encounter.",
+        "min": 76,
+        "max": 999
+      }
+    ],
+    "specific_affliction": "DELIBERATELY not a table. An earlier draft had a random derangement chart; the author removed it so that no player is handed a condition they live with. The judge and group decide how it manifests."
+  }
+}

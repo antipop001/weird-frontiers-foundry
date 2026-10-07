@@ -1,7 +1,8 @@
 Weird Frontiers for Foundry VTT (module id: wfvtt)
 
 ================================================================================
-TWO DIFFERENT THINGS LIVE IN THIS REPOSITORY AND THEY HAVE DIFFERENT OWNERS.
+TWO DIFFERENT THINGS LIVE HERE AND THEY HAVE DIFFERENT OWNERS.
+Read NOTICE.md first — it explains why the game data is included.
 ================================================================================
 
 1. THE MODULE
@@ -11,29 +12,32 @@ TWO DIFFERENT THINGS LIVE IN THIS REPOSITORY AND THEY HAVE DIFFERENT OWNERS.
    generated card artwork under assets/ are the work of the module author.
 
    >>> LICENCE NOT YET CHOSEN. <<<
-   Until a licence is named here, all rights are reserved and no permission to
-   copy, modify or redistribute is granted. If you are the author: pick one
-   (MIT and Apache-2.0 are the usual choices for a Foundry module) and replace
-   this paragraph with its text.
+   Until a licence is named here, all rights are reserved. If you are the
+   author: pick one (MIT and Apache-2.0 are the usual choices for a Foundry
+   module) and replace this paragraph with its text.
 
 2. THE WEIRD FRONTIERS GAME CONTENT
-   Copyright (c) David Baity / Reroll Productions.
+   Copyright (c) David Baity / Reroll Productions. All rights reserved by them.
 
-   Weird Frontiers is a commercial product and its text, tables and artwork
-   belong to its author. **None of it is distributed with this repository.**
+   The contents of data/ and packs/*/src/, and the generated data files in
+   module/, are derived from the Weird Frontiers books. Much of it reproduces
+   the published text closely or exactly.
 
-   The `data/` and `packs/*/src/` files are GENERATED on your machine, by the
-   scripts in `tools/`, from your own legally obtained copy of the books. They
-   are build artifacts of your copy, not redistributed content. See
-   `tools/corpus_paths.py` for how to point the generators at your books.
+   It is present so that the rights holders can evaluate the module and so that
+   it can be properly playtested — see NOTICE.md. That is the whole of the
+   justification, and it is not a licence.
 
-   Do not commit generated data, compiled packs, or any part of the books to a
-   public fork of this repository. `.gitignore` is set up to keep your corpus
-   out; the release tooling asserts the same thing before it will build a zip.
+   >>> NO PERMISSION IS GRANTED TO ANYONE TO REDISTRIBUTE IT. <<<
+   This repository is private and shared by invitation. Do not make it public,
+   fork it publicly, host the built zip, or pass the data on. If you received a
+   built module, you received it for evaluation or playtest and the same applies.
 
-   If you want to distribute a ready-built module containing that data, you
-   need the rights holder's permission. That is a conversation to have with
-   David Baity, not something this licence can grant.
+   If Reroll Productions want any of it removed or changed, that will be done
+   promptly. tools/ regenerates everything from the books, so the data can be
+   stripped and the module still built by anyone who owns a copy.
+
+   You still need the books. This module is not a substitute for them and is
+   useless without them.
 
 ================================================================================
 

@@ -1,0 +1,2557 @@
+{
+  "source": {
+    "melee": "Weird_Frontiers_Reference_Guide.md:1380-1421",
+    "ranged": "Weird_Frontiers_Reference_Guide.md:1423-1437",
+    "goods": "Weird_Frontiers_Reference_Guide.md:2228-2500",
+    "dynamite": "Weird_Frontiers_V6.md:15668 (table row); damage Weird_Frontiers_V6.md:3379",
+    "note": "Regenerate with tools/build_equipment.py; never hand-edit."
+  },
+  "melee": [
+    {
+      "name": "Axe, hand",
+      "damage": "1d6",
+      "altDamage": "",
+      "damageType": "S",
+      "weight": 4.0,
+      "price": 3.0,
+      "priceText": "$3",
+      "notes": ""
+    },
+    {
+      "name": "Bagh Nakh",
+      "damage": "1d5+1",
+      "altDamage": "",
+      "damageType": "S",
+      "weight": 1.0,
+      "price": 1.0,
+      "priceText": "$1",
+      "notes": "Exotic"
+    },
+    {
+      "name": "Battleaxe",
+      "damage": "1d10",
+      "altDamage": "",
+      "damageType": "S",
+      "weight": 5.0,
+      "price": 12.0,
+      "priceText": "$12",
+      "notes": "Exotic"
+    },
+    {
+      "name": "Bayonet",
+      "damage": "1d7",
+      "altDamage": "",
+      "damageType": "P",
+      "weight": 2.0,
+      "price": 1.0,
+      "priceText": "$1",
+      "notes": "Must be mounted on a rifle"
+    },
+    {
+      "name": "Brass knuckles",
+      "damage": "1d6",
+      "altDamage": "",
+      "damageType": "B",
+      "weight": 0.5,
+      "price": 2.0,
+      "priceText": "$2",
+      "notes": ""
+    },
+    {
+      "name": "Cane",
+      "damage": "1d4",
+      "altDamage": "",
+      "damageType": "B",
+      "weight": 1.0,
+      "price": 1.0,
+      "priceText": "$1",
+      "notes": ""
+    },
+    {
+      "name": "Cane sword",
+      "damage": "1d6",
+      "altDamage": "",
+      "damageType": "S",
+      "weight": 1.0,
+      "price": 3.0,
+      "priceText": "$3",
+      "notes": "+4 to concealment rolls"
+    },
+    {
+      "name": "Cestus",
+      "damage": "1d5",
+      "altDamage": "",
+      "damageType": "P",
+      "weight": 1.0,
+      "price": 3.0,
+      "priceText": "$3",
+      "notes": "Exotic, grants +1 to AC vs 1 melee attack per round"
+    },
+    {
+      "name": "Chain",
+      "damage": "1d4",
+      "altDamage": "",
+      "damageType": "B",
+      "weight": 5.0,
+      "price": 2.0,
+      "priceText": "$2",
+      "notes": "Used to trip or disarm. Foe must beat attack result or fall, become grappled, etc."
+    },
+    {
+      "name": "Club",
+      "damage": "1d6",
+      "altDamage": "",
+      "damageType": "B",
+      "weight": 3.0,
+      "price": 1.0,
+      "priceText": "$1",
+      "notes": ""
+    },
+    {
+      "name": "Halberd",
+      "damage": "1d10",
+      "altDamage": "d10/d6",
+      "damageType": "S/P",
+      "weight": 6.0,
+      "price": 20.0,
+      "priceText": "$20",
+      "notes": "Exotic, when used as a piercing weapon attacker gains a +1d bonus to attack"
+    },
+    {
+      "name": "Katana",
+      "damage": "1d10",
+      "altDamage": "",
+      "damageType": "S",
+      "weight": 6.0,
+      "price": 20.0,
+      "priceText": "$20",
+      "notes": "Exotic, may be used two handed (d12 dmg)"
+    },
+    {
+      "name": "Katar",
+      "damage": "1d5+1",
+      "altDamage": "",
+      "damageType": "P",
+      "weight": 3.0,
+      "price": 5.0,
+      "priceText": "$5",
+      "notes": "Exotic, wielder gains a +1d bonus to attack rolls versus armored foes."
+    },
+    {
+      "name": "Knife, Bowie",
+      "damage": "1d6",
+      "altDamage": "",
+      "damageType": "S",
+      "weight": 1.0,
+      "price": 5.0,
+      "priceText": "$5",
+      "notes": ""
+    },
+    {
+      "name": "Knife, pocket",
+      "damage": "1d4",
+      "altDamage": "",
+      "damageType": "S",
+      "weight": 0.5,
+      "price": 2.0,
+      "priceText": "$2",
+      "notes": ""
+    },
+    {
+      "name": "Kusari Gama",
+      "damage": "1d4",
+      "altDamage": "d4/d6",
+      "damageType": "S/B",
+      "weight": 4.0,
+      "price": 15.0,
+      "priceText": "$15",
+      "notes": "Exotic, may be used as a chain or edged weapon, capable of tripping, or"
+    },
+    {
+      "name": "Mace",
+      "damage": "1d6",
+      "altDamage": "",
+      "damageType": "B/P",
+      "weight": 3.0,
+      "price": 10.0,
+      "priceText": "$10",
+      "notes": "Exotic, attacker gains a +1d bonus to attack rolls versus armored opponents"
+    },
+    {
+      "name": "Machete",
+      "damage": "1d7",
+      "altDamage": "",
+      "damageType": "S",
+      "weight": 3.0,
+      "price": 3.0,
+      "priceText": "$3",
+      "notes": ""
+    },
+    {
+      "name": "Naginata",
+      "damage": "1d8",
+      "altDamage": "",
+      "damageType": "S",
+      "weight": 9.0,
+      "price": 20.0,
+      "priceText": "$20",
+      "notes": "Exotic, reach 10'"
+    },
+    {
+      "name": "Nunchaku",
+      "damage": "1d5",
+      "altDamage": "",
+      "damageType": "B",
+      "weight": 2.0,
+      "price": 5.0,
+      "priceText": "$5",
+      "notes": "Exotic, may be used to entangle, see chain entry"
+    },
+    {
+      "name": "Pick",
+      "damage": "1d5",
+      "altDamage": "",
+      "damageType": "P",
+      "weight": 2.0,
+      "price": 2.0,
+      "priceText": "$2",
+      "notes": "Attacker gains a +1d bonus to attack rolls versus armored opponents in melee."
+    },
+    {
+      "name": "Pitchfork",
+      "damage": "1d7",
+      "altDamage": "",
+      "damageType": "P",
+      "weight": 6.0,
+      "price": 3.0,
+      "priceText": "$3",
+      "notes": ""
+    },
+    {
+      "name": "Saber",
+      "damage": "1d8",
+      "altDamage": "",
+      "damageType": "S",
+      "weight": 5.0,
+      "price": 8.0,
+      "priceText": "$8",
+      "notes": ""
+    },
+    {
+      "name": "Sai",
+      "damage": "1d4",
+      "altDamage": "",
+      "damageType": "P",
+      "weight": 3.0,
+      "price": 15.0,
+      "priceText": "$15",
+      "notes": "Exotic, disarm."
+    },
+    {
+      "name": "Sap",
+      "damage": "1d4",
+      "altDamage": "",
+      "damageType": "B",
+      "weight": 2.0,
+      "price": 1.0,
+      "priceText": "$1",
+      "notes": "Non-lethal damage to Sta. Target falls unconscious after reaching 0 Sta."
+    },
+    {
+      "name": "Shovel",
+      "damage": "1d5",
+      "altDamage": "",
+      "damageType": "B",
+      "weight": 5.0,
+      "price": 3.0,
+      "priceText": "$3",
+      "notes": ""
+    },
+    {
+      "name": "Sledgehammer",
+      "damage": "1d8",
+      "altDamage": "",
+      "damageType": "B",
+      "weight": 8.0,
+      "price": 7.0,
+      "priceText": "$7",
+      "notes": ""
+    },
+    {
+      "name": "Spear",
+      "damage": "1d8",
+      "altDamage": "",
+      "damageType": "P",
+      "weight": 6.0,
+      "price": 4.0,
+      "priceText": "$4",
+      "notes": "May be thrown 10/20/30"
+    },
+    {
+      "name": "Staff",
+      "damage": "1d6",
+      "altDamage": "",
+      "damageType": "B",
+      "weight": 3.0,
+      "price": 3.0,
+      "priceText": "$3",
+      "notes": ""
+    },
+    {
+      "name": "StraightrRazor",
+      "damage": "1d3",
+      "altDamage": "",
+      "damageType": "S",
+      "weight": 0.05,
+      "price": 1.0,
+      "priceText": "$1",
+      "notes": ""
+    },
+    {
+      "name": "Tetsubo",
+      "damage": "1d10",
+      "altDamage": "",
+      "damageType": "B",
+      "weight": 5.0,
+      "price": 30.0,
+      "priceText": "$30",
+      "notes": "Exotic"
+    },
+    {
+      "name": "Tomahawk",
+      "damage": "1d6",
+      "altDamage": "",
+      "damageType": "S",
+      "weight": 3.0,
+      "price": 3.0,
+      "priceText": "$3",
+      "notes": "May be thrown 5/15/20"
+    },
+    {
+      "name": "Tonfa",
+      "damage": "1d5",
+      "altDamage": "",
+      "damageType": "B",
+      "weight": 2.0,
+      "price": 8.0,
+      "priceText": "$8",
+      "notes": "Exotic, may be used to trip, or disarm"
+    },
+    {
+      "name": "Trident",
+      "damage": "1d8",
+      "altDamage": "",
+      "damageType": "P",
+      "weight": 5.0,
+      "price": 10.0,
+      "priceText": "$10",
+      "notes": "Exotic, may be thrown 20'"
+    },
+    {
+      "name": "Wakizashi",
+      "damage": "1d7",
+      "altDamage": "",
+      "damageType": "S",
+      "weight": 4.0,
+      "price": 12.0,
+      "priceText": "$12",
+      "notes": "Exotic"
+    },
+    {
+      "name": "Warclub",
+      "damage": "1d7",
+      "altDamage": "",
+      "damageType": "B",
+      "weight": 3.0,
+      "price": 3.0,
+      "priceText": "$3",
+      "notes": ""
+    },
+    {
+      "name": "Warfan",
+      "damage": "1d3",
+      "altDamage": "",
+      "damageType": "S",
+      "weight": 1.0,
+      "price": 2.0,
+      "priceText": "$2",
+      "notes": "Exotic, when used as a pair the weapons offer a +2 AC bonus versus melee"
+    },
+    {
+      "name": "Weird Frontiers",
+      "damage": "1d6",
+      "altDamage": "",
+      "damageType": "B",
+      "weight": 1.0,
+      "price": 60.0,
+      "priceText": "$60",
+      "notes": "Beat your foes with the rules book"
+    },
+    {
+      "name": "Whip",
+      "damage": "1d2",
+      "altDamage": "",
+      "damageType": "S",
+      "weight": 1.0,
+      "price": 2.0,
+      "priceText": "$2",
+      "notes": "May be used to disarm, or trip."
+    },
+    {
+      "name": "Zweihander",
+      "damage": "1d12",
+      "altDamage": "",
+      "damageType": "S",
+      "weight": 4.0,
+      "price": 20.0,
+      "priceText": "$20",
+      "notes": "Exotic, two handed, adds a +1d modifier to any critical hit chart roll"
+    }
+  ],
+  "ranged": [
+    {
+      "name": "Axe, throwing",
+      "damage": "1d5",
+      "altDamage": "",
+      "damageNote": "",
+      "damageType": "S",
+      "range": "10/15/25",
+      "weight": 2.0,
+      "price": 2.0,
+      "priceText": "$2",
+      "notes": ""
+    },
+    {
+      "name": "Blowgun",
+      "damage": "1d2",
+      "altDamage": "",
+      "damageNote": "",
+      "damageType": "P",
+      "range": "10/20/30",
+      "weight": 1.0,
+      "price": 1.0,
+      "priceText": "$1",
+      "notes": ""
+    },
+    {
+      "name": "Bola",
+      "damage": "1d3",
+      "altDamage": "",
+      "damageNote": "",
+      "damageType": "B",
+      "range": "20/40/60",
+      "weight": 2.0,
+      "price": 3.0,
+      "priceText": "$3",
+      "notes": "May be used to trip an opponent."
+    },
+    {
+      "name": "Boomerang",
+      "damage": "1d6",
+      "altDamage": "",
+      "damageNote": "",
+      "damageType": "B",
+      "range": "30/60/120",
+      "weight": 2.0,
+      "price": 6.0,
+      "priceText": "$6",
+      "notes": "Exotic Weapon, will return if target is missed."
+    },
+    {
+      "name": "Bow",
+      "damage": "1d8",
+      "altDamage": "",
+      "damageNote": "",
+      "damageType": "P",
+      "range": "70/140/210",
+      "weight": 4.0,
+      "price": 10.0,
+      "priceText": "$10",
+      "notes": ""
+    },
+    {
+      "name": "Crossbow",
+      "damage": "1d10",
+      "altDamage": "",
+      "damageNote": "",
+      "damageType": "P",
+      "range": "80/160/240",
+      "weight": 5.0,
+      "price": 20.0,
+      "priceText": "$20",
+      "notes": "Weapon takes one full round to reload."
+    },
+    {
+      "name": "Dynamite",
+      "damage": "4d6",
+      "damageNote": "Table prints \"see pg 147\"; base 4d6 in a 50' area, DC 12 Ref for half, +1d and +20' per extra stick",
+      "damageType": "*",
+      "range": "10/20/30",
+      "weight": 0.05,
+      "priceText": "$.50 per stick",
+      "price": 0.5,
+      "notes": "Explosives. See page 147 for use.",
+      "cite": "Weird_Frontiers_V6.md:15668 (table row); damage Weird_Frontiers_V6.md:3379",
+      "altDamage": ""
+    },
+    {
+      "name": "Knife",
+      "damage": "1d5",
+      "altDamage": "",
+      "damageNote": "",
+      "damageType": "P",
+      "range": "10/20/30",
+      "weight": 1.0,
+      "price": 3.0,
+      "priceText": "$3",
+      "notes": ""
+    },
+    {
+      "name": "Shuriken",
+      "damage": "1d4",
+      "altDamage": "",
+      "damageNote": "",
+      "damageType": "P",
+      "range": "10/20/30",
+      "weight": 0.05,
+      "price": 2.0,
+      "priceText": "$2",
+      "notes": "Exotic Weapon, two may be thrown each"
+    },
+    {
+      "name": "Sling",
+      "damage": "1d4",
+      "altDamage": "",
+      "damageNote": "",
+      "damageType": "B",
+      "range": "20/40/60",
+      "weight": 0.05,
+      "price": 1.0,
+      "priceText": "$1",
+      "notes": ""
+    },
+    {
+      "name": "Slingshot",
+      "damage": "1d5",
+      "altDamage": "",
+      "damageNote": "",
+      "damageType": "B",
+      "range": "10/20/30",
+      "weight": 1.0,
+      "price": 2.0,
+      "priceText": "$2",
+      "notes": ""
+    }
+  ],
+  "goods": [
+    {
+      "name": "Belt Buckle",
+      "price": 0.25,
+      "priceText": "$0.25",
+      "category": "Accessories",
+      "printings": 1
+    },
+    {
+      "name": "Belt Buckle (gold)",
+      "price": 2.0,
+      "priceText": "$2.00",
+      "category": "Accessories",
+      "printings": 1
+    },
+    {
+      "name": "Cuff Links (gold)",
+      "price": 3.0,
+      "priceText": "$3.00",
+      "category": "Accessories",
+      "printings": 1
+    },
+    {
+      "name": "Earring (pair)",
+      "price": 2.0,
+      "priceText": "$2.00",
+      "category": "Accessories",
+      "printings": 1
+    },
+    {
+      "name": "Locket (gold)",
+      "price": 8.0,
+      "priceText": "$8.00",
+      "category": "Accessories",
+      "printings": 1
+    },
+    {
+      "name": "Pendant (gold)",
+      "price": 10.0,
+      "priceText": "$10.00",
+      "category": "Accessories",
+      "printings": 1
+    },
+    {
+      "name": "Pocket Watch",
+      "price": 3.0,
+      "priceText": "$3.00",
+      "category": "Accessories",
+      "printings": 1
+    },
+    {
+      "name": "Pocket Watch (gold)",
+      "price": 12.0,
+      "priceText": "$12.00",
+      "category": "Accessories",
+      "printings": 1
+    },
+    {
+      "name": "Ring (gold)",
+      "price": 5.0,
+      "priceText": "$5.00",
+      "category": "Accessories",
+      "printings": 1
+    },
+    {
+      "name": "Ring (gold/gems)",
+      "price": 10.0,
+      "priceText": "$10.00",
+      "category": "Accessories",
+      "printings": 1
+    },
+    {
+      "name": "Bull",
+      "price": 90.0,
+      "priceText": "$90.00",
+      "category": "Animals",
+      "printings": 2
+    },
+    {
+      "name": "Camel",
+      "price": 75.0,
+      "priceText": "$75.00",
+      "category": "Animals",
+      "printings": 2
+    },
+    {
+      "name": "Cow",
+      "price": 25.0,
+      "priceText": "$25.00",
+      "category": "Animals",
+      "printings": 2
+    },
+    {
+      "name": "Donkey",
+      "price": 8.0,
+      "priceText": "$8.00",
+      "category": "Animals",
+      "printings": 2
+    },
+    {
+      "name": "Hog",
+      "price": 15.0,
+      "priceText": "$15.00",
+      "category": "Animals",
+      "printings": 2
+    },
+    {
+      "name": "Horse (average)",
+      "price": 60.0,
+      "priceText": "$60.00",
+      "category": "Animals",
+      "printings": 2
+    },
+    {
+      "name": "Horse (draft)",
+      "price": 75.0,
+      "priceText": "$75.00",
+      "category": "Animals",
+      "printings": 2
+    },
+    {
+      "name": "Horse (riding-good)",
+      "price": 150.0,
+      "priceText": "$150.00",
+      "category": "Animals",
+      "printings": 2
+    },
+    {
+      "name": "Mule",
+      "price": 50.0,
+      "priceText": "$50.00",
+      "category": "Animals",
+      "printings": 2
+    },
+    {
+      "name": "Oxen (pair)",
+      "price": 100.0,
+      "priceText": "$100.00",
+      "category": "Animals",
+      "printings": 2
+    },
+    {
+      "name": "Pony",
+      "price": 25.0,
+      "priceText": "$25.00",
+      "category": "Animals",
+      "printings": 2
+    },
+    {
+      "name": "Sheep",
+      "price": 5.0,
+      "priceText": "$5.00",
+      "category": "Animals",
+      "printings": 2
+    },
+    {
+      "name": "Belt",
+      "price": 0.5,
+      "priceText": "$0.50",
+      "category": "Clothing & Accessories (Ladies)",
+      "printings": 1
+    },
+    {
+      "name": "Coat",
+      "price": 2.0,
+      "priceText": "$2.00",
+      "category": "Clothing & Accessories (Ladies)",
+      "printings": 1
+    },
+    {
+      "name": "Coat (fancy)",
+      "price": 6.0,
+      "priceText": "$6.00",
+      "category": "Clothing & Accessories (Ladies)",
+      "printings": 1
+    },
+    {
+      "name": "Coat (fur)",
+      "price": 16.0,
+      "priceText": "$16.00",
+      "category": "Clothing & Accessories (Ladies)",
+      "printings": 1
+    },
+    {
+      "name": "Coat (winter)",
+      "price": 4.0,
+      "priceText": "$4.00",
+      "category": "Clothing & Accessories (Ladies)",
+      "printings": 1
+    },
+    {
+      "name": "Corset",
+      "price": 2.5,
+      "priceText": "$2.50",
+      "category": "Clothing & Accessories (Ladies)",
+      "printings": 1
+    },
+    {
+      "name": "Corset (quality)",
+      "price": 7.0,
+      "priceText": "$7.00",
+      "category": "Clothing & Accessories (Ladies)",
+      "printings": 1
+    },
+    {
+      "name": "Dress",
+      "price": 2.0,
+      "priceText": "$2.00",
+      "category": "Clothing & Accessories (Ladies)",
+      "printings": 1
+    },
+    {
+      "name": "Dress (quality)",
+      "price": 8.0,
+      "priceText": "$8.00",
+      "category": "Clothing & Accessories (Ladies)",
+      "printings": 1
+    },
+    {
+      "name": "Fan",
+      "price": 0.25,
+      "priceText": "$0.25",
+      "category": "Clothing & Accessories (Ladies)",
+      "printings": 1
+    },
+    {
+      "name": "Fan (fancy)",
+      "price": 0.75,
+      "priceText": "$0.75",
+      "category": "Clothing & Accessories (Ladies)",
+      "printings": 1
+    },
+    {
+      "name": "Gloves",
+      "price": 0.5,
+      "priceText": "$0.50",
+      "category": "Clothing & Accessories (Ladies)",
+      "printings": 1
+    },
+    {
+      "name": "Gloves (fancy)",
+      "price": 1.5,
+      "priceText": "$1.50",
+      "category": "Clothing & Accessories (Ladies)",
+      "printings": 1
+    },
+    {
+      "name": "Gown",
+      "price": 1.0,
+      "priceText": "$1.00",
+      "category": "Clothing & Accessories (Ladies)",
+      "printings": 1
+    },
+    {
+      "name": "Hankerchief (embroided)",
+      "price": 0.75,
+      "priceText": "$0.75",
+      "category": "Clothing & Accessories (Ladies)",
+      "printings": 1
+    },
+    {
+      "name": "Hat",
+      "price": 1.5,
+      "priceText": "$1.50",
+      "category": "Clothing & Accessories (Ladies)",
+      "printings": 1
+    },
+    {
+      "name": "Hat (fancy)",
+      "price": 5.0,
+      "priceText": "$5.00",
+      "category": "Clothing & Accessories (Ladies)",
+      "printings": 1
+    },
+    {
+      "name": "Hose ( silk thigh highs)",
+      "price": 0.5,
+      "priceText": "$0.50",
+      "category": "Clothing & Accessories (Ladies)",
+      "printings": 1
+    },
+    {
+      "name": "Parasol",
+      "price": 1.25,
+      "priceText": "$1.25",
+      "category": "Clothing & Accessories (Ladies)",
+      "printings": 1
+    },
+    {
+      "name": "Perfume",
+      "price": 0.75,
+      "priceText": "$0.75",
+      "category": "Clothing & Accessories (Ladies)",
+      "printings": 1
+    },
+    {
+      "name": "Shawl",
+      "price": 0.75,
+      "priceText": "$0.75",
+      "category": "Clothing & Accessories (Ladies)",
+      "printings": 1
+    },
+    {
+      "name": "Shawl (fancy)",
+      "price": 2.25,
+      "priceText": "$2.25",
+      "category": "Clothing & Accessories (Ladies)",
+      "printings": 1
+    },
+    {
+      "name": "Shirt",
+      "price": 1.25,
+      "priceText": "$1.25",
+      "category": "Clothing & Accessories (Ladies)",
+      "printings": 3
+    },
+    {
+      "name": "Shirt (under)",
+      "price": 0.75,
+      "priceText": "$0.75",
+      "category": "Clothing & Accessories (Ladies)",
+      "printings": 1
+    },
+    {
+      "name": "Shirt fancy)",
+      "price": 3.75,
+      "priceText": "$3.75",
+      "category": "Clothing & Accessories (Ladies)",
+      "printings": 1
+    },
+    {
+      "name": "Shoes",
+      "price": 2.0,
+      "priceText": "$2.00",
+      "category": "Clothing & Accessories (Ladies)",
+      "printings": 3
+    },
+    {
+      "name": "Shoes (fancy)",
+      "price": 6.0,
+      "priceText": "$6.00",
+      "category": "Clothing & Accessories (Ladies)",
+      "printings": 1
+    },
+    {
+      "name": "Skirt",
+      "price": 2.5,
+      "priceText": "$2.50",
+      "category": "Clothing & Accessories (Ladies)",
+      "printings": 1
+    },
+    {
+      "name": "Skirt (fancy)",
+      "price": 7.5,
+      "priceText": "$7.50",
+      "category": "Clothing & Accessories (Ladies)",
+      "printings": 1
+    },
+    {
+      "name": "Skirt (under)",
+      "price": 1.0,
+      "priceText": "$1.00",
+      "category": "Clothing & Accessories (Ladies)",
+      "printings": 1
+    },
+    {
+      "name": "Suit",
+      "price": 5.0,
+      "priceText": "$5.00",
+      "category": "Clothing & Accessories (Ladies)",
+      "printings": 1
+    },
+    {
+      "name": "Suit (fancy)",
+      "price": 10.0,
+      "priceText": "$10.00",
+      "category": "Clothing & Accessories (Ladies)",
+      "printings": 1
+    },
+    {
+      "name": "Wallet (leather)",
+      "price": 0.75,
+      "priceText": "$0.75",
+      "category": "Clothing & Accessories (Ladies)",
+      "printings": 1
+    },
+    {
+      "name": "Bandana",
+      "price": 0.25,
+      "priceText": "$0.25",
+      "category": "Clothing & Accessories (Men)",
+      "printings": 1
+    },
+    {
+      "name": "Belt",
+      "price": 0.75,
+      "priceText": "$0.75",
+      "category": "Clothing & Accessories (Men)",
+      "printings": 1
+    },
+    {
+      "name": "Boots",
+      "price": 5.0,
+      "priceText": "$5.00",
+      "category": "Clothing & Accessories (Men)",
+      "printings": 1
+    },
+    {
+      "name": "Boots (military)",
+      "price": 10.0,
+      "priceText": "$10.00",
+      "category": "Clothing & Accessories (Men)",
+      "printings": 1
+    },
+    {
+      "name": "Boots (quality)",
+      "price": 15.0,
+      "priceText": "$15.00",
+      "category": "Clothing & Accessories (Men)",
+      "printings": 1
+    },
+    {
+      "name": "Boots (wrestling)",
+      "price": 10.0,
+      "priceText": "$10.00",
+      "category": "Clothing & Accessories (Men)",
+      "printings": 1
+    },
+    {
+      "name": "Boots (wrestling/quality)",
+      "price": 15.0,
+      "priceText": "$15.00",
+      "category": "Clothing & Accessories (Men)",
+      "printings": 1
+    },
+    {
+      "name": "Cape",
+      "price": 5.0,
+      "priceText": "$5.00",
+      "category": "Clothing & Accessories (Men)",
+      "printings": 1
+    },
+    {
+      "name": "Chaps",
+      "price": 5.0,
+      "priceText": "$5.00",
+      "category": "Clothing & Accessories (Men)",
+      "printings": 1
+    },
+    {
+      "name": "Cigar (quality)",
+      "price": 0.2,
+      "priceText": "$0.20",
+      "category": "Clothing & Accessories (Men)",
+      "printings": 1
+    },
+    {
+      "name": "Coat (light)",
+      "price": 4.0,
+      "priceText": "$4.00",
+      "category": "Clothing & Accessories (Men)",
+      "printings": 1
+    },
+    {
+      "name": "Coat (winter)",
+      "price": 8.0,
+      "priceText": "$8.00",
+      "category": "Clothing & Accessories (Men)",
+      "printings": 1
+    },
+    {
+      "name": "Duster",
+      "price": 8.0,
+      "priceText": "$8.00",
+      "category": "Clothing & Accessories (Men)",
+      "printings": 1
+    },
+    {
+      "name": "Gloves",
+      "price": 1.5,
+      "priceText": "$1.50",
+      "category": "Clothing & Accessories (Men)",
+      "printings": 1
+    },
+    {
+      "name": "Gloves (work)",
+      "price": 2.5,
+      "priceText": "$2.50",
+      "category": "Clothing & Accessories (Men)",
+      "printings": 1
+    },
+    {
+      "name": "Hankerchief",
+      "price": 0.2,
+      "priceText": "$0.20",
+      "category": "Clothing & Accessories (Men)",
+      "printings": 1
+    },
+    {
+      "name": "Hat (bonnet)",
+      "price": 1.0,
+      "priceText": "$1.00",
+      "category": "Clothing & Accessories (Men)",
+      "printings": 1
+    },
+    {
+      "name": "Hat (cowboy)",
+      "price": 2.0,
+      "priceText": "$2.00",
+      "category": "Clothing & Accessories (Men)",
+      "printings": 1
+    },
+    {
+      "name": "Hat (derby)",
+      "price": 1.5,
+      "priceText": "$1.50",
+      "category": "Clothing & Accessories (Men)",
+      "printings": 1
+    },
+    {
+      "name": "Hat (dress)",
+      "price": 15.0,
+      "priceText": "$15.00",
+      "category": "Clothing & Accessories (Men)",
+      "printings": 1
+    },
+    {
+      "name": "Hat (sombrero)",
+      "price": 2.5,
+      "priceText": "$2.50",
+      "category": "Clothing & Accessories (Men)",
+      "printings": 1
+    },
+    {
+      "name": "Necktie",
+      "price": 0.25,
+      "priceText": "$0.25",
+      "category": "Clothing & Accessories (Men)",
+      "printings": 1
+    },
+    {
+      "name": "Overcoat",
+      "price": 3.0,
+      "priceText": "$3.00",
+      "category": "Clothing & Accessories (Men)",
+      "printings": 2
+    },
+    {
+      "name": "Overcoat (duster, waterproof)",
+      "price": 12.0,
+      "priceText": "$12.00",
+      "category": "Clothing & Accessories (Men)",
+      "printings": 2
+    },
+    {
+      "name": "Overcoat (fur)",
+      "price": 20.0,
+      "priceText": "$20.00",
+      "category": "Clothing & Accessories (Men)",
+      "printings": 2
+    },
+    {
+      "name": "Pants",
+      "price": 1.75,
+      "priceText": "$1.75",
+      "category": "Clothing & Accessories (Men)",
+      "printings": 2
+    },
+    {
+      "name": "Pants (buckskin)",
+      "price": 6.0,
+      "priceText": "$6.00",
+      "category": "Clothing & Accessories (Men)",
+      "printings": 2
+    },
+    {
+      "name": "Pants (jeans)",
+      "price": 2.5,
+      "priceText": "$2.50",
+      "category": "Clothing & Accessories (Men)",
+      "printings": 2
+    },
+    {
+      "name": "Pants (quality)",
+      "price": 5.0,
+      "priceText": "$5.00",
+      "category": "Clothing & Accessories (Men)",
+      "printings": 2
+    },
+    {
+      "name": "Poncho",
+      "price": 3.0,
+      "priceText": "$3.00",
+      "category": "Clothing & Accessories (Men)",
+      "printings": 2
+    },
+    {
+      "name": "Raincoat",
+      "price": 3.0,
+      "priceText": "$3.00",
+      "category": "Clothing & Accessories (Men)",
+      "printings": 2
+    },
+    {
+      "name": "Shirt (buckskin)",
+      "price": 4.0,
+      "priceText": "$4.00",
+      "category": "Clothing & Accessories (Men)",
+      "printings": 2
+    },
+    {
+      "name": "Shirt (fancy)",
+      "price": 3.75,
+      "priceText": "$3.75",
+      "category": "Clothing & Accessories (Men)",
+      "printings": 2
+    },
+    {
+      "name": "Shoes (quality)",
+      "price": 6.0,
+      "priceText": "$6.00",
+      "category": "Clothing & Accessories (Men)",
+      "printings": 2
+    },
+    {
+      "name": "Socks",
+      "price": 0.25,
+      "priceText": "$0.25",
+      "category": "Clothing & Accessories (Men)",
+      "printings": 2
+    },
+    {
+      "name": "Suit (fancy)",
+      "price": 30.0,
+      "priceText": "$30.00",
+      "category": "Clothing & Accessories (Men)",
+      "printings": 2
+    },
+    {
+      "name": "Suit (full)",
+      "price": 10.0,
+      "priceText": "$10.00",
+      "category": "Clothing & Accessories (Men)",
+      "printings": 2
+    },
+    {
+      "name": "Suspenders",
+      "price": 0.75,
+      "priceText": "$0.75",
+      "category": "Clothing & Accessories (Men)",
+      "printings": 2
+    },
+    {
+      "name": "Underwear (pants and shirt)",
+      "price": 2.25,
+      "priceText": "$2.25",
+      "category": "Clothing & Accessories (Men)",
+      "printings": 2
+    },
+    {
+      "name": "Vest",
+      "price": 1.5,
+      "priceText": "$1.50",
+      "category": "Clothing & Accessories (Men)",
+      "printings": 2
+    },
+    {
+      "name": "Wrestling tights (quality)",
+      "price": 9.0,
+      "priceText": "$9.00",
+      "category": "Clothing & Accessories (Men)",
+      "printings": 2
+    },
+    {
+      "name": "Wrestling tights (unitard)",
+      "price": 3.0,
+      "priceText": "$3.00",
+      "category": "Clothing & Accessories (Men)",
+      "printings": 2
+    },
+    {
+      "name": "Bordello",
+      "price": 1.0,
+      "priceText": "$1.00",
+      "category": "Entertainment",
+      "printings": 2
+    },
+    {
+      "name": "Bordello (luxury)",
+      "price": 3.0,
+      "priceText": "$3.00",
+      "category": "Entertainment",
+      "printings": 2
+    },
+    {
+      "name": "Musical",
+      "price": 0.5,
+      "priceText": "$0.50",
+      "category": "Entertainment",
+      "printings": 2
+    },
+    {
+      "name": "Play",
+      "price": 0.5,
+      "priceText": "$0.50",
+      "category": "Entertainment",
+      "printings": 2
+    },
+    {
+      "name": "Stereoscope show",
+      "price": 0.25,
+      "priceText": "$0.25",
+      "category": "Entertainment",
+      "printings": 2
+    },
+    {
+      "name": "Banjo",
+      "price": 8.0,
+      "priceText": "$8.00",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Barbed wire (100')",
+      "price": 2.0,
+      "priceText": "$2.00",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Basket",
+      "price": 0.1,
+      "priceText": "$0.10",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Bed roll",
+      "price": 3.0,
+      "priceText": "$3.00",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Bell",
+      "price": 0.5,
+      "priceText": "$0.50",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Bible",
+      "price": 4.0,
+      "priceText": "$4.00",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Binoculars",
+      "price": 10.0,
+      "priceText": "$10.00",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Blanket",
+      "price": 3.0,
+      "priceText": "$3.00",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Blasting caps (dozen)",
+      "price": 1.0,
+      "priceText": "$1.00",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Broom",
+      "price": 0.5,
+      "priceText": "$0.50",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Brush",
+      "price": 0.25,
+      "priceText": "$0.25",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Bullets, Box of 50",
+      "price": 1.0,
+      "priceText": "$1.00",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Camera (includes kit)",
+      "price": 10.0,
+      "priceText": "$10.00",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Candle",
+      "price": 0.1,
+      "priceText": "$0.10",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Cane",
+      "price": 0.75,
+      "priceText": "$0.75",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Canteen",
+      "price": 0.75,
+      "priceText": "$0.75",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Cash Box",
+      "price": 10.0,
+      "priceText": "$10.00",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Chalk (dozen sticks)",
+      "price": 0.05,
+      "priceText": "$0.05",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Cigar",
+      "price": 0.1,
+      "priceText": "$0.10",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Cigarettes (100)",
+      "price": 1.0,
+      "priceText": "$1.00",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Cloth (1 yard)",
+      "price": 0.15,
+      "priceText": "$0.15",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Coal (for a year)",
+      "price": 100.0,
+      "priceText": "$100.00",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Coffee Pot",
+      "price": 0.5,
+      "priceText": "$0.50",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Cologne",
+      "price": 0.25,
+      "priceText": "$0.25",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Compass",
+      "price": 2.0,
+      "priceText": "$2.00",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Dice",
+      "price": 0.2,
+      "priceText": "$0.20",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Doctors bag (with instruments)",
+      "price": 20.0,
+      "priceText": "$20.00",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Dynamite (1 stick)",
+      "price": 0.5,
+      "priceText": "$0.50",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Dynamite Plunger",
+      "price": 25.0,
+      "priceText": "$25.00",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Envelopes (100)",
+      "price": 0.25,
+      "priceText": "$0.25",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Eyeglasses",
+      "price": 3.0,
+      "priceText": "$3.00",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Fiddle",
+      "price": 8.0,
+      "priceText": "$8.00",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Fishing Rod",
+      "price": 0.2,
+      "priceText": "$0.20",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Fishing tackle",
+      "price": 0.1,
+      "priceText": "$0.10",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Frying Pan",
+      "price": 0.5,
+      "priceText": "$0.50",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Fuse (per foot)",
+      "price": 0.1,
+      "priceText": "$0.10",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Glue (bottle)",
+      "price": 0.05,
+      "priceText": "$0.05",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Guitar",
+      "price": 8.0,
+      "priceText": "$8.00",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Gun cleaning kit",
+      "price": 1.0,
+      "priceText": "$1.00",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Hair Brush",
+      "price": 0.25,
+      "priceText": "$0.25",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Hairbrush (fancy)",
+      "price": 0.75,
+      "priceText": "$0.75",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Handcuffs",
+      "price": 2.0,
+      "priceText": "$2.00",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Harmonica",
+      "price": 0.5,
+      "priceText": "$0.50",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Hunters trap with chain",
+      "price": 3.0,
+      "priceText": "$3.00",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Ink",
+      "price": 0.15,
+      "priceText": "$0.15",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Lamp",
+      "price": 1.5,
+      "priceText": "$1.50",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Lamp (oil)",
+      "price": 0.75,
+      "priceText": "$0.75",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Lantern",
+      "price": 2.5,
+      "priceText": "$2.50",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Lockpicks",
+      "price": 7.0,
+      "priceText": "$7.00",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Make-up",
+      "price": 1.0,
+      "priceText": "$1.00",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Matches (100)",
+      "price": 0.1,
+      "priceText": "$0.10",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Mess Kit",
+      "price": 1.0,
+      "priceText": "$1.00",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Nails (100)",
+      "price": 0.75,
+      "priceText": "$0.75",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Newspaper",
+      "price": 0.02,
+      "priceText": "$0.02",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Novel",
+      "price": 0.1,
+      "priceText": "$0.10",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Pail",
+      "price": 0.5,
+      "priceText": "$0.50",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Paint (gallon)",
+      "price": 1.0,
+      "priceText": "$1.00",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Paint brush",
+      "price": 0.05,
+      "priceText": "$0.05",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Paper (100 sheets)",
+      "price": 0.1,
+      "priceText": "$0.10",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Pen (fountain)",
+      "price": 3.0,
+      "priceText": "$3.00",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Pencil (dozen)",
+      "price": 0.1,
+      "priceText": "$0.10",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Pick",
+      "price": 2.0,
+      "priceText": "$2.00",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Pipe",
+      "price": 1.0,
+      "priceText": "$1.00",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Pitchfork",
+      "price": 5.0,
+      "priceText": "$5.00",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Playing cards",
+      "price": 0.2,
+      "priceText": "$0.20",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Playing cards (marked)",
+      "price": 1.25,
+      "priceText": "$1.25",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Poker set",
+      "price": 2.0,
+      "priceText": "$2.00",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Rolling Papers (50)",
+      "price": 0.05,
+      "priceText": "$0.05",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Rope (50')",
+      "price": 0.25,
+      "priceText": "$0.25",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Sack (large)",
+      "price": 0.1,
+      "priceText": "$0.10",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Sack (small)",
+      "price": 0.05,
+      "priceText": "$0.05",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Safe (small)",
+      "price": 55.0,
+      "priceText": "$55.00",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Scales",
+      "price": 5.0,
+      "priceText": "$5.00",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Shears",
+      "price": 0.75,
+      "priceText": "$0.75",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Shoe polish (Can)",
+      "price": 0.5,
+      "priceText": "$0.50",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Shovel",
+      "price": 0.75,
+      "priceText": "$0.75",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Sledge Hammer",
+      "price": 2.5,
+      "priceText": "$2.50",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Small Mirror",
+      "price": 2.0,
+      "priceText": "$2.00",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Snowshoes",
+      "price": 6.0,
+      "priceText": "$6.00",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Soap",
+      "price": 0.1,
+      "priceText": "$0.10",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Spurs",
+      "price": 0.25,
+      "priceText": "$0.25",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Stove (wood)",
+      "price": 25.0,
+      "priceText": "$25.00",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Straight Razor",
+      "price": 0.75,
+      "priceText": "$0.75",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Suitcase",
+      "price": 3.0,
+      "priceText": "$3.00",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Telescope (10 miles)",
+      "price": 20.0,
+      "priceText": "$20.00",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Tent (one man)",
+      "price": 8.0,
+      "priceText": "$8.00",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Thread and thimble",
+      "price": 0.05,
+      "priceText": "$0.05",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Tobacco plug",
+      "price": 0.5,
+      "priceText": "$0.50",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Tools Set (Hammers, screw drivers, etc.)",
+      "price": 6.0,
+      "priceText": "$6.00",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Toothbrush",
+      "price": 0.2,
+      "priceText": "$0.20",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Towel",
+      "price": 0.5,
+      "priceText": "$0.50",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Trail mess kit (pots, pans, coffee pot)",
+      "price": 10.0,
+      "priceText": "$10.00",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Trap w/chain",
+      "price": 8.0,
+      "priceText": "$8.00",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Trunk",
+      "price": 5.0,
+      "priceText": "$5.00",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Typewriter",
+      "price": 25.0,
+      "priceText": "$25.00",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Wheelbarrow",
+      "price": 8.0,
+      "priceText": "$8.00",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Wire Cutters",
+      "price": 2.0,
+      "priceText": "$2.00",
+      "category": "General Store",
+      "printings": 1
+    },
+    {
+      "name": "Bedroom Set",
+      "price": 20.0,
+      "priceText": "$20.00",
+      "category": "Home/Farm Needs",
+      "printings": 1
+    },
+    {
+      "name": "Dishes",
+      "price": 8.0,
+      "priceText": "$8.00",
+      "category": "Home/Farm Needs",
+      "printings": 1
+    },
+    {
+      "name": "Homestead filing fee",
+      "price": 14.0,
+      "priceText": "$14.00",
+      "category": "Home/Farm Needs",
+      "printings": 1
+    },
+    {
+      "name": "House (16 x 32 two rooms)",
+      "price": 300.0,
+      "priceText": "$300.00",
+      "category": "Home/Farm Needs",
+      "printings": 1
+    },
+    {
+      "name": "House (32'x40' four rooms)",
+      "price": 700.0,
+      "priceText": "$700.00",
+      "category": "Home/Farm Needs",
+      "printings": 1
+    },
+    {
+      "name": "Land",
+      "price": 5.0,
+      "priceText": "5 per acre",
+      "category": "Home/Farm Needs",
+      "printings": 1
+    },
+    {
+      "name": "One Room of Furniture",
+      "price": 30.0,
+      "priceText": "$30.00",
+      "category": "Home/Farm Needs",
+      "printings": 1
+    },
+    {
+      "name": "Outhouse",
+      "price": 50.0,
+      "priceText": "$50.00",
+      "category": "Home/Farm Needs",
+      "printings": 1
+    },
+    {
+      "name": "Shanty (dirt floor, one room)",
+      "price": 25.0,
+      "priceText": "$25.00",
+      "category": "Home/Farm Needs",
+      "printings": 1
+    },
+    {
+      "name": "Stable & Well",
+      "price": 125.0,
+      "priceText": "$125.00",
+      "category": "Home/Farm Needs",
+      "printings": 1
+    },
+    {
+      "name": "Wall mirror",
+      "price": 10.0,
+      "priceText": "$10.00",
+      "category": "Home/Farm Needs",
+      "printings": 1
+    },
+    {
+      "name": "Bridle",
+      "price": 1.25,
+      "priceText": "$1.25",
+      "category": "Livery Accessories",
+      "printings": 1
+    },
+    {
+      "name": "Buggy ( 2 passengers)",
+      "price": 75.0,
+      "priceText": "$75.00",
+      "category": "Livery Accessories",
+      "printings": 1
+    },
+    {
+      "name": "Buggy (4 passengers)",
+      "price": 60.0,
+      "priceText": "$60.00",
+      "category": "Livery Accessories",
+      "printings": 1
+    },
+    {
+      "name": "Crop",
+      "price": 0.15,
+      "priceText": "$0.15",
+      "category": "Livery Accessories",
+      "printings": 1
+    },
+    {
+      "name": "Feed (month)",
+      "price": 8.0,
+      "priceText": "$8.00",
+      "category": "Livery Accessories",
+      "printings": 1
+    },
+    {
+      "name": "Harness",
+      "price": 8.0,
+      "priceText": "$8.00",
+      "category": "Livery Accessories",
+      "printings": 1
+    },
+    {
+      "name": "Harness (team)",
+      "price": 16.0,
+      "priceText": "$16.00",
+      "category": "Livery Accessories",
+      "printings": 1
+    },
+    {
+      "name": "Horse Brush",
+      "price": 1.0,
+      "priceText": "$1.00",
+      "category": "Livery Accessories",
+      "printings": 1
+    },
+    {
+      "name": "Saddle & bridle",
+      "price": 25.0,
+      "priceText": "$25.00",
+      "category": "Livery Accessories",
+      "printings": 1
+    },
+    {
+      "name": "Saddle & bridle (fancy)",
+      "price": 75.0,
+      "priceText": "$75.00",
+      "category": "Livery Accessories",
+      "printings": 1
+    },
+    {
+      "name": "Saddle bags",
+      "price": 10.0,
+      "priceText": "$10.00",
+      "category": "Livery Accessories",
+      "printings": 1
+    },
+    {
+      "name": "Saddle blanket",
+      "price": 3.0,
+      "priceText": "$3.00",
+      "category": "Livery Accessories",
+      "printings": 1
+    },
+    {
+      "name": "Wagon ( Heavy 3,500 LBS. MAX)",
+      "price": 100.0,
+      "priceText": "$100.00",
+      "category": "Livery Accessories",
+      "printings": 1
+    },
+    {
+      "name": "Wagon ( Light 1,500 LBS. MAX)",
+      "price": 60.0,
+      "priceText": "$60.00",
+      "category": "Livery Accessories",
+      "printings": 1
+    },
+    {
+      "name": "Doctor/Vet Visit",
+      "price": 2.0,
+      "priceText": "$2.00",
+      "category": "Pharmacy",
+      "printings": 1
+    },
+    {
+      "name": "Doctors or Vet bag with instruments",
+      "price": 25.0,
+      "priceText": "$25.00",
+      "category": "Pharmacy",
+      "printings": 1
+    },
+    {
+      "name": "Ether (dose)",
+      "price": 0.3,
+      "priceText": "$0.30",
+      "category": "Pharmacy",
+      "printings": 1
+    },
+    {
+      "name": "Laudanum (dose)",
+      "price": 0.75,
+      "priceText": "$0.75",
+      "category": "Pharmacy",
+      "printings": 1
+    },
+    {
+      "name": "Nitrous Oxide (dose)",
+      "price": 0.5,
+      "priceText": "$0.50",
+      "category": "Pharmacy",
+      "printings": 1
+    },
+    {
+      "name": "Quinine (dose)",
+      "price": 0.75,
+      "priceText": "$0.75",
+      "category": "Pharmacy",
+      "printings": 1
+    },
+    {
+      "name": "Beer (bottle)",
+      "price": 0.1,
+      "priceText": "$0.10",
+      "category": "Saloon Prices",
+      "printings": 1
+    },
+    {
+      "name": "Beer (glass)",
+      "price": 0.15,
+      "priceText": "$0.15",
+      "category": "Saloon Prices",
+      "printings": 1
+    },
+    {
+      "name": "Cigar",
+      "price": 0.2,
+      "priceText": "$0.20",
+      "category": "Saloon Prices",
+      "printings": 1
+    },
+    {
+      "name": "Gin (bottle)",
+      "price": 1.5,
+      "priceText": "$1.50",
+      "category": "Saloon Prices",
+      "printings": 1
+    },
+    {
+      "name": "Gin (glass)",
+      "price": 0.25,
+      "priceText": "$0.25",
+      "category": "Saloon Prices",
+      "printings": 1
+    },
+    {
+      "name": "Mineral water (bottle)",
+      "price": 0.15,
+      "priceText": "$0.15",
+      "category": "Saloon Prices",
+      "printings": 1
+    },
+    {
+      "name": "Root Beer (bottle)",
+      "price": 0.2,
+      "priceText": "$0.20",
+      "category": "Saloon Prices",
+      "printings": 1
+    },
+    {
+      "name": "Whiskey (bottle)",
+      "price": 2.0,
+      "priceText": "$2.00",
+      "category": "Saloon Prices",
+      "printings": 1
+    },
+    {
+      "name": "Whiskey (shot)",
+      "price": 0.25,
+      "priceText": "$0.25",
+      "category": "Saloon Prices",
+      "printings": 1
+    },
+    {
+      "name": "Wine (bottle)",
+      "price": 1.25,
+      "priceText": "$1.25",
+      "category": "Saloon Prices",
+      "printings": 1
+    },
+    {
+      "name": "Wine (glass)",
+      "price": 0.25,
+      "priceText": "$0.25",
+      "category": "Saloon Prices",
+      "printings": 2
+    },
+    {
+      "name": "Wine, fancy (bottle)",
+      "price": 3.0,
+      "priceText": "$3.00",
+      "category": "Saloon Prices",
+      "printings": 2
+    },
+    {
+      "name": "Wine, fancy (glass)",
+      "price": 1.0,
+      "priceText": "$1.00",
+      "category": "Saloon Prices",
+      "printings": 2
+    },
+    {
+      "name": "Hotel (per night)",
+      "price": 1.0,
+      "priceText": "$1.00",
+      "category": "Services",
+      "printings": 2
+    },
+    {
+      "name": "Meal (average)",
+      "price": 0.25,
+      "priceText": "$0.25",
+      "category": "Services",
+      "printings": 2
+    },
+    {
+      "name": "Meal (good)",
+      "price": 1.0,
+      "priceText": "$1.00",
+      "category": "Services",
+      "printings": 2
+    },
+    {
+      "name": "Package by Rail (per lb)",
+      "price": 0.1,
+      "priceText": "$0.10",
+      "category": "Services",
+      "printings": 1
+    },
+    {
+      "name": "Room & Board (week)",
+      "price": 3.0,
+      "priceText": "$3.00",
+      "category": "Services",
+      "printings": 2
+    },
+    {
+      "name": "Shave and haircut",
+      "price": 0.25,
+      "priceText": "$0.25",
+      "category": "Services",
+      "printings": 2
+    },
+    {
+      "name": "Stable (per night)",
+      "price": 0.25,
+      "priceText": "$0.25",
+      "category": "Services",
+      "printings": 2
+    },
+    {
+      "name": "Stage Coach (per mile)",
+      "price": 0.2,
+      "priceText": "$0.20",
+      "category": "Services",
+      "printings": 2
+    },
+    {
+      "name": "Stagecoach ride (per mile)",
+      "price": 0.15,
+      "priceText": "$0.15",
+      "category": "Services",
+      "printings": 2
+    },
+    {
+      "name": "Steamboat Ride (per mile)",
+      "price": 0.1,
+      "priceText": "$0.10",
+      "category": "Services",
+      "printings": 2
+    },
+    {
+      "name": "Telegram (per word)",
+      "price": 0.05,
+      "priceText": "$0.05",
+      "category": "Services",
+      "printings": 1
+    },
+    {
+      "name": "Train ride (per mile)",
+      "price": 0.03,
+      "priceText": "$0.03",
+      "category": "Services",
+      "printings": 2
+    },
+    {
+      "name": "Warm bath",
+      "price": 1.0,
+      "priceText": "$1.00",
+      "category": "Services",
+      "printings": 2
+    },
+    {
+      "name": "Cigar, cheroot",
+      "price": 0.05,
+      "priceText": "$0.05",
+      "category": "Smokes & Chews",
+      "printings": 1
+    },
+    {
+      "name": "Plug of tobacco (1lb.)",
+      "price": 0.25,
+      "priceText": "$0.25",
+      "category": "Smokes & Chews",
+      "printings": 1
+    },
+    {
+      "name": "Rolling papers 100",
+      "price": 0.05,
+      "priceText": "$0.05",
+      "category": "Smokes & Chews",
+      "printings": 1
+    },
+    {
+      "name": "Smoking pipe",
+      "price": 2.0,
+      "priceText": "$2.00",
+      "category": "Smokes & Chews",
+      "printings": 1
+    },
+    {
+      "name": "Tobacco (1 oz.)",
+      "price": 0.15,
+      "priceText": "$0.15",
+      "category": "Smokes & Chews",
+      "printings": 1
+    },
+    {
+      "name": "Bacon (1lb)",
+      "price": 0.1,
+      "priceText": "$0.10",
+      "category": "Sundries",
+      "printings": 2
+    },
+    {
+      "name": "Beef (Jerky 1lb)",
+      "price": 0.2,
+      "priceText": "$0.20",
+      "category": "Sundries",
+      "printings": 2
+    },
+    {
+      "name": "Beer (Small keg)",
+      "price": 3.0,
+      "priceText": "$3.00",
+      "category": "Sundries",
+      "printings": 2
+    },
+    {
+      "name": "Butter (pound)",
+      "price": 0.15,
+      "priceText": "$0.15",
+      "category": "Sundries",
+      "printings": 2
+    },
+    {
+      "name": "Candy (1lb)",
+      "price": 0.2,
+      "priceText": "$0.20",
+      "category": "Sundries",
+      "printings": 2
+    },
+    {
+      "name": "Canned fruit",
+      "price": 0.2,
+      "priceText": "$0.20",
+      "category": "Sundries",
+      "printings": 2
+    },
+    {
+      "name": "Canned vegetables",
+      "price": 0.2,
+      "priceText": "$0.20",
+      "category": "Sundries",
+      "printings": 2
+    },
+    {
+      "name": "Cheese (1lb)",
+      "price": 0.3,
+      "priceText": "$0.30",
+      "category": "Sundries",
+      "printings": 2
+    },
+    {
+      "name": "Cocoa (1lb)",
+      "price": 0.25,
+      "priceText": "$0.25",
+      "category": "Sundries",
+      "printings": 2
+    },
+    {
+      "name": "Coffee (1lb)",
+      "price": 0.25,
+      "priceText": "$0.25",
+      "category": "Sundries",
+      "printings": 2
+    },
+    {
+      "name": "Crackers (1lb)",
+      "price": 0.1,
+      "priceText": "$0.10",
+      "category": "Sundries",
+      "printings": 2
+    },
+    {
+      "name": "Dried fruit (1lb)",
+      "price": 0.1,
+      "priceText": "$0.10",
+      "category": "Sundries",
+      "printings": 2
+    },
+    {
+      "name": "Fish (1lb)",
+      "price": 0.2,
+      "priceText": "$0.20",
+      "category": "Sundries",
+      "printings": 1
+    },
+    {
+      "name": "Flour (1lb)",
+      "price": 0.1,
+      "priceText": "$0.10",
+      "category": "Sundries",
+      "printings": 2
+    },
+    {
+      "name": "Jam (jar)",
+      "price": 0.1,
+      "priceText": "$0.10",
+      "category": "Sundries",
+      "printings": 2
+    },
+    {
+      "name": "Meat (1lb)",
+      "price": 0.1,
+      "priceText": "$0.10",
+      "category": "Sundries",
+      "printings": 2
+    },
+    {
+      "name": "Milk (Gallon)",
+      "price": 0.25,
+      "priceText": "$0.25",
+      "category": "Sundries",
+      "printings": 2
+    },
+    {
+      "name": "Oatmeal (1lb)",
+      "price": 0.5,
+      "priceText": "$0.50",
+      "category": "Sundries",
+      "printings": 2
+    },
+    {
+      "name": "Pickles (quart)",
+      "price": 0.1,
+      "priceText": "$0.10",
+      "category": "Sundries",
+      "printings": 2
+    },
+    {
+      "name": "Rice (1lb)",
+      "price": 0.1,
+      "priceText": "$0.10",
+      "category": "Sundries",
+      "printings": 2
+    },
+    {
+      "name": "Sauce (1 quart)",
+      "price": 0.2,
+      "priceText": "$0.20",
+      "category": "Sundries",
+      "printings": 2
+    },
+    {
+      "name": "Spices",
+      "price": 1.0,
+      "priceText": "$1.00",
+      "category": "Sundries",
+      "printings": 2
+    },
+    {
+      "name": "Sugar (1lb)",
+      "price": 0.1,
+      "priceText": "$0.10",
+      "category": "Sundries",
+      "printings": 2
+    },
+    {
+      "name": "Syrup (1 quart)",
+      "price": 0.25,
+      "priceText": "$0.25",
+      "category": "Sundries",
+      "printings": 2
+    },
+    {
+      "name": "Tea (1 lb)",
+      "price": 0.25,
+      "priceText": "$0.25",
+      "category": "Sundries",
+      "printings": 2
+    },
+    {
+      "name": "Trail rations (per day)",
+      "price": 0.3,
+      "priceText": "$0.30",
+      "category": "Sundries",
+      "printings": 2
+    }
+  ]
+}

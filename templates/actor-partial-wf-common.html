@@ -1,0 +1,641 @@
+{{!--
+  Weird Frontiers character tab.
+
+  FORKED from systems/dcc/templates/actor-partial-pc-common.html (DCC 0.70.50). Everything
+  outside the marked WF blocks below is upstream's, unchanged.
+
+  DO NOT HAND-EDIT. Regenerate with tools/build_wf_common.py after updating reference/dcc.
+
+    1. Alignment select      -> the PATH track + WtL bonus (REQ-SHEET-001, -001a)
+    2. added after HP        -> GRIT, DINERO, BOONS/HEXES (REQ-SHEET-002, -004, -003)
+    3. Crit Table input      -> FUMBLE DIE                (WF keys crit tables to damage type)
+--}}
+{{!-- Character Tab --}}
+<section class="tab {{tabs.character.id}} {{tabs.character.cssClass}}" data-tab="{{tabs.character.id}}" data-group="{{tabs.character.group}}"
+         id="character">
+  <div class="character-grid">
+    {{!-- Name Section --}}
+    <div class="name-and-level grid-col-span-4">
+      <div class="grid-tpl-max-auto">
+        <label for="name">{{localize "DCC.Name"}}</label>
+        <input id="name" name="name" value="{{actor.name}}" title="{{localize 'DCC.CharacterName'}}"
+               placeholder="{{localize 'DCC.CharacterName'}}" autocomplete="off">
+      </div>
+
+      <div class="grid-tpl-max-auto">
+        <label for="system.details.level.value" class="rollable" data-tooltip="{{localize 'DCC.LevelTooltip'}}" data-action="levelChange">
+          {{localize "DCC.Level"}}
+        </label>
+        <input id="system.details.level.value" name="system.details.level.value"
+               value="{{system.details.level.value}}" maxlength="6" size="3" data-dtype="Number"
+               data-tooltip="{{localize 'DCC.LevelTooltip'}}">
+      </div>
+
+
+      <div class="grid-tpl-max-auto">
+        <label for="system.details.occupation.value">{{localize "DCC.Occupation"}}</label>
+        <input id="system.details.occupation.value" name="system.details.occupation.value"
+               value="{{system.details.occupation.value}}" maxlength="40" size="14">
+      </div>
+
+
+      <div class="grid-tpl-max-auto">
+        <label for="system.details.title.value">{{localize "DCC.Title"}}</label>
+        <input id="system.details.title.value" name="system.details.title.value"
+               value="{{system.details.title.value}}" maxlength="40" size="20">
+      </div>
+
+      <div class="grid-tpl-max-auto">
+        <label for="system.details.xp.value">{{localize "DCC.Experience"}}</label>
+        <input id="system.details.xp.value" name="system.details.xp.value"
+               value="{{numberFormat system.details.xp.value decimals=0 sign=false}}"
+               placeholder="0" maxlength="40" data-dtype="Number" size="3">
+      </div>
+
+
+      {{!-- WF BLOCK 1: the Path replaces DCC's alignment (Weird_Frontiers_V6.md:618).
+            Nine notches, -4..+4; sign gives the Path, magnitude gives the modifier.
+            `system.details.alignment` still exists on the schema and is simply not shown. --}}
+      <div class="wf-path grid-col-span-4">
+        <div class="wf-path-title">{{localize "WF.Path.Title"}}</div>
+        <div class="wf-path-track">
+          <span class="wf-path-end">{{localize "WF.Path.Damned"}}</span>
+          {{#each wf.path.track}}
+          <label class="wf-path-notch{{#if this.isLine}} wf-path-line{{/if}}"
+                 data-tooltip="{{#if this.isLine}}{{localize 'WF.Path.TheLineHint'}}{{else}}{{localize this.stateKey}} {{this.modifier}}{{/if}}">
+            <input type="radio" name="system.details.path.position" value="{{this.position}}"
+                   data-dtype="Number" {{checked this.checked}}>
+            <span class="wf-path-dot"></span>
+            <span class="wf-path-label">{{#if this.isLine}}{{localize "WF.Path.TheLineShort"}}{{else}}{{this.modifier}}{{/if}}</span>
+          </label>
+          {{/each}}
+          <span class="wf-path-end">{{localize "WF.Path.Righteous"}}</span>
+        </div>
+
+        {{!-- REQ-SHEET-001a: Walking the Line has its own progression, and it is NOT the
+              track. "+1 modifier at first-level when dealing with folks of any Path. They
+              progress with this bonus for each level they can maintain the Line (+2 at the
+              next level, +3 at the level after, and +1d caps the bonus). If at any point they
+              stray from WtL, they lose this bonus and instead take the bonus from the Path
+              they now follow." (Weird_Frontiers_V6.md:950)
+
+              Two things the track cannot express, hence a separate counter and this row:
+                - the bonus comes from LEVELS HELD at the Line, and the track has no notch for
+                  "at the Line for three levels";
+                - it applies to folks of ANY Path, where the Righteous and Damned modifiers are
+                  audience-scoped (:946, :948).
+
+              The counter is manual, like Boons and Hexes: whether a character "maintained the
+              Line" across a level is a judgement about play, not something a hook can see.
+
+              Straying LOSES the bonus rather than pausing it — "maintain" makes it an unbroken
+              streak — so a character who returns to the Line starts again at +1. The count is
+              not wiped automatically, because a nudged radio button should not destroy it; the
+              sheet flags the broken streak and asks the user to clear it. --}}
+        <div class="wf-line-row">
+          <label for="system.details.path.lineLevels" data-tooltip="{{localize 'WF.Path.LineLevelsHint'}}">
+            {{localize "WF.Path.LineLevels"}}
+          </label>
+          <input id="system.details.path.lineLevels" name="system.details.path.lineLevels"
+                 value="{{system.details.path.lineLevels}}" size="2" data-dtype="Number">
+          {{#if wf.path.line.active}}
+          <span class="wf-line-bonus" data-tooltip="{{localize 'WF.Path.LineBonusHint'}}">
+            {{wf.path.line.bonus}} {{localize "WF.Path.LineBonusScope"}}
+          </span>
+          {{/if}}
+          {{#if wf.path.line.lost}}
+          <span class="wf-line-lost" data-tooltip="{{localize 'WF.Path.LineLostHint'}}">
+            {{localize "WF.Path.LineLost"}}
+          </span>
+          {{/if}}
+        </div>
+      </div>
+    </div>
+
+    <div class="ac-and-hp grid-tpl-two">
+      {{!-- AC --}}
+      <svg style="grid-area: 1/1; justify-self: center; fill: none;" width="68" height="65" viewBox="0 0 68 64"
+           xmlns="http://www.w3.org/2000/svg">
+        <path d="M65 3H3C2.99995 22.5946 7.3056 61 35.2917 61C63.2778 61 65 11.6216 65 3Z" stroke="var(--system-border-color)"
+              stroke-opacity="0.75" stroke-width="5"></path>
+      </svg>
+      <input style="grid-area: 1/1" id="system.attributes.ac.value" name="system.attributes.ac.value"
+             value="{{system.attributes.ac.value}}"
+        {{#if system.config.computeAC }}
+             title="{{localize system.attributes.ac.baseAbilityLabel}} {{numberFormat system.attributes.ac.baseAbility decimals=0 sign=true}}
+               {{localize 'DCC.ArmorPropertiesACBonus'}} {{numberFormat system.attributes.ac.armorBonus decimals=0 sign=true}} -
+                {{localize 'DCC.ConfigureHint'}}"
+             disabled
+        {{/if}}
+             data-dtype="Number">
+      {{#if attributeEffects.ac.length}}
+      <div class="ac-effects">
+        {{#each attributeEffects.ac}}
+        <img src="{{this.img}}" class="attribute-effect-icon"
+             data-tooltip="{{this.name}}: {{this.value}}" alt="{{this.name}}">
+        {{/each}}
+      </div>
+      {{/if}}
+      <label for="system.attributes.ac.value" style="grid-area: 2/1/4/1; line-height: 18px;">
+        {{{localize "DCC.ArmorClass"}}}
+      </label>
+      <svg style="grid-area: 1/2; justify-self: center; fill: none" width="70" height="65" viewBox="0 0 70 64"
+           xmlns="http://www.w3.org/2000/svg">
+        <path d="M66 3H4L16.5734 61H52.993L66 3Z" stroke="var(--system-border-color)" stroke-opacity="0.75" stroke-width="5"></path>
+      </svg>
+      {{!-- HP --}}
+      <input style="grid-area: 1/2" id="system.attributes.hp.value" name="system.attributes.hp.value"
+             value="{{system.attributes.hp.value}}"
+             data-dtype="Number">
+      {{#if attributeEffects.hp.length}}
+      <div class="hp-effects">
+        {{#each attributeEffects.hp}}
+        <img src="{{this.img}}" class="attribute-effect-icon"
+             data-tooltip="{{this.name}}: {{this.value}}" alt="{{this.name}}">
+        {{/each}}
+      </div>
+      {{/if}}
+      <label for="system.attributes.hp.value" style="grid-row: 2">{{localize "DCC.HitPoints"}}</label>
+      <div class="grid-tpl-max-auto" style="grid-area: 3/2; font-size: 13px; margin-bottom: 0;">
+        <label style="font-size: 14px; line-height: 16px;" for="system.attributes.hp.max">{{localize "DCC.Max"}}:</label>
+        <input style="font-size: 14px; border-bottom: 1px solid rgba(0, 0, 0, 0.5)"
+               id="system.attributes.hp.max" name="system.attributes.hp.max" value="{{system.attributes.hp.max}}" size="3" data-dtype="Number"
+        >
+      </div>
+
+      {{!-- WF BLOCK 2: Grit and Dinero.
+            Grit's MAXIMUM is derived, never stored — it is (Stamina + Personality) / 2 rounded
+            down, less permanent loss (Weird_Frontiers_V6.md:608, :3221, :3245). Storing it
+            would go stale the moment an ability changed, and the DCC system fires no hook
+            during prepareData in which to recompute it. --}}
+      <div class="wf-grit grid-col-span-2">
+        <div class="wf-grit-row">
+          <label for="system.attributes.grit.value" data-tooltip="{{localize 'WF.Grit.Hint'}}">
+            {{localize "WF.Grit.Label"}}
+          </label>
+          <input id="system.attributes.grit.value" name="system.attributes.grit.value"
+                 value="{{system.attributes.grit.value}}" size="3" data-dtype="Number">
+          <span class="wf-grit-max" data-tooltip="{{localize 'WF.Grit.MaxHint'}}">
+            / {{wf.grit.max}}
+          </span>
+        </div>
+        <div class="wf-grit-row">
+          <label for="system.attributes.grit.startingTotal"
+                 data-tooltip="{{localize 'WF.Grit.StartingTotalHint'}}">
+            {{localize "WF.Grit.StartingTotal"}}
+          </label>
+          <input id="system.attributes.grit.startingTotal" name="system.attributes.grit.startingTotal"
+                 value="{{system.attributes.grit.startingTotal}}" size="2" data-dtype="Number">
+          {{#if wf.grit.needsSetup}}
+          <span class="wf-grit-suggest"
+                data-tooltip="{{localize 'WF.Grit.SuggestHint'}}">{{localize "WF.Grit.Suggest"}} {{wf.grit.suggestedTotal}}</span>
+          {{/if}}
+        </div>
+        <div class="wf-grit-row wf-grit-loss">
+          <label for="system.attributes.grit.permanentLoss"
+                 data-tooltip="{{localize 'WF.Grit.PermanentLossHint'}}">
+            {{localize "WF.Grit.PermanentLoss"}}
+          </label>
+          <input id="system.attributes.grit.permanentLoss" name="system.attributes.grit.permanentLoss"
+                 value="{{system.attributes.grit.permanentLoss}}" size="2" data-dtype="Number">
+        </div>
+        {{#if wf.grit.retired}}
+        <div class="wf-grit-retired">{{localize "WF.Grit.Retired"}}</div>
+        {{/if}}
+        <div class="wf-grit-row wf-dinero">
+          <label for="system.currency.dinero" data-tooltip="{{localize 'WF.Dinero.Hint'}}">
+            {{localize "WF.Dinero.Label"}}
+          </label>
+          <input id="system.currency.dinero" name="system.currency.dinero"
+                 value="{{numberFormat system.currency.dinero decimals=2 sign=false}}"
+                 size="6" data-dtype="Number">
+        </div>
+
+        {{!-- REQ-SHEET-003. Boon and Hex tokens sit beside Grit because each Hex raises the
+              Grit-check DC. Both are MANUAL counters: they are poker chips at the table, and
+              the earning rule reverses on a roll where lower is better, which is a judgement
+              call no hook can make. --}}
+        <div class="wf-grit-row wf-tokens">
+          <label for="system.attributes.boons" data-tooltip="{{localize 'WF.Tokens.BoonsHint'}}">
+            {{localize "WF.Tokens.Boons"}}
+          </label>
+          <input id="system.attributes.boons" name="system.attributes.boons"
+                 value="{{system.attributes.boons}}" size="2" data-dtype="Number">
+
+          <label for="system.attributes.hexes" data-tooltip="{{localize 'WF.Tokens.HexesHint'}}">
+            {{localize "WF.Tokens.Hexes"}}
+          </label>
+          <input id="system.attributes.hexes" name="system.attributes.hexes"
+                 value="{{system.attributes.hexes}}" size="2" data-dtype="Number">
+        </div>
+
+        {{!-- The four things a Hex actually does, shown only when the character has one.
+              None of this is automated; these are the numbers to apply by hand. --}}
+        {{#if wf.tokens.hasHexes}}
+        <div class="wf-hex-effects" data-tooltip="{{localize 'WF.Tokens.HexEffectsHint'}}">
+          {{localize "WF.Tokens.HexEffects"}}
+          {{wf.tokens.fumblePenalty}} {{localize "WF.Tokens.HexFumble"}} ·
+          {{wf.tokens.interactionPenalty}} {{localize "WF.Tokens.HexInteraction"}} ·
+          {{wf.tokens.gritDcModifier}} {{localize "WF.Tokens.HexGritDc"}} ·
+          {{wf.tokens.madnessModifier}} {{localize "WF.Tokens.HexMadness"}}
+        </div>
+        {{/if}}
+      </div>
+    </div>
+
+    {{!-- Combat Basics --}}
+    <div style="" class="combat-basics">
+      <div class="grid-col-span-4 box-title">{{localize "DCC.CombatBasics"}}</div>
+
+      {{!-- Initiative --}}
+      <label for="system.attributes.init.die">{{localize "DCC.InitiativeDie"}}</label>
+      <input id="system.attributes.init.die" name="system.attributes.init.die"
+             value="{{system.attributes.init.die}}" size="3"
+             placeholder="1d20"
+      >
+      <label for="system.attributes.init.value" class="rollable" title="{{localize 'DCC.InitSheetHint'}}" data-action="rollInitiative"
+             data-drag="true" data-drag-action="initiative">
+        {{localize "DCC.Initiative"}}
+      </label>
+      <input id="system.attributes.init.value" name="system.attributes.init.value"
+             value="{{numberFormat system.attributes.init.value decimals=0 sign=true}}" size="3"
+             placeholder="+0" data-dtype="Number"
+             title="{{localize 'DCC.InitSheetHint'}}"
+             {{#if system.config.computeInitiative}}readonly{{/if}}
+      >
+
+      {{!-- Action Dice --}}
+      {{#if showActionDiceChips}}
+      <div class="action-dice-row" title="{{#if actionDiceTracking}}{{localize 'DCC.ActionDiceRowTrackingHint'}}{{else}}{{localize 'DCC.ActionDiceRowStaticHint'}}{{/if}}">
+        <label>{{localize "DCC.ActionDice"}}</label>
+        <div class="action-dice-chips">
+          {{#each actionDiceChips}}
+          <span class="{{this.cssClass}}" title="{{this.tooltip}}"{{#if ../actionDiceInteractive}} data-action="toggleActionDie" data-slot-index="{{this.index}}"{{/if}}>
+            {{this.label}}{{#if this.restricted}}<span class="action-die-mark">&#8859;</span>{{/if}}
+          </span>
+          {{/each}}
+        </div>
+      </div>
+      {{else}}
+      <label for="system.attributes.actionDice.value" title="{{localize 'DCC.ActionDiceSheetHint'}}">{{localize "DCC.ActionDie"}}</label>
+      <input id="system.attributes.actionDice.value" name="system.attributes.actionDice.value"
+             size="3"
+             value="{{system.attributes.actionDice.value}}"
+             title="{{localize 'DCC.ActionDiceSheetHint'}}"
+             data-dtype="String"
+             placeholder="1d20"
+      >
+      {{/if}}
+
+      {{!-- Crit Die --}}
+      <label for="system.attributes.critical.die" class="rollable" data-action="rollCritDie">{{localize "DCC.CritDie"}}</label>
+      <input id="system.attributes.critical.die" name="system.attributes.critical.die"
+             size="3"
+             value="{{system.attributes.critical.die}}"
+             data-dtype="String"
+      >
+
+      {{!-- Attack Bonus --}}
+      <label for="system.details.attackBonus">{{localize "DCC.AttackBonus"}}</label>
+      <input id="system.details.attackBonus" name="system.details.attackBonus"
+             size="3"
+             value="{{system.details.attackBonus}}"
+             data-dtype="String"
+      >
+
+      {{!-- WF BLOCK 3: Fumble Die replaces DCC's Crit Table.
+            WF keys crit tables to DAMAGE TYPE (Blunt/Piercing/Slashing/Firearms/Wrestling,
+            Weird_Frontiers_V6.md:2866), so the table belongs to the weapon, not the character —
+            and the published WF sheet prints FUMBLE DIE beside CRIT DIE in its Combat box.
+            The value is MANAGED (REQ-SHEET-013): DCC recomputes attributes.fumble.die from
+            equipped armor on every prepareData with no config gate
+            (reference/dcc/module/actor.js:76-99), and WF has no armor, so a stored value is
+            always discarded. module/wf-fumble.mjs applies the correct class-and-level die as an
+            Active Effect, which runs after prepareBaseData and wins. The input stays disabled
+            because a typed value really would be thrown away. --}}
+      <label for="system.attributes.fumble.die" data-tooltip="{{localize 'WF.FumbleDie.Broken'}}">
+        {{localize "WF.FumbleDie.Label"}}
+      </label>
+      <input id="system.attributes.fumble.die" name="system.attributes.fumble.die"
+             size="3"
+             value="{{system.attributes.fumble.die}}"
+             data-dtype="String"
+             data-tooltip="{{localize 'WF.FumbleDie.Broken'}}"
+             disabled
+      >
+
+      {{!-- Hit Die --}}
+      <label for="system.attributes.hitDice.value" class="rollable" title="{{localize 'DCC.HitDieHint'}}" data-action="rollHitDice" data-drag="true"
+             data-drag-action="hitDice">
+        {{localize "DCC.HitDie"}}
+      </label>
+      <input id="system.attributes.hitDice.value" name="system.attributes.hitDice.value"
+             size="3"
+             title="{{localize 'DCC.HitDieHint'}}"
+             value="{{system.attributes.hitDice.value}}"
+             data-dtype="String"
+      >
+
+      {{!-- Speed --}}
+      <label for="system.attributes.speed.value" {{#if system.config.computeSpeed}}title="{{localize 'DCC.SpeedComputeHint'}}"{{/if}}>{{localize "DCC.Speed"}}</label>
+      <input id="system.attributes.speed.value" name="system.attributes.speed.value"
+             value="{{distanceFormat system.attributes.speed.value}}"
+             size="3"
+             data-dtype="String"
+        {{#if system.config.computeSpeed }}
+             title="{{localize 'DCC.SpeedBase'}}: {{distanceFormat system.attributes.speed.base}} · {{localize 'DCC.SpeedPenalty'}}: {{distanceFormat system.attributes.ac.speedPenalty}} — {{localize 'DCC.SpeedComputeHint'}}"
+             disabled
+        {{/if}}
+      >
+
+      {{!-- Swim and Fly Speeds --}}
+      {{#if system.config.showSwimFlySpeed}}
+      {{!-- Swim Speed --}}
+        <label for="system.attributes.speed.swim">{{localize "DCC.SwimSpeed"}}</label>
+        <input id="system.attributes.speed.swim" name="system.attributes.speed.swim"
+               value="{{distanceFormat system.attributes.speed.swim}}"
+               size="3"
+               data-dtype="String"
+        >
+
+        {{!-- Fly Speed --}}
+        <label for="system.attributes.speed.fly">{{localize "DCC.FlySpeed"}}</label>
+        <input id="system.attributes.speed.fly" name="system.attributes.speed.fly"
+               value="{{distanceFormat system.attributes.speed.fly}}"
+               size="3"
+               data-dtype="String"
+        >
+      {{/if}}
+    </div>
+
+    {{!-- Ability Scores --}}
+    {{#* inline "abilityScore"}}
+      <div class="ability-box" id="{{id}}" data-ability="{{id}}">
+        {{!-- When the Ability Score Log is enabled the value input becomes an
+              editAbilityScore action target; dropping the label's `for=` here
+              stops a title click from being forwarded to that input and firing
+              the edit dialog on top of the ability check (see issue #779). --}}
+        <label {{#unless @root.abilityScoreLogEnabled}}for="system.abilities.{{id}}.value"{{/unless}} class="box-title rollable"
+               title="{{localize (concat 'DCC.Roll' (localize ability.label) 'CheckHint')}}"
+               data-action="rollAbilityCheck" data-drag="true" data-drag-action="ability">
+          {{localize ability.label}}
+        </label>
+        <div class="ability-score">
+          <input id="system.abilities.{{id}}.value" value="{{ability.value}}" size="2"
+                 name="system.abilities.{{id}}.value" data-dtype="Number" placeholder="10"
+                 {{#if @root.abilityScoreLogEnabled}}readonly style="cursor: pointer" data-action="editAbilityScore"
+                 data-tooltip="{{localize 'DCC.AbilityLogTitle'}}"{{/if}}>
+          {{!-- Effective score badge (#801): shown when an otherMod Active
+                Effect shifts the score; the input keeps the editable base --}}
+          {{#if (ne ability.effectiveValue ability.value)}}
+          <span class="ability-effective-value"
+                data-tooltip="{{localize 'DCC.AbilityEffectiveValueTooltip' effective=ability.effectiveValue base=ability.value}}">
+            {{ability.effectiveValue}}
+          </span>
+          {{/if}}
+          {{#if effects.length}}
+          <div class="ability-effects">
+            {{#each effects}}
+            <img src="{{this.img}}" class="ability-effect-icon"
+                 data-tooltip="{{this.name}}: {{this.value}}" alt="{{this.name}}">
+            {{/each}}
+          </div>
+          {{/if}}
+        </div>
+        <label for="system.abilities.{{id}}.mod"
+               style="grid-area: 2/1" data-modifier="true"
+          {{#if isLuck}}class="rollable luck-roll-under" title="{{localize "DCC.RollLuckCheckModHint"}}" data-action="rollAbilityCheck"
+               data-drag="true" data-drag-action="ability"{{/if}}>
+          {{localize "DCC.Modifier"}}:
+        </label>
+        <input id="system.abilities.{{id}}.mod" style="grid-area: 2/2" name="system.abilities.{{id}}.mod"
+               value="{{numberFormat ability.mod decimals=0 sign=true}}" size="3" disabled>
+        <label for="system.abilities.{{id}}.max" style="grid-area: 3/1">{{localize "DCC.MaxValue"}}:</label>
+        <input id="system.abilities.{{id}}.max" style="grid-area: 3/2"
+               name="system.abilities.{{id}}.max" value="{{ability.max}}" size="2"
+               data-dtype="Number" placeholder="10">
+        {{#if isLuck}}
+        <label for="system.details.birthAugurLuckMod" style="grid-area: 4/1"
+               data-tooltip="{{localize 'DCC.BirthAugurLuckModHint'}}">{{localize "DCC.BirthAugurLuckMod"}}:</label>
+        <input id="system.details.birthAugurLuckMod" style="grid-area: 4/2"
+               name="system.details.birthAugurLuckMod" value="{{numberFormat @root.system.details.birthAugurLuckMod decimals=0 sign=true}}"
+               size="3" data-dtype="Number" placeholder="0"
+               data-tooltip="{{localize 'DCC.BirthAugurLuckModHint'}}">
+        {{/if}}
+      </div>
+    {{/inline}}
+
+    <div class="ability-scores">
+      {{#if abilityScoreLogEnabled}}
+      <button type="button" class="ability-log-button" data-action="viewAbilityLog"
+              data-tooltip="{{localize 'DCC.AbilityLogTitle'}}" aria-label="{{localize 'DCC.AbilityLogTitle'}}">
+        <i class="fas fa-clock-rotate-left"></i>
+      </button>
+      {{/if}}
+      {{> abilityScore id='str' ability=system.abilities.str effects=abilityEffects.str }}
+      {{> abilityScore id='agl' ability=system.abilities.agl effects=abilityEffects.agl }}
+      {{> abilityScore id='sta' ability=system.abilities.sta effects=abilityEffects.sta }}
+      {{> abilityScore id='per' ability=system.abilities.per effects=abilityEffects.per }}
+      {{> abilityScore id='int' ability=system.abilities.int effects=abilityEffects.int }}
+      {{> abilityScore id='lck' ability=system.abilities.lck effects=abilityEffects.lck isLuck=true }}
+    </div>
+
+    {{!-- Logo box --}}
+    <img src="systems/dcc/styles/images/dccrpg-logo.png" height="60px" width="110px" alt="DCC RPG Logo"
+         style="opacity: 0.35; align-self: center; justify-self: center; border: none">
+
+    {{!-- Melee Attack Values --}}
+    <div class="melee-missile-attack-damage grid-col-span-2">
+      <div class="box-border grid-tpl-max mb-10">
+        <label for="system.details.attackHitBonus.melee.value" class="box-title" title="{{localize 'DCC.MeleeAttackHint'}}"
+               data-action="configureMeleeMissileBonus">
+          {{{localize 'DCC.MeleeAttack'}}}
+        </label>
+        <input id="system.details.attackHitBonus.melee.value" name="system.details.attackHitBonus.melee.value"
+               value="{{system.details.attackHitBonus.melee.value}}" title="{{localize 'DCC.MeleeAttackHint'}}"
+               {{#if system.config.computeMeleeAndMissileAttackAndDamage}}readonly{{/if}}
+        >
+        {{#if attackBonusEffects.meleeHit.length}}
+        <div class="attack-bonus-effects">
+          {{#each attackBonusEffects.meleeHit}}
+          <img src="{{this.img}}" class="attack-bonus-effect-icon"
+               data-tooltip="{{this.name}}: {{this.value}}" alt="{{this.name}}">
+          {{/each}}
+        </div>
+        {{/if}}
+      </div>
+      <div class="box-border grid-tpl-max mb-10">
+        <label for="system.details.attackDamageBonus.melee.value" class="box-title" title="{{localize 'DCC.MeleeDamageHint'}}"
+               data-action="configureMeleeMissileBonus">
+          {{{localize 'DCC.MeleeDamage'}}}
+        </label>
+        <input id="system.details.attackDamageBonus.melee.value" name="system.details.attackDamageBonus.melee.value"
+               value="{{system.details.attackDamageBonus.melee.value}}"
+               {{#if system.config.computeMeleeAndMissileAttackAndDamage}}readonly{{/if}}
+        >
+        {{#if attackBonusEffects.meleeDamage.length}}
+        <div class="attack-bonus-effects">
+          {{#each attackBonusEffects.meleeDamage}}
+          <img src="{{this.img}}" class="attack-bonus-effect-icon"
+               data-tooltip="{{this.name}}: {{this.value}}" alt="{{this.name}}">
+          {{/each}}
+        </div>
+        {{/if}}
+      </div>
+      {{!-- Missile Attack Values --}}
+      <div class="box-border grid-tpl-max mb-11">
+        <label for="system.details.attackHitBonus.missile.value" class="box-title" title="{{localize 'DCC.MissileAttackHint'}}"
+               data-action="configureMeleeMissileBonus">
+          {{{localize 'DCC.MissileAttack'}}}
+        </label>
+        <input id="system.details.attackHitBonus.missile.value" name="system.details.attackHitBonus.missile.value"
+               value="{{system.details.attackHitBonus.missile.value}}"
+               {{#if system.config.computeMeleeAndMissileAttackAndDamage}}readonly{{/if}}
+        >
+        {{#if attackBonusEffects.missileHit.length}}
+        <div class="attack-bonus-effects">
+          {{#each attackBonusEffects.missileHit}}
+          <img src="{{this.img}}" class="attack-bonus-effect-icon"
+               data-tooltip="{{this.name}}: {{this.value}}" alt="{{this.name}}">
+          {{/each}}
+        </div>
+        {{/if}}
+      </div>
+      <div class="box-border grid-tpl-max mb-11">
+        <label for="system.details.attackDamageBonus.missile.value" class="box-title" title="{{localize 'DCC.MissileDamageHint'}}"
+               data-action="configureMeleeMissileBonus">
+          {{{localize 'DCC.MissileDamage'}}}
+        </label>
+        <input id="system.details.attackDamageBonus.missile.value" name="system.details.attackDamageBonus.missile.value"
+               value="{{system.details.attackDamageBonus.missile.value}}"
+               {{#if system.config.computeMeleeAndMissileAttackAndDamage}}readonly{{/if}}
+        >
+        {{#if attackBonusEffects.missileDamage.length}}
+        <div class="attack-bonus-effects">
+          {{#each attackBonusEffects.missileDamage}}
+          <img src="{{this.img}}" class="attack-bonus-effect-icon"
+               data-tooltip="{{this.name}}: {{this.value}}" alt="{{this.name}}">
+          {{/each}}
+        </div>
+        {{/if}}
+      </div>
+    </div>
+
+    {{!-- Saving throws --}}
+    {{#* inline "save"}}
+      <div class="saving-throw-box" id="{{id}}" data-save="{{id}}">
+        <div class="save-value">
+          <input id="system.saves.{{id}}.value" value="{{save.value}}"
+                 name="system.saves.{{id}}.value" placeholder="+0"
+            {{#if system.config.computeSavingThrows}}readonly style="cursor: pointer" data-action="configureSavingThrows"{{/if}}
+          >
+          {{#if effects.length}}
+          <div class="save-effects">
+            {{#each effects}}
+            <img src="{{this.img}}" class="save-effect-icon"
+                 data-tooltip="{{this.name}}: {{this.value}}" alt="{{this.name}}">
+            {{/each}}
+          </div>
+          {{/if}}
+        </div>
+        <label for="system.saves.{{id}}.value" class="rollable" title="{{localize 'DCC.RollSavingThrowHint'}}" data-action="rollSavingThrow"
+               data-drag="true" data-drag-action="save">
+          {{localize save.label}}
+        </label>
+      </div>
+    {{/inline}}
+    <div class="saving-throws">
+      {{> save id='ref' save=system.saves.ref effects=saveEffects.ref}}
+      {{> save id='frt' save=system.saves.frt effects=saveEffects.frt}}
+      {{> save id='wil' save=system.saves.wil effects=saveEffects.wil}}
+    </div>
+
+    {{!-- Portrait --}}
+    <div class="portrait">
+      <div class="box-title">{{localize "DCC.CharacterPortrait"}}</div>
+      <img id="portrait" src="{{img}}" data-action="editImage" data-edit="img" height="100px" width="100px"
+           alt="{{localize 'DCC.CharacterPortrait'}}">
+    </div>
+
+    {{!-- Languages --}}
+    <div class="languages">
+      <label for="system.details.languages" class="box-title">{{localize "DCC.Languages"}}</label>
+      <textarea id="system.details.languages" name="system.details.languages" rows="2">{{system.details.languages}}</textarea>
+    </div>
+
+    {{!-- Lucky Roll --}}
+    <div class="lucky-roll">
+      <label for="system.details.birthAugur" class="box-title">{{localize "DCC.LuckyRoll"}}</label>
+      <textarea id="system.details.birthAugur" name="system.details.birthAugur" rows="5">{{system.details.birthAugur}}</textarea>
+    </div>
+
+    {{!-- WF BLOCK 4: SPECIAL ABILITIES & SPELLS (REQ-SHEET-011).
+
+          The published sheet carries one large Text widget for this (`untitled28`, 266x330,
+          mapped in docs/official-sheet-field-map.md) and has NO class-specific boxes anywhere
+          on the page — so a Bedlamite's derangements, a Mystic Monk's chi knacks and a
+          Revelator's spells are all free text in this one area.
+
+          Placed at grid row 13 so it lands below every upstream block rather than auto-flowing
+          into a gap: the upstream grid uses explicit rows only for its separators, the last at
+          row 12. Rendered as a <textarea> against a StringField, matching how DCC itself treats
+          `details.languages` and `details.birthAugur` two boxes up. --}}
+    <div class="wf-special-abilities" style="grid-row: 13; grid-column: 1 / span 4">
+      <label for="system.details.specialAbilities" class="box-title"
+             data-tooltip="{{localize 'WF.Sheet.SpecialAbilitiesHint'}}">
+        {{localize "WF.Sheet.SpecialAbilities"}}
+      </label>
+      <textarea id="system.details.specialAbilities" name="system.details.specialAbilities"
+                rows="8">{{system.details.specialAbilities}}</textarea>
+    </div>
+
+    {{!-- WF BLOCK 5: SIGNATURE WEAPONS (REQ-SHEET-011).
+
+          Five ruled rows of WEAPON | DMG | SHOTS | RANGE on the paper sheet
+          (untitled74..untitled88, mapped in docs/official-sheet-field-map.md). DERIVED from the
+          weapon items rather than twenty free-text widgets: every value already exists on the
+          item, so typing them again would create a second source of truth for damage that drifts
+          the moment the item is edited. See signatureWeapons() in module/wf-sheet.mjs.
+
+          Mark a weapon with the star in the weapons list. Nothing is truncated to five -- the
+          paper form ran out of rows, the data has not. --}}
+    <div class="wf-signature" style="grid-row: 14; grid-column: 1 / span 4">
+      <div class="box-title" data-tooltip="{{localize 'WF.Sheet.SignatureHint'}}">
+        {{localize "WF.Sheet.SignatureWeapons"}}
+      </div>
+      {{#if wf.signature.none}}
+        <p class="wf-signature-empty">{{localize "WF.Sheet.SignatureEmpty"}}</p>
+      {{else}}
+        <ol class="wf-signature-rows">
+          <li class="wf-signature-head">
+            <span>{{localize "WF.Sheet.SignatureWeapon"}}</span>
+            <span>{{localize "WF.Sheet.SignatureDmg"}}</span>
+            <span>{{localize "WF.Sheet.SignatureShots"}}</span>
+            <span>{{localize "WF.Sheet.SignatureRange"}}</span>
+          </li>
+          {{#each wf.signature.rows as |row|}}
+            <li data-item-id="{{row.id}}">
+              <span class="wf-signature-name">{{row.name}}</span>
+              <span>{{row.dmg}}</span>
+              <span>{{row.shots}}</span>
+              <span>{{row.range}}</span>
+            </li>
+          {{/each}}
+        </ol>
+        {{#if wf.signature.overflow}}
+          <p class="wf-signature-overflow">
+            {{localize "WF.Sheet.SignatureOverflow" count=wf.signature.overflow rows=wf.signature.printedRows}}
+          </p>
+        {{/if}}
+      {{/if}}
+    </div>
+
+    {{!-- Row separators --}}
+    <div style="grid-row: 4; grid-column-start: 1; grid-column-end: span 4" class="row-separator"></div>
+    <div style="grid-row: 6; grid-column-start: 1; grid-column-end: span 4" class="row-separator"></div>
+    <div style="grid-row: 8; grid-column-start: 1; grid-column-end: span 2" class="row-separator"></div>
+    <div style="grid-row: 10; grid-column-start: 1; grid-column-end: span 4" class="row-separator"></div>
+    <div style="grid-row: 12; grid-column-start: 1; grid-column-end: span 4;" class="row-separator"></div>
+  </div>
+  {{!-- End Character Tab --}}
+</section>

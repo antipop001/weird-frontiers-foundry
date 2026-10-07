@@ -1,0 +1,866 @@
+{
+  "_id": "YF23Kb45qT0uifCN",
+  "name": "Crit Table Piercing",
+  "flags": {},
+  "img": "icons/skills/melee/strike-dagger-blood-red.webp",
+  "description": "",
+  "results": [
+    {
+      "_id": "Xiv5eZeZWWpYRP4U",
+      "_key": "!tables.results!YF23Kb45qT0uifCN.Xiv5eZeZWWpYRP4U",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/strike-dagger-blood-red.webp",
+      "weight": 1,
+      "range": [
+        -500,
+        0
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Target takes full damage from the attack and receives a -1d penalty to all rolls for the rest of the round.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "orliCHM0gODSfgJ1",
+      "_key": "!tables.results!YF23Kb45qT0uifCN.orliCHM0gODSfgJ1",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/strike-dagger-blood-red.webp",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Target dodges awkwardly, falling prone. All additional attacks strike at +1d and the target must use their full move/action to stand up the following round.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "9hoy4exKUiVeTcdi",
+      "_key": "!tables.results!YF23Kb45qT0uifCN.9hoy4exKUiVeTcdi",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/strike-dagger-blood-red.webp",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Swing strikes target's weapon for +1d8 damage and causes them to drop it. If they have no weapon, the attack causes +1d8 damage and stuns the target for one round.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "t3klVks1dKSHW3ON",
+      "_key": "!tables.results!YF23Kb45qT0uifCN.t3klVks1dKSHW3ON",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/strike-dagger-blood-red.webp",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Blow strikes with such force that the target is slammed into an adjacent foe within 5' doing normal damage +1d6 to the other target. Should another foe not be in range, the target is spun awkwardly and is left open for a bonus attack.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "4DLmQybGJJHdPSax",
+      "_key": "!tables.results!YF23Kb45qT0uifCN.4DLmQybGJJHdPSax",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/strike-dagger-blood-red.webp",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Penetrating blow to the target's calf causes them to fall prone and attack does +1d8 damage. The target's leg must be treated or they suffer -5' to movement.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "Y25Mj3UeQbfsY8ih",
+      "_key": "!tables.results!YF23Kb45qT0uifCN.Y25Mj3UeQbfsY8ih",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/strike-dagger-blood-red.webp",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "A vicious downward swing severs 1d4 toes from the target's foot inflicting +1d3 damage per toe, and their movement is halved until treated.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "qs8Zzo3ET5XUnBRV",
+      "_key": "!tables.results!YF23Kb45qT0uifCN.qs8Zzo3ET5XUnBRV",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/strike-dagger-blood-red.webp",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The target's hand is pierced, striking a vital nerve bundle. In addition to +1d8 damage the hand is useless for 1d4 rounds until sensation returns.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "UpcEBSiMcJ5BjVOf",
+      "_key": "!tables.results!YF23Kb45qT0uifCN.UpcEBSiMcJ5BjVOf",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/strike-dagger-blood-red.webp",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "A vicious blow to the mouth knocks 1d6 teeth out and inflicts +1d10 damage. Target must pass a DC 12 fortitude save or become stunned for 1d4 rounds in addition to suffering a -1d penalty to reaction rolls.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "mW07r8FRLuFU5W0O",
+      "_key": "!tables.results!YF23Kb45qT0uifCN.mW07r8FRLuFU5W0O",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/strike-dagger-blood-red.webp",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Attack pierces the target's forearm (roll randomly to determine which arm) and the weapon must be pulled free with a DC 8 Strength check. The attack inflicts +1d10 damage and the target suffers a -2 penalty when attacking with the affected limb until treated.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "o7eyPUKP9yMgCjCV",
+      "_key": "!tables.results!YF23Kb45qT0uifCN.o7eyPUKP9yMgCjCV",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/strike-dagger-blood-red.webp",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Blow lands in the midsection with a sickening sound, slightly puncturing an organ for +1d12 damage as blood is vomited and the target bleeds out for 1d2 damage for 1d6 rounds.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "K0VJdn9cbl5uBKjM",
+      "_key": "!tables.results!YF23Kb45qT0uifCN.K0VJdn9cbl5uBKjM",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/strike-dagger-blood-red.webp",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Attack hooks target's kneecap ripping it free and causing +1d14 damage. Target falls prone and finds their movement halved until treated.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "cujdV5yxpw5WqW3f",
+      "_key": "!tables.results!YF23Kb45qT0uifCN.cujdV5yxpw5WqW3f",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/strike-dagger-blood-red.webp",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Target's hand catches the blow in an attempt to block the attack. In addition to suffering an additional +1d12 damage, the target is spun off balance offering the attacker a bonus attack at +2 to hit.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "PJh8CJgSbsgb05kY",
+      "_key": "!tables.results!YF23Kb45qT0uifCN.PJh8CJgSbsgb05kY",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/strike-dagger-blood-red.webp",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The attack rips down into opponents back, rending flesh and snapping bone for an additional +3d8 damage. Target must immediately pass a DC 13 Fortitude save to avoid having movement permanently reduced by 5' unless magically healed.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "alyszc4sa1T7HDTw",
+      "_key": "!tables.results!YF23Kb45qT0uifCN.alyszc4sa1T7HDTw",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/strike-dagger-blood-red.webp",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Attack impales the shoulder region for an additional +2d10 damage. If the source of the attack was an actual weapon, it is considered stuck, further inflicting 1d8 damage per round that the weapon remains in the wound. Additionally, the target can be \"steered\" into oncoming attacks from allies. Allies gain a +1d attack bonus until a DC 13 Reflex save can be made and the target uses a standard action to remove the weapon.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "kL0YJoM22fiaSd5O",
+      "_key": "!tables.results!YF23Kb45qT0uifCN.kL0YJoM22fiaSd5O",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/strike-dagger-blood-red.webp",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "A vicious strike punctures the target's eyeball causing it to explode in horrific fashion. The orb explodes in a crimson yolk. Attack inflicts +3d6 damage and target is permanently blind in one eye (-2 to all physical skills requiring sight) unless magical healing can be administered.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "haW1M0Bo9RhD5qFi",
+      "_key": "!tables.results!YF23Kb45qT0uifCN.haW1M0Bo9RhD5qFi",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/strike-dagger-blood-red.webp",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Target's foot is impaled, shattering tendon and bone as the weapon drives into the ground inflicting an additional +3d6 damage. Additionally, the weapon pins the target to the spot until the weapon is removed by making a DC 12 Strength check. While pinned to the ground, allies gain a +1d bonus to attack rolls. Once free, the target suffers a -5' to movement until treated.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "rFur0M5b4kAimA5R",
+      "_key": "!tables.results!YF23Kb45qT0uifCN.rFur0M5b4kAimA5R",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/strike-dagger-blood-red.webp",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The attack strikes the back of the target's head, puncturing the skull and spilling brain. The attack inflicts +3d8 damage and target's Intelligence is reduced by 1d4. Additionally, the attacker must pass a DC 8 Strength check to remove the weapon.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "D8xEEHCBxvRiFtad",
+      "_key": "!tables.results!YF23Kb45qT0uifCN.D8xEEHCBxvRiFtad",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/strike-dagger-blood-red.webp",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Blow hits with such force that the target is knocked prone and pinned to the ground. Weapon inflicts +3d8 damage and immobilizes target until a DC 13 Strength check is passed by someone other than the target to remove the weapon.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "tJsB5ymHaBcVKwCB",
+      "_key": "!tables.results!YF23Kb45qT0uifCN.tJsB5ymHaBcVKwCB",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/strike-dagger-blood-red.webp",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Lucky attack punctures the neck, piercing the carotid artery, causing blood to spray with each beat of the heart. Target suffers +2d8 damage and bleeds out for an additional 1d3 damage unless pressure is held or wound is treated.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "yrFFKbeCN6CevwFi",
+      "_key": "!tables.results!YF23Kb45qT0uifCN.yrFFKbeCN6CevwFi",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/strike-dagger-blood-red.webp",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Vicious blow penetrates both of target's cheeks, leaving a large hole in each. The target suffers +2d8 damage and continues to bleed out for 1d2 damage for 1d6 rounds. Target is left with horrible scarring and slurred speech in addition to having difficulties keeping food in their mouth until magically healed.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "7Uok4yabFmk3r9XM",
+      "_key": "!tables.results!YF23Kb45qT0uifCN.7Uok4yabFmk3r9XM",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/strike-dagger-blood-red.webp",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Blow penetrates target's arm, destroying muscle and tendon while severing vital nerves. Target suffers +2d12 damage and permanently loses the use of the arm until treated.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "HukEgJnxedF7sgYH",
+      "_key": "!tables.results!YF23Kb45qT0uifCN.HukEgJnxedF7sgYH",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/strike-dagger-blood-red.webp",
+      "weight": 1,
+      "range": [
+        21,
+        21
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "A strike to the sternum breaks away 1d6 ribs causing +3d6 damage and unbearable pain. Target must pass a DC 13 Fortitude save each round or do nothing but wince in agony. For the next 1d12 days the target suffers a -1d penalty to all rolls as the wound heals.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "tZC11VNiYzTda6jv",
+      "_key": "!tables.results!YF23Kb45qT0uifCN.tZC11VNiYzTda6jv",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/strike-dagger-blood-red.webp",
+      "weight": 1,
+      "range": [
+        22,
+        22
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The attack lands against the femur, shattering it as the femoral artery pumps jets of crimson into both target and attacker's face. Target suffers +3d12 damage and continues to bleed out for 1d3 damage until stabilized. Movement is permanently reduced by 5' until magically healed.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "iH8TsMTi8vExZIUi",
+      "_key": "!tables.results!YF23Kb45qT0uifCN.iH8TsMTi8vExZIUi",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/strike-dagger-blood-red.webp",
+      "weight": 1,
+      "range": [
+        23,
+        23
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "With a downward swing, weapon rakes targets spine, embedding in vertebrae, severing nerves. Weapon inflicts +3d12 damage and the target must pass a DC 14 Fortitude save or lose the use of their legs until magical healing can be administered. Additionally, the weapon is stuck and must be wrenched free by making a DC 10 Strength check.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "PUQoL6kURdeJS3rC",
+      "_key": "!tables.results!YF23Kb45qT0uifCN.PUQoL6kURdeJS3rC",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/strike-dagger-blood-red.webp",
+      "weight": 1,
+      "range": [
+        24,
+        24
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "A sickening pop can be heard, followed by a scream as gore explodes from target's face. Attack strikes at the temple, traveling through both eyeballs, destroying them along with a large portion of the face. The attack inflicts +4d8 damage and the target must pass a DC 14 Fortitude save or pass out for 1d6 rounds. Target is permanently blinded until magical healing can be administered.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "BsLEwFCPFFmMhHff",
+      "_key": "!tables.results!YF23Kb45qT0uifCN.BsLEwFCPFFmMhHff",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/strike-dagger-blood-red.webp",
+      "weight": 1,
+      "range": [
+        25,
+        25
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Strike targets the \"tenders\" of the foe, essentially ruining any future attempts at reproducing. Attack inflicts +4d10 damage and the target must pass a DC 14 Fortitude save to avoid going into shock for 1d10 rounds.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "qVigiw3uorwgFKUg",
+      "_key": "!tables.results!YF23Kb45qT0uifCN.qVigiw3uorwgFKUg",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/strike-dagger-blood-red.webp",
+      "weight": 1,
+      "range": [
+        26,
+        26
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Strike ruptures the target's bladder inflicting +4d8 damage and a DC 13 Fortitude save must be passed to avoid passing out for 1d10 rounds. Target must receive surgery or magical healing or lose 1d4 Stamina points per day before dying of infection.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "FQaPboueIB7pCL2o",
+      "_key": "!tables.results!YF23Kb45qT0uifCN.FQaPboueIB7pCL2o",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/strike-dagger-blood-red.webp",
+      "weight": 1,
+      "range": [
+        27,
+        27
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Attack catches the lower portion of the jaw ripping the mandible free from the target's face. The horrific wound inflicts an additional +3d12 damage and the target must pass a DC 15 Fortitude save to avoid going into shock (effectively helpless). Target is incapable of speech and must receive magical healing or die a slow painful death due to infection and starvation. The target loses 1 Stamina point per day until zero is reached, signifying death.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "7wHVhiXko89tDqu2",
+      "_key": "!tables.results!YF23Kb45qT0uifCN.7wHVhiXko89tDqu2",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/strike-dagger-blood-red.webp",
+      "weight": 1,
+      "range": [
+        28,
+        28
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "A major artery of the heart is pierced by the attack sending sprays of crimson from the wound with each beat. Target suffers an additional +4d12 damage and must immediately pass a DC 14 Fortitude save to avoid instant death.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "qwK9a9Xue30gMe7P",
+      "_key": "!tables.results!YF23Kb45qT0uifCN.qwK9a9Xue30gMe7P",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/strike-dagger-blood-red.webp",
+      "weight": 1,
+      "range": [
+        29,
+        29
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "A wasted breath escapes from the chest wound as the lung is punctured. Target suffers +4d12 damage and loses the use of the lung causing all physical rolls to be made at -2d. Target must receive immediate magical healing (see rules for bleeding out) to avoid death within one round per point of Stamina.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "y9flu7S5Bi00G77X",
+      "_key": "!tables.results!YF23Kb45qT0uifCN.y9flu7S5Bi00G77X",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/strike-dagger-blood-red.webp",
+      "weight": 1,
+      "range": [
+        30,
+        500
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The attack lands true to the front of the target's skull, piercing it in such a way that the momentum catches it and jerks it free from the spinal column. Target shudders and falls to the ground twitching as their final breaths escape from their lungs. Death is instantaneous.",
+      "name": "",
+      "documentUuid": null
+    }
+  ],
+  "formula": "1d30",
+  "replacement": true,
+  "displayRoll": true,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "dcc",
+    "systemVersion": "0.70.50",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "wfvtt00000000000"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_key": "!tables!YF23Kb45qT0uifCN"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Revolvers & Pistols",
+  "type": "Item",
+  "color": "#6b4423",
+  "folder": null,
+  "_id": "Ncq5AXKK4Hq8lKGe",
+  "description": "",
+  "sorting": "a",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "dcc",
+    "systemVersion": "0.70.50",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "wfvtt00000000000"
+  },
+  "_key": "!folders!Ncq5AXKK4Hq8lKGe"
+}

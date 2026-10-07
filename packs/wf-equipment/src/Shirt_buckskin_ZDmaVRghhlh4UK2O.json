@@ -1,0 +1,45 @@
+{
+  "img": "icons/svg/item-bag.svg",
+  "name": "Shirt (buckskin)",
+  "type": "equipment",
+  "system": {
+    "description": {
+      "value": "<table><tr><td><strong>Price</strong></td><td>$4.00</td></tr><tr><td><strong>Category</strong></td><td>Clothing &amp; Accessories (Men)</td></tr></table>",
+      "chat": "",
+      "unidentified": "",
+      "summary": "",
+      "judge": {
+        "value": ""
+      }
+    },
+    "source": "Weird Frontiers"
+  },
+  "flags": {
+    "wfvtt": {
+      "goods": {
+        "price": 4,
+        "priceText": "$4.00",
+        "category": "Clothing & Accessories (Men)"
+      }
+    }
+  },
+  "folder": "VsjPO3Dqzh9n88RF",
+  "_id": "ZDmaVRghhlh4UK2O",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "dcc",
+    "systemVersion": "0.70.50",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "wfvtt00000000000"
+  },
+  "_key": "!items!ZDmaVRghhlh4UK2O"
+}

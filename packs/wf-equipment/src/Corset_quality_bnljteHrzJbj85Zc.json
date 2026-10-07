@@ -1,0 +1,45 @@
+{
+  "img": "icons/svg/item-bag.svg",
+  "name": "Corset (quality)",
+  "type": "equipment",
+  "system": {
+    "description": {
+      "value": "<table><tr><td><strong>Price</strong></td><td>$7.00</td></tr><tr><td><strong>Category</strong></td><td>Clothing &amp; Accessories (Ladies)</td></tr></table>",
+      "chat": "",
+      "unidentified": "",
+      "summary": "",
+      "judge": {
+        "value": ""
+      }
+    },
+    "source": "Weird Frontiers"
+  },
+  "flags": {
+    "wfvtt": {
+      "goods": {
+        "price": 7,
+        "priceText": "$7.00",
+        "category": "Clothing & Accessories (Ladies)"
+      }
+    }
+  },
+  "folder": "yl7PHaAABtH94UIA",
+  "_id": "bnljteHrzJbj85Zc",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "dcc",
+    "systemVersion": "0.70.50",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "wfvtt00000000000"
+  },
+  "_key": "!items!bnljteHrzJbj85Zc"
+}

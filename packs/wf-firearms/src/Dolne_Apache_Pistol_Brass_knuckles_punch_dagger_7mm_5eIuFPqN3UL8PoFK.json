@@ -1,0 +1,62 @@
+{
+  "img": "icons/svg/sword.svg",
+  "name": "Dolne Apache Pistol (Brass knuckles & punch dagger) (7mm)",
+  "type": "weapon",
+  "system": {
+    "description": {
+      "value": "<table><tr><td><strong>Caliber</strong></td><td>7mm</td></tr><tr><td><strong>Type</strong></td><td>Double</td></tr><tr><td><strong>Ammo</strong></td><td>Cart.</td></tr><tr><td><strong>Damage</strong></td><td>1d6</td></tr><tr><td><strong>ROF</strong></td><td>3</td></tr><tr><td><strong>Load</strong></td><td>6</td></tr><tr><td><strong>Reload time</strong></td><td>3</td></tr><tr><td><strong>Range</strong></td><td>2/8/15</td></tr><tr><td><strong>Conceal</strong></td><td>+3</td></tr><tr><td><strong>Price</strong></td><td>$12</td></tr><tr><td><strong>Melee</strong></td><td>d5 brass knuckles/ d4 blade</td></tr></table>",
+      "chat": "",
+      "unidentified": "",
+      "summary": "",
+      "judge": {
+        "value": ""
+      }
+    },
+    "source": "Weird Frontiers",
+    "damage": "1d6",
+    "range": "2/8/15",
+    "melee": false,
+    "trained": false,
+    "twoHanded": false
+  },
+  "flags": {
+    "wfvtt": {
+      "firearm": {
+        "isFirearm": true,
+        "caliber": "7mm",
+        "actionType": "Double",
+        "ammo": "Cart.",
+        "rof": "3",
+        "load": "6",
+        "reloadTime": "3",
+        "conceal": 3,
+        "year": "",
+        "price": 12,
+        "priceText": "$12",
+        "bandedDamage": "",
+        "secondBarrelDamage": "",
+        "meleeNote": "d5 brass knuckles/ d4 blade",
+        "damageType": ""
+      }
+    }
+  },
+  "folder": "q4uTMW3BXWgBWuiS",
+  "_id": "5eIuFPqN3UL8PoFK",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "dcc",
+    "systemVersion": "0.70.50",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "wfvtt00000000000"
+  },
+  "_key": "!items!5eIuFPqN3UL8PoFK"
+}

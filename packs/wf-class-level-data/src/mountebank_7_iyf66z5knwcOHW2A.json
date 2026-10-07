@@ -1,0 +1,33 @@
+{
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "mountebank",
+    "level": "7",
+    "levelData": "system.details.attackBonus=+3\nsystem.attributes.critical.die=1d12\nsystem.attributes.actionDice.value=1d20,1d20\nsystem.attributes.hitDice.value=1d6\nsystem.saves.ref.classBonus=+4\nsystem.saves.frt.classBonus=+3\nsystem.saves.wil.classBonus=+4\n",
+    "levelDataLawful": "",
+    "levelDataNeutral": "",
+    "levelDataChaotic": ""
+  },
+  "name": "mountebank-7",
+  "type": "level",
+  "folder": "y6hld2MjIF2TqMMM",
+  "_id": "iyf66z5knwcOHW2A",
+  "effects": [],
+  "sort": 700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "dcc",
+    "systemVersion": "0.70.50",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "wfvtt00000000000"
+  },
+  "_key": "!items!iyf66z5knwcOHW2A"
+}

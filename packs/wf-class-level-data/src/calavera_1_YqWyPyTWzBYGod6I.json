@@ -1,0 +1,33 @@
+{
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "calavera",
+    "level": "1",
+    "levelData": "system.details.attackBonus=+1\nsystem.attributes.critical.die=1d7\nsystem.attributes.actionDice.value=1d20\nsystem.attributes.hitDice.value=1d8\nsystem.saves.ref.classBonus=+1\nsystem.saves.frt.classBonus=+0\nsystem.saves.wil.classBonus=+1\nsystem.details.title.value=Gloom-kin\n",
+    "levelDataLawful": "",
+    "levelDataNeutral": "",
+    "levelDataChaotic": ""
+  },
+  "name": "calavera-1",
+  "type": "level",
+  "folder": "uXMeJy6DdPir4Yw5",
+  "_id": "YqWyPyTWzBYGod6I",
+  "effects": [],
+  "sort": 100,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "dcc",
+    "systemVersion": "0.70.50",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "wfvtt00000000000"
+  },
+  "_key": "!items!YqWyPyTWzBYGod6I"
+}

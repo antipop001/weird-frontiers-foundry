@@ -1,0 +1,23 @@
+{
+  "name": "Animals",
+  "type": "Item",
+  "color": "#3f4a3a",
+  "folder": null,
+  "_id": "Doq8ImvCVuGrMOoX",
+  "description": "",
+  "sorting": "a",
+  "sort": 0,
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "dcc",
+    "systemVersion": "0.70.50",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "wfvtt00000000000"
+  },
+  "_key": "!folders!Doq8ImvCVuGrMOoX"
+}

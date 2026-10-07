@@ -1,0 +1,52 @@
+{
+  "img": "icons/svg/sword.svg",
+  "name": "Bagh Nakh",
+  "type": "weapon",
+  "system": {
+    "description": {
+      "value": "<table><tr><td><strong>Damage</strong></td><td>1d5+1</td></tr><tr><td><strong>Type</strong></td><td>S</td></tr><tr><td><strong>Weight (lbs)</strong></td><td>1</td></tr><tr><td><strong>Price</strong></td><td>$1</td></tr><tr><td><strong>Notes</strong></td><td>Exotic</td></tr></table>",
+      "chat": "",
+      "unidentified": "",
+      "summary": "",
+      "judge": {
+        "value": ""
+      }
+    },
+    "source": "Weird Frontiers",
+    "damage": "1d5+1",
+    "range": "",
+    "melee": true,
+    "trained": false,
+    "weight": 1
+  },
+  "flags": {
+    "wfvtt": {
+      "firearm": {
+        "isFirearm": false,
+        "damageType": "s",
+        "bandedDamage": "",
+        "price": 1,
+        "priceText": "$1"
+      }
+    }
+  },
+  "folder": "1rAPHmXyqZewpW9o",
+  "_id": "EdSdnk1XuyNS55Bv",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "dcc",
+    "systemVersion": "0.70.50",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "wfvtt00000000000"
+  },
+  "_key": "!items!EdSdnk1XuyNS55Bv"
+}

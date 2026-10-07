@@ -1,0 +1,45 @@
+{
+  "img": "icons/svg/item-bag.svg",
+  "name": "Plug of tobacco (1lb.)",
+  "type": "equipment",
+  "system": {
+    "description": {
+      "value": "<table><tr><td><strong>Price</strong></td><td>$0.25</td></tr><tr><td><strong>Category</strong></td><td>Smokes &amp; Chews</td></tr></table>",
+      "chat": "",
+      "unidentified": "",
+      "summary": "",
+      "judge": {
+        "value": ""
+      }
+    },
+    "source": "Weird Frontiers"
+  },
+  "flags": {
+    "wfvtt": {
+      "goods": {
+        "price": 0.25,
+        "priceText": "$0.25",
+        "category": "Smokes & Chews"
+      }
+    }
+  },
+  "folder": "wlvHTaLyr1JuXEuC",
+  "_id": "NPCeq2pD9TTQKjfo",
+  "effects": [],
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "dcc",
+    "systemVersion": "0.70.50",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "wfvtt00000000000"
+  },
+  "_key": "!items!NPCeq2pD9TTQKjfo"
+}

@@ -1,0 +1,33 @@
+{
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "mystic-monk",
+    "level": "7",
+    "levelData": "system.details.attackBonus=+0\nsystem.attributes.critical.die=1d20\nsystem.attributes.actionDice.value=1d20,1d20\nsystem.attributes.hitDice.value=1d10\nsystem.saves.ref.classBonus=+7\nsystem.saves.frt.classBonus=+3\nsystem.saves.wil.classBonus=+4\n",
+    "levelDataLawful": "",
+    "levelDataNeutral": "",
+    "levelDataChaotic": ""
+  },
+  "name": "mystic-monk-7",
+  "type": "level",
+  "folder": "uWMoJBW0LfGJDukg",
+  "_id": "6qWVjO5QHEELgGo1",
+  "effects": [],
+  "sort": 700,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "dcc",
+    "systemVersion": "0.70.50",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "wfvtt00000000000"
+  },
+  "_key": "!items!6qWVjO5QHEELgGo1"
+}

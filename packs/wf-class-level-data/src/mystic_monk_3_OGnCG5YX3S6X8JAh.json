@@ -1,0 +1,33 @@
+{
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "mystic-monk",
+    "level": "3",
+    "levelData": "system.details.attackBonus=+0\nsystem.attributes.critical.die=1d14\nsystem.attributes.actionDice.value=1d20\nsystem.attributes.hitDice.value=1d10\nsystem.saves.ref.classBonus=+3\nsystem.saves.frt.classBonus=+1\nsystem.saves.wil.classBonus=+2\nsystem.details.title.value=Follower of the Dragon Path\n",
+    "levelDataLawful": "",
+    "levelDataNeutral": "",
+    "levelDataChaotic": ""
+  },
+  "name": "mystic-monk-3",
+  "type": "level",
+  "folder": "uWMoJBW0LfGJDukg",
+  "_id": "OGnCG5YX3S6X8JAh",
+  "effects": [],
+  "sort": 300,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "dcc",
+    "systemVersion": "0.70.50",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "wfvtt00000000000"
+  },
+  "_key": "!items!OGnCG5YX3S6X8JAh"
+}

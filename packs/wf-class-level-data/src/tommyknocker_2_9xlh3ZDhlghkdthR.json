@@ -1,0 +1,33 @@
+{
+  "img": "icons/svg/upgrade.svg",
+  "system": {
+    "class": "tommyknocker",
+    "level": "2",
+    "levelData": "system.details.attackBonus=+2\nsystem.attributes.critical.die=1d8\nsystem.attributes.actionDice.value=1d20\nsystem.attributes.hitDice.value=1d14\nsystem.saves.ref.classBonus=+0\nsystem.saves.frt.classBonus=+2\nsystem.saves.wil.classBonus=+1\nsystem.details.title.value=Deadhead\n",
+    "levelDataLawful": "",
+    "levelDataNeutral": "",
+    "levelDataChaotic": ""
+  },
+  "name": "tommyknocker-2",
+  "type": "level",
+  "folder": "ww6lH0FthYBDQFlp",
+  "_id": "9xlh3ZDhlghkdthR",
+  "effects": [],
+  "sort": 200,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {},
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "dcc",
+    "systemVersion": "0.70.50",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "wfvtt00000000000"
+  },
+  "_key": "!items!9xlh3ZDhlghkdthR"
+}

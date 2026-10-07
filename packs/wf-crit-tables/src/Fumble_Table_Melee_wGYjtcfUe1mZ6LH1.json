@@ -1,0 +1,704 @@
+{
+  "_id": "wGYjtcfUe1mZ6LH1",
+  "name": "Fumble Table Melee",
+  "flags": {},
+  "img": "icons/svg/downgrade.svg",
+  "description": "",
+  "results": [
+    {
+      "_id": "4XI3UHm6QLSUePiO",
+      "_key": "!tables.results!wGYjtcfUe1mZ6LH1.4XI3UHm6QLSUePiO",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        -500,
+        1
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The attack goes wild, causing a momentary loss of balance, giving opponents a +1d to attack rolls until your next action.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "qLr7z18lX7s661Ij",
+      "_key": "!tables.results!wGYjtcfUe1mZ6LH1.qLr7z18lX7s661Ij",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The attack goes horribly wrong as you slip or trip on something overlooked on the ground. You must pass a DC 12 Reflex save to avoid landing prone in addition to giving all enemies a +1d attack bonus until your next action.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "NOA0swEU3LHc2QhY",
+      "_key": "!tables.results!wGYjtcfUe1mZ6LH1.NOA0swEU3LHc2QhY",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Sweat from your hand or perhaps the blood of your enemy from a previous attack causes your weapon to fly from your hand 1d20' away. If the weapon is a natural attack, such as a claw, assume the attacker twists awkwardly, causing momentary numbness as the limb becomes useless until a DC 10 Fortitude save can be passed.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "JnK2XFcW5pB1yJO9",
+      "_key": "!tables.results!wGYjtcfUe1mZ6LH1.JnK2XFcW5pB1yJO9",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Blood or sweat enters your eyes or perhaps your target kicks dirt up at the wrong moment. You're temporarily blinded and suffer a -4 to attack rolls for 1d4 rounds.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "lHKzsBjVDh8x5hxu",
+      "_key": "!tables.results!wGYjtcfUe1mZ6LH1.lHKzsBjVDh8x5hxu",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "You slip on something as you swing, causing the attack to go wild and strike a fellow ally also engaged in melee (combat is considered abstract, thus any friendly participating in melee may be affected). Use the same rules for firing into melee to determine the results of the fumble.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "udb8hGF4nM5ZbApV",
+      "_key": "!tables.results!wGYjtcfUe1mZ6LH1.udb8hGF4nM5ZbApV",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The attack strikes a well-defended area of the target. Weapons must immediately pass a DC 13 Fortitude save to avoid being broken (DC 15 to repair). In the case of a natural weapon (claw, bite, etc.) the attacker suffers damage equal to the attack.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "hU3GGLldCYx9w0lE",
+      "_key": "!tables.results!wGYjtcfUe1mZ6LH1.hU3GGLldCYx9w0lE",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The attack misses wildly giving the target confidence in knowing they're superior in prowess. The remainder of the encounter grants a +1d bonus to attack rolls against you.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "uWrEmI8C4YtdtxGZ",
+      "_key": "!tables.results!wGYjtcfUe1mZ6LH1.uWrEmI8C4YtdtxGZ",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Your weapon strikes something other than the target, causing it to not only break but damages your attacking hand as well. In addition to the destruction of the weapon, the attacker suffers the normal damage of the weapon -1d.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "3Dg1KVer0W687FyG",
+      "_key": "!tables.results!wGYjtcfUe1mZ6LH1.3Dg1KVer0W687FyG",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "You over-commit to your attack and miss badly, slipping into melee range of the next ally to attack (ranged or melee). The next attack that misses the original target automatically strikes you instead for normal damage.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "HeoEOJw4IgNbpEPz",
+      "_key": "!tables.results!wGYjtcfUe1mZ6LH1.HeoEOJw4IgNbpEPz",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Attacker twists the wrong way during the attack, pulling a muscle in their groin. The pain momentarily stuns the attacker for 1d4 rounds in addition to falling prone.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "WnkIBSIjWFGMBDAW",
+      "_key": "!tables.results!wGYjtcfUe1mZ6LH1.WnkIBSIjWFGMBDAW",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The fierce nature of your opponent is so intimidating that the attacker must withdraw on their next action and redirect their attack on a different target or withdraw and flee if no additional target is available.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "bQhhGxOccZwRL6VR",
+      "_key": "!tables.results!wGYjtcfUe1mZ6LH1.bQhhGxOccZwRL6VR",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Your attack lands weakley and becomes stuck, whether in your own gear or your targets or possibly a terrain feature. The attacker is considered entangled until a DC 12 Reflex save can be passed. While entangled all attacks that miss follow the firing into combat rules (even melee attacks) and can potentially strike the original attacker.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "R3LQeF2F249yHLIn",
+      "_key": "!tables.results!wGYjtcfUe1mZ6LH1.R3LQeF2F249yHLIn",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The attacker is left wide open, granting a fierce flurry of blows to which they may only try and deflect. The enemy immediately gains a bonus attack and may continue making bonus attacks as long as each lands successfully, up to a maximum of 6.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "KJQGdsV6IPkQewmf",
+      "_key": "!tables.results!wGYjtcfUe1mZ6LH1.KJQGdsV6IPkQewmf",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The attack is somehow reversed by the defender and used to inflict a critical hit upon the attacker! In addition to inflicting normal damage, roll 1d8 and consult the appropriate Critical Hit chart.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "q5KZ2M13nZ62nOAy",
+      "_key": "!tables.results!wGYjtcfUe1mZ6LH1.q5KZ2M13nZ62nOAy",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The attack is anticipated in a way that leaves them standing in awe as the weapon is taken by the defender and used against the attacker as a free bonus attack. The target must have a free hand to take the weapon and make the attack or may drop held item(s), otherwise the weapon is thrown 1d20'. Attacks made with natural weapons should reroll on the chart.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "dhmur8p1pfZ6vCGH",
+      "_key": "!tables.results!wGYjtcfUe1mZ6LH1.dhmur8p1pfZ6vCGH",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The attack is so mistimed that it strikes a random ally with such accuracy that a new attack roll is unnecessary and inflicts +1d damage.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "dVOwhZeXAtN5zC41",
+      "_key": "!tables.results!wGYjtcfUe1mZ6LH1.dVOwhZeXAtN5zC41",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The attack is blocked so effectively it causes the attacking limb to break with a sickening snap! Attacker suffers 1d12 damage and the limb is useless until treated. Additionally, if a weapon was used during the attack it is thrown 1d20' away.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "3OYpCloojXzxbDig",
+      "_key": "!tables.results!wGYjtcfUe1mZ6LH1.3OYpCloojXzxbDig",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Attacker slips on something or trips, landing prone on the weapon in such a way that normal damage is suffered (no Strength modifier) and a critical hit is scored (roll the attackers crit die).",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "xtKxCsMHgcYHAjYr",
+      "_key": "!tables.results!wGYjtcfUe1mZ6LH1.xtKxCsMHgcYHAjYr",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The attack is rendered useless and the attacking limb is held, allowing the defender to maneuver the attacker so that all enemy attacks gain a +1d to both attack and damage rolls until the defender releases the limb or the original attacker passes a DC 13 Reflex save.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "dO1T00YOnRANzcXR",
+      "_key": "!tables.results!wGYjtcfUe1mZ6LH1.dO1T00YOnRANzcXR",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Lady Calamity has been waiting for this moment! You face a superior foe(s) and they delightfully sense your imminent demise. Your are \"gifted\" one Hex token for every additional attack you miss for the next 10 rounds.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "yur506Si6aiTLSa7",
+      "_key": "!tables.results!wGYjtcfUe1mZ6LH1.yur506Si6aiTLSa7",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        21,
+        21
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The defender has faced and defeated the attacker in a past life. Every move seems to be telegraphed and countered, while the attacker's defenses seem useless. For the duration of the encounter, the original attackers AC is reduced by -4 and attack rolls suffer -1d.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "BMqLEnfvEOiyKHgH",
+      "_key": "!tables.results!wGYjtcfUe1mZ6LH1.BMqLEnfvEOiyKHgH",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        22,
+        22
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The attacker has a split-second vision causing the attack to miss, as the attacker is overwhelmed by seeing their fate sealed instead of the threat at hand. The attacker must spend their next action running directly away from the source of the fumble, giving it a free attack. Should the attacker survive the encounter, they're left with a permanent minor phobia related to the encounter.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "MwGpmqrfLgoHB6HC",
+      "_key": "!tables.results!wGYjtcfUe1mZ6LH1.MwGpmqrfLgoHB6HC",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        23,
+        23
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Your attack is horribly off mark and catches an ally off guard at the worst possible moment. Your attack lands on the ally and scores an automatic critical result. For the duration of the melee you're troubled by your action, suffering a -1d to both attack and damage rolls.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "ZG4oWDaKxmcDl3o4",
+      "_key": "!tables.results!wGYjtcfUe1mZ6LH1.ZG4oWDaKxmcDl3o4",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        24,
+        24
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Lady Calamity has had her eye on the attacker for some time and wants to make certain their meddling in her plans ends today. Instead of earning one Hex token for the fumble, they gain 1d4+1 Hex tokens. In addition, the attacker's weapon is jerked mysteriously from their hand (if appropriate) and scatters 1d20' away.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "r0XSmunN4bIjTAJQ",
+      "_key": "!tables.results!wGYjtcfUe1mZ6LH1.r0XSmunN4bIjTAJQ",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        25,
+        500
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Lady Luck has turned her attention to the attacker's opponent, seeing them as playing an important part in some future event. She grants 1d4 temporary Boons to the adversary to be used against the original attacker and the critical hit range threshold is increased by one with each successful strike the opponent lands against the original attacker only.",
+      "name": "",
+      "documentUuid": null
+    }
+  ],
+  "formula": "1d14",
+  "replacement": true,
+  "displayRoll": true,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "dcc",
+    "systemVersion": "0.70.50",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "wfvtt00000000000"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_key": "!tables!wGYjtcfUe1mZ6LH1"
+}

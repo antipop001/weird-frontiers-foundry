@@ -1,0 +1,866 @@
+{
+  "_id": "s51INQzUQnhUXeVX",
+  "name": "Crit Table Slashing",
+  "flags": {},
+  "img": "icons/skills/melee/blade-tips-triple-bent-red.webp",
+  "description": "",
+  "results": [
+    {
+      "_id": "nOF8c4ky23TDEXXx",
+      "_key": "!tables.results!s51INQzUQnhUXeVX.nOF8c4ky23TDEXXx",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tips-triple-bent-red.webp",
+      "weight": 1,
+      "range": [
+        -500,
+        0
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The weapon strikes true but is partially reflected back onto the attacker. Weapon inflicts maximum damage on the target while the attacker receives normal damage for the weapon with no strength modifiers.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "LTaEbP6tCGz6Amea",
+      "_key": "!tables.results!s51INQzUQnhUXeVX.LTaEbP6tCGz6Amea",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tips-triple-bent-red.webp",
+      "weight": 1,
+      "range": [
+        1,
+        1
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The skin on the target's knuckles on one hand (roll randomly to determine hand) is gashed. Target suffers +1d6 damage and drops whatever they are holding.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "VdqH1Vt1VDo6Wwis",
+      "_key": "!tables.results!s51INQzUQnhUXeVX.VdqH1Vt1VDo6Wwis",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tips-triple-bent-red.webp",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Wicked slash to the forehead! The wound opens up inflicting +2d4 damage and causes blindness for 1d4 rounds as blood streams down into the eyes.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "moHtXihP7XhqADG4",
+      "_key": "!tables.results!s51INQzUQnhUXeVX.moHtXihP7XhqADG4",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tips-triple-bent-red.webp",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Target blocks blow awkwardly, leaving themselves off balance and open for an additional attack.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "4pObB5avSawcIOwP",
+      "_key": "!tables.results!s51INQzUQnhUXeVX.4pObB5avSawcIOwP",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tips-triple-bent-red.webp",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The attack slashes the stomach region, cutting a deep wound that invites a splattering of gore at the target's feet. The wound inflicts +1d6 damage and you gain +4 to your next attack against the target as they slip in their own blood.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "DbBpmX3JK3cAntzF",
+      "_key": "!tables.results!s51INQzUQnhUXeVX.DbBpmX3JK3cAntzF",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tips-triple-bent-red.webp",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "A shallow but vicious slash momentarily takes target to one knee. Target suffers +1d8 damage and must use their next full action to rise.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "FQUrlkGrj1W53ua0",
+      "_key": "!tables.results!s51INQzUQnhUXeVX.FQUrlkGrj1W53ua0",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tips-triple-bent-red.webp",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Target blocks the attack sacrificing its forearm to spare the vitals. A deep gash slices to the bone inflicting +2d6 damage. Anything held is dropped and pressure must be applied for the next 1d4 rounds to avoid suffering 1d2 bleed damage.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "ujQGf6MROmoG3dTz",
+      "_key": "!tables.results!s51INQzUQnhUXeVX.ujQGf6MROmoG3dTz",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tips-triple-bent-red.webp",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The target slips as they try to side step the attack, leaving their back open to a wicked strike. The deep cut severs a muscle in the back inflicting an additional +1d10 damage. Additionally, the target suffers -1d to all physical actions for 1d3 days or until healing can be administered.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "HJJbsm9311zEW0Ei",
+      "_key": "!tables.results!s51INQzUQnhUXeVX.HJJbsm9311zEW0Ei",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tips-triple-bent-red.webp",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Attack severs 1d5 fingers from target's hand (roll to determine which hand) as they instinctively throw a hand up to protect their face. Target suffers +1d3 damage per finger lost and suffers -1 to all actions taken with the hand for each finger lost. If all five are severed, the hand is useless until magically healed.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "vFpe9vmuqQOPnpP5",
+      "_key": "!tables.results!s51INQzUQnhUXeVX.vFpe9vmuqQOPnpP5",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tips-triple-bent-red.webp",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "A cut to the thigh slices deep, leaving the weapon embedded in the femur. Blow causes +1d12 damage and opponent drops to one knee until weapon is pulled free (DC 10 Strength check). Once pulled free, target suffers 1d3 damage each round from bleeding until stabilized or treated.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "ph20JB6aPPGjdVrO",
+      "_key": "!tables.results!s51INQzUQnhUXeVX.ph20JB6aPPGjdVrO",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tips-triple-bent-red.webp",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Target screams in agony as their nose is sliced off in a spray of gore. The nose lands 10' away and the target takes an additional +1d12 damage. Pressure must be applied for 6 rounds to avoid an additional 1d3 bleed damage per round. Unless the nose can be reattached, target suffers -3 to all reaction rolls due to their horrific appearance and strange whistling sounds heard when breaths are taken.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "3KmnR4cmcbivPGO5",
+      "_key": "!tables.results!s51INQzUQnhUXeVX.3KmnR4cmcbivPGO5",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tips-triple-bent-red.webp",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "A solid swing cleaves through the lower jaw ripping it free from the skull inflicting an additional +1d14 damage and forcing a DC 15 Fortitude save to avoid passing out from pain for 1 turn. Target is incapable of speech and must receive magical healing or die a slow painful death due to infection and starvation, losing 1 point of Stamina per day until zero is reached signifying death.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "M4PK95iKZJXGLqCB",
+      "_key": "!tables.results!s51INQzUQnhUXeVX.M4PK95iKZJXGLqCB",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tips-triple-bent-red.webp",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "One of the target's ears is cleanly sliced from their head. Target suffers +2d8 damage and suffers -1d to any physical actions as blood fills the open wound, throwing the target off balance. Target also suffers -2 to any reaction rolls due to horrific scar.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "4i150VxS5txPIm94",
+      "_key": "!tables.results!s51INQzUQnhUXeVX.4i150VxS5txPIm94",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tips-triple-bent-red.webp",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Attack severs one of the target's hands (roll to determine which one) doing an extra 2d8 damage and the wound continues to bleed out for 1d2 damage for 6 rounds unless pressure is applied. The hand can only be reattached by magical healing.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "yTkNtUbSJChC5ADV",
+      "_key": "!tables.results!s51INQzUQnhUXeVX.yTkNtUbSJChC5ADV",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tips-triple-bent-red.webp",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "A lucky attack slices across the face of target leaving a deep wound and gouging open an eyeball. The target suffers +3d6 damage and loses the use of one eye (-2 to all physical based rolls) unless magically healed.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "uZfII8WGRtuuskgE",
+      "_key": "!tables.results!s51INQzUQnhUXeVX.uZfII8WGRtuuskgE",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tips-triple-bent-red.webp",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Weapon slashes the back of target's leg, severing tendons and arteries, knocking the target prone. Attack causes +3d6 damage and continues to bleed for 1d4 damage for 6 rounds unless pressure is applied. Movement suffers a -5' penalty until treated.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "IOfGWMELHko8uLnn",
+      "_key": "!tables.results!s51INQzUQnhUXeVX.IOfGWMELHko8uLnn",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tips-triple-bent-red.webp",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Blow cuts a deep chunk from target's shoulder severing both artery and ligament. Attack does +2d12 damage and a further 1d4 bleed damage for 1d6 rounds unless pressure is applied. Arm is rendered useless until treated.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "PI5Ub4sWNIbrxR6S",
+      "_key": "!tables.results!s51INQzUQnhUXeVX.PI5Ub4sWNIbrxR6S",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tips-triple-bent-red.webp",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Abdomen is slashed deeply, slicing into a vital organ. The target suffers +2d12 damage and an additional 1d3 damage from bleeding out each round for 6 rounds. Target must also pass a DC 13 Fortitude save or lose consciousness for 1d8 rounds.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "J5OvX3VXcMoqVjzB",
+      "_key": "!tables.results!s51INQzUQnhUXeVX.J5OvX3VXcMoqVjzB",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tips-triple-bent-red.webp",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "A solid attack cleaves into the upper torso of the target, snapping the clavicle. The attack inflicts +3d8 damage in addition to causing the target sickening pain. The target suffers a -1d penalty to any physical actions until treated.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "HT4Wr4rYJVcYWrTy",
+      "_key": "!tables.results!s51INQzUQnhUXeVX.HT4Wr4rYJVcYWrTy",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tips-triple-bent-red.webp",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Target is effectively scalped as the strike peels back the thin layer of skin covering the skull. The attack inflicts +2d10 damage and continues to inflict an additional 1d3 damage from bleeding out each round for 6 rounds, or until stabilized. Target suffers a permanent -3 to all reaction rolls due to the wicked scar and lack of hair.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "PyATQa9Y0P9GYu91",
+      "_key": "!tables.results!s51INQzUQnhUXeVX.PyATQa9Y0P9GYu91",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tips-triple-bent-red.webp",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Target throws a hand up to block a potentially fatal blow but in the process the forearm (roll to determine which arm) is split down to the fingers in gruesome fashion. The attack inflicts +2d12 damage and the target must pass a DC 15 Fortitude save to avoid passing out for 1 turn. Until treated, all physical actions with the arm suffer a -1d penalty.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "szoX7cm58192yeCD",
+      "_key": "!tables.results!s51INQzUQnhUXeVX.szoX7cm58192yeCD",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tips-triple-bent-red.webp",
+      "weight": 1,
+      "range": [
+        21,
+        21
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Horrific slash to the face severs their upper lip and gouges 1d8 teeth out. Target suffers +2d12 damage and continues to bleed out for 1d2 damage unless pressure is applied for 6 rounds. Target suffers a permanent -4 to all reaction rolls due to the grisly scar due and missing teeth.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "JNc2FWp4kQpxfGfR",
+      "_key": "!tables.results!s51INQzUQnhUXeVX.JNc2FWp4kQpxfGfR",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tips-triple-bent-red.webp",
+      "weight": 1,
+      "range": [
+        22,
+        22
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "A slash to the back cuts deep into the spine, severing the spinal cord. Target suffers +3d10 damage and the target must pass a DC 14 Fortitude save or suffer nerve damage that affects all reflexive actions. Target loses 3d6 Agility points until magically healed.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "MBa28FJMMWv7HQ3A",
+      "_key": "!tables.results!s51INQzUQnhUXeVX.MBa28FJMMWv7HQ3A",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tips-triple-bent-red.webp",
+      "weight": 1,
+      "range": [
+        23,
+        23
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "A sickening spray of gore covers the ground as the target's leg is severed just above the knee. The attack inflicts +2d12 damage and an additional 1d3 damage from bleeding out each round unless pressure is held on the wound. Target must pass a DC 14 Fortitude save to avoid shock (treat as unconscious). The leg is lost and movement is halved unless magical healing can be administered.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "ww3HZO6mOWYyGNBU",
+      "_key": "!tables.results!s51INQzUQnhUXeVX.ww3HZO6mOWYyGNBU",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tips-triple-bent-red.webp",
+      "weight": 1,
+      "range": [
+        24,
+        24
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The target screams in agony as the attack severs their arm just above the elbow (roll to determine which arm) and the attack inflicts +2d12 damage with an additional 1d3 damage each round from bleeding out unless pressure is applied. The arm is lost unless magical healing can be administered.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "HxofRKLrgnkOz7Ie",
+      "_key": "!tables.results!s51INQzUQnhUXeVX.HxofRKLrgnkOz7Ie",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tips-triple-bent-red.webp",
+      "weight": 1,
+      "range": [
+        25,
+        25
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "A well-aimed slash severs the carotid artery in the neck, causing a hot spray of crimson to gush with each beat of the heart. The attack inflicts +3d8 damage plus an additional 1d3 in bleed damage each round unless pressure is applied to the wound and will continue until treated.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "edIhBgwS0QtGNAUX",
+      "_key": "!tables.results!s51INQzUQnhUXeVX.edIhBgwS0QtGNAUX",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tips-triple-bent-red.webp",
+      "weight": 1,
+      "range": [
+        26,
+        26
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The attack splits the target's skull, severing the part of the brain responsible for memory. In addition to suffering +3d12 damage. The target's Intelligence is permanently reduced by 3d6 to represent the loss of mental capacity.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "k8pBFqabpcdbRb0X",
+      "_key": "!tables.results!s51INQzUQnhUXeVX.k8pBFqabpcdbRb0X",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tips-triple-bent-red.webp",
+      "weight": 1,
+      "range": [
+        27,
+        27
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The weapon swings low, claiming one of the targets feet at the ankle. The attack inflicts +3d8 damage, knocking the target prone. Movement is halved until magical healing can be administered; however, with the use of a prosthetic movement is only reduced by -10'.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "OHzWe3I6jEWOEUkE",
+      "_key": "!tables.results!s51INQzUQnhUXeVX.OHzWe3I6jEWOEUkE",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tips-triple-bent-red.webp",
+      "weight": 1,
+      "range": [
+        28,
+        28
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "A devastating cut bypasses vertebrae slicing deeply into the spinal cord. The target suffers +3d12 damage and must immediately pass a DC 15 Fortitude save or suffer permanent paralysis until magical healing can be administered.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "1I5pa6ezCtOKFODB",
+      "_key": "!tables.results!s51INQzUQnhUXeVX.1I5pa6ezCtOKFODB",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tips-triple-bent-red.webp",
+      "weight": 1,
+      "range": [
+        29,
+        29
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The weapon opens the targets abdomen, spilling their innards to the ground. In addition to suffering +4d10 damage, the target must immediately pass a DC 15 Fortitude save to avoid bleeding out. If passed, the target can do nothing but hold their innards in until treated.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "swXzCcLTSXEbnGCS",
+      "_key": "!tables.results!s51INQzUQnhUXeVX.swXzCcLTSXEbnGCS",
+      "flags": {},
+      "type": "text",
+      "img": "icons/skills/melee/blade-tips-triple-bent-red.webp",
+      "weight": 1,
+      "range": [
+        30,
+        500
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "A gush of blood jets into the air from the place the target's head used to rest. Decapitation results in instant death.",
+      "name": "",
+      "documentUuid": null
+    }
+  ],
+  "formula": "1d30",
+  "replacement": true,
+  "displayRoll": true,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "dcc",
+    "systemVersion": "0.70.50",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "wfvtt00000000000"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_key": "!tables!s51INQzUQnhUXeVX"
+}

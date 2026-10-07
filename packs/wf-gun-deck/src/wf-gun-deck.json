@@ -1,0 +1,2258 @@
+{
+  "_id": "c7GkvR7EP3UTaUcW",
+  "_key": "!cards!c7GkvR7EP3UTaUcW",
+  "name": "Weird Frontiers Gun Deck",
+  "type": "deck",
+  "description": "<p>A standard 54-card deck, jokers included, for the Weird Frontiers firearms system. Flip one card each time a character discharges a firearm.</p>",
+  "img": "modules/wfvtt/assets/cards/back.webp",
+  "system": {},
+  "cards": [
+    {
+      "_id": "bOPSDun4ByqFfMHj",
+      "_key": "!cards.cards!c7GkvR7EP3UTaUcW.bOPSDun4ByqFfMHj",
+      "name": "Ace of Spades",
+      "description": "",
+      "type": "base",
+      "system": {},
+      "suit": "spades",
+      "value": 1,
+      "back": {
+        "name": "",
+        "img": "modules/wfvtt/assets/cards/back.webp",
+        "text": ""
+      },
+      "faces": [
+        {
+          "name": "Ace of Spades",
+          "img": "modules/wfvtt/assets/cards/spades-ace.webp",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      }
+    },
+    {
+      "_id": "wNO9IFfGmGwAfFkL",
+      "_key": "!cards.cards!c7GkvR7EP3UTaUcW.wNO9IFfGmGwAfFkL",
+      "name": "Two of Spades",
+      "description": "",
+      "type": "base",
+      "system": {},
+      "suit": "spades",
+      "value": 2,
+      "back": {
+        "name": "",
+        "img": "modules/wfvtt/assets/cards/back.webp",
+        "text": ""
+      },
+      "faces": [
+        {
+          "name": "Two of Spades",
+          "img": "modules/wfvtt/assets/cards/spades-02.webp",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      }
+    },
+    {
+      "_id": "f4A6GjCIU2ELsttt",
+      "_key": "!cards.cards!c7GkvR7EP3UTaUcW.f4A6GjCIU2ELsttt",
+      "name": "Three of Spades",
+      "description": "",
+      "type": "base",
+      "system": {},
+      "suit": "spades",
+      "value": 3,
+      "back": {
+        "name": "",
+        "img": "modules/wfvtt/assets/cards/back.webp",
+        "text": ""
+      },
+      "faces": [
+        {
+          "name": "Three of Spades",
+          "img": "modules/wfvtt/assets/cards/spades-03.webp",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      }
+    },
+    {
+      "_id": "QGEHijRiJxdX5cgG",
+      "_key": "!cards.cards!c7GkvR7EP3UTaUcW.QGEHijRiJxdX5cgG",
+      "name": "Four of Spades",
+      "description": "",
+      "type": "base",
+      "system": {},
+      "suit": "spades",
+      "value": 4,
+      "back": {
+        "name": "",
+        "img": "modules/wfvtt/assets/cards/back.webp",
+        "text": ""
+      },
+      "faces": [
+        {
+          "name": "Four of Spades",
+          "img": "modules/wfvtt/assets/cards/spades-04.webp",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      }
+    },
+    {
+      "_id": "fQhEBABr9TFwZLvh",
+      "_key": "!cards.cards!c7GkvR7EP3UTaUcW.fQhEBABr9TFwZLvh",
+      "name": "Five of Spades",
+      "description": "",
+      "type": "base",
+      "system": {},
+      "suit": "spades",
+      "value": 5,
+      "back": {
+        "name": "",
+        "img": "modules/wfvtt/assets/cards/back.webp",
+        "text": ""
+      },
+      "faces": [
+        {
+          "name": "Five of Spades",
+          "img": "modules/wfvtt/assets/cards/spades-05.webp",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      }
+    },
+    {
+      "_id": "Jnn5hsumKUnBT4sB",
+      "_key": "!cards.cards!c7GkvR7EP3UTaUcW.Jnn5hsumKUnBT4sB",
+      "name": "Six of Spades",
+      "description": "",
+      "type": "base",
+      "system": {},
+      "suit": "spades",
+      "value": 6,
+      "back": {
+        "name": "",
+        "img": "modules/wfvtt/assets/cards/back.webp",
+        "text": ""
+      },
+      "faces": [
+        {
+          "name": "Six of Spades",
+          "img": "modules/wfvtt/assets/cards/spades-06.webp",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      }
+    },
+    {
+      "_id": "bL15z6s6TGRY8prd",
+      "_key": "!cards.cards!c7GkvR7EP3UTaUcW.bL15z6s6TGRY8prd",
+      "name": "Seven of Spades",
+      "description": "",
+      "type": "base",
+      "system": {},
+      "suit": "spades",
+      "value": 7,
+      "back": {
+        "name": "",
+        "img": "modules/wfvtt/assets/cards/back.webp",
+        "text": ""
+      },
+      "faces": [
+        {
+          "name": "Seven of Spades",
+          "img": "modules/wfvtt/assets/cards/spades-07.webp",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      }
+    },
+    {
+      "_id": "0tl4LebifZfvToMe",
+      "_key": "!cards.cards!c7GkvR7EP3UTaUcW.0tl4LebifZfvToMe",
+      "name": "Eight of Spades",
+      "description": "",
+      "type": "base",
+      "system": {},
+      "suit": "spades",
+      "value": 8,
+      "back": {
+        "name": "",
+        "img": "modules/wfvtt/assets/cards/back.webp",
+        "text": ""
+      },
+      "faces": [
+        {
+          "name": "Eight of Spades",
+          "img": "modules/wfvtt/assets/cards/spades-08.webp",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      }
+    },
+    {
+      "_id": "NxY02MHhfNexEhvQ",
+      "_key": "!cards.cards!c7GkvR7EP3UTaUcW.NxY02MHhfNexEhvQ",
+      "name": "Nine of Spades",
+      "description": "",
+      "type": "base",
+      "system": {},
+      "suit": "spades",
+      "value": 9,
+      "back": {
+        "name": "",
+        "img": "modules/wfvtt/assets/cards/back.webp",
+        "text": ""
+      },
+      "faces": [
+        {
+          "name": "Nine of Spades",
+          "img": "modules/wfvtt/assets/cards/spades-09.webp",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      }
+    },
+    {
+      "_id": "SQBiwyzvz7FA2co7",
+      "_key": "!cards.cards!c7GkvR7EP3UTaUcW.SQBiwyzvz7FA2co7",
+      "name": "Ten of Spades",
+      "description": "",
+      "type": "base",
+      "system": {},
+      "suit": "spades",
+      "value": 10,
+      "back": {
+        "name": "",
+        "img": "modules/wfvtt/assets/cards/back.webp",
+        "text": ""
+      },
+      "faces": [
+        {
+          "name": "Ten of Spades",
+          "img": "modules/wfvtt/assets/cards/spades-10.webp",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      }
+    },
+    {
+      "_id": "SXRQrnuDn3fR597G",
+      "_key": "!cards.cards!c7GkvR7EP3UTaUcW.SXRQrnuDn3fR597G",
+      "name": "Jack of Spades",
+      "description": "",
+      "type": "base",
+      "system": {},
+      "suit": "spades",
+      "value": 11,
+      "back": {
+        "name": "",
+        "img": "modules/wfvtt/assets/cards/back.webp",
+        "text": ""
+      },
+      "faces": [
+        {
+          "name": "Jack of Spades",
+          "img": "modules/wfvtt/assets/cards/spades-jack.webp",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      }
+    },
+    {
+      "_id": "7Ta4EFoXd3llNGRe",
+      "_key": "!cards.cards!c7GkvR7EP3UTaUcW.7Ta4EFoXd3llNGRe",
+      "name": "Queen of Spades",
+      "description": "",
+      "type": "base",
+      "system": {},
+      "suit": "spades",
+      "value": 12,
+      "back": {
+        "name": "",
+        "img": "modules/wfvtt/assets/cards/back.webp",
+        "text": ""
+      },
+      "faces": [
+        {
+          "name": "Queen of Spades",
+          "img": "modules/wfvtt/assets/cards/spades-queen.webp",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      }
+    },
+    {
+      "_id": "GR9SzpE6vPeze9Uu",
+      "_key": "!cards.cards!c7GkvR7EP3UTaUcW.GR9SzpE6vPeze9Uu",
+      "name": "King of Spades",
+      "description": "",
+      "type": "base",
+      "system": {},
+      "suit": "spades",
+      "value": 13,
+      "back": {
+        "name": "",
+        "img": "modules/wfvtt/assets/cards/back.webp",
+        "text": ""
+      },
+      "faces": [
+        {
+          "name": "King of Spades",
+          "img": "modules/wfvtt/assets/cards/spades-king.webp",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      }
+    },
+    {
+      "_id": "QmFOzuNtM7Iaa0iq",
+      "_key": "!cards.cards!c7GkvR7EP3UTaUcW.QmFOzuNtM7Iaa0iq",
+      "name": "Ace of Hearts",
+      "description": "",
+      "type": "base",
+      "system": {},
+      "suit": "hearts",
+      "value": 1,
+      "back": {
+        "name": "",
+        "img": "modules/wfvtt/assets/cards/back.webp",
+        "text": ""
+      },
+      "faces": [
+        {
+          "name": "Ace of Hearts",
+          "img": "modules/wfvtt/assets/cards/hearts-ace.webp",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      }
+    },
+    {
+      "_id": "AI0TaT9SzoqdO7bW",
+      "_key": "!cards.cards!c7GkvR7EP3UTaUcW.AI0TaT9SzoqdO7bW",
+      "name": "Two of Hearts",
+      "description": "",
+      "type": "base",
+      "system": {},
+      "suit": "hearts",
+      "value": 2,
+      "back": {
+        "name": "",
+        "img": "modules/wfvtt/assets/cards/back.webp",
+        "text": ""
+      },
+      "faces": [
+        {
+          "name": "Two of Hearts",
+          "img": "modules/wfvtt/assets/cards/hearts-02.webp",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      }
+    },
+    {
+      "_id": "l3zPbj6tWnjvk0mQ",
+      "_key": "!cards.cards!c7GkvR7EP3UTaUcW.l3zPbj6tWnjvk0mQ",
+      "name": "Three of Hearts",
+      "description": "",
+      "type": "base",
+      "system": {},
+      "suit": "hearts",
+      "value": 3,
+      "back": {
+        "name": "",
+        "img": "modules/wfvtt/assets/cards/back.webp",
+        "text": ""
+      },
+      "faces": [
+        {
+          "name": "Three of Hearts",
+          "img": "modules/wfvtt/assets/cards/hearts-03.webp",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      }
+    },
+    {
+      "_id": "uNyyJEDns9bbBuyj",
+      "_key": "!cards.cards!c7GkvR7EP3UTaUcW.uNyyJEDns9bbBuyj",
+      "name": "Four of Hearts",
+      "description": "",
+      "type": "base",
+      "system": {},
+      "suit": "hearts",
+      "value": 4,
+      "back": {
+        "name": "",
+        "img": "modules/wfvtt/assets/cards/back.webp",
+        "text": ""
+      },
+      "faces": [
+        {
+          "name": "Four of Hearts",
+          "img": "modules/wfvtt/assets/cards/hearts-04.webp",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      }
+    },
+    {
+      "_id": "wAapnPVsD8vq5AL2",
+      "_key": "!cards.cards!c7GkvR7EP3UTaUcW.wAapnPVsD8vq5AL2",
+      "name": "Five of Hearts",
+      "description": "",
+      "type": "base",
+      "system": {},
+      "suit": "hearts",
+      "value": 5,
+      "back": {
+        "name": "",
+        "img": "modules/wfvtt/assets/cards/back.webp",
+        "text": ""
+      },
+      "faces": [
+        {
+          "name": "Five of Hearts",
+          "img": "modules/wfvtt/assets/cards/hearts-05.webp",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      }
+    },
+    {
+      "_id": "dZhXjKvy0mSKOB5i",
+      "_key": "!cards.cards!c7GkvR7EP3UTaUcW.dZhXjKvy0mSKOB5i",
+      "name": "Six of Hearts",
+      "description": "",
+      "type": "base",
+      "system": {},
+      "suit": "hearts",
+      "value": 6,
+      "back": {
+        "name": "",
+        "img": "modules/wfvtt/assets/cards/back.webp",
+        "text": ""
+      },
+      "faces": [
+        {
+          "name": "Six of Hearts",
+          "img": "modules/wfvtt/assets/cards/hearts-06.webp",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      }
+    },
+    {
+      "_id": "yRBwbRJdoYBzGm7P",
+      "_key": "!cards.cards!c7GkvR7EP3UTaUcW.yRBwbRJdoYBzGm7P",
+      "name": "Seven of Hearts",
+      "description": "",
+      "type": "base",
+      "system": {},
+      "suit": "hearts",
+      "value": 7,
+      "back": {
+        "name": "",
+        "img": "modules/wfvtt/assets/cards/back.webp",
+        "text": ""
+      },
+      "faces": [
+        {
+          "name": "Seven of Hearts",
+          "img": "modules/wfvtt/assets/cards/hearts-07.webp",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      }
+    },
+    {
+      "_id": "PkXIDA752h2gvbef",
+      "_key": "!cards.cards!c7GkvR7EP3UTaUcW.PkXIDA752h2gvbef",
+      "name": "Eight of Hearts",
+      "description": "",
+      "type": "base",
+      "system": {},
+      "suit": "hearts",
+      "value": 8,
+      "back": {
+        "name": "",
+        "img": "modules/wfvtt/assets/cards/back.webp",
+        "text": ""
+      },
+      "faces": [
+        {
+          "name": "Eight of Hearts",
+          "img": "modules/wfvtt/assets/cards/hearts-08.webp",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      }
+    },
+    {
+      "_id": "shX7CwkTRsLxpxyD",
+      "_key": "!cards.cards!c7GkvR7EP3UTaUcW.shX7CwkTRsLxpxyD",
+      "name": "Nine of Hearts",
+      "description": "",
+      "type": "base",
+      "system": {},
+      "suit": "hearts",
+      "value": 9,
+      "back": {
+        "name": "",
+        "img": "modules/wfvtt/assets/cards/back.webp",
+        "text": ""
+      },
+      "faces": [
+        {
+          "name": "Nine of Hearts",
+          "img": "modules/wfvtt/assets/cards/hearts-09.webp",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      }
+    },
+    {
+      "_id": "QNfrBhxfB554FVUt",
+      "_key": "!cards.cards!c7GkvR7EP3UTaUcW.QNfrBhxfB554FVUt",
+      "name": "Ten of Hearts",
+      "description": "",
+      "type": "base",
+      "system": {},
+      "suit": "hearts",
+      "value": 10,
+      "back": {
+        "name": "",
+        "img": "modules/wfvtt/assets/cards/back.webp",
+        "text": ""
+      },
+      "faces": [
+        {
+          "name": "Ten of Hearts",
+          "img": "modules/wfvtt/assets/cards/hearts-10.webp",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      }
+    },
+    {
+      "_id": "Jv6C0pXJrHwmfqT0",
+      "_key": "!cards.cards!c7GkvR7EP3UTaUcW.Jv6C0pXJrHwmfqT0",
+      "name": "Jack of Hearts",
+      "description": "",
+      "type": "base",
+      "system": {},
+      "suit": "hearts",
+      "value": 11,
+      "back": {
+        "name": "",
+        "img": "modules/wfvtt/assets/cards/back.webp",
+        "text": ""
+      },
+      "faces": [
+        {
+          "name": "Jack of Hearts",
+          "img": "modules/wfvtt/assets/cards/hearts-jack.webp",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      }
+    },
+    {
+      "_id": "6FHYj98qDUdyHCFf",
+      "_key": "!cards.cards!c7GkvR7EP3UTaUcW.6FHYj98qDUdyHCFf",
+      "name": "Queen of Hearts",
+      "description": "",
+      "type": "base",
+      "system": {},
+      "suit": "hearts",
+      "value": 12,
+      "back": {
+        "name": "",
+        "img": "modules/wfvtt/assets/cards/back.webp",
+        "text": ""
+      },
+      "faces": [
+        {
+          "name": "Queen of Hearts",
+          "img": "modules/wfvtt/assets/cards/hearts-queen.webp",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      }
+    },
+    {
+      "_id": "wk18AFMIo1YdSGKb",
+      "_key": "!cards.cards!c7GkvR7EP3UTaUcW.wk18AFMIo1YdSGKb",
+      "name": "King of Hearts",
+      "description": "",
+      "type": "base",
+      "system": {},
+      "suit": "hearts",
+      "value": 13,
+      "back": {
+        "name": "",
+        "img": "modules/wfvtt/assets/cards/back.webp",
+        "text": ""
+      },
+      "faces": [
+        {
+          "name": "King of Hearts",
+          "img": "modules/wfvtt/assets/cards/hearts-king.webp",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      }
+    },
+    {
+      "_id": "KmtodYbT4jwoSaT9",
+      "_key": "!cards.cards!c7GkvR7EP3UTaUcW.KmtodYbT4jwoSaT9",
+      "name": "Ace of Diamonds",
+      "description": "",
+      "type": "base",
+      "system": {},
+      "suit": "diamonds",
+      "value": 1,
+      "back": {
+        "name": "",
+        "img": "modules/wfvtt/assets/cards/back.webp",
+        "text": ""
+      },
+      "faces": [
+        {
+          "name": "Ace of Diamonds",
+          "img": "modules/wfvtt/assets/cards/diamonds-ace.webp",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      }
+    },
+    {
+      "_id": "FBDypSTA80WO9dMb",
+      "_key": "!cards.cards!c7GkvR7EP3UTaUcW.FBDypSTA80WO9dMb",
+      "name": "Two of Diamonds",
+      "description": "",
+      "type": "base",
+      "system": {},
+      "suit": "diamonds",
+      "value": 2,
+      "back": {
+        "name": "",
+        "img": "modules/wfvtt/assets/cards/back.webp",
+        "text": ""
+      },
+      "faces": [
+        {
+          "name": "Two of Diamonds",
+          "img": "modules/wfvtt/assets/cards/diamonds-02.webp",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      }
+    },
+    {
+      "_id": "8By7HjJPVVCmANNC",
+      "_key": "!cards.cards!c7GkvR7EP3UTaUcW.8By7HjJPVVCmANNC",
+      "name": "Three of Diamonds",
+      "description": "",
+      "type": "base",
+      "system": {},
+      "suit": "diamonds",
+      "value": 3,
+      "back": {
+        "name": "",
+        "img": "modules/wfvtt/assets/cards/back.webp",
+        "text": ""
+      },
+      "faces": [
+        {
+          "name": "Three of Diamonds",
+          "img": "modules/wfvtt/assets/cards/diamonds-03.webp",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      }
+    },
+    {
+      "_id": "DrhxDS67hN414mTw",
+      "_key": "!cards.cards!c7GkvR7EP3UTaUcW.DrhxDS67hN414mTw",
+      "name": "Four of Diamonds",
+      "description": "",
+      "type": "base",
+      "system": {},
+      "suit": "diamonds",
+      "value": 4,
+      "back": {
+        "name": "",
+        "img": "modules/wfvtt/assets/cards/back.webp",
+        "text": ""
+      },
+      "faces": [
+        {
+          "name": "Four of Diamonds",
+          "img": "modules/wfvtt/assets/cards/diamonds-04.webp",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      }
+    },
+    {
+      "_id": "ONXojBo1xCucPDWp",
+      "_key": "!cards.cards!c7GkvR7EP3UTaUcW.ONXojBo1xCucPDWp",
+      "name": "Five of Diamonds",
+      "description": "",
+      "type": "base",
+      "system": {},
+      "suit": "diamonds",
+      "value": 5,
+      "back": {
+        "name": "",
+        "img": "modules/wfvtt/assets/cards/back.webp",
+        "text": ""
+      },
+      "faces": [
+        {
+          "name": "Five of Diamonds",
+          "img": "modules/wfvtt/assets/cards/diamonds-05.webp",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      }
+    },
+    {
+      "_id": "SkdCGYLmphuGYpCq",
+      "_key": "!cards.cards!c7GkvR7EP3UTaUcW.SkdCGYLmphuGYpCq",
+      "name": "Six of Diamonds",
+      "description": "",
+      "type": "base",
+      "system": {},
+      "suit": "diamonds",
+      "value": 6,
+      "back": {
+        "name": "",
+        "img": "modules/wfvtt/assets/cards/back.webp",
+        "text": ""
+      },
+      "faces": [
+        {
+          "name": "Six of Diamonds",
+          "img": "modules/wfvtt/assets/cards/diamonds-06.webp",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      }
+    },
+    {
+      "_id": "ZSLNLiF3avauKsBI",
+      "_key": "!cards.cards!c7GkvR7EP3UTaUcW.ZSLNLiF3avauKsBI",
+      "name": "Seven of Diamonds",
+      "description": "",
+      "type": "base",
+      "system": {},
+      "suit": "diamonds",
+      "value": 7,
+      "back": {
+        "name": "",
+        "img": "modules/wfvtt/assets/cards/back.webp",
+        "text": ""
+      },
+      "faces": [
+        {
+          "name": "Seven of Diamonds",
+          "img": "modules/wfvtt/assets/cards/diamonds-07.webp",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      }
+    },
+    {
+      "_id": "9FHVD5z0ISRi0L9w",
+      "_key": "!cards.cards!c7GkvR7EP3UTaUcW.9FHVD5z0ISRi0L9w",
+      "name": "Eight of Diamonds",
+      "description": "",
+      "type": "base",
+      "system": {},
+      "suit": "diamonds",
+      "value": 8,
+      "back": {
+        "name": "",
+        "img": "modules/wfvtt/assets/cards/back.webp",
+        "text": ""
+      },
+      "faces": [
+        {
+          "name": "Eight of Diamonds",
+          "img": "modules/wfvtt/assets/cards/diamonds-08.webp",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      }
+    },
+    {
+      "_id": "JBpAQOldMISgIeBZ",
+      "_key": "!cards.cards!c7GkvR7EP3UTaUcW.JBpAQOldMISgIeBZ",
+      "name": "Nine of Diamonds",
+      "description": "",
+      "type": "base",
+      "system": {},
+      "suit": "diamonds",
+      "value": 9,
+      "back": {
+        "name": "",
+        "img": "modules/wfvtt/assets/cards/back.webp",
+        "text": ""
+      },
+      "faces": [
+        {
+          "name": "Nine of Diamonds",
+          "img": "modules/wfvtt/assets/cards/diamonds-09.webp",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      }
+    },
+    {
+      "_id": "sR1i4EOYoiHhhleD",
+      "_key": "!cards.cards!c7GkvR7EP3UTaUcW.sR1i4EOYoiHhhleD",
+      "name": "Ten of Diamonds",
+      "description": "",
+      "type": "base",
+      "system": {},
+      "suit": "diamonds",
+      "value": 10,
+      "back": {
+        "name": "",
+        "img": "modules/wfvtt/assets/cards/back.webp",
+        "text": ""
+      },
+      "faces": [
+        {
+          "name": "Ten of Diamonds",
+          "img": "modules/wfvtt/assets/cards/diamonds-10.webp",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      }
+    },
+    {
+      "_id": "bbeDGHYJK373EAlG",
+      "_key": "!cards.cards!c7GkvR7EP3UTaUcW.bbeDGHYJK373EAlG",
+      "name": "Jack of Diamonds",
+      "description": "",
+      "type": "base",
+      "system": {},
+      "suit": "diamonds",
+      "value": 11,
+      "back": {
+        "name": "",
+        "img": "modules/wfvtt/assets/cards/back.webp",
+        "text": ""
+      },
+      "faces": [
+        {
+          "name": "Jack of Diamonds",
+          "img": "modules/wfvtt/assets/cards/diamonds-jack.webp",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      }
+    },
+    {
+      "_id": "No77qgZw9e2sreaL",
+      "_key": "!cards.cards!c7GkvR7EP3UTaUcW.No77qgZw9e2sreaL",
+      "name": "Queen of Diamonds",
+      "description": "",
+      "type": "base",
+      "system": {},
+      "suit": "diamonds",
+      "value": 12,
+      "back": {
+        "name": "",
+        "img": "modules/wfvtt/assets/cards/back.webp",
+        "text": ""
+      },
+      "faces": [
+        {
+          "name": "Queen of Diamonds",
+          "img": "modules/wfvtt/assets/cards/diamonds-queen.webp",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      }
+    },
+    {
+      "_id": "e15OSOoTMo4xEFWL",
+      "_key": "!cards.cards!c7GkvR7EP3UTaUcW.e15OSOoTMo4xEFWL",
+      "name": "King of Diamonds",
+      "description": "",
+      "type": "base",
+      "system": {},
+      "suit": "diamonds",
+      "value": 13,
+      "back": {
+        "name": "",
+        "img": "modules/wfvtt/assets/cards/back.webp",
+        "text": ""
+      },
+      "faces": [
+        {
+          "name": "King of Diamonds",
+          "img": "modules/wfvtt/assets/cards/diamonds-king.webp",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      }
+    },
+    {
+      "_id": "IaXFWGHssDT8t9k4",
+      "_key": "!cards.cards!c7GkvR7EP3UTaUcW.IaXFWGHssDT8t9k4",
+      "name": "Ace of Clubs",
+      "description": "",
+      "type": "base",
+      "system": {},
+      "suit": "clubs",
+      "value": 1,
+      "back": {
+        "name": "",
+        "img": "modules/wfvtt/assets/cards/back.webp",
+        "text": ""
+      },
+      "faces": [
+        {
+          "name": "Ace of Clubs",
+          "img": "modules/wfvtt/assets/cards/clubs-ace.webp",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      }
+    },
+    {
+      "_id": "vFHYXS3Tcq0bzBIf",
+      "_key": "!cards.cards!c7GkvR7EP3UTaUcW.vFHYXS3Tcq0bzBIf",
+      "name": "Two of Clubs",
+      "description": "",
+      "type": "base",
+      "system": {},
+      "suit": "clubs",
+      "value": 2,
+      "back": {
+        "name": "",
+        "img": "modules/wfvtt/assets/cards/back.webp",
+        "text": ""
+      },
+      "faces": [
+        {
+          "name": "Two of Clubs",
+          "img": "modules/wfvtt/assets/cards/clubs-02.webp",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      }
+    },
+    {
+      "_id": "k4jXkWOhEiBdSiNA",
+      "_key": "!cards.cards!c7GkvR7EP3UTaUcW.k4jXkWOhEiBdSiNA",
+      "name": "Three of Clubs",
+      "description": "",
+      "type": "base",
+      "system": {},
+      "suit": "clubs",
+      "value": 3,
+      "back": {
+        "name": "",
+        "img": "modules/wfvtt/assets/cards/back.webp",
+        "text": ""
+      },
+      "faces": [
+        {
+          "name": "Three of Clubs",
+          "img": "modules/wfvtt/assets/cards/clubs-03.webp",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      }
+    },
+    {
+      "_id": "UAq7HOLWYoNR8POj",
+      "_key": "!cards.cards!c7GkvR7EP3UTaUcW.UAq7HOLWYoNR8POj",
+      "name": "Four of Clubs",
+      "description": "",
+      "type": "base",
+      "system": {},
+      "suit": "clubs",
+      "value": 4,
+      "back": {
+        "name": "",
+        "img": "modules/wfvtt/assets/cards/back.webp",
+        "text": ""
+      },
+      "faces": [
+        {
+          "name": "Four of Clubs",
+          "img": "modules/wfvtt/assets/cards/clubs-04.webp",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      }
+    },
+    {
+      "_id": "I34x6SGWv1erwGr4",
+      "_key": "!cards.cards!c7GkvR7EP3UTaUcW.I34x6SGWv1erwGr4",
+      "name": "Five of Clubs",
+      "description": "",
+      "type": "base",
+      "system": {},
+      "suit": "clubs",
+      "value": 5,
+      "back": {
+        "name": "",
+        "img": "modules/wfvtt/assets/cards/back.webp",
+        "text": ""
+      },
+      "faces": [
+        {
+          "name": "Five of Clubs",
+          "img": "modules/wfvtt/assets/cards/clubs-05.webp",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      }
+    },
+    {
+      "_id": "StCrGYcACXTvlNEu",
+      "_key": "!cards.cards!c7GkvR7EP3UTaUcW.StCrGYcACXTvlNEu",
+      "name": "Six of Clubs",
+      "description": "",
+      "type": "base",
+      "system": {},
+      "suit": "clubs",
+      "value": 6,
+      "back": {
+        "name": "",
+        "img": "modules/wfvtt/assets/cards/back.webp",
+        "text": ""
+      },
+      "faces": [
+        {
+          "name": "Six of Clubs",
+          "img": "modules/wfvtt/assets/cards/clubs-06.webp",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      }
+    },
+    {
+      "_id": "fHrsV701jbDT7GY9",
+      "_key": "!cards.cards!c7GkvR7EP3UTaUcW.fHrsV701jbDT7GY9",
+      "name": "Seven of Clubs",
+      "description": "",
+      "type": "base",
+      "system": {},
+      "suit": "clubs",
+      "value": 7,
+      "back": {
+        "name": "",
+        "img": "modules/wfvtt/assets/cards/back.webp",
+        "text": ""
+      },
+      "faces": [
+        {
+          "name": "Seven of Clubs",
+          "img": "modules/wfvtt/assets/cards/clubs-07.webp",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      }
+    },
+    {
+      "_id": "43GohFHvDBte1ODJ",
+      "_key": "!cards.cards!c7GkvR7EP3UTaUcW.43GohFHvDBte1ODJ",
+      "name": "Eight of Clubs",
+      "description": "",
+      "type": "base",
+      "system": {},
+      "suit": "clubs",
+      "value": 8,
+      "back": {
+        "name": "",
+        "img": "modules/wfvtt/assets/cards/back.webp",
+        "text": ""
+      },
+      "faces": [
+        {
+          "name": "Eight of Clubs",
+          "img": "modules/wfvtt/assets/cards/clubs-08.webp",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      }
+    },
+    {
+      "_id": "Ld8rKABJvXsPmIwB",
+      "_key": "!cards.cards!c7GkvR7EP3UTaUcW.Ld8rKABJvXsPmIwB",
+      "name": "Nine of Clubs",
+      "description": "",
+      "type": "base",
+      "system": {},
+      "suit": "clubs",
+      "value": 9,
+      "back": {
+        "name": "",
+        "img": "modules/wfvtt/assets/cards/back.webp",
+        "text": ""
+      },
+      "faces": [
+        {
+          "name": "Nine of Clubs",
+          "img": "modules/wfvtt/assets/cards/clubs-09.webp",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      }
+    },
+    {
+      "_id": "wSs4Gn9sOO3j8dl9",
+      "_key": "!cards.cards!c7GkvR7EP3UTaUcW.wSs4Gn9sOO3j8dl9",
+      "name": "Ten of Clubs",
+      "description": "",
+      "type": "base",
+      "system": {},
+      "suit": "clubs",
+      "value": 10,
+      "back": {
+        "name": "",
+        "img": "modules/wfvtt/assets/cards/back.webp",
+        "text": ""
+      },
+      "faces": [
+        {
+          "name": "Ten of Clubs",
+          "img": "modules/wfvtt/assets/cards/clubs-10.webp",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      }
+    },
+    {
+      "_id": "xL5K9WyMMJjauXt6",
+      "_key": "!cards.cards!c7GkvR7EP3UTaUcW.xL5K9WyMMJjauXt6",
+      "name": "Jack of Clubs",
+      "description": "",
+      "type": "base",
+      "system": {},
+      "suit": "clubs",
+      "value": 11,
+      "back": {
+        "name": "",
+        "img": "modules/wfvtt/assets/cards/back.webp",
+        "text": ""
+      },
+      "faces": [
+        {
+          "name": "Jack of Clubs",
+          "img": "modules/wfvtt/assets/cards/clubs-jack.webp",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      }
+    },
+    {
+      "_id": "v9EIvNlpzHlRYMG3",
+      "_key": "!cards.cards!c7GkvR7EP3UTaUcW.v9EIvNlpzHlRYMG3",
+      "name": "Queen of Clubs",
+      "description": "",
+      "type": "base",
+      "system": {},
+      "suit": "clubs",
+      "value": 12,
+      "back": {
+        "name": "",
+        "img": "modules/wfvtt/assets/cards/back.webp",
+        "text": ""
+      },
+      "faces": [
+        {
+          "name": "Queen of Clubs",
+          "img": "modules/wfvtt/assets/cards/clubs-queen.webp",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      }
+    },
+    {
+      "_id": "Q8GxOzdgyxG3QWHS",
+      "_key": "!cards.cards!c7GkvR7EP3UTaUcW.Q8GxOzdgyxG3QWHS",
+      "name": "King of Clubs",
+      "description": "",
+      "type": "base",
+      "system": {},
+      "suit": "clubs",
+      "value": 13,
+      "back": {
+        "name": "",
+        "img": "modules/wfvtt/assets/cards/back.webp",
+        "text": ""
+      },
+      "faces": [
+        {
+          "name": "King of Clubs",
+          "img": "modules/wfvtt/assets/cards/clubs-king.webp",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      }
+    },
+    {
+      "_id": "DaCaLkPq9LImBMaQ",
+      "_key": "!cards.cards!c7GkvR7EP3UTaUcW.DaCaLkPq9LImBMaQ",
+      "name": "Red Joker",
+      "description": "",
+      "type": "base",
+      "system": {},
+      "suit": "joker",
+      "value": 14,
+      "back": {
+        "name": "",
+        "img": "modules/wfvtt/assets/cards/back.webp",
+        "text": ""
+      },
+      "faces": [
+        {
+          "name": "Red Joker",
+          "img": "modules/wfvtt/assets/cards/joker-red.webp",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "sort": 0,
+      "flags": {
+        "wfvtt": {
+          "joker": "red"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      }
+    },
+    {
+      "_id": "V5ScjpJEPj0Wcole",
+      "_key": "!cards.cards!c7GkvR7EP3UTaUcW.V5ScjpJEPj0Wcole",
+      "name": "Black Joker",
+      "description": "",
+      "type": "base",
+      "system": {},
+      "suit": "joker",
+      "value": 15,
+      "back": {
+        "name": "",
+        "img": "modules/wfvtt/assets/cards/back.webp",
+        "text": ""
+      },
+      "faces": [
+        {
+          "name": "Black Joker",
+          "img": "modules/wfvtt/assets/cards/joker-black.webp",
+          "text": ""
+        }
+      ],
+      "face": 0,
+      "drawn": false,
+      "origin": null,
+      "width": 2,
+      "height": 3,
+      "rotation": 0,
+      "sort": 0,
+      "flags": {
+        "wfvtt": {
+          "joker": "black"
+        }
+      },
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      }
+    }
+  ],
+  "width": 2,
+  "height": 3,
+  "rotation": 0,
+  "displayCount": true,
+  "folder": null,
+  "sort": 0,
+  "ownership": {
+    "default": 0
+  },
+  "flags": {
+    "wfvtt": {
+      "gunDeck": true
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "dcc",
+    "systemVersion": "0.70.50",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "wfvtt00000000000"
+  }
+}

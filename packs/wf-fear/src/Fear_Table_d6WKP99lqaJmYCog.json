@@ -1,0 +1,839 @@
+{
+  "_id": "d6WKP99lqaJmYCog",
+  "name": "Fear Table",
+  "flags": {},
+  "img": "icons/magic/control/fear-fright-monster-grey.webp",
+  "description": "<p><strong>How to index this table.</strong> The Weird Frontiers core rulebook says the index <em>is</em> the amount the Grit check was failed by, with no die rolled: positive Luck modifiers subtract from the total and each Hex token adds +1. It states this three times — the Failure rule, the Critical failure rule and the Fear Chart introduction.</p><p><strong>The Reference Guide disagrees</strong>, saying &ldquo;Roll 1d20 modified by&rdquo; that same margin, and heads its column <em>ROLL 1D20</em>. This table ships the core rulebook reading; its <em>formula</em> is 1d20 only so that a manual draw works and can reach every row. <strong>Judge&rsquo;s call.</strong></p><p>Reaching zero Grit triggers the Madness table instead.</p>",
+  "results": [
+    {
+      "_id": "syaUDJuiVbctlrjn",
+      "_key": "!tables.results!d6WKP99lqaJmYCog.syaUDJuiVbctlrjn",
+      "flags": {},
+      "type": "text",
+      "img": "icons/magic/control/fear-fright-monster-grey.webp",
+      "weight": 1,
+      "range": [
+        -999,
+        1
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Your hairs stand on end as prickly bumps rise on your skin. This could be the end! You suffer a -2 penalty to all actions for the next d3 rounds.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "BQDAL0AG5e2l4N9g",
+      "_key": "!tables.results!d6WKP99lqaJmYCog.BQDAL0AG5e2l4N9g",
+      "flags": {},
+      "type": "text",
+      "img": "icons/magic/control/fear-fright-monster-grey.webp",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "You grab your gut, dry heave, and fight the urge to empty its contents. The horrific retching noises you make distract all allies within earshot causing them to suffer a -2 penalty to their next action while you lose your next action.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "rkfc4XRfsDJ9nzf1",
+      "_key": "!tables.results!d6WKP99lqaJmYCog.rkfc4XRfsDJ9nzf1",
+      "flags": {},
+      "type": "text",
+      "img": "icons/magic/control/fear-fright-monster-grey.webp",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "“Momma said there weren’t no such thing as boogers, but I’ll be damned if I ain’t staring at something born from the Devil himself!” The source of fear that made ya’ turn yeller’ causes you to drop whatever you’re holding.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "TcpdzzZtGyAkKTZq",
+      "_key": "!tables.results!d6WKP99lqaJmYCog.TcpdzzZtGyAkKTZq",
+      "flags": {},
+      "type": "text",
+      "img": "icons/magic/control/fear-fright-monster-grey.webp",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Icy chills race from the base of your spine all the way to that thing you call a brain. You freeze with panic and can’t even speak for 1d3 rounds (unable to take any actions for the duration).",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "p9YcpjJ3CIOUWpxC",
+      "_key": "!tables.results!d6WKP99lqaJmYCog.p9YcpjJ3CIOUWpxC",
+      "flags": {},
+      "type": "text",
+      "img": "icons/magic/control/fear-fright-monster-grey.webp",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "You feel the grip of fear on your bladder and it gives a good squeeze! Should the source of your fear be a creature, it smells the fear and gains a +2 attack bonus against you for the encounter. Additionally, you suffer a -1d to all actions for 1d3 rounds.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "gc1274M7n2as6tEd",
+      "_key": "!tables.results!d6WKP99lqaJmYCog.gc1274M7n2as6tEd",
+      "flags": {},
+      "type": "text",
+      "img": "icons/magic/control/fear-fright-monster-grey.webp",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "A piercing shrill leaves your mouth, alerting everyone to the yeller in your heart! All attempts at stealth are ruined and you can take no action other than screaming for 1d3 rounds or until a Willpower save is passed (DC 12).",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "rSeNyyovyjabmPng",
+      "_key": "!tables.results!d6WKP99lqaJmYCog.rSeNyyovyjabmPng",
+      "flags": {},
+      "type": "text",
+      "img": "icons/magic/control/fear-fright-monster-grey.webp",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Ain’t no beating this thing! Whatever it is you just took a gander at spells certain doom for you and the poor folks in yer’ company. The best course of action is to get to steppin’ before your friends beat you to it, as the slowest to act is the first to get eaten! You immediately flee with your next action and continue to run for 1d6 further rounds if a DC 12 Will save is not made..",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "0RHGVlEkl5MNcgZv",
+      "_key": "!tables.results!d6WKP99lqaJmYCog.0RHGVlEkl5MNcgZv",
+      "flags": {},
+      "type": "text",
+      "img": "icons/magic/control/fear-fright-monster-grey.webp",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The source of the fear reaches deep to something you experienced as a child, the Bogeyman incarnate! Since there’s no bed to crawl under, you drop to your knees and begin begging for your life between cowardly sobs. You are at -2d to all actions against the source of your fear. The source gains a +2d attack bonus against you.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "7MX4G95aOf26XGtP",
+      "_key": "!tables.results!d6WKP99lqaJmYCog.7MX4G95aOf26XGtP",
+      "flags": {},
+      "type": "text",
+      "img": "icons/magic/control/fear-fright-monster-grey.webp",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The sight you just witnessed paints a picture in your mind that won’t soon be erased. Your mind reels from the horror before causing a -1d action penalty until you can pass another Grit check (at a -1d penatly) with the same DC as the original (do not roll further Fear chart effects if failure continues).",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "twmESET4x3ereTtG",
+      "_key": "!tables.results!d6WKP99lqaJmYCog.twmESET4x3ereTtG",
+      "flags": {},
+      "type": "text",
+      "img": "icons/magic/control/fear-fright-monster-grey.webp",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "You mean no offense when you take the closest ally and toss them toward whatever intends to pick its teeth with your ribs. You gain an additional +4 to your AC for 1 round while your target ally is attacked with a +1 bonus during the same round. Should the attack strike your ally, it results in a critical hit.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "7MmTTvPkreOVhzox",
+      "_key": "!tables.results!d6WKP99lqaJmYCog.7MmTTvPkreOVhzox",
+      "flags": {},
+      "type": "text",
+      "img": "icons/magic/control/fear-fright-monster-grey.webp",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Sometimes, when you look death in the eye, the demise you see for yourself is too much to handle. That’s when your brain does you a “solid” and blows out the candles. You faint and fall unconscious to the ground until you’re roused by smacks to the face, cold water being splashed on you, or other methods. A Will save against a DC of 10 + creature's HD will negate the effect.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "I8jSuHYlhjbZTyI6",
+      "_key": "!tables.results!d6WKP99lqaJmYCog.I8jSuHYlhjbZTyI6",
+      "flags": {},
+      "type": "text",
+      "img": "icons/magic/control/fear-fright-monster-grey.webp",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The best remedy for this tragic episode is to just forget you’re even in it! You lose any valuable information related to the current adventure as your short-term memory flees your skull.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "rTlddZx2GNm3nw0I",
+      "_key": "!tables.results!d6WKP99lqaJmYCog.rTlddZx2GNm3nw0I",
+      "flags": {},
+      "type": "text",
+      "img": "icons/magic/control/fear-fright-monster-grey.webp",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The scent of your fear fills the nostrils of the thing that just turned you yeller! It figures yer’ an easy kill, and you ain’t in no position to disagree at the moment. For 1d6 rounds you suffer a -1d attack and damage penalty versus the source of the Grit check, while the source gains a +1d bonus to attack and damage against you!",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "GcoJY9viFZgUVmgj",
+      "_key": "!tables.results!d6WKP99lqaJmYCog.GcoJY9viFZgUVmgj",
+      "flags": {},
+      "type": "text",
+      "img": "icons/magic/control/fear-fright-monster-grey.webp",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The dreams you’ve been having all make sense now as you face the source of those nightmares. For 1d8 rounds, you tremble in fear as you feel that you’re facing death itself. Should the source of the fear attack you, all successful strikes hit for maximum damage.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "TnBGK187G2hxcbdV",
+      "_key": "!tables.results!d6WKP99lqaJmYCog.TnBGK187G2hxcbdV",
+      "flags": {},
+      "type": "text",
+      "img": "icons/magic/control/fear-fright-monster-grey.webp",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The shock to your system momentarily causes neurons to misfire, releasing an excess of serotonin. You laugh uncontrollably, as death seems an unavoidable joke. All stealth attempts within earshot are negated, and your cackling unnerves allies, causing a -3 penalty to all action checks for 1d6 rounds.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "BQMiC9EcFxNz7Ef1",
+      "_key": "!tables.results!d6WKP99lqaJmYCog.BQMiC9EcFxNz7Ef1",
+      "flags": {},
+      "type": "text",
+      "img": "icons/magic/control/fear-fright-monster-grey.webp",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "That thing is uglier than the neighbor’s baby! You lose the remains of that delicious chicken-fried steak by violently heaving for the next 1d8 rounds (unable to take other actions) unless a Fort save at DC 10+HD of creature is passed. Allies suffer a -1d penalty to all action rolls as they fight the urge to purge alongside you.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "dXiRqnFqAQ2BAw7x",
+      "_key": "!tables.results!d6WKP99lqaJmYCog.dXiRqnFqAQ2BAw7x",
+      "flags": {},
+      "type": "text",
+      "img": "icons/magic/control/fear-fright-monster-grey.webp",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "What you just saw can’t be unseen! The fear causes you to suffer a mild stroke. Part of your face droops from paralysis, and your words slur as drool runs down your pie-hole. All spell casting and attempts at speaking suffer a -1d penalty for the next 1d3 days.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "MgSwwzVNU2FlhT7V",
+      "_key": "!tables.results!d6WKP99lqaJmYCog.MgSwwzVNU2FlhT7V",
+      "flags": {},
+      "type": "text",
+      "img": "icons/magic/control/fear-fright-monster-grey.webp",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "You feel the blood in your veins boil as certain doom takes a saddle to you! You immediately charge the source of fear with your next available action, gaining a +1d to attack and damage rolls at the expense of suffering a -4 to AC. The effect lasts for 1d6 rounds. Should the source of the fear expire, you will attack a new target (even an ally).",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "LjbjtnUADPMg4A0O",
+      "_key": "!tables.results!d6WKP99lqaJmYCog.LjbjtnUADPMg4A0O",
+      "flags": {},
+      "type": "text",
+      "img": "icons/magic/control/fear-fright-monster-grey.webp",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "If it weren’t for these blamed idiots you call friends, you wouldn’t be in this mess. You’re sure that the source of the threat will spare you if you show it you’re willing to turn traitor on your posse! You immediately attack a random ally and continue to do so until you can pass the Grit check you just failed (do not roll further on this chart if you continue to fail). You attack using your most potent ability.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "4NA6Qd7SUDI7cW6M",
+      "_key": "!tables.results!d6WKP99lqaJmYCog.4NA6Qd7SUDI7cW6M",
+      "flags": {},
+      "type": "text",
+      "img": "icons/magic/control/fear-fright-monster-grey.webp",
+      "weight": 1,
+      "range": [
+        20,
+        20
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "You feel the current situation will only result in your death, and to save your allies, you rouse up one last attempt at bravery and throw yourself directly into the face of death. You shield your allies from the biggest threat in the combat at the cost of every successful attack resulting in a critical hit.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "hkxkLE7CjzoJlF7F",
+      "_key": "!tables.results!d6WKP99lqaJmYCog.hkxkLE7CjzoJlF7F",
+      "flags": {},
+      "type": "text",
+      "img": "icons/magic/control/fear-fright-monster-grey.webp",
+      "weight": 1,
+      "range": [
+        21,
+        21
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The source of terror plays directly upon a childhood fear and takes you down a path you’ve spent a lifetime trying to forget. You lose control of all bodily functions and pass out for 1d10 rounds or until roused. All standard reaction rolls suffer a -1d penalty until you can properly clean up and fetch a change of clothes.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "tDie4gSq4zXyiF9j",
+      "_key": "!tables.results!d6WKP99lqaJmYCog.tDie4gSq4zXyiF9j",
+      "flags": {},
+      "type": "text",
+      "img": "icons/magic/control/fear-fright-monster-grey.webp",
+      "weight": 1,
+      "range": [
+        22,
+        22
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The source of fear is so horrific that you take a temporary plunge down the rabbit hole as you attempt to remove your own eyes. Each round you suffer 1d3 Stamina damage as you claw at your eyes. In addition, you suffer from temporary blindness. You must pass the same Grit check you failed each round to avoid permanently destroying your eyes (do not roll for further effects on this chart for failures). Reach 0 Stamina and your eyes are permanently destroyed unless magically healed.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "QC0kkEWO7XwLrSOP",
+      "_key": "!tables.results!d6WKP99lqaJmYCog.QC0kkEWO7XwLrSOP",
+      "flags": {},
+      "type": "text",
+      "img": "icons/magic/control/fear-fright-monster-grey.webp",
+      "weight": 1,
+      "range": [
+        23,
+        23
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The vision of terror you’re forced to take a gander at is more than your poor brain can handle. You fall uncontrollably to the ground and enter a violent seizure. You’re helpless as you succumb to the tremors taking over your body. The seizure lasts for 1d8 rounds, after which you suffer an additional 1d6 rounds of confusion (-2 to all rolls).",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "4OBc8AzrVEdUrM6g",
+      "_key": "!tables.results!d6WKP99lqaJmYCog.4OBc8AzrVEdUrM6g",
+      "flags": {},
+      "type": "text",
+      "img": "icons/magic/control/fear-fright-monster-grey.webp",
+      "weight": 1,
+      "range": [
+        24,
+        24
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "You feel waves of fear overwhelm you, making what would normally seem an insane reaction seem perfectly logical. You feel certain that showing the source of the fear that you have no fear of dying will help win the day. Use your next action to inflict harm upon yourself. The source of the fear will ignore you as long as it has a low level of intelligence, as it assumes you’re ending your own life. You may attempt to pass the failed Grit check each round to regain your senses and stop the self harm (do not make further rolls on this chart for failures).",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "DI2FYS05GN6Y107U",
+      "_key": "!tables.results!d6WKP99lqaJmYCog.DI2FYS05GN6Y107U",
+      "flags": {},
+      "type": "text",
+      "img": "icons/magic/control/fear-fright-monster-grey.webp",
+      "weight": 1,
+      "range": [
+        25,
+        25
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "You’ve heard of folks being scared blind, and that’s just what happens when you gaze on the source of the Grit check. A nervous response makes you go blind until a Fort save at DC 10+HD of creature is made (check each day) or you are healed for 4HD..",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "TluVnzbXiolF8LUo",
+      "_key": "!tables.results!d6WKP99lqaJmYCog.TluVnzbXiolF8LUo",
+      "flags": {},
+      "type": "text",
+      "img": "icons/magic/control/fear-fright-monster-grey.webp",
+      "weight": 1,
+      "range": [
+        26,
+        26
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "You find no solution to the threat at hand other than to run directly away from the source of fear. You flee for 1d10 rounds, and the event that caused the Grit check leaves a permanent mark upon your sanity— you collect a permanent phobia related to the encounter.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "bgAyzForyjlEAUA6",
+      "_key": "!tables.results!d6WKP99lqaJmYCog.bgAyzForyjlEAUA6",
+      "flags": {},
+      "type": "text",
+      "img": "icons/magic/control/fear-fright-monster-grey.webp",
+      "weight": 1,
+      "range": [
+        27,
+        27
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Your body goes into shock as you realize the source of the threat is unbeatable and so vile that you pull deep within yourself to shield what little sanity you have left. You are helpless as you go into shock for 1d10 rounds. Surviving the encounter will leave you with a permanent phobia related to the encounter.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "XQmzsDf0cH0rMxmG",
+      "_key": "!tables.results!d6WKP99lqaJmYCog.XQmzsDf0cH0rMxmG",
+      "flags": {},
+      "type": "text",
+      "img": "icons/magic/control/fear-fright-monster-grey.webp",
+      "weight": 1,
+      "range": [
+        28,
+        28
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The event unfolding in front of you is too big a burden for your fragile psyche. You must remember something about the encounter (if you survive!) to keep you from ever finding yourself in this situation again. Your body hair turns white as you suffer a full-blown stroke. You fall prone to the ground and all your ability scores are permanently reduced by 1d3. You are helpless for the duration of the encounter and face a slow road to healing to regain your lost health.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "4uEvWsEnRqVwntYD",
+      "_key": "!tables.results!d6WKP99lqaJmYCog.4uEvWsEnRqVwntYD",
+      "flags": {},
+      "type": "text",
+      "img": "icons/magic/control/fear-fright-monster-grey.webp",
+      "weight": 1,
+      "range": [
+        29,
+        29
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Death is in the eyes of the threat you now face. There is no escape this time, no narrow victory, only death. You grasp at your chest on the way to the ground and must pass a DC 15 Fortitude save or drop dead from fright. A roll the body check can still save your hide, but you’ll age 1d20 years and find your hair has turned alabaster white. The judge may assign 1d4 in permanent ability loss to chosen scores if you’ve suddenly entered your dotage.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "hiRN3ALhFI4omvn5",
+      "_key": "!tables.results!d6WKP99lqaJmYCog.hiRN3ALhFI4omvn5",
+      "flags": {},
+      "type": "text",
+      "img": "icons/magic/control/fear-fright-monster-grey.webp",
+      "weight": 1,
+      "range": [
+        30,
+        999
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Some things man just ain’t meant to see, and when you realize they’re breathing the same air as you, the heart can’t bear the load! You clutch at your chest as you feel the terror serve such a shock to your system that death is instant and permanent. You feel your spirit leave its mortal shell and move onto whatever afterlife you carved out for yourself in recent years. A roll the body check will not save you.",
+      "name": "",
+      "documentUuid": null
+    }
+  ],
+  "formula": "1d20",
+  "replacement": true,
+  "displayRoll": true,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "dcc",
+    "systemVersion": "0.70.50",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "wfvtt00000000000"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_key": "!tables!d6WKP99lqaJmYCog"
+}

@@ -1,0 +1,569 @@
+{
+  "_id": "gaTgJSAwEGhrB2pE",
+  "name": "Fumble Table Ranged",
+  "flags": {},
+  "img": "icons/svg/downgrade.svg",
+  "description": "",
+  "results": [
+    {
+      "_id": "L4SIl1lCXnVdvOvW",
+      "_key": "!tables.results!gaTgJSAwEGhrB2pE.L4SIl1lCXnVdvOvW",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        -500,
+        1
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Attacker's weapon slips slightly in their hand! The attack not only misses, but the following attack is made with a -1d penalty on the attack roll.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "7uF02rEAoPttwsaE",
+      "_key": "!tables.results!gaTgJSAwEGhrB2pE.7uF02rEAoPttwsaE",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        2,
+        2
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Something on the ground causes the attacker to slip or trip, throwing the attack off and wasting the shot. Additionally, the attacker must immediately pass a DC 10 Reflex save to avoid falling prone.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "KX5iPHv1klL66uKM",
+      "_key": "!tables.results!gaTgJSAwEGhrB2pE.KX5iPHv1klL66uKM",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        3,
+        3
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Perhaps the sun or maybe a reflective light of some sort causes the shot to drift from the target. The attack not only misses, but the attacker continues to see spots for the next 1d3 rounds, causing a -2 penalty to attack rolls while in effect.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "sNhqtOAuCwjFnp9C",
+      "_key": "!tables.results!gaTgJSAwEGhrB2pE.sNhqtOAuCwjFnp9C",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        4,
+        4
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Your weapon malfunctions (bow string breaks, axe head flies off the shaft, etc.) and must be tend to it before it can be used again. Your attack is lost and the affected weapon must be repaired with a DC 8 skill check. Magical weapons lower the DC by one for each +1.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "oVg4j217fhCEXg6G",
+      "_key": "!tables.results!gaTgJSAwEGhrB2pE.oVg4j217fhCEXg6G",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        5,
+        5
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The shot ricochets, potentially rebounding towards the attacker! Make a second attack without ranged modifiers against the attackers AC. Success results in standard damage for the weapon.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "FEMZ58PLpMMA8Y47",
+      "_key": "!tables.results!gaTgJSAwEGhrB2pE.FEMZ58PLpMMA8Y47",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        6,
+        6
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The attack is poorly aimed and made strikes a random ally for standard damage. No additional attack roll is needed.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "Sloz7NoHa3V6XdkS",
+      "_key": "!tables.results!gaTgJSAwEGhrB2pE.Sloz7NoHa3V6XdkS",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        7,
+        7
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The attack blunders as the attacker drops the weapon used to make the attack. The weapon is dropped and must be picked up by spending the next available action and may not be used on the round it is retrieved.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "IuFn8a9Wcm7OL5Xh",
+      "_key": "!tables.results!gaTgJSAwEGhrB2pE.IuFn8a9Wcm7OL5Xh",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        8,
+        8
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The attack strikes the target but in an area that causes no damage, instead invoking the anger of the target and directing their next attack on the attacker with a +1d bonus.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "XCIYdtOwrhvAxOuT",
+      "_key": "!tables.results!gaTgJSAwEGhrB2pE.XCIYdtOwrhvAxOuT",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        9,
+        9
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Sweat or blood from the attacker trickles into their eyes just as the attack is made, blurring their vision until they can wipe their eyes clear using a standard action with a free hand. Additional attacks suffer a -1d penalty until this can happen.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "eu7dubR5SPkAc8zl",
+      "_key": "!tables.results!gaTgJSAwEGhrB2pE.eu7dubR5SPkAc8zl",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        10,
+        10
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The attack is knocked wild by an ally engaged in melee, or perhaps due to slipping on something lying on the ground. The attack not only strikes an ally but stuns them for 1d3 rounds as they have suffered a wound from the hands of a trusted friend.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "eA9ErMsUXO8qocLb",
+      "_key": "!tables.results!gaTgJSAwEGhrB2pE.eA9ErMsUXO8qocLb",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        11,
+        11
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The weapon malfunctions or you slip during the process of release, hitting yourself. No roll is required and you suffer the normal damage of the weapon.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "WVO0CnTwragG39rj",
+      "_key": "!tables.results!gaTgJSAwEGhrB2pE.WVO0CnTwragG39rj",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        12,
+        12
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Attacker slips and falls prone as they move to gain a better vantage point. Bows must pass a DC 10 save to avoid breaking, while thrown weapons cause their unmodified damage to the attacker. The attacker is left prone until they take an action to stand.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "4N0P8MQjkvvDDhOr",
+      "_key": "!tables.results!gaTgJSAwEGhrB2pE.4N0P8MQjkvvDDhOr",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        13,
+        13
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The attack goes wide and leaves the attacker open for a bonus charge attack from the target. The target must have a direct path to the attacker and be within normal movement range. The charge attack is made at a +2, but leaves the charger at a -2 to AC for the remainder of the round.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "V7zQKjEqFmWJNT7b",
+      "_key": "!tables.results!gaTgJSAwEGhrB2pE.V7zQKjEqFmWJNT7b",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        14,
+        14
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The attacker is caught by a target with supernatural reflexes. They snap the arrow/thrown weapon in half while piercing you with a doom-tinged glare. The attacker is intimidated for the duration of the encounter, suffering a -1d to all further attack rolls directed against the original target.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "ljDcyq6nUm5wxoyp",
+      "_key": "!tables.results!gaTgJSAwEGhrB2pE.ljDcyq6nUm5wxoyp",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        15,
+        15
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Lady Calamity smiles upon the attacker and marks them for doom. The attacke's fumble range improves by one (for example 1-2 after the first miss, 1-3 after the second, etc.) for each successive miss for the duration of the melee.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "tQY48Cufvq0G7POZ",
+      "_key": "!tables.results!gaTgJSAwEGhrB2pE.tQY48Cufvq0G7POZ",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        16,
+        16
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Lady Luck has chosen to intervene on behalf of the defender for reasons known only to major forces at play. The defender is given 1d3 Boons that may be used in standard fashion when the attacker is involved.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "EOnAIMGWBbXHveH4",
+      "_key": "!tables.results!gaTgJSAwEGhrB2pE.EOnAIMGWBbXHveH4",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        17,
+        17
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The attack is on target, but a random ally steps in the path of the attack in such a way that they suffer normal damage and the effects of a critical hit.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "DCM6ngqSrE4P0egf",
+      "_key": "!tables.results!gaTgJSAwEGhrB2pE.DCM6ngqSrE4P0egf",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        18,
+        18
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "The attack misses wildly, but the attacker garners the attention of not only the defender, but all allies of the target not currently involved in combat. All allies of the defender will be aimed at the attacker as they're seen as a threat that must be taken down. All attacks against the attacker are made with a +2 bonus.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "GqJ4V8zGbMO5LRNH",
+      "_key": "!tables.results!gaTgJSAwEGhrB2pE.GqJ4V8zGbMO5LRNH",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        19,
+        19
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Attacker receives a brief vision of a violent death resulting from the current encounter. The attacker must attempt to withdraw from harm's way for the duration of the combat. If the attacker cannot escape, all attacks are made with a -2d penalty.",
+      "name": "",
+      "documentUuid": null
+    },
+    {
+      "_id": "YggD2ro4nlrwK2rY",
+      "_key": "!tables.results!gaTgJSAwEGhrB2pE.YggD2ro4nlrwK2rY",
+      "flags": {},
+      "type": "text",
+      "img": "icons/svg/downgrade.svg",
+      "weight": 1,
+      "range": [
+        20,
+        500
+      ],
+      "drawn": false,
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "14.367",
+        "systemId": "dcc",
+        "systemVersion": "0.70.50",
+        "createdTime": 0,
+        "modifiedTime": 0,
+        "lastModifiedBy": "wfvtt00000000000"
+      },
+      "description": "Lady Calamity directly intervenes as a ghostly female form materializes, catches the attack, and sends it back towards the attacker with deadly precision. This return attack not only inflicts maximum damage, but also scores a critical hit to the original attacker. Use a d16 as the Crit die.",
+      "name": "",
+      "documentUuid": null
+    }
+  ],
+  "formula": "1d14",
+  "replacement": true,
+  "displayRoll": true,
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null,
+    "coreVersion": "14.367",
+    "systemId": "dcc",
+    "systemVersion": "0.70.50",
+    "createdTime": 0,
+    "modifiedTime": 0,
+    "lastModifiedBy": "wfvtt00000000000"
+  },
+  "ownership": {
+    "default": 0
+  },
+  "folder": null,
+  "sort": 0,
+  "_key": "!tables!gaTgJSAwEGhrB2pE"
+}
