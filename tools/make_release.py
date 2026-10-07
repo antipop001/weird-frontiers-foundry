@@ -41,7 +41,9 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 MODULE_ID = 'wfvtt'
 
 # Top-level entries that ship. Everything else is left behind by default.
-SHIP_FILES = ['module.json', 'LICENSE.txt', 'README.md']
+# NOTICE.md ships with the module, not just with the repository: anyone handed a built zip is
+# holding the Weird Frontiers content and needs to see whose it is and on what terms.
+SHIP_FILES = ['module.json', 'LICENSE.txt', 'NOTICE.md', 'README.md']
 SHIP_DIRS = {
     'module': {'.js', '.mjs'},
     'lang': {'.json'},
@@ -154,6 +156,8 @@ def verify_zip(zpath, version):
         need(l['path'], f'declared language {l.get("lang")}')
     if mod.get('license'):
         need(mod['license'], 'declared license')
+    # The attribution notice is not referenced from module.json, so assert it explicitly.
+    need('NOTICE.md', 'attribution notice (NOTICE.md)')
 
     for pack in mod.get('packs', []):
         pref = pack['path'].rstrip('/') + '/'
@@ -211,6 +215,8 @@ SELF_TESTS = [
      'declared language'),
     ('drop the license module.json names', lambda n, m: (n - {'LICENSE.txt'}, m),
      'declared license'),
+    ('drop the attribution notice', lambda n, m: (n - {'NOTICE.md'}, m),
+     'NOTICE.md'),
     ('drop one card image', lambda n, m: (n - {'assets/cards/spades-ace.webp'}, m),
      'asset referenced from a pack source'),
     ('drop one template', lambda n, m: (n - {'templates/item-sheet-wf-firearm.html'}, m),
