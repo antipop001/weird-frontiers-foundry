@@ -1,0 +1,136 @@
+{{!-- Weird Frontiers firearm tab, on weapon items.
+
+     Every field here is stored under flags.wfvtt.firearm — the DCC system exposes no item-schema
+     hook, so these cannot be real schema fields. See module/wf-firearm.mjs for why, and for the
+     shape. Because flags are untyped, reads go through normaliseFirearm(); the values below come
+     from that, not from the raw flag. --}}
+<section class="tab wfFirearm {{tabs.wfFirearm.cssClass}}"
+         data-tab="wfFirearm" data-group="{{tabs.wfFirearm.group}}">
+
+  <div class="wf-firearm-grid">
+
+    <div class="wf-firearm-row wf-firearm-toggle">
+      <label for="flags.wfvtt.firearm.isFirearm">{{localize "WF.Firearm.IsFirearm"}}</label>
+      <input type="checkbox" id="flags.wfvtt.firearm.isFirearm" name="flags.wfvtt.firearm.isFirearm"
+             data-dtype="Boolean" {{checked wf.firearm.isFirearm}}>
+      <span class="wf-firearm-note">{{localize "WF.Firearm.IsFirearmHint"}}</span>
+    </div>
+
+    <div class="wf-firearm-row">
+      <label for="flags.wfvtt.firearm.caliber" data-tooltip="{{localize 'WF.Firearm.CaliberHint'}}">
+        {{localize "WF.Firearm.Caliber"}}
+      </label>
+      <input type="text" id="flags.wfvtt.firearm.caliber" name="flags.wfvtt.firearm.caliber"
+             value="{{wf.firearm.caliber}}" size="8" placeholder=".44">
+
+      <label for="flags.wfvtt.firearm.actionType" data-tooltip="{{localize 'WF.Firearm.ActionTypeHint'}}">
+        {{localize "WF.Firearm.ActionType"}}
+      </label>
+      {{!-- Free text, not a select: the book prints Single, Double, Single/Double,
+            Muzzleloading Single, Breechloading Single, Lever and Single (Hand rotated).
+            An enum dropped everything it did not recognise. --}}
+      <input type="text" id="flags.wfvtt.firearm.actionType" name="flags.wfvtt.firearm.actionType"
+             value="{{wf.firearm.actionType}}" size="18" placeholder="Single" list="wf-action-types">
+      <datalist id="wf-action-types">
+        <option value="Single"></option>
+        <option value="Double"></option>
+        <option value="Single/Double"></option>
+        <option value="Lever"></option>
+        <option value="Muzzleloading Single"></option>
+        <option value="Breechloading Single"></option>
+      </datalist>
+      {{#if wf.canBeFanned}}<span class="wf-firearm-note">{{localize "WF.Firearm.CanBeFanned"}}</span>{{/if}}
+
+      <label for="flags.wfvtt.firearm.ammo" data-tooltip="{{localize 'WF.Firearm.AmmoHint'}}">
+        {{localize "WF.Firearm.Ammo"}}
+      </label>
+      <input type="text" id="flags.wfvtt.firearm.ammo" name="flags.wfvtt.firearm.ammo"
+             value="{{wf.firearm.ammo}}" size="10" placeholder="C&amp;B">
+    </div>
+
+    <div class="wf-firearm-row">
+      <label for="flags.wfvtt.firearm.rof" data-tooltip="{{localize 'WF.Firearm.RofHint'}}">
+        {{localize "WF.Firearm.Rof"}}
+      </label>
+      {{!-- Free text: the Coach Gun prints "1 or 2" and the LeMat "2 (1)". --}}
+      <input type="text" id="flags.wfvtt.firearm.rof" name="flags.wfvtt.firearm.rof"
+             value="{{wf.firearm.rof}}" size="7" placeholder="2">
+
+      <label for="flags.wfvtt.firearm.load" data-tooltip="{{localize 'WF.Firearm.LoadHint'}}">
+        {{localize "WF.Firearm.Load"}}
+      </label>
+      <input type="text" id="flags.wfvtt.firearm.load" name="flags.wfvtt.firearm.load"
+             value="{{wf.firearm.load}}" size="6" placeholder="6">
+
+      <label for="flags.wfvtt.firearm.reloadTime" data-tooltip="{{localize 'WF.Firearm.ReloadTimeHint'}}">
+        {{localize "WF.Firearm.ReloadTime"}}
+      </label>
+      <input type="text" id="flags.wfvtt.firearm.reloadTime" name="flags.wfvtt.firearm.reloadTime"
+             value="{{wf.firearm.reloadTime}}" size="5" placeholder="3">
+    </div>
+
+    <div class="wf-firearm-row">
+      <label for="flags.wfvtt.firearm.conceal" data-tooltip="{{localize 'WF.Firearm.ConcealHint'}}">
+        {{localize "WF.Firearm.Conceal"}}
+      </label>
+      <input type="text" id="flags.wfvtt.firearm.conceal" name="flags.wfvtt.firearm.conceal"
+             value="{{numberFormat wf.firearm.conceal decimals=0 sign=true}}" size="4" data-dtype="Number">
+
+      <label for="flags.wfvtt.firearm.price" data-tooltip="{{localize 'WF.Firearm.PriceHint'}}">
+        {{localize "WF.Firearm.Price"}}
+      </label>
+      <input type="text" id="flags.wfvtt.firearm.price" name="flags.wfvtt.firearm.price"
+             value="{{wf.firearm.price}}" size="5" data-dtype="Number" placeholder="18">
+      <input type="text" id="flags.wfvtt.firearm.priceText" name="flags.wfvtt.firearm.priceText"
+             value="{{wf.firearm.priceText}}" size="12" placeholder="$18"
+             data-tooltip="{{localize 'WF.Firearm.PriceTextHint'}}">
+
+      <label for="flags.wfvtt.firearm.year" data-tooltip="{{localize 'WF.Firearm.YearHint'}}">
+        {{localize "WF.Firearm.Year"}}
+      </label>
+      <input type="text" id="flags.wfvtt.firearm.year" name="flags.wfvtt.firearm.year"
+             value="{{wf.firearm.year}}" size="6" placeholder="1850">
+
+      <label for="flags.wfvtt.firearm.damageType" data-tooltip="{{localize 'WF.Firearm.DamageTypeHint'}}">
+        {{localize "WF.Firearm.DamageType"}}
+      </label>
+      <select id="flags.wfvtt.firearm.damageType" name="flags.wfvtt.firearm.damageType">
+        {{selectOptions wf.damageTypes selected=wf.firearm.damageType localize=true}}
+      </select>
+    </div>
+
+    <div class="wf-firearm-row">
+      <label for="flags.wfvtt.firearm.bandedDamage" data-tooltip="{{localize 'WF.Firearm.BandedDamageHint'}}">
+        {{localize "WF.Firearm.BandedDamage"}}
+      </label>
+      <input type="text" id="flags.wfvtt.firearm.bandedDamage" name="flags.wfvtt.firearm.bandedDamage"
+             value="{{wf.firearm.bandedDamage}}" size="14" placeholder="d14/d10/d7">
+
+      <label for="flags.wfvtt.firearm.secondBarrelDamage" data-tooltip="{{localize 'WF.Firearm.SecondBarrelHint'}}">
+        {{localize "WF.Firearm.SecondBarrel"}}
+      </label>
+      <input type="text" id="flags.wfvtt.firearm.secondBarrelDamage" name="flags.wfvtt.firearm.secondBarrelDamage"
+             value="{{wf.firearm.secondBarrelDamage}}" size="12" placeholder="d10/d6/d4">
+
+      <label for="flags.wfvtt.firearm.meleeNote" data-tooltip="{{localize 'WF.Firearm.MeleeNoteHint'}}">
+        {{localize "WF.Firearm.MeleeNote"}}
+      </label>
+      <input type="text" id="flags.wfvtt.firearm.meleeNote" name="flags.wfvtt.firearm.meleeNote"
+             value="{{wf.firearm.meleeNote}}" size="20" placeholder="d4 melee">
+      <span class="wf-firearm-note">{{localize "WF.Firearm.BandedDamageNote"}}</span>
+    </div>
+
+    {{#if wf.damageLooksBanded}}
+    <div class="wf-firearm-warning">{{localize "WF.Firearm.DamageDivisionWarning"}}</div>
+    {{/if}}
+
+    <ul class="wf-firearm-notes">
+      <li>{{localize "WF.Firearm.NoteRange"}}</li>
+      <li>{{localize "WF.Firearm.NoteRof"}}</li>
+      <li>{{localize "WF.Firearm.NoteReload"}}</li>
+      <li>{{localize "WF.Firearm.NoteBandedDamage"}}</li>
+      <li>{{localize "WF.Firearm.NoteNotAutomated"}}</li>
+    </ul>
+
+  </div>
+</section>

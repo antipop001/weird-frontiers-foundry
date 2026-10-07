@@ -1,0 +1,60 @@
+{{!-- Weird Frontiers class tab.
+
+     ONE template for all thirteen classes. What a class shows is driven by its progression
+     chart: a signature die (Deadeye, Mojo, Ballad, Lucha, Chi, Creed), a percentage track
+     (Derangement, Fame) and/or a secondary track (Living Weapon, Battle Hardened). A class
+     without one has an EMPTY LABEL for it, not a missing field: all three groups live on the
+     shared Player schema whichever class declared them, so absence is expressed by the class
+     defaults clearing the label. Visibility keys on the label, never on the field existing. --}}
+<section class="tab {{tabs.wfClass.id}} {{tabs.wfClass.cssClass}}"
+         data-tab="{{tabs.wfClass.id}}" data-group="{{tabs.wfClass.group}}">
+
+  <div class="grid-container">
+    <div class="grid-col-span-12 dark-border">
+      <div class="box-title">{{system.class.className}}</div>
+      <div class="grid-tpl-two grid-row-gap-8 p-5">
+
+        {{#if system.skills.wfClassDie.label}}
+        <div class="grid-tpl-max-25 grid-col-gap-5" data-skill="wfClassDie">
+          <label class="skill-check rollable" for="system.skills.wfClassDie.die"
+                 data-action="rollSkillCheck"
+                 data-drag="true"
+                 data-drag-action="skill"
+                 title="{{localize 'DCC.RollSkillCheckHint'}}">
+            {{system.skills.wfClassDie.label}}
+          </label>
+          <input type="text" id="system.skills.wfClassDie.die" name="system.skills.wfClassDie.die"
+                 value="{{system.skills.wfClassDie.die}}" data-dtype="String"/>
+        </div>
+        {{/if}}
+
+        {{#if system.class.wfSecondaryTrack.label}}
+        <div class="grid-tpl-max-25 grid-col-gap-5">
+          <label for="system.class.wfSecondaryTrack.value">{{system.class.wfSecondaryTrack.label}}</label>
+          <input type="text" id="system.class.wfSecondaryTrack.value"
+                 name="system.class.wfSecondaryTrack.value"
+                 value="{{system.class.wfSecondaryTrack.value}}" data-dtype="String"/>
+        </div>
+        {{/if}}
+
+        {{#if system.class.wfPercentTrack.label}}
+        <div class="grid-tpl-max-25 grid-col-gap-5">
+          <label for="system.class.wfPercentTrack.value"
+                 data-tooltip="{{localize 'WF.Class.PercentTrackHint'}}">
+            {{system.class.wfPercentTrack.label}}
+          </label>
+          <input type="text" id="system.class.wfPercentTrack.value"
+                 name="system.class.wfPercentTrack.value"
+                 value="{{system.class.wfPercentTrack.value}}" data-dtype="String"/>
+        </div>
+        {{/if}}
+
+        <ul class="grid-col-span-12 class-note">
+          <li>{{localize "WF.Class.LevelUpNote"}}</li>
+          <li>{{localize "WF.FumbleDie.Broken"}}</li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,31 @@
+{
+  "name": "wfvtt",
+  "version": "0.2.0",
+  "description": "Weird Frontiers add-on module for the Foundry VTT Dungeon Crawl Classics system",
+  "type": "module",
+  "private": true,
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "levels": "node tools/build_level_items.mjs",
+    "verify": "tools/bump_version.py --check && tools/make_release.py --self-test && tools/check_lang.py && tools/build_class_charts.py --check && tools/build_firearms.py --check && tools/build_equipment.py --check && tools/build_wf_common.py --check && tools/build_wf_equipment.py --check && tools/build_wf_npc.py --check && tools/build_monster_crits.py --check && tools/build_crit_tables.py --check && tools/build_fear_table.py --check && node tools/build_fear_items.mjs --check && node tools/build_crit_table_items.mjs --check && node tools/build_gun_deck.mjs --check",
+    "todb": "node tools/compile_packs.mjs",
+    "tojson": "node tools/extract_packs.mjs",
+    "build": "npm run levels && npm run firearms && npm run equipment && npm run crittables && npm run fear && npm run todb && npm run verify",
+    "lint": "standard module/ tools/*.mjs",
+    "firearms": "node tools/build_firearm_items.mjs",
+    "equipment": "node tools/build_equipment_items.mjs",
+    "charts": "tools/build_class_charts.py",
+    "crittables": "tools/build_crit_tables.py && node tools/build_crit_table_items.mjs",
+    "gundeck": "node tools/build_gun_deck.mjs",
+    "dist": "tools/make_release.py",
+    "bump": "tools/bump_version.py",
+    "fear": "tools/build_fear_table.py && node tools/build_fear_items.mjs"
+  },
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "^3.0.4",
+    "standard": "^17.1.2"
+  }
+}

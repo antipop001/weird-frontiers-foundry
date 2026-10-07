@@ -1,0 +1,108 @@
+{
+  "id": "wfvtt",
+  "title": "Weird Frontiers",
+  "description": "<p>Adds the Weird Frontiers ruleset to the Dungeon Crawl Classics system.</p>",
+  "version": "0.2.0",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14",
+    "maximum": "14"
+  },
+  "authors": [
+    {
+      "name": "antipop001"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dcc",
+        "type": "system",
+        "compatibility": {
+          "minimum": "0.70.50",
+          "verified": "0.70.57"
+        }
+      }
+    ],
+    "requires": [],
+    "conflicts": []
+  },
+  "esmodules": [
+    "module/wfvtt.js"
+  ],
+  "flags": {
+    "hotReload": {
+      "extensions": [
+        "js",
+        "css",
+        "html",
+        "json"
+      ],
+      "paths": [
+        "lang",
+        "templates",
+        "styles"
+      ]
+    }
+  },
+  "styles": [
+    {
+      "src": "styles/wfvtt.css",
+      "layer": "system"
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "wf-class-level-data",
+      "label": "Weird Frontiers Class Level Data",
+      "path": "packs/wf-class-level-data",
+      "system": "dcc",
+      "type": "Item"
+    },
+    {
+      "name": "wf-firearms",
+      "label": "Weird Frontiers Firearms",
+      "path": "packs/wf-firearms",
+      "system": "dcc",
+      "type": "Item"
+    },
+    {
+      "name": "wf-equipment",
+      "label": "Weird Frontiers Equipment",
+      "path": "packs/wf-equipment",
+      "system": "dcc",
+      "type": "Item"
+    },
+    {
+      "name": "wf-crit-tables",
+      "label": "Weird Frontiers Critical Hit & Fumble Charts",
+      "path": "packs/wf-crit-tables",
+      "system": "dcc",
+      "type": "RollTable"
+    },
+    {
+      "name": "wf-gun-deck",
+      "label": "Weird Frontiers Gun Deck",
+      "path": "packs/wf-gun-deck",
+      "system": "dcc",
+      "type": "Cards"
+    },
+    {
+      "name": "wf-fear",
+      "label": "Weird Frontiers Fear & Madness",
+      "path": "packs/wf-fear",
+      "system": "dcc",
+      "type": "RollTable"
+    }
+  ],
+  "url": "https://github.com/antipop001/wfvtt",
+  "license": "LICENSE.txt"
+}

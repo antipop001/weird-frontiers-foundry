@@ -1,0 +1,473 @@
+/* Weird Frontiers — sheet styling.
+   Scoped to the WF blocks we add, so nothing leaks into a plain DCC sheet in the same world. */
+
+.class-note li {
+  margin-bottom: 0.35em;
+}
+
+/* ---- The Path track -------------------------------------------------------------------
+   Reproduces the printed track: DAMNED —o—o—o—(O)—o—o—o— RIGHTEOUS, with the centre notch
+   drawn larger, as THE LINE is on the published sheet. */
+
+.wf-path {
+  margin-top: 4px;
+}
+
+.wf-path-title {
+  font-size: 11px;
+  font-weight: bold;
+  letter-spacing: 0.08em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.wf-path-track {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2px;
+  border: 1px solid var(--system-border-color, rgba(0, 0, 0, 0.5));
+  border-radius: 3px;
+  padding: 2px 5px;
+}
+
+.wf-path-end {
+  font-size: 9px;
+  font-weight: bold;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  /* keep DAMNED / RIGHTEOUS clear of the adjacent notch's "+1d" label */
+  padding: 0 4px;
+}
+
+.wf-path-notch {
+  display: flex;
+  flex: 1 1 0;
+  min-width: 22px;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  /* the connecting rule the printed track draws between notches */
+  background: linear-gradient(currentcolor, currentcolor) 0 6px / 100% 1px no-repeat;
+}
+
+/* The radio itself is invisible; .wf-path-dot is what the user sees and clicks.
+   Keep it focusable rather than display:none, so the track stays keyboard-navigable. */
+.wf-path-notch input[type="radio"] {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  opacity: 0;
+}
+
+.wf-path-dot {
+  width: 9px;
+  height: 9px;
+  border: 1px solid currentcolor;
+  border-radius: 50%;
+  background: var(--color-bg, #fff);
+}
+
+.wf-path-line .wf-path-dot {
+  width: 12px;
+  height: 12px;
+  border-width: 2px;
+}
+
+.wf-path-notch input[type="radio"]:checked + .wf-path-dot {
+  background: currentcolor;
+  box-shadow: 0 0 0 1px var(--color-bg, #fff) inset;
+}
+
+.wf-path-notch input[type="radio"]:focus-visible + .wf-path-dot {
+  outline: 2px solid var(--color-shadow-primary, #ff6400);
+  outline-offset: 1px;
+}
+
+.wf-path-label {
+  font-size: 8px;
+  line-height: 1.1;
+  white-space: nowrap;
+}
+
+/* ---- Grit and Dinero ------------------------------------------------------------------ */
+
+.wf-grit {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 2px 12px;
+  font-size: 13px;
+  margin-top: 2px;
+}
+
+/* DCC's .grid-tpl-max-auto is a two-column grid, so a third child (the "/ max" span)
+   wraps onto its own row. These rows are our own flex instead. */
+.wf-grit-row {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+  margin-bottom: 0;
+  white-space: nowrap;
+}
+
+.wf-grit-row input {
+  width: 3.2em;
+}
+
+.wf-dinero input {
+  width: 5em;
+}
+
+.wf-grit-max {
+  font-size: 13px;
+  opacity: 0.8;
+  padding-left: 2px;
+}
+
+.wf-grit-loss,
+.wf-dinero {
+  font-size: 12px;
+}
+
+.wf-grit-retired {
+  font-size: 11px;
+  font-weight: bold;
+  color: var(--color-level-error, #a33);
+}
+
+/* The fumble die is disabled until REQ-SHEET-013 lands; make that visible rather than
+   letting it look like an editable field that silently discards input. */
+#system\.attributes\.fumble\.die[disabled] {
+  cursor: help;
+  font-style: italic;
+  opacity: 0.65;
+}
+
+.wf-grit-suggest {
+  font-size: 11px;
+  font-style: italic;
+  opacity: 0.75;
+  cursor: help;
+}
+
+/* ---- Firearm tab on weapon items ------------------------------------------------------- */
+
+.wf-firearm-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 4px 2px;
+}
+
+.wf-firearm-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 10px;
+}
+
+.wf-firearm-row label {
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.wf-firearm-toggle .wf-firearm-note {
+  flex: 1 1 100%;
+  font-size: 11px;
+  opacity: 0.75;
+}
+
+.wf-firearm-notes {
+  margin: 4px 0 0;
+  padding-left: 1.1em;
+  font-size: 11px;
+  line-height: 1.35;
+  opacity: 0.85;
+}
+
+.wf-firearm-notes li {
+  margin-bottom: 0.3em;
+}
+
+.wf-firearm-warning {
+  border: 1px solid var(--color-level-error, #a33);
+  border-radius: 3px;
+  padding: 4px 6px;
+  font-size: 11px;
+  line-height: 1.35;
+  color: var(--color-level-error, #a33);
+}
+
+/* ---- Boon and Hex tokens (REQ-SHEET-003) ---------------------------------------------- */
+
+.wf-tokens input {
+  width: 2.6em;
+}
+
+/* Only rendered when the character actually holds Hexes, so a clean sheet stays clean. */
+.wf-hex-effects {
+  font-size: 10px;
+  line-height: 1.3;
+  opacity: 0.8;
+  cursor: help;
+  margin-top: 1px;
+}
+
+/* ---- Treasure list: dollars, not coins (REQ-SHEET-004) ---------------------------------
+   DCC's .item-list-currency is an 8-column grid — icon, name, five coin columns, controls
+   (reference/dcc/styles/_items.scss:105). The WF fork of the goods partial shows a single
+   Dinero column instead, so the grid becomes 4 columns and the treasure notes, which upstream
+   stretches across the five coin columns, span one.
+
+   Scoped to .wf-currency, which only the WF fork carries, so a plain DCC sheet in the same
+   world keeps its coin grid untouched. */
+
+.dcc .item-list-currency.wf-currency {
+  grid-template-columns: 22px minmax(90px, 1fr) 90px 48px;
+}
+
+.dcc .item-list-currency.wf-currency .treasure-notes {
+  grid-column: span 1;
+}
+
+/* The Funds figure on the equipment tab is a read-only display, not an input — see the note in
+   tools/build_wf_equipment.py. Styled to line up with the input it replaces. */
+
+.dcc .wf-funds {
+  text-align: center;
+}
+
+/* ---- Derived values on the NPC stat block (REQ-SHEET-022, -023) ------------------------
+   Crit die, fumble die and the Grit DC are computed from Hit Dice and must not be editable,
+   so they render as text where DCC has an input. Sized to line up with the inputs beside
+   them rather than collapsing the stat-block grid. */
+
+.dcc .wf-derived {
+  font-size: 12px;
+  min-width: 3em;
+  padding: 1px 2px;
+  text-align: center;
+  opacity: 0.85;
+}
+
+/* ---- Walking-the-Line progression (REQ-SHEET-001a) -------------------------------------
+   A second counter beside the Path track: the WtL bonus comes from levels HELD at the Line,
+   which the nine-notch track cannot express. */
+
+.dcc .wf-line-row {
+  align-items: center;
+  display: flex;
+  font-size: 11px;
+  gap: 5px;
+  justify-content: center;
+  margin-top: 3px;
+}
+
+.dcc .wf-line-row input {
+  text-align: center;
+  width: 2.2em;
+}
+
+.dcc .wf-line-bonus {
+  font-weight: bold;
+}
+
+.dcc .wf-line-lost {
+  font-style: italic;
+  opacity: 0.7;
+}
+
+/* ---- Gun Deck chat card (REQ-DECK-003, -004) -------------------------------------------
+   One row per shot fired, since a card is flipped for every shot and not every attack. */
+
+.wf-gun-deck .wf-gun-cards {
+  list-style: none;
+  margin: 4px 0;
+  padding: 0;
+}
+
+.wf-gun-deck .wf-gun-cards li {
+  align-items: center;
+  border-bottom: 1px dotted rgba(0, 0, 0, 0.25);
+  display: flex;
+  gap: 8px;
+  padding: 3px 0;
+}
+
+.wf-gun-deck .wf-gun-cards img {
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  flex: 0 0 auto;
+}
+
+.wf-gun-deck .wf-gun-cards em {
+  display: block;
+  font-size: 12px;
+}
+
+.wf-gun-deck .wf-gun-detail {
+  display: block;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.wf-gun-deck .wf-gun-note {
+  font-size: 12px;
+  margin: 3px 0 0;
+}
+
+.wf-gun-deck .wf-gun-remaining {
+  font-size: 11px;
+  margin: 4px 0 0;
+  opacity: 0.7;
+}
+
+/* ---- The published sheet's free-text areas (REQ-SHEET-011) -----------------------------
+   Five large Text widgets on the paper sheet with no item or stat equivalent: SPECIAL
+   ABILITIES & SPELLS on page 1, and TRAIL NOTES / VALUABLES / ARCANE VAULT / STABLE on
+   page 2. Mapped widget by widget in docs/official-sheet-field-map.md.                  */
+
+.wf-special-abilities textarea,
+.wf-notes-box textarea {
+  width: 100%;
+  resize: vertical;
+  font-family: inherit;
+}
+
+/* The paper sheet prints these side by side; the printed widths are roughly 268 : 235, so
+   two equal columns is the honest approximation. Collapses to one column when the sheet is
+   narrow, which is the common case on a laptop. */
+.wf-page2-notes {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 6px 10px;
+  margin-top: 8px;
+}
+
+@container (max-width: 560px) {
+  .wf-page2-notes {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+.wf-notes-box {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+/* ---- SIGNATURE WEAPONS (REQ-SHEET-011) -------------------------------------------------
+   Five ruled rows of WEAPON | DMG | SHOTS | RANGE on the paper sheet, derived here from the
+   weapons starred in the weapons list. Read-only by design: the item is the source of truth. */
+
+.wf-signature-rows {
+  list-style: none;
+  margin: 2px 0 0;
+  padding: 0;
+}
+
+.wf-signature-rows li {
+  display: grid;
+  /* The printed block gives WEAPON roughly half the width and splits the rest three ways. */
+  grid-template-columns: minmax(0, 2fr) minmax(0, 1fr) minmax(0, 0.7fr) minmax(0, 1fr);
+  gap: 0 8px;
+  align-items: baseline;
+  padding: 1px 0;
+  border-bottom: 1px solid var(--color-border-light-tertiary, rgba(0, 0, 0, 0.1));
+}
+
+.wf-signature-head {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  opacity: 0.7;
+  border-bottom-width: 2px;
+}
+
+.wf-signature-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.wf-signature-empty,
+.wf-signature-overflow {
+  margin: 3px 0 0;
+  font-size: 11px;
+  opacity: 0.7;
+}
+
+/* The star sits in the weapons-list controls cell beside edit/delete. The checkbox itself is
+   hidden; the star is what the user sees and clicks. */
+.wf-signature-toggle {
+  cursor: pointer;
+}
+
+.wf-signature-toggle input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.wf-signature-toggle i {
+  opacity: 0.25;
+}
+
+.wf-signature-toggle.wf-signature-on i,
+.wf-signature-toggle:hover i {
+  opacity: 1;
+}
+
+.wf-signature-toggle input[type="checkbox"]:focus-visible + i {
+  outline: 2px solid var(--color-shadow-primary, #ff6400);
+  outline-offset: 1px;
+}
+
+/* ---- Grit / Fear / Madness chat cards (specs/03-fear-madness.md) -----------------------
+   The notes list is everything the rules hand to the judge and this module deliberately does
+   NOT apply: the +1d against the source, the source's +1d attacks, Madness's -1d, the
+   per-source immunity, and the choice of phobia.                                          */
+
+.wf-fear h4 {
+  margin: 0 0 4px;
+}
+
+.wf-fear p {
+  margin: 2px 0;
+}
+
+.wf-fear-row {
+  padding: 4px 6px;
+  border-left: 3px solid var(--color-shadow-primary, #ff6400);
+  background: rgba(0, 0, 0, 0.05);
+  font-style: italic;
+}
+
+.wf-fear-notes {
+  margin: 6px 0 0;
+  padding-left: 18px;
+  font-size: 11px;
+  opacity: 0.85;
+}
+
+.wf-fear-notes li {
+  margin: 2px 0;
+}
+
+/* A total that matched no row means the table was replaced or narrowed — the one case the
+   open-ended outer rows cannot cover. Make it loud rather than an empty gap. */
+.wf-fear-missing,
+.wf-fear-retired {
+  padding: 3px 6px;
+  border: 1px solid #a33;
+  background: rgba(170, 51, 51, 0.1);
+  font-weight: bold;
+}
+
+/* ---- Firearm combat modifier cards (specs/04-combat.md) -------------------------------- */
+
+.wf-combat p {
+  margin: 2px 0;
+}

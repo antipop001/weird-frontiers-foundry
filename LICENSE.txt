@@ -1,0 +1,43 @@
+Weird Frontiers for Foundry VTT (module id: wfvtt)
+
+================================================================================
+TWO DIFFERENT THINGS LIVE IN THIS REPOSITORY AND THEY HAVE DIFFERENT OWNERS.
+================================================================================
+
+1. THE MODULE
+   Copyright (c) 2026 antipop001.
+
+   The source code, build tooling, Handlebars templates, stylesheets and the
+   generated card artwork under assets/ are the work of the module author.
+
+   >>> LICENCE NOT YET CHOSEN. <<<
+   Until a licence is named here, all rights are reserved and no permission to
+   copy, modify or redistribute is granted. If you are the author: pick one
+   (MIT and Apache-2.0 are the usual choices for a Foundry module) and replace
+   this paragraph with its text.
+
+2. THE WEIRD FRONTIERS GAME CONTENT
+   Copyright (c) David Baity / Reroll Productions.
+
+   Weird Frontiers is a commercial product and its text, tables and artwork
+   belong to its author. **None of it is distributed with this repository.**
+
+   The `data/` and `packs/*/src/` files are GENERATED on your machine, by the
+   scripts in `tools/`, from your own legally obtained copy of the books. They
+   are build artifacts of your copy, not redistributed content. See
+   `tools/corpus_paths.py` for how to point the generators at your books.
+
+   Do not commit generated data, compiled packs, or any part of the books to a
+   public fork of this repository. `.gitignore` is set up to keep your corpus
+   out; the release tooling asserts the same thing before it will build a zip.
+
+   If you want to distribute a ready-built module containing that data, you
+   need the rights holder's permission. That is a conversation to have with
+   David Baity, not something this licence can grant.
+
+================================================================================
+
+Weird Frontiers is compatible with the Dungeon Crawl Classics Role Playing
+Game, Copyright (c) Goodman Games. This module is a third-party add-on for the
+independently developed "dcc" Foundry VTT system and is affiliated with neither
+Goodman Games nor Reroll Productions.

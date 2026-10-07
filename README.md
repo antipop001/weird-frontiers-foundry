@@ -1,0 +1,122 @@
+# Weird Frontiers for Foundry VTT
+
+A Foundry VTT **add-on module** bringing the **Weird Frontiers RPG** — David Baity's DCC-compatible
+weird-west game — to the [Dungeon Crawl Classics system](https://github.com/foundryvtt-dcc/dcc).
+
+It is a *variant module*, not a fork: it registers through the DCC system's documented
+`game.dcc.*` extension API, the same surface Xcrawl Classics and the MCC class modules use. A world
+running this module is still a `dcc` world, and plain DCC characters keep working alongside Weird
+Frontiers ones — sheet choice is per actor.
+
+| | |
+|---|---|
+| Target system | `dcc` ≥ 0.70.50 (verified against 0.70.57) |
+| Target Foundry | v14 — ApplicationV2 throughout |
+| Status | Feature complete against its specs; in use at one table |
+
+> ### ⚠️ You need your own copy of the books
+>
+> **No Weird Frontiers text, table data or artwork is distributed here.** Weird Frontiers is a
+> commercial product and its content belongs to its author. What this repository contains is the
+> *module* plus the *generators* that rebuild the game data from your own legally obtained copy.
+>
+> That means a fresh clone **does not run** until you have built it — the class, fumble and monster
+> data are generated into `module/`, and a missing ESM import stops Foundry loading the module at
+> all. See [Building](#building).
+
+## What it adds
+
+- **All 13 Weird Frontiers classes** — Bedlamite, Calavera, Dog Soldier, Gambler, Gunslinger,
+  Hellbilly, Luchador, Mountebank, Mystic Monk, Occultist, Revelator, Sin-Eater, Tommyknocker —
+  with their progression charts to 10th level, plus a class-less **Frontier Folk** sheet for
+  0-level funnel characters.
+- **The published character sheet**, widget for widget: the nine-notch **Path** track in place of
+  alignment, **Grit**, **Dinero** (dollars, not the five-coin block), Boon and Hex counters,
+  the Fumble Die, Special Abilities & Spells, and a derived **Signature Weapons** block.
+- **A WF monster stat block** on the NPC sheet — Path code instead of `AL`, with crit/fumble dice
+  and the Fear DC derived from Hit Dice.
+- **The Gun Deck.** A 54-card deck flipped on every shot, with its own artwork, per-character /
+  per-player / judge deck scopes, all four reshuffle triggers, Dead Man's Hand misfires, ghost-irons
+  and gunsmithing. Foundry's built-in poker decks have no jokers, so the module ships its own.
+- **Crit and fumble charts keyed to damage type** rather than class and level, as Weird Frontiers
+  does it.
+- **The Grit / Fear / Madness loop** — the Grit check, the Fear chart, and the Madness bands.
+- **Firearm mechanics** — the full printed field set (ROF, Load, Reload, Conceal, three-band
+  range), the rate-of-fire ceiling, the cumulative penalty *per action die*, range bands, cover,
+  reloading with the distress check, and the concealment contest.
+
+### What it deliberately does not do
+
+**It reports modifiers; it does not apply them.** DCC rolls its own attacks, and injecting a
+modifier would mean monkey-patching the system. So the module tells you "−1 for the second shot on
+this action die, +1 at short range, the source gets +1d against you" and the judge applies it. The
+same holds for everything the rules hand to the judge: the choice of phobia, Boon and Hex awards,
+and the general situational modifiers (blinded, entangled, higher ground), which are DCC-shaped
+calls applying to every attack rather than firearm mechanics.
+
+## Installing
+
+Build a zip (see below), then unpack it into your Foundry data directory:
+
+```bash
+mkdir -p <foundry-data>/Data/modules/wfvtt
+unzip -o dist/wfvtt-<version>.zip -d <foundry-data>/Data/modules/wfvtt
+```
+
+The directory **must** be named `wfvtt` — it has to match the module id. Restart Foundry
+afterwards; it caches the compendium list per session, so new packs will not appear otherwise.
+
+## Building
+
+You need Node 20+, Python 3.10+, poppler-utils (for `pdftotext`), and your own copy of the books
+converted to markdown.
+
+```bash
+npm install
+
+# Point the generators at your material. Defaults to <repo>/corpus, which is gitignored.
+export WF_CORPUS_DIR=/path/to/your/corpus
+export WF_RULEBOOK_PDF=/path/to/Weird_Frontiers.pdf
+
+npm run build        # generate data -> packs -> compiled LevelDB
+npm run dist         # the above behind the full gate, then a zip
+```
+
+`tools/corpus_paths.py` documents the expected filenames and every environment variable. The
+markdown conversion needs a tool that preserves tables — the project used `pdf2md`; `marker` and
+similar produce comparable output. **The rulebook PDF is needed as well as the markdown:** the Fear
+and Madness rows are long prose cells, and markdown converters routinely drop the *middle* of such
+a cell and splice the head to the tail, leaving a grammatical sentence with a clause missing. The
+PDF text layer has them whole.
+
+### The generators check themselves
+
+`npm run verify` runs fifteen checks that re-derive every shipped value from the books and fail if
+the committed data disagrees — class charts, firearms, equipment, the crit and fumble charts, the
+Fear and Madness tables, four forked DCC templates, the language file, and the release zip's own
+completeness. Several of them cross-check a table against its *second printing* in the books, which
+is what catches a conversion artifact in either one.
+
+This matters more than it sounds. Table fidelity varies between converters and between runs, and
+the failures are quiet: a chart can look populated and be two-thirds missing. If a generator fails
+for you, the message names what it expected and where.
+
+## Layout
+
+```
+module/      ESM runtime. *-data.mjs files here are GENERATED — do not hand-edit
+templates/   Handlebars; the four wf-* partials are generated forks of DCC's own
+styles/      CSS
+lang/        i18n strings, all under the WF. namespace
+data/        GENERATED intermediate data — gitignored content, built from your corpus
+packs/       compendium sources (packs/<name>/src/*.json); LevelDB is a build artifact
+tools/       the generators, the release tooling, corpus_paths.py
+specs/       REQ-ID'd requirements, with citations into the books
+docs/        the DCC platform notes and the Weird Frontiers mechanics delta
+```
+
+## Licence
+
+Two different things with two different owners — see [LICENSE.txt](LICENSE.txt). In short: the
+module is the author's, **the game content is David Baity's and is not distributed here**, and a
+licence for the code has not been chosen yet.
