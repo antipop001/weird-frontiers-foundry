@@ -317,7 +317,9 @@ def build():
 def main():
     # Fail with a message that names every missing input, before any parsing, since a
     # missing corpus is the first thing anyone cloning this repo will hit.
-    require(RG)
+    # A --check without the books falls back to the digest comparison below; only the
+    # cross-check against the Reference Guide printing needs the corpus.
+    _have_rg = require(RG, soft=('--check' in sys.argv))
     checking = '--check' in sys.argv
 
     # The PDF is an EXTERNAL dependency of this ratchet. Without it the data cannot be re-derived,

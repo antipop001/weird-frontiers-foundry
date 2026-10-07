@@ -79,7 +79,10 @@ def require(*paths, soft=False):
     sys.exit(
         'missing source material:\n' +
         ''.join(f'  {p}\n' for p in missing) +
-        '\nThe Weird Frontiers text is not redistributed with this repository — you need your own\n'
-        'copy of the books, converted to markdown. See tools/corpus_paths.py for the layout and\n'
-        'the WF_CORPUS_DIR / WF_RULEBOOK_PDF environment variables.'
+        '\nThe generated data IS committed, so you do not need the books to BUILD or run the\n'
+        'module — `npm run todb` then `npm run dist` is enough. You only need them to REGENERATE\n'
+        'the data from source, which is what this script does.\n'
+        '\nThe books themselves are not redistributed here. Supply your own copy, converted to\n'
+        'markdown, and point WF_CORPUS_DIR / WF_RULEBOOK_PDF at it — see the module docstring in\n'
+        'this file for the expected layout.'
     )
