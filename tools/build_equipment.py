@@ -274,9 +274,9 @@ def build():
 
 
 def main():
-    # Fail with a message that names every missing input, before any parsing, since a
-    # missing corpus is the first thing anyone cloning this repo will hit.
-    require(RG)
+    # A --check without the books skips loudly; a regenerate still needs them.
+    if not require(RG, soft=('--check' in sys.argv)):
+        return
     parser = argparse.ArgumentParser()
     parser.add_argument('--check', action='store_true')
     args = parser.parse_args()

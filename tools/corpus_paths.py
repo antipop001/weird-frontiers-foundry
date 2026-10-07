@@ -59,11 +59,23 @@ def find_pdf():
     return next((c for c in PDF_CANDIDATES if c.is_file()), None)
 
 
-def require(*paths):
-    """Exit with an actionable message naming every missing input, not just the first."""
+def require(*paths, soft=False):
+    """True when every input is present.
+
+    With `soft=True`, a missing input prints a WARN and returns False instead of exiting. That is
+    for `--check` runs by someone who does not have the books: they cannot re-derive the data, and
+    failing the whole gate would stop them building an installable module at all. The warning says
+    in those words that the data was NOT re-verified, so a skipped check is never mistaken for a
+    passed one.
+    """
     missing = [p for p in paths if not pathlib.Path(p).is_file()]
     if not missing:
-        return
+        return True
+    if soft:
+        print('WARN not re-derived — missing source material:')
+        for m in missing:
+            print(f'       {m}')
+        return False
     sys.exit(
         'missing source material:\n' +
         ''.join(f'  {p}\n' for p in missing) +

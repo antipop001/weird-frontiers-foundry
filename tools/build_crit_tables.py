@@ -115,9 +115,9 @@ def parse_rg():
 
 
 def main():
-    # Fail with a message that names every missing input, before any parsing, since a
-    # missing corpus is the first thing anyone cloning this repo will hit.
-    require(V6, RG)
+    # A --check without the books skips loudly; a regenerate still needs them.
+    if not require(V6, RG, soft=('--check' in sys.argv)):
+        return
     if not V6.exists() or not RG.exists():
         sys.exit(f'missing corpus files under {CORPUS}')
 
