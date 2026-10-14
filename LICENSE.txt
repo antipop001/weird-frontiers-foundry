@@ -1,43 +1,64 @@
-Weird Frontiers for Foundry VTT (module id: wfvtt)
-
 ================================================================================
-TWO DIFFERENT THINGS LIVE HERE AND THEY HAVE DIFFERENT OWNERS.
-Read NOTICE.md first — it explains why the game data is included.
+TWO DIFFERENT THINGS LIVE IN THIS REPOSITORY, UNDER DIFFERENT TERMS.
+Read NOTICE.md as well — it explains the game content and who owns it.
 ================================================================================
 
-1. THE MODULE
-   Copyright (c) 2026 antipop001.
+PART 1 — THE MODULE CODE: MIT
+--------------------------------------------------------------------------------
+Applies to the source code, build tooling, Handlebars templates, stylesheets and
+the generated card artwork under assets/ — that is, everything in this
+repository EXCEPT the Weird Frontiers game data described in Part 2.
 
-   The source code, build tooling, Handlebars templates, stylesheets and the
-   generated card artwork under assets/ are the work of the module author.
+MIT License
 
-   >>> LICENCE NOT YET CHOSEN. <<<
-   Until a licence is named here, all rights are reserved. If you are the
-   author: pick one (MIT and Apache-2.0 are the usual choices for a Foundry
-   module) and replace this paragraph with its text.
+Copyright (c) 2026 antipop001
 
-2. THE WEIRD FRONTIERS GAME CONTENT
-   Copyright (c) David Baity / Reroll Productions. All rights reserved by them.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-   The contents of data/ and packs/*/src/, and the generated data files in
-   module/, are derived from the Weird Frontiers books. Much of it reproduces
-   the published text closely or exactly.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-   It is present so that the rights holders can evaluate the module and so that
-   it can be properly playtested — see NOTICE.md. That is the whole of the
-   justification, and it is not a licence.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
-   >>> NO PERMISSION IS GRANTED TO ANYONE TO REDISTRIBUTE IT. <<<
-   This repository is private and shared by invitation. Do not make it public,
-   fork it publicly, host the built zip, or pass the data on. If you received a
-   built module, you received it for evaluation or playtest and the same applies.
+MIT is the licence the DCC system itself and its sibling class modules use,
+which is why it was chosen here.
 
-   If Reroll Productions want any of it removed or changed, that will be done
-   promptly. tools/ regenerates everything from the books, so the data can be
-   stripped and the module still built by anyone who owns a copy.
+PART 2 — THE WEIRD FRONTIERS GAME DATA: NOT LICENSED
+--------------------------------------------------------------------------------
+Copyright (c) David Baity / Reroll Productions. All rights reserved by them.
 
-   You still need the books. This module is not a substitute for them and is
-   useless without them.
+Applies to the contents of data/ and packs/*/src/, the generated data files in
+module/ (wf-class-registry.mjs, wf-fumble-data.mjs, wf-monster-crit-data.mjs),
+and the compiled compendium packs in any built release. All of it is derived
+from the Weird Frontiers books and much of it reproduces the published text
+closely or exactly.
+
+>>> THE MIT GRANT IN PART 1 DOES NOT COVER ANY OF IT. <<<
+
+No permission to use, copy, modify, distribute or sublicense the Weird
+Frontiers content is granted by this file or by anything else in this
+repository. The module author has no authority to grant such permission and
+does not attempt to.
+
+If you fork this repository or redistribute a built module, you are
+redistributing Reroll Productions' content, and that is between you and them.
+
+tools/ regenerates every value from the books, so the data can be removed
+entirely and the module still built by anyone who owns a copy. See NOTICE.md.
+
+You still need the books. This module is not a substitute for them and is
+useless without them. Buy the game.
 
 ================================================================================
 

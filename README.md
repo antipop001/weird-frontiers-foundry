@@ -19,15 +19,15 @@ Frontiers ones — sheet choice is per actor.
 > This repository includes the Weird Frontiers game data the module needs to run — class
 > progressions, equipment and firearms tables, the crit/fumble charts, the Fear and Madness tables.
 > **That content is © David Baity / Reroll Productions**, not the module author's, and much of it
-> reproduces the published text closely or exactly.
->
-> It is here so the rights holders can evaluate the module and so it can be properly playtested,
-> both of which need the complete thing. **It is not a public release and not a licence to
-> redistribute.** This repository is private and shared by invitation; see
-> [NOTICE.md](NOTICE.md) and [LICENSE.txt](LICENSE.txt).
+> reproduces the published text closely or exactly. It is **not licensed**: the MIT licence covers
+> the module code only and grants nothing over the game content.
 >
 > **You still need the books.** The module assumes the rules are in front of you and deliberately
-> leaves to the judge everything the rules leave to the judge.
+> leaves to the judge everything the rules leave to the judge. If this is useful to you, **buy
+> Weird Frontiers** — it is a commercial product from a small publisher.
+>
+> If you are from Reroll Productions and want any of this changed or taken down, see
+> [NOTICE.md](NOTICE.md); it will be done promptly.
 
 ## What it adds
 
@@ -132,7 +132,9 @@ docs/        the DCC platform notes and the Weird Frontiers mechanics delta
 
 ## Licence and attribution
 
-Two different things with two different owners — see [NOTICE.md](NOTICE.md) and
-[LICENSE.txt](LICENSE.txt). In short: the module is the author's, with no licence chosen yet; **the
-game content is © David Baity / Reroll Productions**, included for evaluation and playtest, with no
-permission to redistribute it.
+Two things, two sets of terms — see [NOTICE.md](NOTICE.md) and [LICENSE.txt](LICENSE.txt).
+
+- **Module code, tooling and card art:** MIT, © 2026 antipop001. (MIT is what the `dcc` system and
+  its sibling class modules use.)
+- **Weird Frontiers game data:** © David Baity / Reroll Productions, **not licensed**. The MIT grant
+  does not cover it. Fork or redistribute at your own risk, and buy the game.

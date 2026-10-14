@@ -1,52 +1,58 @@
 # Notice: Weird Frontiers content in this repository
 
 **Weird Frontiers is © David Baity / Reroll Productions.** The game — its rules, its tables, its
-text and its artwork — is their work and their property. This repository is not affiliated with
-Reroll Productions, and nothing here is published with their permission.
+text and its artwork — is their work and their property. This project is not affiliated with Reroll
+Productions, and **nothing here is published with their permission.**
 
 ## What is included, and why
 
-This repository contains a Foundry VTT module that implements Weird Frontiers, and it includes the
-**game data that module needs to run**: class progressions, the equipment and firearms tables, the
-critical-hit and fumble charts, and the Fear and Madness tables. That data is generated from the
-books by the scripts in `tools/`, and much of it reproduces the published text closely or exactly —
-the chart entries in particular are the book's own prose.
+This is a Foundry VTT module that implements Weird Frontiers, and it includes the **game data the
+module needs to run**: class progressions, the equipment and firearms tables, the critical-hit and
+fumble charts, and the Fear and Madness tables. That data is generated from the books by the scripts
+in `tools/`, and much of it reproduces the published text closely or exactly — the chart entries in
+particular are the book's own prose.
 
-It is included for two reasons, and no others:
+It is here because a module without its data cannot be run, played or sensibly judged. The
+mechanics that most need testing — the Gun Deck, the Grit/Fear/Madness loop, the firearm rules — are
+exactly the ones that depend on the charts.
 
-1. **So the rights holders can evaluate it.** A module that ships without its data cannot be judged,
-   played, or sensibly commented on. If Reroll Productions is going to decide whether they like
-   this, want changes to it, want it taken down, or want to do something with it, they need to see
-   the whole thing working.
-2. **So it can be properly playtested.** Partial data gives useless playtest. The mechanics that
-   most need testing — the Gun Deck, the Grit/Fear/Madness loop, the firearm rules — are exactly
-   the ones that depend on the charts.
+**This repository is public.** That was a deliberate choice by its author, made so the module can be
+installed and playtested, and made *before* asking Reroll Productions. That is the wrong order, and
+this notice exists to say so plainly rather than to pretend otherwise.
 
 ## What this is not
 
-- **Not a public release.** This repository is private and shared by invitation.
-- **Not a licence to redistribute.** Nothing here grants anyone the right to copy, host, fork or
-  pass on the Weird Frontiers content, in this form or any other.
+- **Not licensed.** No permission is granted to anyone to redistribute the Weird Frontiers content,
+  in this form or any other. The MIT licence in `LICENSE.txt` covers the *module code only* and
+  grants nothing over the game content.
 - **Not a replacement for the books.** The module is useless without a copy of Weird Frontiers to
-  play with: it assumes you have the rules in front of you, and it deliberately leaves to the judge
-  everything the rules leave to the judge.
-- **Not a commercial thing.** Nobody is being charged for this and nobody intends to be.
+  play with: it assumes the rules are in front of you, and it deliberately leaves to the judge
+  everything the rules leave to the judge. **If you are using this, buy the game.**
+- **Not commercial.** Nobody is being charged for this and nobody intends to be.
+- **Not official.** Reroll Productions has had no part in it and bears no responsibility for it.
+
+## Buy the game
+
+Weird Frontiers is a commercial product from a small publisher. If this module is useful to you, the
+right thing to do is pay its author for the work it implements. Look for Weird Frontiers RPG from
+Reroll Productions.
 
 ## To the Weird Frontiers team
 
-If you are reading this because it was sent to you: thank you for taking a look.
+If you are reading this: thank you for taking a look, and sorry for the order of events.
 
-The honest position is that this was built first and permission asked second, which is the wrong
-order, and that is why you are being shown it privately rather than finding it in the wild.
+**If you want any of this removed, changed, renamed or taken down, say so and it will be done** —
+promptly, and without argument. Open an issue, or contact the repository owner through GitHub.
 
-**If you want any of it removed, changed or taken down, say so and it will be done** — promptly, and
-without argument. If you would rather the data were stripped out and only the code kept, that is
-straightforward: `tools/` regenerates everything from the books, so the data can be removed and the
-module still built by anyone who owns a copy. If you would like it developed differently, or taken
-somewhere, that conversation is welcome too.
+Some specific options, in case any of them are easier than a takedown:
 
-The generators carry citations back into the books for essentially every value, so if something is
-wrong it can be traced to the passage it came from and fixed.
+- **Strip the data, keep the code.** `tools/` regenerates every value from the books, so the game
+  data can be deleted and the module still built by anyone who owns a copy. This repository has
+  been built and tested in exactly that configuration; it is a change of one `.gitignore` and a
+  rebuild.
+- **Correct it.** The generators carry citations back into the books for essentially every value, so
+  anything wrong can be traced to the passage it came from and fixed.
+- **Take it over**, or have it developed differently, or under your direction.
 
 ## Other attributions
 
