@@ -2,7 +2,7 @@
   "id": "wfvtt",
   "title": "Weird Frontiers",
   "description": "<p>Adds the Weird Frontiers ruleset to the Dungeon Crawl Classics system.</p>",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "compatibility": {
     "minimum": "14",
     "verified": "14",

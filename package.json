@@ -1,6 +1,6 @@
 {
   "name": "wfvtt",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Weird Frontiers add-on module for the Foundry VTT Dungeon Crawl Classics system",
   "type": "module",
   "private": true,
